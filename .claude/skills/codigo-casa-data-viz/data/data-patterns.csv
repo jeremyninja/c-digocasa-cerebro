@@ -1,0 +1,27 @@
+pattern_type,description,keywords,data_structure,best_chart,alternatives,pilar,tension_example
+multiresponse,Multiple selection with combined percentage,multirespuesta multi-select combined,edad_18_24,edad_25_34,edad_35_plus (single or combined),Grouped Bar,Heatmap;Stacked Bar,Finanzas,Estrés financiero combinado
+generational_shift,Comparison across age ranges (18-24 vs 25-34 vs 35+),edad generacional generación edad brecha,edad_18_24 edad_25_34 edad_35_plus,Slope Chart,Grouped Bar;Line,Identidad,Confusión de roles por edad
+nse_comparison,Socioeconomic status cross-tabulation (E D C C+),nse nivel socioeconómico clase económica,nse_e nse_d nse_c nse_c_plus,Grouped Bar,Heatmap;Bullet,Finanzas,Estrés por NSE
+gender_split,Male vs Female comparison,sexo género hombre mujer,sexo_m sexo_f,Diverging Bar,Grouped Bar;Percentage Bar,Identidad,Diferencia género en presión
+say_do_gap,What people SAY vs what they DO (two metrics),discurso práctica dicen hacen brecha,tension_said tension_done,Diverging Bar,Grouped Bar;Bullet,Identidad,Equidad doméstica: say-do gap
+distribution,Single metric across multiple segments,distribución proporción porcentaje,value1 value2 value3 value4 value5,Waffle,Pie;Donut,Bienestar,Distribución de métodos de autocuidado
+hierarchy,Ranked list with magnitudes,ranking ranking jerarquía orden,item1_value item2_value item3_value,Horizontal Bar,Lollipop;Bullet,Finanzas,Gastos que más afectan
+divergence,Positive vs Negative or Agreement vs Disagreement,divergencia acuerdo desacuerdo positivo negativo,positive_value negative_value,Diverging Bar,Diverging Stacked;Waffle,Bienestar,Aprobación de estrategias de cuidado
+cumulative,Part-to-whole composition,composición parte todo suma 100,segment1 segment2 segment3,Stacked Bar,Pie;Treemap,Identidad,Composición de crianza (papá mamá abuelas)
+comparison_pairs,Two related metrics side-by-side,comparación pares dúo lado a lado,metric1_pre metric1_post metric2_pre metric2_post,Grouped Bar,Bullet;Slope,Finanzas,Antes-Después de medidas financieras
+three_dimension,Three continuous variables,3D tres dimensión scatter burbujas,x_value y_value size_value,Bubble,Scatter;Heatmap,Identidad,Edad vs Presión vs Claridad
+heatmap_matrix,Multi-dimensional cross-tabulation,matriz cruce multidimensional,edad_18_24_nse_e edad_18_24_nse_d ... edad_35_plus_nse_c_plus,Heatmap,Grouped Bar;Treemap,Finanzas,Cruce edad × NSE × Estrés
+timeline,Values over time periods (not continuous),línea de tiempo periodos discretos antes después,period1_value period2_value period3_value,Area,Line;Slope,Bienestar,Evolución de autocuidado por trimestre
+intensity,High/Medium/Low categorical intensity,intensidad alto medio bajo,high_count medium_count low_count,Bullet,Waffle;Stacked Bar,Finanzas,Nivel de dificultad para llegar a fin de mes
+concentration,Dominance of one or few items,concentración dominancia uno pocos,largest_segment second_largest rest,Pie,Waffle;Treemap,Identidad,Concentración de poder de decisión
+network,Relationships between many items,red relaciones conexiones múltiples,item1_connections item2_connections,Network,Chord;Sankey,Identidad,Red de apoyo familiar (papá mamá abuelas hermanos)
+flow,Movement or transition between states,flujo movimiento transición cambio,from_state to_state value,Sankey,Flow;Chord,Finanzas,Flujo de dinero entre gastos categóricos
+outlier,One or few exceptional values,outlier excepcional valor extremo,normal_values outlier_value,Scatter,Bullet;Box Plot,Bienestar,Casos de adultos con múltiples estrategias
+distribution_range,Spread of values (min max median),rango distribución mín máx mediana,min_value q1_value median_value q3_value max_value,Box Plot,Violin;Bullet,Finanzas,Rango de edad para tomar decisiones financieras
+confidence_interval,Range with central estimate,intervalo confianza estimación central,estimate_value lower_bound upper_bound,Bullet,Slope;Area,Bienestar,Confianza en métodos de autocuidado
+proportional_area,Items sized by magnitude,área proporcional tamaño magnitud,item1_size item2_size item3_size,Treemap,Bubble;Waffle,Identidad,Proporción de tipos de familia (nuclear monoparental)
+temporal_comparison,Same metric across multiple time periods,comparación temporal múltiples períodos,jan_value feb_value mar_value,Line,Area;Bar,Finanzas,Estrés financiero Jan-Dic
+subgroup_comparison,Comparing subgroups within categories,subgrupos comparación dentro categoría,group_a_subgroup1 group_a_subgroup2 group_b_subgroup1,Grouped Bar,Bullet;Heatmap,Identidad,Tipos de familia por generación
+double_axis,Two related metrics with different scales,doble eje dos métricas diferentes escalas,metric1_value metric2_value,Line,Area;Grouped Bar,Bienestar,Estrés vs Satisfacción con autocuidado
+funnel,Sequential decrease through stages,embudo secuencial disminución etapas,stage1 stage2 stage3 stage4,Area,Stacked Bar;Waterfall,Finanzas,Pipeline de adopción de productos financieros
+waterfall,Cumulative impact of positive and negative values,cascada impacto acumulativo positivo negativo,starting_value positive1 negative1 positive2 total,Waterfall,Stacked Bar;Line,Finanzas,Descomposición de deuda acumulada

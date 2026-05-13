@@ -1,0 +1,16 @@
+pilar,tension_id,tension_name,indicator_type,metric_keywords,alert_threshold,color_code,dominican_context,insight_template
+Identidad,T01,Confusión de Roles,Clarity,confused unclear roles uncertain,<50%,#A855F7,"Jóvenes cuestionan qué espera familia de ellos",{percentage}% report confusion about family expectations
+Identidad,T02,Presión Familiar,Pressure,pressure expectations burden,>70%,#EF4444,"Presión familiar es estrés primario de jóvenes",{percentage}% feel family pressure to meet expectations
+Identidad,T03,Tiempo como Factor,Time,time scarcity busy overworked,<40%,#F59E0B,"Tiempo más limitado en paternidad moderna",Only {percentage}% have time for parenting quality
+Identidad,T04,Negación de Homosexualidad,Acceptance,LGBTQ acceptance tolerance,<30%,#EF4444,"Dominicanidad no integra diversidad sexual",Only {percentage}% comfortable with LGBTQ family members
+Identidad,T05,Parir vs Criar,Experience,parenthood difference distinct,<45%,#A855F7,"Mujeres reportan diferencia entre parir y criar",{percentage}% say parenting is different from birthing
+Identidad,T06,Identidad Más Allá,Identity,beyond parent self-worth,>60%,#16A34A,"Necesidad de identidad propia fuera de paternidad",{percentage}% prioritize personal identity beyond parenthood
+Finanzas,T01,Educación Financiera,Knowledge,financial literacy knowledge,<35%,#EF4444,"Dinero aprendido de sufrimiento crisis no educación",Only {percentage}% report formal financial education
+Finanzas,T02,Deuda como Plan,Debt,debt borrowing loans,>75%,#EF4444,"Deuda normalizada como plan de vida en RD",{percentage}% use debt as primary financing strategy
+Finanzas,T03,Dinero en Pareja,Power,money control decision,<50%,#A855F7,"Dinero en pareja es negociación de poder",Only {percentage}% report equal money management
+Finanzas,T04,Planificación Hoy,Planning,savings planning future,<45%,#F59E0B,"Planificación hoy para hoy no futuro",Only {percentage}% have formal financial plan
+Finanzas,T05,Monoingreso,Income,single income household,>25%,#EF4444,"Un ingreso sostiene familia entera (25% de hogares)",{percentage}% of households depend on single income
+Finanzas,T06,Casa Propia,Housing,homeownership housing dream,<40%,#A855F7,"Casa propia es destino sin camino claroen RD",Only {percentage}% on path to homeownership
+Bienestar,T01,Inventología Reparativa,Coping,self-care wellness multiple,>80%,#16A34A,"Adultos apiñan estrategias: Dios terapia cervecita gym",{percentage}% layer multiple coping mechanisms
+Bienestar,T02,IA como Terapeuta,Technology,AI chatbot mental health,<50%,#F59E0B,"ChatGPT es terapeuta paralela para jóvenes",{percentage}% use AI for mental health support
+Bienestar,T03,Algoritmo del Hogar,Digital,social media TikTok wellness,>70%,#F59E0B,"TikTok es guía para salud bienestar hogar",{percentage}% learn wellness from social algorithms

@@ -1,0 +1,9 @@
+color_hex,color_name,dominican_context,emotion,psychology,usage_context,wcag_contrast_ratio,accessibility_note
+#16A34A,Green,Naturaleza/Caña de azúcar,Crecimiento esperanza,Natural growth renewal,Positive outcomes (finanzas, bienestar),4.5:1,Use with light background #f0f2f4
+#EF4444,Red,Alerta peligro estrés,Urgencia atención,Danger warning caution,Negative indicators tension crisis,4.5:1,High visibility critical alerts
+#2563EB,Blue,Confianza cielo estabilidad,Seguridad calma,Trust stability professional,Context backgrounds neutral data,4.5:1,Good for main charts and structure
+#F59E0B,Amber,Sol energía oportunidad,Optimismo calidez,Opportunity warmth attention,Positive findings opportunities trends,4.5:1,Secondary highlight moderate importance
+#A855F7,Purple,Creatividad reflexión identidad,Introspección unicidad,Creativity imagination uniqueness,Identity wellbeing personal growth,4.5:1,Tertiary emphasis on soft insights
+#D946EF,Magenta,Pasión compromiso amor,Compromiso intensidad,Passion intensity commitment,Emotional data human-centered insights,4.5:1,Emotional resonance cultural connection
+#6b7280,Gray,Neutralidad fondo,Equilibrio discreto,Neutral secondary background,Supporting data labels axes,3:1,Low emphasis subtle information
+#f0f2f4,Light Gray,Fondo limpio espacio,Descanso claridad,Clean space breathing room,Background surface whitespace,21:1,High contrast for dark text

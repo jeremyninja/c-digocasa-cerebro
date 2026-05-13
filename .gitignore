@@ -1,0 +1,12 @@
+.DS_Store
+~$*
+*.tmp
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.env
+node_modules/
+
+# workspace/ es un git repo embedido con duplicados de BBDD madre — se ignora para evitar conflicto
+workspace/

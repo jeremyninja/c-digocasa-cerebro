@@ -1,0 +1,1499 @@
+---
+fg_id: fg-02
+tipologia: sin_hijos
+tipologia_label: Sin hijos
+tipologia_homogenea: si
+fecha: 2024-11-08
+participantes: 5
+nse_composicion: "1 C-, 4 C+"
+diarizacion: si
+palabras: 22149
+estudio: codigo_casa
+plaza: santo_domingo
+---
+Speaker C
+[00:00]  Yo la voy a poner por aquí.
+Other speaker
+[00:05]  Ok, pues voy a empezar de este lado con las chicas y luego vamos con los chicos.
+Speaker A
+[00:13]  Ok, entonces vamos a empezar con las chicas.
+Speaker C
+[00:16]  Y yo quiero que tú me digas allí tu nombre y cuéntame cómo es tu día a día junto a tu familia.
+Speaker E
+[00:22]  Ok, aquí yo les dije que íbamos a hablar de la familia, pero yo quiero que sobre todo se me enfoquen en su familia actual.
+Speaker C
+[00:28]  En la familia que ustedes decidieron formar, con la que están viviendo actualmente.
+Speaker B
+[00:32]  Vamos a enfocarnos sobre todo
+Speaker C
+[00:33]  en eso, aunque va a haber momentos de la dinámica que sí quizás van a hablar un poco de sus
+Speaker A
+[00:38]  padres y quizás otros familiares más allá de los que están viviendo actualmente. Pero
+Speaker C
+[00:44]  casi siempre nos vamos a enfocar en su familia actual, ustedes decidieron formar. Entonces,
+Speaker E
+[00:50]  chica, me vas a decir, por favor, tu nombre, cómo es tu día a día junto a tu familia
+Other speaker
+[00:54]  actualmente.
+Speaker F
+[00:57]  familia familia
+Speaker C
+[01:05]  levantó a las 5 y 40 de la mañana en el trabajo a las 7 trabajo de 7 a 3
+Speaker D
+[01:08]  él está ahí mi esposo nos volvemos a ver dependiendo si él está en la casa cuando yo llegue a las 4 de la tarde que llego más o menos si él está ahí llegamos a dormir y nos levantamos a 5 de la tarde, una rutina normal, cosas serias de la casa, cena,
+[01:29]  y luego dormir a las 10, eso es la rutina diaria.
+Other speaker
+[01:33]  Ok, siga.
+Speaker E
+[01:37]  Cuando tú puedas, tranquila.
+Speaker A
+[01:41]  Bueno, mi nombre es Mayby, vivo con mi esposo, nosotros nos levantamos alrededor de las 6 de la mañana, nos levantamos justo cuando dice la alarma. Nos levantamos a hacer desayuno y varias veces hacer la comida del mismo día,
+[02:00]  si no tenemos la oportunidad de hacerla el día anterior, que también eso pasa. Nosotros cuando llegamos del trabajo hacemos cena y hacemos la comida y adelantamos qué hacer en el hogar ese mismo día. Mi rutina diaria es esa, levantarnos a las 6, preparar lo que haya que hacer, luego irnos al trabajo, me dejen al trabajo, me recogen tipo 5 o yo me voy más temprano.
+[02:25]  Y llegamos a la casa y hacemos lo que haya que hacer o si no vemos una película vamos a la iglesia.
+Other speaker
+[02:35]  Mi nombre es Jennifer Ferreiras, vivo con mi esposo.
+Speaker A
+[02:41]  Nuestra rutina diaria empieza por mí, yo me levanto a las 4 de la mañana, él se levanta a las 5, dependiendo si loco no toca comer, es un poquito difícil.
+Speaker G
+[02:55]  Él en realidad se encarga de hacerme el desayuno, yo me preparo el desayuno porque él trabaja desde casa y a veces va a su oficina.
+Speaker A
+[03:04]  Entonces, él me prepara el desayuno, el café, todo, recoge la comida.
+Speaker G
+[03:10]  Me prepara el bulto para yo llevármelo para yo salir a las 6 en punto. En el transcurso de entre las 4 y 6 yo camino y después me baño, me cambio y salgo a las
+[03:23]  6 de la mañana para mi trabajo, para mi cartapones, por la zona en que vivo. Y dependiendo de cómo esté el trabajo de mi esposo, él trabaja desde casa o se va a su oficina después nos venimos viendo yo llego a la casa eso de las cuatro y media
+[03:41]  cinco y él llega dependiendo lo que pone a las siete después nos vemos ya hay la tarde adelantada si no hay que cocinar
+[03:54]  cenamos vemos un capítulo de una serie o una película y a dormir él duerme un poquito más tarde que yo
+Speaker B
+[04:09]  bueno eros de santana vivo con mi esposa no tenemos hijos la rutina diaria va a aprender mucho del día pero la usual es ella se levanta primero actualmente ya
+[04:23]  no está elaborando tiene la ventaja de descansar un poco más, entonces ella se levanta primero, digamos tipo dependiendo del día, seis o seis y media de la mañana, me prepara comida para llevarme y el desayuno, yo me levanto un poco más tarde,
+[04:42]  tipo siete o seis, seis y media dependiendo de la hora que van a entrar al trabajo, me desayuno, me preparo, ya tiene todo listo la llevo usualmente hay ocasiones donde tengo que llevarla a su mamá para que le ayude con la abuela
+[05:02]  esta ancianita o alguna otra diligencia ya luego de eso en la noche dependiendo a qué hora entré salgo entonces viene siendo tipo seis y media siete de la noche que me reúno luego con ella la busco si está donde su mamá
+[05:25]  y dependiendo el día de la semana que sea o tomo clases de maestría o vamos a la iglesia o hacemos cualquier otra actividad y ya luego de eso hacemos cena no preparamos usualmente a veces si
+[05:41]  preparamos comida de noche para el siguiente día pero no es lo usual y ya bueno depende mucho del día también a qué hora nos acostamos pero entre diez y media
+Speaker F
+[06:00]  y el chico me nombre es el de custodio yo vivo con mi pareja la rutina nuestra en la mañana ella se levantó un poquito más temprano porque trabaja en oficina cumpliendo horario yo no yo trabajo yo Yo soy consultor de ventas, siempre estoy en la calle.
+[06:23]  Entonces, ella sale más temprano que yo.
+Speaker C
+[06:26]  Yo me voy de la casa a tiempo 10, 11 de la mañana, depende de cómo sea el ritmo de trabajo,
+Speaker F
+[06:32]  pero sí nos vemos para comer, siempre y cuando yo estoy en la ciudad.
+Speaker C
+[06:38]  Yo llego a la casa más temprano, regularmente.
+Speaker B
+[06:52]  y me toca hacer cena o adelantar la cena, si no es que salimos a cenar o tenemos que hacer algún tipo de... irse a un supermercado o otro tipo de cosas.
+Speaker F
+[06:58]  O sea, de lunes a viernes regularmente las rutinas de aseo, los fines de semana es... bueno, lo pasamos en las casas y no hay nada que hacer o visitamos a cualquiera de los familiares o... es tiempo de voz
+Other speaker
+[07:11]  regularmente a sus primeras semanas.
+Speaker C
+[07:14]  Ok, perfecto, excelente.
+Speaker E
+[07:18]  Allí, ¿verdad? Pues ustedes me fueron hablando de su familia, ¿verdad? Veo que no tienen hijos porque yo sé que me lo hubiesen mencionado, ¿verdad?
+Speaker C
+[07:27]  ¿Por qué no tienen hijos?
+Speaker E
+[07:29]  ¿Hay alguna razón, algún motivo para yo entender allí? Porque sé que me lo hubiesen mencionado si tuvieran.
+Speaker A
+[07:36]  ¿Por qué no tienen en mi caso porque todavía estamos haciendo base en el matrimonio para cuando vengan los hijos estar bien preparados
+Speaker D
+[07:55]  querido
+Speaker F
+[08:00]  y no lo quieren por algún particular por algo en particular algún motivo bueno realmente simplemente no hay nada en particular simplemente estamos disfrutando la vida en pared
+Speaker B
+[08:18]  las demás personas bueno en mi caso con mi esposa si queremos y si lo hemos pensado hasta conversado recientemente pero no se ha dado y también como estamos envueltos en otras
+[08:34]  cosas quizás como que no hemos hablado no hemos puesto la intención al 100% vamos allá vamos a eso hay muchas cosas incluso del aspecto económico que estamos involucrados en el momento
+[08:47]  entonces también hay que pensar un poco
+Speaker E
+[08:51]  las dos chicas algún otro motivo
+Speaker C
+[08:53]  bueno
+Speaker G
+[08:55]  ya tengo muchos años de pasada, gracias. Al principio era por salud, pero ya estoy mejor.
+Speaker A
+[09:05]  Si lo hemos pensado, porque sé por el que hubiera sido el año siguiente por donde estamos,
+Speaker G
+[09:13]  pero es por eso, por salud, pero ya estoy, porque soy yo, ya estoy del otro lado para el año que viene, ya vamos a empezar a buscar la chica en el caso me ha
+Speaker D
+[09:25]  detenido dos pérdidas entonces como que se sufrió mucho y sin una pausa
+Speaker C
+[09:39]  y les pregunto a libro mascotas tienen mascotas ¿Quisiera tener? Sí. ¿Por qué les gustaría tener una mascota?
+Speaker A
+[09:50]  En nuestro caso particular, a mi esposo nos gustaría tener un gato. Yo, porque nunca he tenido una mascota, mi madre es... No, cero mascota, al menos que sea un pez. Que no hay que tenerlo muy...
+[10:03]  Pero él siempre ha tenido desde pequeño gatos, entonces quisiéramos tener uno. Primero estamos viendo la posibilidad de cómo tenerlo, porque como trabajamos los dos, dejar un gato tan pequeño en casa
+[10:16]  se pasaría el día llorando, entonces como que lo pensamos ¿y en tu casa por qué te gustaría tener uno? bueno, yo siempre he tenido
+Speaker G
+[10:24]  animales en mi casa, incluyendo gansos pero pero ahora, bueno en realidad no he terminado de superar la muerte de mis perros y la desaparición de mi gato quisiera, pero
+Speaker E
+[10:36]  sí, tuve mucho
+Speaker G
+[10:40]  pero como no tengo vivienda propia no quiero tener esa responsabilidad grande quisiera gatos pero los datos de hace como seis o siete años me estaban dando pero si les gustaría
+Speaker C
+[11:17]  que piensan de esas familias que tienen más
+Speaker F
+[11:29]  en realidad yo tengo una opinión muy buena ya no quiero tener más cosas realmente por la responsabilidad y porque regularmente ellos fallecen primero que él
+[11:46]  entonces tener mascotas es algo realmente si a uno le gusta uno debería tenerlo pero las mascotas en mi opinión como que siempre y cuando una persona no trate una mascota como un vecino, es un ser humano,
+Speaker E
+[12:12]  es mi opinión. Al final, puede hacer lo que quiera, peroas los animales tienen un nivel de comprensión de las cosas
+Speaker F
+[12:35]  que realmente no es igual al humano, evidentemente. Entonces como que lo tratan de una manera que ellos entienden todo lo que tú le tienes que decir,
+[12:49]  todo lo que tienen que hacer, lo tratan como si son humanos. Muchas veces le dan un régimen al injusticio que no es su naturaleza. Entonces como que... Y eso es más para personas, según lo que yo he visto, que tratan de llevar los animales como sustituto de otros humanos.
+[13:09]  Entonces lo veo como un poco antinatural de la naturaleza de los animales.
+Speaker C
+[13:14]  Y no sé, es como extraño ponerle ropa
+Speaker B
+[13:25]  ahora si yo por ejemplo personas que le preguntan a bueno tú tienes hijos así que así yo tengo un puesto o sea literalmente no es como que lo dice el modo de chiste como
+[13:42]  que literalmente lo tratan como que sus hijos, que creo que es por el punto en el que tú vas y eso como que hasta siendo un punto un poco extraño y le dan la misma calidad de vida o el mismo trato como que literalmente es su hijo
+[13:55]  y hay gente como que, ah bueno ¿y cuándo piensas tener hijos? o sea, no, yo tengo un hijo, o sea y todo lo que gira en su vida es en torno a eso y pasan cosas extrañísimas como la que menciona
+[14:07]  Eduardo, ¿verdad? cosas así y literalmente gente que prefiere que una mascota viva por encima de un humano o sea prefiero la vida de ese animal que el humano entonces eso sí es como que se va a los extremos
+Speaker G
+[14:26]  hay muchas personas extremistas pero hay otras que no en realidad yo lo veo como una compañía porque yo cuando era pequeña, yo tenía siempre perros grandes ellos me cuidaban a mí porque mi hermano me llevó ocho años
+[14:41]  voy a salir a jugar, tú no puedes salir, quédate en la casa yo lo que hacía era que le abría la puerta a los dos perros, dos rohuelas de ese grande que yo tenía y los subía a mi habitación, estaban ellos dos conmigo en la cama así que había una bulla y era de una vez
+[14:54]  o sea yo siempre vi como que los perros son para mí una protección y siempre como que lo aprecié
+Speaker C
+[15:01]  los gatos, amo los gatos y todo mí una protección y siempre como que lo aprecio los datos como los datos pero son porque tenemos
+Speaker G
+[15:06]  una compañía seguridad y realidad los perros que te sienten te dan a veces la falta que tú tienes
+[15:24]  aunque no debería de faltar de tu siendo pequeño pero cuando tiene un poco de ausencia de los padres que vivan contigo porque trabajan mucho tú nunca lo ves la compañía tuya para jugar eran para mí los perros
+Speaker E
+[15:37]  ya que no has tenido mascotas y me estás hablando de esa experiencia ¿lo considerabas parte de tu familia?
+Speaker A
+[15:44]  si, yo lo llevaba a todas partes, menos a la iglesia
+Speaker D
+[15:47]  porque no lo permitieron
+Speaker B
+[15:50]  ¿no me querías mascotas? si, si a mi familia. ¿Y él era considerado también parte de la familia? ¿O el culo considerado parte de mí? Sí, pero a un nivel saludable.
+Speaker D
+[16:01]  Sí, es verdad.
+Speaker B
+[16:03]  A un nivel saludable, no como que literalmente le haga una cama. Y sí, había un asunto de protección. Una anécdota de eso es que mi papá tenía un trabajo que él tenía que moverse, salir a las 5 de la mañana,
+[16:18]  entonces moverse con calles a pie hasta que lo recogieran y había un transporte y como era muy temprano y oscuro había una de esas mascotas pero específico que él inmediatamente mi papá abrió la puerta de
+[16:32]  la casa él estaba esperándolo todos los días se acompañaba un papá hasta que lo pasaran a recoger y cuando mi papá se montaba entonces la guagua que lo buscaba entonces se devolvía a la casa y ese era su rutina o sea no se pegaba a mi papá en ningún momento y había
+[16:48]  había cosas como hasta particulares por ejemplo mi papá le decía que da la vuelta por el patio y el perro sabía que tenia que ir a la vuelta por el patio entonces pareciera como si fuera un humano pero si le decía a no ver por aquí el perro entendía y hacía exactamente eso
+[17:06]  pero a nivel de seguridad si pero nunca nada como extraño.
+Speaker E
+[17:11]  Ok, ok. ¿Lo consideraban parte de su familia?
+Speaker F
+[17:19]  Claro que sí. De hecho mi madre decía que normalmente los perros, que en mi casa eran perros que vivían, eran mi hermana que los llevaba. Y mi madre decía que los perros eran mis sobrinos.
+Speaker C
+[17:32]  Los perros eran mi mamá, hijos de mi hermana. Por ahí está.
+Speaker F
+[17:36]  Sí, sí. pero si se trata siempre claro el lugar de la más perfecto yo les voy a colocar las primeras vamos a la primera dinámica que vamos a utilizar
+Speaker E
+[17:53]  imagen entonces yo les voy a colocar unas imágenes y yo quiero que ustedes me digan con cuál de esas imágenes ustedes se sienten identificados que esta va a ser la primera parte de ese ejercicio
+Speaker A
+[18:08]  perfecto entonces les colocó ahora las imágenes y para hacerlo con más facilidad para que no vayan
+Speaker E
+[18:16]  a la ley todo lo va a hacer en este caso de esta manera para que todos puedan ayudarme a esconder vean ahí esas imágenes ok y yo quiero que ustedes me digan de esas imágenes con cual ustedes se sienten identificados con su familia entonces vamos a empezar con
+Speaker C
+[18:36]  el número de este tema y me va a decir con 47 identificados
+Speaker G
+[18:44]  de la actual
+Speaker F
+[18:48]  5 aunque la mascota no existe pero mi pareja por ejemplo ella quiere un perro, ella lo quiere tener
+[19:01]  donde nosotros vivimos no se permiten mascotas pero ella lo quiere tener
+Speaker C
+[19:05]  no tenemos hijos y posiblemente
+Speaker F
+[19:10]  no se si los hijos o el perro sean los mas cercanos pero eso es como lo mas parecido
+Speaker E
+[19:16]  perfecto, en tu caso
+Speaker B
+[19:18]  a ver si entiendo la pregunta, como me siento identificado dame el tapa actual
+Speaker E
+[19:21]  de estas imagenes verdad, yo quiero que me digas con cual tu te sientes identificado de tu familia actual por la razón que tuvo que
+Speaker C
+[19:28]  hacer de esas imágenes tú me vas a decir la número uno el número uno cuéntame bueno yo vengo de ambos
+Speaker B
+[19:38]  lados vengo de una familia numerosa y yo en mi caso no tengo como diríamos de que un primo que yo no conozco, toda mi familia siempre se junta varias veces al año, entonces estoy acostumbrado a la familia grande.
+Speaker E
+[19:54]  Perfecto, excelente. En este caso, ¿y él?
+Speaker G
+[20:01]  Actual a actual, el 5 sin el perro.
+Other speaker
+[20:05]  ¿El 5? Sí.
+Speaker E
+[20:10]  ¿Razones?
+Other speaker
+[20:11]  Él. Porque así como están esos dos, así vivimos nuestra vida.
+Speaker G
+[20:16]  Pues sí, mi amor, nada para arriba y para abajo Ok, ¿Melly?
+Speaker A
+[20:21]  Igual la número 5 pero sin el perro, todavía no tenemos la mascota, si no sería un gato
+Speaker D
+[20:27]  Si, ok
+Speaker A
+[20:29]  ¿Y Damaris? Igual la 5, sin el perro
+Speaker E
+[20:36]  Ok, ahora vamos a hacer otra parte con esta misma foto, ok, yo voy a empezar ahora con Damaris, tú me dices que te sientes identificada en este momento actual de tu familia con el número 5, ¿verdad?
+[20:49]  Yo quiero que tú me des tu opinión de las otras familias que tú ves allí. ¿Qué opinión tú tienes de esas familias que tú estás observando allí? Pueden ser positivas y pueden ser negativas.
+Speaker D
+[21:00]  Ok. Yo encuentro que todo está como en su lugar. Cada quien eligió la familia que quiso y la que dio, se le dio por supuesto. Yo les mando dos de los más para mí.
+Speaker E
+[21:14]  ¿Quieres hablarme de alguna en particular? No. ¿No? Ok. ¿Mail? ¿Tú me dijiste también número 5?
+Speaker A
+[21:23]  Número 5 igual. No tengo una opinión puntual, sirvo que aquí ya están como con los abuelos y La número 6 la viví con mi mamá Pero todo bien realmente
+[21:37]  Y número 1 Porque en el futuro sí quisiera una familia numerosa O sea, son puntuales
+Speaker C
+[21:46]  Perfecto
+Speaker E
+[21:48]  Yerifa, tú me dijiste también la número 5
+Speaker C
+[21:50]  Cuéntame, Yerifa
+Speaker G
+[21:52]  Así como dijo Damaris Cada quien eligió Su familia
+Speaker C
+[21:58]  El 7
+Speaker G
+[22:02]  Lo veo como mis padres que ahora mismo están cuidando a mis sobrinos, los abuelos y los sobrinos, tengo en realidad así de los 7, conozco familias así, o sea, de cada tipo.
+Speaker E
+[22:20]  Perfecto, Herodes me dijiste la número 1, cuéntame de las otras familias, allí lo que te llame la atención o que tú me puedas dar tu comentario positivo o negativo de estas otras familias que tu no elegiste
+Speaker B
+[22:34]  bueno veo la 2 y la 4 son parejas homosexuales que adoptaron niños madre soltera la única que he vivido sería la 1 y la 5 personalmente
+Speaker C
+[22:50]  no me ha tocado ningún otro ejemplo y creo que no tengo mucho que opinar específicamente sobre eso. Ok. Y en tu caso, Evo, tú me dijiste en el número 5.
+Speaker F
+[23:03]  Sí. Bueno, de las 6 que también me tocó, yo me crecí con mi madre y mi hermano. Y la número 1, porque mi familia realmente, antes de yo mud van prácticamente todos mis tíos y primos mis abuelos bien cerca entonces era muy
+[23:26]  frecuente vernos una cantidad considerable de nietos por ejemplo juntos y se veía más o menos así de las otras familias realmente entiendo que son familias que se formaron por circunstancias que a ellos los llevó a eso.
+Speaker C
+[23:51]  ¿Y qué opinión tienes de eso?
+Speaker F
+[23:53]  Realmente cada quien busca la familia que quiera o lo que la sociedad le permita o la familia que, muchas veces la familia que le tocó no la también quiere. Pero, ¿qué te digo? Yo creo que nosotros somos víctimas de las circunstancias y ellos ahí se ven felices.
+[24:14]  Y si tienen la familia que, si ellos tienen la familia que querían, ok, muy bien. Y si están bien, no les hacen daño a nadie, pues todo bien.
+Speaker E
+[24:26]  Perfecto. ¿Algún otro comentario?
+Speaker G
+[24:29]  Ah, sí, la número uno se parece a la de mi esposo.
+Speaker E
+[24:33]  ¿Familia numerosa?
+Speaker G
+[24:34]  Muy numerosa. Así como dijo el joven, cuando se juntan todos los sobrinos, que van 15 ya, y falta yo de mi esposo, que él es más chiquito. Y dije, quiero llegar a 20 nietos, y yo sigo.
+Speaker A
+[24:46]  Bueno, mi doña. Sigue soñando.
+Speaker B
+[24:49]  Mi familia materna no cabe ahí, somos 31 primos.
+Speaker A
+[24:52]  Bueno, son muchos.
+Speaker D
+[24:54]  Son muchos.
+Speaker E
+[24:55]  Y les quiero preguntar, ¿verdad? ¿Qué otro tipo de familia existe que ustedes no estén viendo en esta imagen?
+Speaker A
+[25:04]  El padre soltero, la tía con los sobrinos, o el tío también con los sobrinos,
+Speaker G
+[25:16]  o los abuelos viviendo con, o sea, los padres de una de las parejas viviendo con ellos,
+Speaker D
+[25:23]  el sin el perro también, con hijos y perros con hijos y perros con hijos y perros con un perro con 7 y con muchachitos
+Speaker C
+[25:35]  son en familia de una persona con otra si también ok alguna otra?
+Speaker F
+[25:41]  familia? en este caso hay algunas imagenes que por lo menos yo le interpretaría de muchas maneras porque por ejemplo la 2 y la 4 pueden ser hermanos con sus hijos, o una hermana con su hermana y su sobrina,
+Speaker A
+[26:01]  entonces... O una madre viviendo con su amiga y su hija.
+Speaker B
+[26:05]  Exacto, o sea, tiene varias interpretaciones. O parejas también, he visto parejas que viven, los hermanos pequeños, por alguna circunstancia, viven con ellos también. Ajá, que los han criado. Sí, aunque no necesariamente es algo temporal pero perfecto
+Speaker E
+[26:28]  entonces aquí también para que pasara al otro punto ahora les quiero preguntar también qué situación creen ustedes que más ha definido el carácter de su familia actual.
+Other speaker
+[26:52]  Aquí hay una persona que quiera comenzar.
+Speaker C
+[26:54]  Si en mi caso, mi pareja y yo, nosotros los dos no somos de Santo Domingo,
+Speaker F
+[27:02]  entonces cada quien prácticamente dejó a su familia en una provincia del país y vino para acá a emprendedad. lo que nos hizo ambos independientes que toman sus decisiones de tiempo y en mi
+[27:22]  familia eso es como lo que lo que prima si hay que tomar una decisión de lo que
+Speaker C
+[27:27]  se hace hace rápido no hay que consultarlo mucho cada quien asume su
+Speaker F
+[27:32]  rol sin sin quejarse y los roles intercambian sin ningún tipo de problema si me tocó a mí hacer algo yo no puedo y lo tienes que hacer tú
+[27:44]  tú lo haces sin quejar entonces el carácter que tiene la relación lo ha dado el hecho de que nosotros hemos sido independientes desde muy temprana edad principalmente
+Speaker E
+[27:58]  y las demás, cual sería esa situación que ustedes dicen que allí definió el carácter de su familia actual
+Speaker B
+[28:06]  bueno si sigo en la misma línea en en mi caso yo sí soy de otra provincia, entonces mi esposa sí se crió aquí, entonces yo sí viví unos años solos o con algunos roommates, amigos,
+[28:37]  una casa de cocinar limpiar hacer entonces mi esposa salió cuando se casó conmigo de su casa entonces a nivel de decisiones si se toma un poquito más lento pero quizá porque yo estoy acostumbrado a manejar ciertas cosas hay cosas decisiones que ella nunca tuvo que tomar
+[28:50]  pues están sus papás ahí entonces quizá ella no tiene la misma perspectiva entonces no es que no se toma pero no existe esa independencia como talla independiente pero en otros aspectos
+[29:03]  pero desde ese punto de vista si hay como que consensuarlo un poco más para que entienda la perspectiva
+Speaker C
+[29:08]  en muchas ocasiones
+Other speaker
+[29:10]  ok
+Speaker G
+[29:11]  ya el definidor mío
+Speaker A
+[29:13]  igual
+Speaker G
+[29:14]  ya el definidor mío porque mi esposo vino de monte plata a vivir solo, muy independiente yo sobreprotegida y entonces salí
+Speaker A
+[29:25]  igual me puso viví independiente por aquí en la capital pero lo mismo yo salí del cero de la casa de mi familia a mudarme con el independiente que él no tiene que decirle a nadie para donde
+[29:38]  tenía que ir y él salía y ya yo dije decirlo todo mira voy a pensarlo mira mira aquello no pidiendo permiso sino en una forma de informarlo porque en familia es un asistente
+Speaker D
+[29:54]  y la madre igual pero en mi caso el era más independiente que yo porque no padres yo había como mi padre toda la vida entonces cuando él llegó yo me casé pero no quería se
+[30:12]  sentía que estaban bien como novios todo estaba mejor como novios papi murió y mami no quiere quedarse en ese apartamento yo no voy a mudar
+[30:24]  prácticamente me lanzó porque son nueve años con él y es ahí porque todavía sigue creyendo que es soltero
+[30:47]  si entonces es ahí, él cambia, como que quiere regalar, entonces es como así verdad, como que se ha ido si, estoy cansado si, si, yo me quedo mirando
+[31:00]  es como yo le digo, él es el que cocina, yo no cocino porque él era muy independiente también, en su casa él hacía todo, él lavaba todo pero cuando nos juntábamos, él lavaba, cocinaba y ya no quiere más, ya no soy yo, pero sí cocina.
+Speaker E
+[31:17]  Perfecto, ok, entonces también les quiero preguntar, ¿cuáles serían sus pensamientos y preocupaciones sobre generaciones futuras y la formación de familias?
+Speaker D
+[31:31]  ¿Qué piensan de eso? Es muy diferente que de antes. Las parejas de ahora quieren eso, como yo quería. O sea, cada quien por su lado y no tener como un compromiso, esa es la palabra.
+[31:46]  Las parejas de este tiempo, lo digo porque yo trabajo con 30 personas en la misma área y tuyo es la cerneta de cada quien y de los muchachos, varón. Entonces, como que no queremos un compromiso. Eso es como tú vayas en tu casa, yo en la mía, si un día no vemos, no nos vemos
+[32:02]  así, o sea, no creo que haya muchos matrimonios en el futuro, por lo menos por el momento
+Speaker B
+[32:11]  ok, bueno, veo más bien como una falta de compromiso a nivel general, como que mucha gente lo que quiere es como que no necesariamente explicar esto desde como es
+[32:28]  las leyes existen para regular costumbres entonces, ¿por qué digo esto? porque el matrimonio aunque se hace legalmente
+[32:41]  se supone que eso ya se instauró o existía antes de que existieran las leyes, entonces mucha gente entiende que quizá cuando se mudan juntos, como que yo no estoy casado, no lo veo como que mi marido o mi marida o mi esposa
+[32:55]  sino es como que vivo con mi novio o vivo con mi novia entonces es como que el hecho de cambiar las palabras o los términos es como que no tengo compromiso contigo vamos a juntarnos a ver qué pasa
+[33:09]  pero literalmente tenemos la vida de un matrimonio independientemente de si hay un contrato legal el hecho está en lo inicial entonces veo como que mucha gente se va por
+[33:25]  ahí para literalmente negar la parte del compromiso entonces como está bueno me quille contigo menos contigo ya me voy soltamos eso no vemos entonces como que
+[33:38]  la generación es futura a nivel de forma familia lo que veo es mucha distorsión y mucho divorcio futuro, mucho más la tasa va a aumentar de lo que están ahora
+Speaker G
+[33:48]  Poco tolerancia a los otros personajes
+Speaker E
+[33:52]  ¿Me agregarían algo más?
+Speaker C
+[33:54]  Bueno, yo lo que veo realmente, bueno tu pregunta era lo que a uno le preocupa más
+Speaker F
+[34:00]  Bueno, a mí lo que realmente me preocupa es realmente la falta de tolerancia entre muchas parejas. Como hay tantas opciones ahora,
+[34:15]  muchas veces las personas no quieren construir algo, sino que buscan una persona que ya tenga el paquete completo, que no existe. Entonces, probar aquí, probar aquí, probar aquí, se pasa la vida. Cada vez las familias van a ser menos numerosas.
+Speaker C
+[34:32]  Cada día va a haber muchas más personas en el mundo,
+Speaker F
+[34:35]  pero las familias sí serán menos numerosas. serán, yo siento que van a ser un poco más fugaces porque no se va a querer como ese compromiso para toda la vida y esas son como las preocupaciones principales
+Speaker B
+[34:54]  que yo quería expresar. Yo quería agregar algo desde el punto de vista económico, algo más como que observado, mucha gente quiere tener como todo listo antes necesariamente como de estar en un compromiso que es falta de
+[35:09]  como acá bueno estamos juntos pero vamos a ver qué pasa pero por ahora no nos va a casar legalmente entonces como que ah bueno yo quiero tener un comportamiento quiero tener no un carro sino quiero tener una jipeta de cada año lo que sea
+[35:22]  quiero haber hecho tantos estudios entonces mientras todo eso pasa todo lo otro de la parte de la familia que en años atrás era quizás algo prioritario ahora pasa ni siquiera un segundo plano sino
+[35:35]  un cuarto plano entonces la gente mientras más años van pasando creo que terminan cazando los 45 50 vamos a estar de estilo europeo porque queremos tener todo ready y no necesariamente que construyamos juntos sino como que cada quien por su lado y después juntamos si es que se llegan
+Speaker A
+[35:51]  a casar si es que se llegan porque después de un tiempo dicen bueno ya tenemos 50 años juntos porque casa no lo hemos quedado así ya porque no ha funcionado lo que pasa que hay una sobre estimulación de información ahora que dicen si firmante como dicen en los matrimonios como los chistes que
+[36:08]  hacen a veces como callate de interés de dientes o ya te tal cosa no es una cárcel tú no vas atrapado el día que realmente tú quieres divorciarte con una persona tu dama tiene que
+[36:20]  obviamente pagar tu chelito pero que te divorcies ya
+Speaker F
+[36:23]  o dicen que bueno tu le vas a dar la mitad de lo tuyo
+Speaker A
+[36:26]  exacto
+Speaker F
+[36:27]  pero que ya tu estas entrando en la relación pensando en el momento que tu te vas a dejar
+Speaker A
+[36:31]  exacto exacto hay que irlo mas si hay que irlo mas
+Speaker E
+[36:37]  perfecto
+Speaker B
+[36:38]  entran en el negocio pensando en la salida
+Speaker C
+[36:40]  exacto
+Speaker B
+[36:41]  entran en el negocio pensando en la salida
+Speaker A
+[36:43]  en la salida en la salida, sí
+Speaker C
+[36:46]  cuando ustedes están formando su familia, ¿verdad?
+Speaker E
+[36:51]  ¿qué aspectos de su crianza
+Other speaker
+[36:53]  tomaron y dejaron?
+Speaker E
+[36:55]  ahí sí, desde sus padres, ¿verdad? y ustedes están formando su familia ¿qué ustedes agarraron de esa
+Speaker A
+[37:02]  crianza y que ustedes dijeron
+Other speaker
+[37:04]  no, no, no, cuéntenme ahí un poco esa parte también, Meli
+Speaker A
+[37:07]  bueno, en mi caso dicen que las bueno, los que los hijos parecen ser finales a su papá o a su mamá, porque uno crece. Mi mamá es una persona que ella habla alto. Ella te está hablando, porque el vaso, el vaso.
+[37:23]  Y ella no te está ni gritando, o sea, no te está engañando ni nada. Es que ella se le sube la voz. Entonces, yo le decía, mami, baja la voz, porque yo no me daba cuenta que cuando yo vivía con ellos, yo también levantaba la voz y en mi casa era súper normal
+[37:37]  porque cuando yo me casé mi esposo me decía o sea, bájale un poquito
+Speaker G
+[37:43]  y yo, pero que yo no estoy gritando
+Speaker A
+[37:45]  entonces yo digo que eso es algo que yo trabajé para poder dejar y una cosa que yo sí tomé es el nivel de comprensión
+[37:59]  de por ejemplo, mi mamá ya se volvió a casar normal entonces ella y mi padrazo, como mi mamá ya se volvió a casar normal entonces ella y mi padrazo que como mi papá ellos pueden tener su discusión y todo pero al momento de que ya pasó la discusión vamos a sentarnos a hablar
+[38:11]  ya ese nivel de comprensión de que yo te entiendo tú me entiendes tratamos de buscar un punto medio eso sí yo lo acogí de mi antigua casa y lo puse en práctica lo estoy poniendo en práctica ahora
+Speaker E
+[38:25]  en mi matrimonio que dicen las demás personas que que tomar y que descartaron o tratan de no retener.
+Speaker B
+[38:33]  Bueno, algo que tomé, primeramente, bueno, en mi casa mi papá tuvo un tiempo también de vivir solo y ser independiente, entonces mi papá no era como quizás el típico hombre
+[38:46]  dominicano de que, ah, bueno, yo no sé cocinar, a mí hay que hacer mi todo, sino que nunca le he dicho esto a mi mamá, pero mi papá cocinaba mejor que mi mamá. Mi mamá murió recientemente, pero cocinaba mejor que mi mamá y sabía hacer todo en la casa.
+[39:01]  Entonces, había distinción necesariamente en una cosa y la otra, independientemente de si alguien siempre hacía tal cosa. De hecho, mi papá cocinaba con mucha más frecuencia que mi mamá. Entonces, es algo como que, aunque mi esposa, por la situación de que al momento ya ando trabajando y ya cocina más,
+[39:19]  pero yo no tengo ningún problema en hacerlo en cualquier momento o hacer cualquier otro oficio de la casa entonces es algo que tomamos como una distinción en esa parte y algo que dejé a nivel por ejemplo comunicacional mis papás o mi papá quizá era un poquito más como pensativo
+[39:38]  y aunque se comunicaba pero primero él tomaba una decisión quizá de manera solo y luego como que comunicaba no necesariamente en conjunto o no todo el tiempo porque él quizá sabía
+[39:52]  que de manera como él es más calmado sabía que iba a llegar una solución más rápido mi mamá un poquito más como frenética vamos a ponerlo así entonces eso quizá retrasa la solución en mi caso yo lo que he
+[40:04]  tomado con eso a él como que mi esposo tiene que estar al tanto de todo lo que hagamos para que sea parte de, independientemente de si me va a tomar más tiempo, como hablaba hace un rato, tomó la decisión o no, porque por circunstancias a veces se da, pero que ella sea parte de.
+Speaker E
+[40:24]  Perfecto, lo dice. ¿Qué dice Navelo?
+Speaker G
+[40:28]  Bueno, algo que no me voy a llevar o no me lleve, no sé. La comunicación en sí del gobierno de mamá era extraña, yo siempre estaba en el medio, eso no me lo llevé, porque en realidad ya los hijos arrastran todo eso.
+[40:56]  Me voy a llevar en sí la crianza, por encima que eran dos padres que trabajaban muchísimo,
+Speaker A
+[41:02]  siempre estaban pendientes de nosotros, aunque sea por el teléfono o al final del día,
+Speaker G
+[41:11]  aunque la comunicación de ellos era extraña, siempre lo escuchaba en la noche, en la madrugada, ellos se ponían al día por eso digo que es extraño, porque nosotros, la única que lo escuchaba era yo, mi hermano, mi hermano dormía en la habitación malega pero ellos en realidad cuando mi papá bajaba del campo, porque él trabajaba en San Juan el viernes se iba los lunes en la madrugada, ellos se ponían al día
+[41:28]  eso es algo que en realidad por encima de todo, uno tiene que buscar una brechita de semana para comunicarse si en realidad el día a día te va pero la crianza uno a pero trataré ya más
+[41:45]  adelante cuando vengan los hijos a no hacer algunas cosas que en realidad ya uno como hijo de mi hermano lo fue arrastrando y evitar que el futuro... ah y un poco lo que comentaste que quedabas en el medio
+[41:59]  si quedaba en el medio o tu sabes la... el sentimiento de abandono que las que los hijos sienten
+Speaker C
+[42:09]  principalmente. Damaris en tu caso?
+Speaker D
+[42:12]  En el caso de mi mamá yo me lleve la tolerancia Mami aguantó a papi en el sentido de la calle y ella lo que hacía trabajar para nosotros y él trabaja para la calle pero él siempre como padre
+[42:30]  estuvo presente, nosotras él nos cuidaba mucho, entonces nosotros veíamos que mami por más que él hiciera, ella estaba ahí. Por más que mandáramos en silencio, como se dice, ella nunca nos mandó no por ese tema.
+[42:49]  Y dejé allá, no tenía paciencia yo realmente. En la casa de él no tenía paciencia y aprendí, porque como él ahora todavía cree que es soltero, tengo que tener paciencia, respirar profundo,
+Speaker C
+[43:04]  traerle a Dios. Pero... ¿Qué sintió?
+Speaker A
+[43:09]  Nada, que sí fue lo que estudié.
+Speaker D
+[43:12]  Me dicen, si tú tienes nueve años con él ya, o sea, ya tú estás tolerando todo, yo claro, tengo los nueve años. Pero me llevé la paciencia, he aprendido a cultivar esa palabra. Uy, Muy importante.
+Speaker E
+[43:27]  ¿Y algo que hayas dejado?
+Speaker D
+[43:29]  Eso, la paciencia.
+Speaker E
+[43:31]  Porque yo no tenía paciencia. Aprendiste a tenerla. Sí.
+Speaker F
+[43:38]  ¿Y Eduard?
+Speaker C
+[43:40]  Bueno, que yo me llevé realmente... Yo me crié con mi madre,
+Speaker F
+[43:44]  mi madre es mi hermana. Entonces ella era una mujer muy activa, muy proactiva para muchas cosas, eso yo me lo llevo de la independencia. Y que no me llevo, o que no me llevo, realmente la comunicación de muchos problemas.
+Speaker C
+[44:04]  Mi madre se quedaba con los problemas, o sea, por lo menos nosotros que éramos sus hijos,
+Speaker F
+[44:13]  ella podía desahogarse o hablar de lo que sea. Entonces, muchas veces nosotros nos damos cuenta de muchas situaciones de manera fortuita, porque descubríamos algo.
+[44:25]  O sea, no eran cosas muy graves, pero eran problemitas que se podían resolver quizás con cierto apoyo. Entonces, yo eso lo trato de dejar y con mi pareja, así trato de que nosotros conversemos de las cosas que pueden suceder,
+Speaker C
+[44:41]  si te pasó algo en el trabajo, si te pasó algo en la calle, si tú tienes una situación con tu familia, o sea, cómo comunicarlo.
+Speaker F
+[44:48]  Eso, el no comunicarlo, yo lo dejé. Y el ser una persona que trata de resolver las cosas, de no esperar, tú estás en el fondo hundido para tú tener que resolver,
+[45:03]  sino que vamos a tratar de cortar la cosa desde un inicio. Eso sí, yo me lo llevo entonces
+Speaker E
+[45:15]  les voy a colocar ahora otra dinámica
+Other speaker
+[45:18]  la dinámica número dos
+Speaker E
+[45:20]  esta dinámica le colocamos este nombre que aprecio y que no aprecio
+Speaker C
+[45:29]  y vamos a hacer lo siguiente
+Speaker E
+[45:32]  yo les voy a colocar aquí vamos a empezar con esta que dice lo siguiente esta frase aprecio que mi familia, en este caso su es cual ok y yo quiero que ustedes me completan
+[45:44]  la frase aprecio que mi familia y ustedes la van a completar entonces quien comienza en este caso
+Speaker B
+[45:54]  bueno yo aprecio que mi familia mi esposa se encargue de asegurarse que yo tenga todo listo Cuida ropa. Juli, la llegué.
+[46:10]  Ando, tenía que hacerlo yo.
+Speaker C
+[46:13]  Ok.
+Speaker E
+[46:13]  ¿Qué dicen los demás?
+Speaker C
+[46:14]  ¿Cómo completarían esa frase?
+Speaker F
+[46:16]  Bueno, yo realmente aprecio que nos entendamos el uno con el otro.
+Speaker E
+[46:29]  ¿Qué dicen las chicas?
+Speaker A
+[46:31]  Yo aprecio que mi familia, mi esposo se cargue de las diligencias que son de mayor peso.por ejemplo se que nunca lo tiene que llenar los que pagan la luz cualquier cosa y yo aprecio mucho eso realmente
+Speaker C
+[46:52]  en mi caso yo aprecio que el me cuida mucho
+Speaker D
+[46:58]  el que se levanta preparando el bulto de la comida y el desayuno
+Speaker A
+[47:07]  y que siempre estamos juntos lo que no les gustaría
+Speaker E
+[47:44]  ok, a futuro o si está sucediendo algo ustedes allí lo van a contestar, ok pero yo quiero que hagan también ese ejercicio, ok, no me gustaría que mi familia y ustedes lo cumplan perfecto, el que también aquí con ustedes la persona que se sienta o tenga la respuesta
+[47:59]  me lo dice
+Speaker D
+[48:01]  bien, que haya traición y deslegalidad, yo no lo soportaría no me gustaría que se pierda la comunicación y la confianza
+Speaker A
+[48:26]  a mí no me gustaría que se pierda la confianza y realmente ese amor del uno por el otro
+Speaker B
+[48:41]  no me gustaría que ya no seamos una familia
+Other speaker
+[48:50]  y Jennifer?
+Speaker G
+[48:51]  me gustaría que mi familia se pierda la confianza.
+Speaker E
+[49:04]  Ok, excelente. También le voy a preguntar aquí ahora, ¿cómo ha evolucionado su concepto de familia desde niño hasta hoy? ¿Cómo ha evolucionado?
+Speaker A
+[49:21]  Evolucionado en todos los ámbitos. El concepto de familia.
+Speaker E
+[49:27]  El concepto de familia, lo que era tu familia desde niño a lo que es hoy, ¿cómo ha evolucionado
+Speaker G
+[49:35]  ese concepto? En realidad de mi parte no ha cambiado nada, o sea, lo mismo valor en la misma línea, pero hay cosas como dicen por ahí que yo cogería y dejaría
+[49:51]  ya a la hora de multiplicar la familia, o sea, pero quiero continuar la misma línea, no con convicciones modernas, sino que está bien esto, pero ver lo que más adelante yo tengo ver si es factible o no pero siempre con la línea
+[50:07]  con la que yo crezco cuando me dices mismo valores pero dejaría algunas cosas así que dejaría es por ejemplo como lo que comenté anteriormente algunos algunos algunas acciones no sé si es más como
+[50:24]  acciones o comportamientos sería lo que yo dejaría pero lo que con lo que me criaron la raíz de los valores, esos siempre van a continuar.
+Speaker E
+[50:38]  ¿Qué dirían los demás? ¿Cómo ha cambiado o cómo ha evolucionado ese concepto de familia desde niño hasta el día de hoy?
+Speaker B
+[50:46]  Bueno, en mi caso, mi concepto de familia desde niño, me voy a referir quizá a los miembros como tal, era o es en un sentido que mencioné al inicio todos siempre compartido con toda mi familia entonces todo el mundo en familia quizás de alguna manera todo el mundo tenía igual prioridad o
+[51:09]  importancia ya sea un primo un tío y siempre visto con mis abuelos cuando tuve la gracia de conocer a todos mis abuelos etcétera etcétera pero lo que eso ha cambiado es que aunque los demás siguen siendo importantes, o sea,
+[51:23]  sí he llegado a entender que luego de que me casé y un poquito antes de hecho, que la prioridad tiene que ser mi esposa. O sea, por ejemplo, mi mamá es importante, pero primero en un sentido, obviamente sana, entonces está mi esposa.
+[51:36]  Eso es algo que he modificado que obviamente de niño no lo entendía tal cual.
+Speaker C
+[51:42]  ¿Qué te lo dices? ¿Qué dicen las demás personas?
+Speaker F
+[51:46]  Bueno, ha evolucionado realmente un poco porque de niño yo pensaba que una familia era reuniones familiares que todo era felicidad
+[52:00]  y todo era armonía que nadie discutía con nadie
+Speaker C
+[52:04]  que todos los domingos
+Speaker F
+[52:06]  la familia se juntaba donde los abuelos
+Speaker C
+[52:08]  que los viajes los planeamos juntos y ya
+Speaker F
+[52:10]  ahora de adulto me doy cuenta que realmente es mucho más que eso. Tu familia es la persona que tú tienes ahí contigo al lado, es cierto que los padres están ahí, los hermanos están ahí, pero realmente es mucho más que eso.
+[52:27]  La familia no es sólo risa, hay mucho conflicto, la familia son muchas muchas cuestiones,
+Speaker C
+[52:33]  choque de
+Speaker F
+[52:35]  cultura, de personas que crecieron en un ambiente diferente y tienen que tratar de soportarse el uno al otro entonces que no es tanto color de rosa pero realmente algo muy bonito de construir. ¿Y las chicas? Bueno en mi caso
+Speaker A
+[52:58]  con lo que uno crece como que me hice en la familia papá y mamá los hermanitos y eso pero después que uno va creciendo y va conociendo amigos amigas que te cuentan, ah mis padres se separaron, son disfuncionales,
+[53:13]  es como un choque, bueno para mí realmente fue como un poquito de choque porque mi mamá se casó gracias a Dios con mis padres, con mi papá, cuando yo tenía temprana edad,
+[53:26]  entonces como que no tuve ese, ah no mi mamá sola, yo por mucho tiempo, y también que llegaron mis hermanitos más pequeños también yo con tempranedad entonces hubieron ciertos problemas igual yo nunca yo no cambiaría el tema de los valores porque
+[53:41]  independientemente de cualquier cosa que haya pasado yo siempre se han mantenido unidos yo no cambiaría eso si cambiaría algún tipo de acciones y todo eso pero también cuando me casé mi
+[53:54]  significado de familia también cambió un poquito porque yo tengo una crianza, mi esposo tiene una crianza totalmente diferente a la mía, una persona independiente desde que cumplió los 18 años, viviendo solo, viviendo con
+[54:07]  roomies y todo eso, entonces yo que vengo de una familia, cambió un poco el significado, el significado de tener más comprensión, de saber de que estamos juntos, pero por qué
+[54:20]  estamos juntos, cuál es la base realmente de... No por ejemplo, yo como lo vea con mis padres a no yo tan juntos porque tienen 20 años de casados está yo tan mundo porque se aman quieren echar para adelante entonces yo aprendí eso realmente cuando crecí también ahora que me casé que estoy viviendo perfecto
+Speaker D
+[54:40]  en mi caso es yo crecí con los valores de papi aunque estuviera en su mundo pero siempre tuvo siempre estuvo como padre presente. Quería, no sé si tenga el tiempo y viejo lo quiera así,
+[54:56]  tener la familia que yo tenía en el sentido de que éramos muy unidos. O sea, lo somos, pero no como antes porque estaba la falta de él. O sea, mami se dejó de él y duraron 20 años juntos en la misma casa, pero mami lo atendía a su esposo.
+[55:09]  Luego dormía junto, pues era su esposo. Entonces, como que me llevé, es como la tregancia de mami. Yo siempre tengo la paciencia, quiero tener la paciencia de ella, que entiende a todos siempre quiere estar ahí ella quiere meterse en toda la familia porque tengo hermanos mayores
+[55:26]  no está aquí en santo domingo pero está en eeuu pero ya quiere controlar el eeuu a llevarle a las preocupaciones y tú ser soy igual soy igual lo que yo no hace mucho decidí aprender a soltar
+[55:41]  porque no me preocupa que ella va a soltar cada quien que su mundo cada quien decidió entonces yo decidí soltar entonces en el caso de pareja el anhelo a tener un hijo
+[55:53]  como digo la verdad fueron fueron increíblemente dolorosa por los para los dos entonces me da que no que no le puedo dar hijo como ahora sale también alcanzar porque fue un sufrimiento grande entonces quería traer eso como
+[56:08]  de que llegara mi familia por lo menos dos hijos una bonita cuando nos reunimos son siete sobrinas y un varón con ocho sobrinos siete hombres barba con ser reunían toda esa gente vuelto lo que es yo no sé cómo
+[56:24]  aguanta tanto de tanta gente pero eso como quiera vivirlo pero vamos a decir lo que dios quiere el directo
+Speaker E
+[57:14]  perfecto entonces aquí ok entonces fíjense que hemos hablado mucho de la familia conversar de otros temas diferentes temas y cómo impacta o se conversa en su familia
+Speaker C
+[57:31]  actual vamos a empezar con un tema que yo quiero saber si ustedes tienen si lo están
+Speaker E
+[57:37]  haciendo de alguna forma ustedes tienen tradiciones rituales para disfrutar de su comida juntos que están haciendo en esa parte si tienen alguna tradición especial o algún ritual solo de comida o... vamos a empezar con la comida y luego si tienen alguna otra actividad también me lo dicen
+Speaker D
+[57:58]  pero vamos a empezar con la parte de la comida no si es que en el caso mío comería con él dos veces a la semana que cuando yo estoy libre dos días a la semana y como como es porque si si comemos juntos muy raro porque él tiene está
+[58:22]  trabajando es muy raro que se puede ser una semana un día o si él llega a las 4 de la tarde y más me devuelve la comida él la lleva a la casa y aunque yo ya comida obligada me tiene un chip y el ser está en su madre involucrada se sientan todos juntos
+[58:47]  la casa y él vuelvo a comer y el nuevo luchín y yo no quiero como una mala costumbre que él tiene que dejar noche de todo lo que él come.
+[59:08]  Entonces, pues, porque no nos vemos casi en la noche.
+Speaker E
+[59:11]  Y cuando comen juntos, ¿cómo es esa...? Si es que pasa, ¿cómo cambia la dinámica o qué hacen en ese momento que ustedes comen juntos?
+Speaker D
+[59:20]  Hablar de todo. Hablar de todo lo que no se habló en la noche. ¿Por qué se va a hacer? ¿No se va a hacer? ¿Se vamos a ir al mercado? ¿Se vamos aquí? ¿Se vamos a salir? ¿Qué se va a ir a la actividad?
+Speaker E
+[59:33]  Ok. May, en tu caso, si vamos a hablar sobre todo de la parte de la comida, no tenemos otras actividades, vamos a enfocarnos sobre todo en ese momento si tienen alguna actividad o algún ritual de costumbre con su familia actual en cuanto a la comida, ok.
+Speaker A
+[59:47]  Sí, nosotros cada vez que estamos en casa, ya sea para la cena o fines de semana, desayuno, comida, nosotros tenemos que sentarnos los dos a comer. Eso es algo, no es de que tú en la sala y yo en la habitación, no.
+[1:00:04]  Es los dos en el comedor, hasta tenemos una regla de no comer en las habitaciones, ni en la cama ni nada. Los dos comemos en la mesa y también hacemos lo que se llama sobremesa. Si yo termine de comer, pero él no ha terminado, yo tengo que esperar a que él termine.
+[1:00:20]  Eso es algo que lo tenemos los dos, o sea, yo no me paro, al menos cuando me quede al baño, cualquier cosa, pero no. Los dos nos quedamos y digamos si ya los dos terminamos de cenar Y yo recojo los trastes o él los recoge Uno de los dos avisa que ya se va a parar
+[1:00:34]  O sea, por ejemplo, ya terminamos de cenar Yo recogí y le digo, ah, me voy a la habitación No es como que recogí y me fui O sea, eso es algo que ya lo tenemos Después hay también orar por los alimentos Eso es algo ritual o tradición
+[1:00:48]  Que nosotros lo hacemos ya de forma constante Sí, es tal que si va mi familia igual a mi casa, todos comemos en el comedor, hacemos la oración, igual hacemos sobremesa. Hasta que el otro no termine
+[1:01:01]  de comer, no nos paramos.
+Speaker B
+[1:01:03]  Ok, interesante.
+Speaker E
+[1:01:07]  ¿Los demás, si tienen allí algún ritual, alguna tradición especial para disfrutar
+Speaker C
+[1:01:13]  de la comida juntos?
+Speaker G
+[1:01:14]  Bueno, los domingos, como ustedes saben, me encantan los desayunos. Los domingos desayunamos juntos. Depende de lo que hay en la nevera. A veces salimos a desayunar o hacemos desayuno y hacemos las horas más.
+[1:01:31]  Los domingos. Y en la semana, si él ha estado trabajando mucho y yo también, y no tenemos tiempo como de cenar juntos, lo que hacemos es, dependiendo del periodo que tengamos, salimos a almorzar.
+[1:01:46]  Un día después del largo periodo salimos a almorzar y todas las noches nos bebemos un cafecito antes de acostarnos
+Other speaker
+[1:01:55]  ¡Ole!
+Speaker B
+[1:01:56]  ¿En qué día acostaste? No, yo me quité el café pero... ¿En qué día acostaste?
+Speaker G
+[1:02:04]  Bueno, me gusta los domingos desayuno continental, no dominicano, muy gringo y cuando tienen ese momento que dicen cuando tenemos ya mucho tiempo que no compartimos
+Speaker E
+[1:02:19]  almorzamos cuál es esa comida de ese almuerzo cuando tienen ya quizás mucho tiempo que no han
+Speaker G
+[1:02:25]  podido compartir vamos a un restaurante últimamente estamos yendo al mismo lugar se llama la trufa
+Speaker E
+[1:02:31]  ahí nosotros vamos y pedimos que llegue primero el padre ok pero chicos cuál sería ese ritual o esa tradición especial que tienen ustedes para disfrutar de la comida juntos?
+Speaker F
+[1:02:46]  Bueno, si yo estoy aquí en Santo Domingo, nosotros comemos juntos. Yo voy a su trabajo siempre y nosotros podemos comer allá. Siempre cenamos juntos, yo soy que hago la cena siempre.
+[1:03:04]  La tradición es que los dos elegimos lo que yo voy a cocinar.regularmente ella tiene el 70% del peso de la decisión y yo solamente cocino, ejecuto, pero yo cocino y ella sirve los platos
+[1:03:24]  y quien riega? siempre se sirve, cualquiera de los dos a veces yo sigo con ánimo infiel y siempre comemos en la mesa,
+[1:03:37]  comemos juntos, hacemos también sobremesa. Yo supongo que yo tuve que, porque antes yo comía y me paraba y se iba, y ella me dijo...
+Speaker A
+[1:03:47]  ¡Ven, para donde vas!
+Speaker F
+[1:03:49]  Me llamó la atención y ya yo hago mi sobremesa tranquilo y eso son como las tradiciones que se están haciendo que son si o si se hacen elegimos o ella elige
+Speaker E
+[1:04:03]  lo que yo voy a cocinar yo cocino y por ejemplo que cocina algún alimento así que tú digamos
+Speaker F
+[1:04:10]  por ejemplo como esto como regularmente la cena que se hace yo hago y ya le gusta mucho la pasta le gusta mucho la comida mexicana yo hago muchas cosas lo que a ella le guste realmente cualquier cosa en el almuerzo nosotros siempre compramos comida porque
+[1:04:33]  no hacemos comida para comer regularmente ella pide algo por una de las aplicaciones y me espera que yo llegue, comemos,
+[1:04:57]  damos un poco, luego que terminamos de comer, ya la limpieza y hacer otra cosa.
+Speaker C
+[1:05:04]  ¿Y el odio?
+Speaker B
+[1:05:05]  Bueno, en nuestro caso, nosotros siempre estamos juntos, a menos que algo nos obligue a estar separados, por ejemplo en este momento.ntonces eso ocasiona que siempre de alguna manera comamos juntos hay momentos donde no se puede controlar quizás los rituales por ejemplo como el caso del desayuno
+[1:05:26]  cuando yo me estoy desayunando ella todavía está terminando de preparar la comida etcétera en el día no comemos juntos porque yo estoy en el trabajo en la noche si o sea no tenemos quizás un ritual como tal pues va a depender si yo tengo la misma clase, yo me pongo la comida ahí, yo juego clases virtuales, entonces yo me la voy comiendo mientras el
+[1:05:46]  profesor no me está viendo, cosas como esas, entonces quizás ese tipo de cosas no se pueden controlar. Ahora bien, fines de semana sí comemos juntos, entonces, aunque nosotros casi siempre sí, entonces algo particular que a ella le gusta poner, ella tiene muchos juegos de vajillas y de cosas así, entonces a ella le gusta poner todo lo que tenga o sea eso no está ahí de que guardado
+[1:06:09]  por ejemplo a mí me gusta dormir más y si ella me prepara desayuno el sábado mañana ella me pone el café y ella trae eso en una bandeja y dice nada nada y en una cosa y me pone con el asúcar y todo eso
+[1:06:35]  el ritual de ella con eso que me acostumbrado ella la que me llevaba de soya con todos son esa bonita y todo
+[1:06:48]  no son simplemente dos platos con todo poner todo el día que te lleve una taza plástica preocupa el día que te lleve una taza hay momentos para eso pero si tenemos el espacio
+[1:07:17]  hasta con mantelito les pregunto también cuáles son los principales retos que enfrentan en su hogar para lograr una alimentación balanceada
+Speaker E
+[1:07:32]  y les pregunto también qué significa y cómo se ve una persona saludable y bien nutrida para ustedes?
+Speaker C
+[1:07:52]  Fuerte.
+Speaker F
+[1:07:57]  Una persona saludable y bien nutrida.
+Speaker E
+[1:08:00]  ¿Para ustedes cómo se ve?
+Speaker C
+[1:08:03]  Para mí se ve como una persona... ¿Qué significa?
+Speaker G
+[1:08:05]  Con mucha energía.
+Speaker A
+[1:08:07]  Sí.
+Speaker G
+[1:08:09]  Es verdad, a uno se le gasta la batería, pero si está bien alimentada, hace esto, hace ejercicio, entonces una persona sedentaria tú la ves con mucha energía por encima de que esté cansada.
+Speaker A
+[1:08:21]  O sea, hasta en las pieles. Exacto.
+Speaker B
+[1:08:27]  Quizás puedo decir lo mismo, una manera diferente.
+Speaker A
+[1:08:29]  No se ve como cansado, agotado,
+Speaker B
+[1:08:32]  hay gente que más bien que duerma, si es que duerme bien, se ve siempre como que se estuviera explotado. Entonces eso, el aspecto de entender
+Speaker E
+[1:08:46]  también les quiero preguntar para ustedes que es una comida saludable
+Speaker F
+[1:08:55]  tenga un poco de quizás todo lo que uno necesita
+Speaker C
+[1:09:02]  proteína
+Speaker F
+[1:09:11]  hidratos en menor propulsión y algunos vegetales y vegetales fibras cosas que no tenga muchas grasas de la que no son grasas entonces entonces son las saturadas
+Speaker A
+[1:09:29]  procesado que la vida no sea artificial, jugos artificiales.
+Speaker E
+[1:09:39]  También les quiero preguntar, ¿cuáles son los roles dentro del hogar para la compra y preparación de la comida? Por ejemplo, Eduard dijo que su pareja decide qué van a comer, pero en la ejecuta, en la cocina.
+[1:09:52]  Cuéntenme un poco allí, amplíenme un poco esa idea de esos roles que tienen en su hogar para la compra y la preparación de la comida
+Speaker F
+[1:10:08]  casi yo no recuerdo de las de vamos el 98% de la vez es un presupuesto mercado o sea lo decidimos realmente que la selección de los alimentos.
+[1:10:25]  Ahí en ese aspecto regularmente yo trato de irme por el lado un poco más saludable. Ella es más de comer. Prefiere la cosa menos saludable.
+Speaker C
+[1:10:35]  Pero
+Speaker F
+[1:10:36]  en la compra, los dos prácticamente decidimos, yo más que ella, en la compra. Y en la elaboración. Pero ya es la decisión de lo que se va a hacer con lo que yo compré ella que la compré
+Speaker C
+[1:10:53]  ¿Qué dicen las demás personas?
+Speaker B
+[1:10:55]  En mi caso, mi esposa tiene el rol de hacer la lista de compra nosotros el 100% del tiempo vamos al supermercado juntos
+[1:11:07]  exceptuando obviamente algo de relleno, como que nosotros tenemos un supermercado cerca como que ella compra un refresco, eso no necesariamente pero hacer la compra tal cual de la casa vamos los dos juntos el 100% la parte de que se va a
+[1:11:22]  comprar casi siempre es lo mismo pero que falta lo decide ella o lo revisa ella la parte del presupuesto entonces entonces yo lo controlo ahí para que siempre demos entonces bueno como ya casi siempre digamos el 90% del tiempo ella es quien cocina
+[1:11:52]  si me consulta que tú quieres comer o lo que sea pero ella es muy creativa o sea que casi siempre compramos un poco de muchas cosas para tener siempre lo mismo ahí mucha cosa diferente con la misma cosa diferentes versiones entonces no nos aburre en cuanto a la
+Speaker E
+[1:12:12]  presentación de la comunidad es mucha creatividad y las chicas en cómo funciona en este momento sus
+Speaker G
+[1:12:19]  hogares esos roles bueno yo hago la lista pero él se encarga de elegir las carnes porque el de corte de que esta carne está bien, se ve bien él el que sabe
+[1:12:32]  ya tú sabes, yo compro todo lo otro tú te encargas de tu carne, a mí me da frío anda por ahí, nos vemos allí en la fruta, entonces el 60% salimos juntos a hacer la compra
+Speaker A
+[1:12:45]  él administra
+Speaker C
+[1:12:49]  el presupuesto
+Speaker A
+[1:12:51]  entonces en la
+Speaker G
+[1:12:54]  preparación cuando estoy inspirada y tengo tiempo, o sea que el trabajo no me ha estado durmiendo, yo preparo y dejo ahí congelado para poder hacerlo el día siguiente,
+[1:13:10]  o de comida, o de cena. Los platos especiales, usted es inspirada, soy yo que lo hago, pero él, en cuanto a la comida, por ejemplo, que no vamos a llevar diario, aunque yo sepa cocinarla Pero, puedo decirte
+[1:13:29]  50% en la preparación 60% en la ida al supermercado Y el elige la carne
+Speaker A
+[1:13:37]  Bueno, en mi caso es igual El 98% del tiempo vamos juntos al supermercado La lista lo hacemos entre los dos Ya sea porque vamos a salir después del trabajo
+[1:13:49]  Tú te acuerdas de esto, no, no, y de esto O así Y si es sábado, que mayormente hacemos lo que hacemos desde la casa, yo le hago la lista y el vaso lo supera y yo termino de hacer lo que hay en la casa. Y en el tema de la preparación, igual mi esposo es el que más cocina en la casa.
+[1:14:05]  Eso fue un convenio no consensuado. Yo le dije, mira, tú cocina y yo friego. Entonces como a mi esposo no le gusta fregar, ya llegamos a eso.
+[1:14:17]  Hay veces que obviamente si me toca hacer el desayuno, la comida o la cena, eso no es problema yo lo hago pero mayormente les que lo hace igual las carnes el equipo en elige las carnes porque yo no tengo para eso a veces yo con un pollo y me
+[1:14:28]  dice no me de ese apoyo está así así por ello y yo no es yo y yo y yo me parece que yo también que mi amor ese apoyo está casi daño
+Speaker D
+[1:14:41]  todo lo contrario, yo no cocino, el es que cocina, el elige todo el supermercado, vamos siempre juntos, pero el es que elige todo yo como en la línea de detergente, ahí que yo esto, pero después todo, y el presupuesto lo manejo yo porque si es por el, comer todo lo caro, todo lo caro
+[1:15:06]  pero yo no cocino, el hace desayuno, comida y cena, digo si esta ahí hace la comida, pero la cena y Yom? No, no es que lo hace.
+Speaker E
+[1:15:15]  Perfecto. Y tú te encargas del presupuesto.
+Speaker A
+[1:15:16]  Exacto.
+Speaker E
+[1:15:17]  Ok.
+Speaker B
+[1:15:19]  Señor Don Juan.
+Speaker C
+[1:15:21]  Y les pregunto también, ¿verdad?
+Speaker E
+[1:15:23]  ¿Ustedes suelen hacer esa compra de manera presencial o utilizan también la parte online?
+Speaker A
+[1:15:30]  Presencial. Presencial. Nos gusta más ver por ejemplo lo vegetal, las cosas.
+Speaker F
+[1:15:36]  Yo he utilizado algunas veces el servicio de delivery, pero es solamente para comprar el atajado y cosas selladas. A mí el tema de carnes y vegetales, ese tipo de cosas, yo lo elijo yo.
+[1:15:54]  Me gusta ir al supermercado porque también yo me fijo mucho en la fecha de vencimiento de los productos.
+Speaker A
+[1:15:58]  Sí, lo sé.
+Speaker F
+[1:15:59]  Entonces, pero cuando son cosas así enlatadas que no se, no hay forma yo lo he pedido por por del iberia la mayoría
+Speaker B
+[1:16:12]  en mi caso yo no solamente enlatado yo he hecho compra completa o sea delivery pero la parte que
+[1:16:25]  no me gusta no me convence por ejemplo eso las cosas que no son, que uno usualmente selecciona,
+Speaker E
+[1:16:32]  carne, por ejemplo, una vez compré un bacalao medio más chiquito, pero me cobraron el mismo
+Speaker B
+[1:16:37]  precio que si hubiese sido uno grande, cosas como esa, entonces como que uno prefiere ir y uno seleccionarlo uno a tiempo. O sea, de las pocas experiencias que he tenido en ese sentido, eso ha sido la desventaja, ya si fuera todo igual, o sea, le ha latado,
+[1:16:55]  o cosas que fueran estándar, si le hiciera todo el tiempo online.
+Speaker E
+[1:16:59]  Les voy a preguntar, salud física, ¿cómo ustedes cuidan su salud física?
+Speaker F
+[1:17:08]  Bueno, tratando de... muchas veces trata de elegir alimento un poquito de una calidad que sea más o menos buena y por lo menos yo, porque mi pareja no lo hace, yo regularmente dos o tres veces a la semana voy al mirador a caminar
+Other speaker
+[1:17:27]  o a correr con
+Speaker E
+[1:17:29]  amigos y cosas así
+Speaker F
+[1:17:31]  y prácticamente así
+Other speaker
+[1:17:35]  es lo único
+Speaker E
+[1:17:36]  ¿Qué dicen las demás personas?
+Speaker B
+[1:17:40]  Bueno, antes hacía un poco de ejercicio eso ha reducido bastante lo que hacemos de vez en cuando, ya no es que era tanto es que nos ponemos a caminar, subí al mirador también a caminar, casualmente con mi esposa, entonces caminábamos
+[1:17:55]  un largo rato a modo de hacer ejercicio, pero en el enfoque ahora mismo es más a nivel de la alimentación, tratamos de usar mínimo aceite, casi no se usa, tratar de comer muchos
+[1:18:14]  vegetales, cosas naturales, proteínas, vegetales y obviamente si llegamos a carboidratos, pero compramos muchos vegetales y para asuntos como Coca Cola y ese tipo de cosas, hacemos un poco naturales y cosas así, o sea, todo lo que no sea asuntos procesados. Eso es más el
+[1:18:31]  enfoque por el momento, pero un asunto de tiempo.
+Speaker G
+[1:18:34]  Las chicas. Bueno, de nuestra parte, familia. Mi esposo va al gimnasio, yo camino diario menos los domingos hago pilates tenemos una tratamos de tener una buena
+[1:18:54]  alimentación tratamos de alimentarnos lo senderismo los sábados pero como
+[1:19:16]  han dicho los chicos principalmente es la alimentación que ya hay se la base y el ejercicio
+Speaker A
+[1:19:25]  para hacerlo menos sedentario posible. Bueno en mi caso igual antes íbamos al gimnasio por un tema de tiempo se nos hace un poquito más difícil lo que hacemos ahora mismo que le estamos bajando por ejemplo el tema del pan
+[1:19:42]  que en mi casa somos adictos al pan entonces le bajamos le bajamos al azúcar y cosas así como el tema ya para para rebajar y por ejemplo los domingos me puso juega básquet y eso yo trato de ir a ver y ese es mi ejercicio.
+[1:20:02]  Y pasarle el agua, no pasándole el agua, yo estoy ejercitando.
+Speaker E
+[1:20:11]  Claro.
+Speaker D
+[1:20:12]  Poniendo saludable. A las 8 para cenar.
+Speaker A
+[1:20:16]  Sí, nosotros igual, me casa a cenar más a las 7.
+Speaker E
+[1:20:20]  Hoy vas a cenar después de las 8.
+Speaker A
+[1:20:21]  Exacto, hoy sí. Pero no irlo a hacer cena, le está dando a la mamá.
+Speaker C
+[1:20:26]  Perfecto.
+Speaker E
+[1:20:27]  Te pregunto también, ¿has tenido que enfrentar riesgos relacionados con enfermedades?
+Speaker D
+[1:20:34]  En mi caso sí.
+Speaker B
+[1:20:36]  ¿Entre la familia actual?
+Speaker D
+[1:20:38]  Sí, en mi caso actual él conmigo porque yo sufro de diabetes y prevención. Y el tema de las pérdidas, él conmigo.
+Speaker B
+[1:20:53]  ¿Ustedes han tenido enfermedades? ¿Algo grave o algo como decir? Gripe. ¿Enfermedades rutinas? de alguna enfermedad de rutina. ¿Alguno tan leve?
+Speaker E
+[1:21:05]  O si no ha habido alguno tan leve, ustedes dicen
+Speaker D
+[1:21:08]  nos ha pasado solamente esto.
+Speaker A
+[1:21:11]  Bueno, en mi caso,
+Speaker B
+[1:21:14]  este año me dio bronquitis, el año pasado tuve dengue. No, no, pero fue el clasico, pero nunca me estaba muriendo de nada y me puse a probar alergias, a ver si se le desata alguna, ella tiene un número de alergias un poquito, una lista larga, entonces, pero no es nada como grave, sino cosas del momento.
+Speaker E
+[1:21:47]  ¿Allí se colaboran ambos o cómo hacen esa dinámica cuando pasa eso?
+Speaker B
+[1:21:52]  si soy yo el enfermo ella me atiende si no al revés ella la atiende por ejemplo hace como 3 o 4 semanas a ella le dio un dolor de espalda ella tiene una esclerosis pero algo simple
+[1:22:05]  como una ambiación que nació con eso y entonces cargó algo y duró casi una semana como con el dolor de espalda entonces había que darle su masaje había que ayudar a que no carigara nada pesado, etc, etc, entonces yo tenía que encargarme.
+[1:22:21]  Cuando al revés, ella se encargaba de mí, que me tiene como que yo soy un bebé.
+Speaker A
+[1:22:26]  Eso no sale, eso sale natural.
+Speaker B
+[1:22:30]  Pero no era como que no tomo...
+Speaker A
+[1:22:34]  Eso sale natural, no es así.
+Speaker B
+[1:22:36]  No me hace gritos, que suave. No, no, que sabes, pero me dio bronquitis, ya tú sabes cómo me puse, yo no podía mojarme, nada. Entonces duré una semana guardado en mi casa, que cualquier cosa ya tenía que salir a buscarlo, había que darse más té, había que darme medicamentos a cierta hora específico, cuidarme de la lluvia, en medio de una semana lluviosa, por cierto, entonces yo no podía ni siquiera abrir una ventana bien. después del COVID yo tuve
+Speaker A
+[1:23:11]  insuficiencia renova
+Speaker G
+[1:23:14]  que me salió temprano ya que mi mamá biológica le salió hace como un año entonces eso fue ya como una vida tan activa
+[1:23:26]  yo soy demasiado activa pero soy muy activa hago mucho deporte pero después que me salió eso tengo que usar medidas de compresión ya definitivo
+[1:23:40]  eso ha traído un poquito de problemas así como tu esposa pero yo no tengo escoliosis yo nací con el síndrome de Bertolotti entonces después de 15 años me volvió a dar una crisis que no podía
+[1:23:52]  nada y pararme de la cama entonces ya uno sabe le ha tocado cuidarme de vez en cuando pero ya con las terapias y ahora con otras clases de pilates estoy mejor.
+Speaker A
+[1:24:03]  En cuanto a él, solo lo que le da aquí a sinusitis, tuvieron que hacerle una operación
+Speaker G
+[1:24:11]  grandísima, le operaron cuatro cosas y como siempre, cuidarlos cuando le da una gripecita.
+Speaker B
+[1:24:17]  Especialmente la gripe.
+Speaker G
+[1:24:18]  Sí, pero así más fuerte, así son los míos porque yo no puedo estar tranquila. Yo si tú duraste dos minutos para coger el botell lo cojo yo lo llevo pero muchas cosas han estado atrofiando pero ya por eso que me hice lo mejor pero ya tengo una condición que ha bajado mi
+Speaker E
+[1:24:41]  rendimiento como 70% ya después de esto doy las demás personas agregarían algo allí o es similar a lo que han ido comentando igual yo no lo he tenido claro que hacen en su hogar para prevenir enfermedades
+Speaker A
+[1:24:56]  Bueno, en mi casa, desde que entramos a la casa, que llegamos de la calle, no lavamos las manos inmediatamente. O sea, eso es algo, no sé si es, por lo menos conmigo, yo se lo he inculcado a él, por el psicosis mío.
+[1:25:12]  Yo desde que llego a mi casa, que se lo he lavado, pues le tengo que lavarme las manos. No importa si yo salí del trabajo directo a mi casa, o sea, tengo que lavarina las mesetas libres porque a mí me pasó algo que yo
+[1:25:31]  hace como dos meses me dio un fuerte dolor de estómago y todo estaba yendo al baño y estaba haciendo en vez de el 2 y era porque cuando hicieron el análisis parece que una mosca se había posado en mi comida y había defecado en la comida
+[1:25:48]  entonces la doctora no me dijo que eso puede ser o porque no se limpian bien las mesetas y tú rastras la mano o el cucharón cuando estás cocinando lo pones encima de la meseta o cuando la comida tú la acabas de servir y la dejas abierta y no le pones algo encima para que las moscas no pasen o algo.
+[1:26:20]  no dejar los trates en la noche para no llamar insectos ni nada de eso, lavar no mucho las manos y cosas así.
+Speaker F
+[1:26:24]  En caso de limpieza constante y buena alimentación ha funcionado.
+Speaker G
+[1:26:34]  Buena alimentación y así como tú dijiste, suplementos indicados por los médicos que
+Speaker C
+[1:26:40]  no haga falta y lo que tú dijiste es muchísimo.
+Speaker B
+[1:26:46]  La pregunta fue como para evitar enfermedades. Para prevener. para evitar enfermedades quizás lo más marcado son más reactivos sería como fuera del asunto de la alimentación ya
+[1:27:03]  mencionado como a veces preparar tés o cualquier otro para prevenir algo especialmente lo de la gripe que lo más común es como que preparar algún tipo de remedio preventivo
+[1:27:19]  tenemos también de todo en casa o tratamos por eso es parte más reactiva como medicamento una especie como de pequeño botiquín para el asunto de ese por ejemplo de los músculos tenemos un vuelto y cosas así
+[1:27:36]  que sirven para eso entonces cualquier cosa uno que lo maneja inmediatamente
+Other speaker
+[1:27:43]  ¿De Maris?
+Speaker D
+[1:27:44]  Igual, tenemos un botiquín que es para el estómago, él no se enferma
+Speaker E
+[1:27:50]  Mi gripe, ¿verdad?
+Other speaker
+[1:27:51]  No, ahora, ¿por qué?
+Speaker C
+[1:27:53]  Debe de salir, pero no Yo digo al que ya no se salió
+Speaker D
+[1:27:57]  No, porque de verdad él no se enferma Yo me meto de forma en la casa también Pero la limpieza es la base Y tengo el botiquín ahí por si acaso, que lo uso yo más que él.
+Speaker G
+[1:28:08]  Y consumir menos en la calle.
+Speaker D
+[1:28:11]  Ah, eso sí. Me encanta eso, consumir en la calle.
+Speaker G
+[1:28:15]  Hay un día que te da un buen sacatado.
+Speaker C
+[1:28:19]  Perfecto.
+Speaker E
+[1:28:21]  También le quiero preguntar, ¿qué opinan sobre el sistema de salud pública?
+Speaker B
+[1:28:27]  ¿La verdad o algo cual salida aquí?
+Speaker D
+[1:28:33]  Fuera de base.
+Speaker B
+[1:28:40]  ¿Qué opinan? ¿Tema de salud pública? Pública, pública.
+Speaker D
+[1:28:42]  Pero en el tema del hospital, la atención... Tomen en cuenta todos esos factores que me quieran mencionar. Bueno, yo lo uso porque no te puedo juzgar lo que yo uso. Bueno, lo uso en los hospitales, pero lo que escucho es fatal.
+Speaker F
+[1:28:58]  Exacto. Yo no lo uso, pero...
+Other speaker
+[1:29:07]  Lo conozco. Sí. Yo no lo uso, pero lo que se escucha es que es un poco tedioso, terrible. Y turbio.
+Speaker G
+[1:29:15]  Yo en realidad, yo tuve que ir a un hospital para buscar una segunda opinión y había una buena especialista de la columna vertebral en un hospital público.
+Speaker D
+[1:29:19]  Sí, ¿de qué estudio están ellos?
+Speaker G
+[1:29:20]  Y yo dije, no, yo voy bien desayunada, mira. Yo me desayuné bien porque yo sabía que yo duraba mi día completo pero no, me encontré con alguien ahí, que médico, amigo mío y entré de una vez, a mí me dio una vergüenza
+Speaker A
+[1:29:33]  porque había tanta gente de la madrugada ahí esperando y yo me puse adelante, yo no voy a ir, yo no voy a ir yo tenía una vergüenza grandísima
+Speaker G
+[1:29:42]  pero también, obvio, uno como que dice
+Speaker B
+[1:29:44]  déjame yo ir, pero yo salí de una vez
+Speaker G
+[1:29:46]  porque tenía ya mucho tiempo yo llegué como a las 5 y algo y el tal como que llegó
+Speaker A
+[1:29:58]  si hay gente que van preparados para salir en la noche
+Speaker B
+[1:30:08]  de manera virtual yo no lo uso pero por familiares y amigos tienen que visitarlo y verlo especialmente para mi papá tuvo una experiencia que si tuvimos con una segunda opinión y precisamente fue un
+[1:30:23]  hospital porque había un especialista y tuvimos que ir a un hospital bueno a varios de hecho y o sea es un desorden yo no sé ni que hemos empezado porque nada funciona incluso el mismo asunto hasta de las
+[1:30:41]  oficinas de los doctores es como un desastre en una de las ocasiones nos tocó entrar a una oficina y parecía que era como un almacén como el que imagínate cuando alguien construye en el patio de su casa como este cuartico de madera que te empieza a tirar todo ahí porque la
+[1:31:03]  parte de atrás de donde estaba el doctor donde estaba el escritorios recortando algunos
+[1:31:19]  por unas personas que conozco que hay un poco más de organización pero como que a nivel de organización sino modernización de la infraestructura.
+[1:31:36]  Pero el desastre a nivel de la organización como que permanece. La esencia no se va. Entonces sí hay problemas con eso.
+Speaker E
+[1:31:45]  Ok. Quiero también preguntar. ¿Qué opinan del papel del gobierno en su bienestar?
+Speaker G
+[1:31:55]  ¿En nuestro bienestar físico, en la parte de salud o nuestro bienestar en general?
+Speaker E
+[1:32:03]  ¿Salud y bienestar?
+Speaker G
+[1:32:06]  ¿Que yo trabajo en el gobierno?
+Speaker C
+[1:32:07]  Muy mal trabajo.
+Speaker B
+[1:32:09]  Muy mal trabajo yo no trabajo en el gobierno pero una cosa es lo que debería ser y otra cosa entre lo que debería ser y lo que es hay un buen trecho realmente
+[1:32:21]  una cosa no va necesariamente no se corresponde bueno, se puede hacer algo porque lo de mejorar que le queda chiquito y que se puede mejorar yo también digo no, mal bueno para empezar los servidores públicos el ministro de salud
+[1:32:44]  de salud Son cosas así en el Mineral General que se supone que deberían estar a un nivel donde
+[1:33:02]  el presidente mismo usara los servicios disponibles dentro del país. O sea, me refiero a cosas que quizás no fueran obligatorias, porque hay servicios que todo el mundo tiene que usar porque es la única opción, de alguna manera.
+[1:33:16]  Entonces, hay demasiado que hacer en esa parte.
+Speaker F
+[1:33:19]  Los horarios son un poco extraños
+Speaker C
+[1:33:22]  y el mismo es un dato de información
+Speaker A
+[1:33:26]  si también el tema por ejemplo de bueno no se si es algo de cultura o algo que es de los doctores que le nace que te dice tu pregunta el doctor a que hora llega, llega a las 8 ok
+[1:33:40]  tu estas a las 7 de la mañana porque tu tienes una cita a las 8 pero no es por cita es por turno de llegar entonces tu llegas a las 6 y media o a las siete pero el doctor llega a la diez no era que era las ocho no es que a la diez que llega
+[1:33:52]  realmente se le presentó algo siempre se le presenta algo llega a la diez no pero ok ya llegó el doctor pero él va a comenzar a atender a partir de la diez y media porque él tenía un paciente que estaban del día anterior que se quedaron
+Speaker B
+[1:34:05]  lo dijeron a las diez y media pero empieza realmente a las once y media
+Speaker A
+[1:34:09]  o sea es algo realmente un poco desesperante porque tú llegas a una hora y obviamente esta vez no me atienden a las 8 pero si tú me dijiste que me hiciste a las 8 no me diga y le
+[1:34:24]  pusiste a las 5 gente más a las 8 también atienda a las 5 personas y a mi a las 6 en ese tiempo no digo por orden de llegada donde hay gente que llegan a las 8 también igual que yo entonces es un poco tedioso
+[1:34:43]  y también el tema de la higiene más en emergencia yo tengo yo entiendo que es un tema por la persona
+Speaker D
+[1:34:51]  que va bien y que emergencia mayormente siempre un caos enteraron de esa pared estaba más sucia que la de la
+Speaker B
+[1:35:09]  clínica. Sí, pero ahí, eso es algo controlable, porque si algunas clínicas ceden que parecieran quizás hospitales, también la realidad es que hay muchas clínicas que a pesar del flujo
+[1:35:21]  que tienen, es una clínica que tiene mucho flujo de personas, o sea, mantienen todas sus áreas limpias y en orden, entonces no es un asunto de si se puede o no, es un asunto de si quiero o no quiero
+Speaker E
+[1:35:32]  Me quiero preguntar también, ¿cómo ustedes cuidan la salud mental de sus padres o de su familia? ¿Cómo ustedes cuidan la salud mental?
+Speaker B
+[1:35:41]  Aparte de haciéndome loco, ¿eh?
+Speaker A
+[1:35:43]  Exacto, de aquella heroína
+Speaker G
+[1:35:45]  ¿Cómo haciéndome loco?
+Speaker C
+[1:35:47]  Haciendo el hombre loco, como eso Ignorar muchas cosas
+Speaker D
+[1:35:51]  Ignorar muchas cosas, dejarla que pase Así, ¡shup! No choquen allá. Como tú dijiste, soltando. Exacto. Soltando,
+Speaker G
+[1:35:59]  porque dime tú. Soltando, yendo al psicólogo, caminando, meditando. No, en mi caso, por
+Speaker B
+[1:36:06]  ejemplo, yo algo que tengo es que soy muy resiliente a las adversidades, o sea, me trato de enfocarme mucho en cómo buscar una solución cuando hay algún tipo de adversidad, en si son factores controlables o no controlables,
+[1:36:24]  porque lo que no se puede controlar, entonces no me voy a enfocar en eso. Entonces, en vez de concentrarme en el problema, por ejemplo, si surge una deuda, pues digamos por qué, ¿no? O sea, un poco en, no en que, ¡ay, tengo dinero que tengo que buscar!
+[1:36:38]  O lo que sea, sino en, ok, ¿cómo vamos a solucionar eso? ¿De dónde vamos a conseguir dinero? Y tratar de, como que crear un plan para buscar una solución y también algo que me funciona es mucho pedir consejos y hablarlo
+[1:36:51]  con gente que me edito quién me puede dar o sea quién es la persona idónea para yo hablar de tal tema y obviamente que vaya a mantener quizá un poco de calidad para poder entonces tener no
+[1:37:05]  solamente esa descarga sino también ese consejo y esa recomendación de solucionó entonces no funciona eso y eso ayuda
+[1:37:17]  puesto no ha llegado un problema sólo se siente acompañado entonces
+Speaker A
+[1:37:23]  eso no te atrofia mentalmente bueno en mi caso nosotros con la biblia que se me quise pero si eso me ayudó bastante bastante la cercanía con Dios a nuestra salud mental de ambos. También
+[1:37:39]  el tema de que gracias a eso, nosotros en particular, también hemos, con el tiempo, hemos ido desarrollando una buena comunicación y no cargando solamente con los problemas, sino si yo tengo un problema hasta del trabajo que necesite desahogarme, sé que tengo la
+[1:37:55]  confianza con mi esposo de decírselo sin ningún tema a sentirme juzgada o cualquier cosa, sino que tratamos en la medida de, si tenemos que dar una opinión,
+[1:38:09]  darla con respeto y siendo de una forma objetiva. También nosotros procedemos a buscar consejos igual de personas que sepamos que sí nos van a dar un buen consejo.
+[1:38:23]  Obviamente uno coge y deja, porque también hay discusiones como decía exactamente que uno dice yo no voy a armar un show porque me dejó la toalla en la cama.
+[1:38:35]  Yo voy, la recojo y la pongo y ya. O sea, tú sabes como también dónde sí y dónde no.
+Speaker E
+[1:38:44]  También les quiero preguntar, ¿cuáles son las principales fuentes de estrés en su hogar?
+Speaker B
+[1:38:49]  ¿Su hogar actual?
+Speaker D
+[1:38:51]  La desorganización.
+Speaker C
+[1:38:55]  Ay, mi mamá.
+Speaker B
+[1:39:12]  Eso es igual. Bueno, yo creo que quizá el punto de vista económico, porque lo menos creo que es el caso de la mayoría, uno está en una etapa donde uno quiere hacer muchas cosas, uno desarrolla muchas cosas, pero tiene que medir cuándo y el cómo, porque uno no tiene recursos infinitos, entonces a veces uno quiere adelantar
+[1:39:28]  o tiene o se ve obligado a retrasar ciertos planes, entonces desde ese punto de vista lo económico influye mucho y a veces causa estrés, especialmente cuando quizás surge un momento donde no estamos en las mismas páginas en el sentido de, concha, lo creo,
+[1:39:43]  y dijimos que íbamos a hacer esto en este momento, ah no, pero mira, no se puede, en este momento tenemos que moverlo para este otro momento, porque no todo, hay cosas que se resuelven con mil y ciento pesos, pero hay otras cosas que se resuelven muy yo, entonces, va a depender del momento,
+[1:39:58]  lo de mil y ciento pesos se resuelve fácil, pero ese tipo de cosas.
+Speaker E
+[1:40:03]  Lo demás.
+Speaker F
+[1:40:04]  Generalmente la incertidumbre del futuro, de cosas que puedan pasar, que quizás no pasen, o de cosas que uno no quiere que pasen que pueden pasar muchas veces desde el punto de vista
+Speaker B
+[1:40:18]  pues económico, de salud, no saber más como la incertidumbre de no saber qué pasará
+Speaker F
+[1:40:27]  eso es algo en nuestro caso que es una fuente de estrés o la mayor fuente de estrés viene de ahí
+Speaker E
+[1:40:37]  ¿Y las chinas?
+Speaker A
+[1:40:39]  Me parece que es igual el tema de que a veces uno quiere ser bueno y más uno que está casado y uno quiere hacer tantas cosas con su pareja por a veces lo que lo que se puede en el momento y una fuente de estrés
+[1:40:54]  así así bueno los sábados yo dije había dicho que los tomamos para hacer los que es lo que se ve de la casa a profundidad limpieza y todos entonces a veces hay tantas cosas que hacer que no sabemos a veces cómo organizar. No, tú haz esto, no, pero tú haz esto.
+[1:41:10]  Entonces, como que tratamos de hacerlo, pero con ese, porque tenemos una cita en la noche con alguien o tenemos que, una responsabilidad o algo. Entonces, tenemos el tiempo un poco limitado y eso.
+[1:41:24]  Eso sería una fuente de estrés.
+Speaker G
+[1:41:28]  Bueno, la fuente de estrés sería como que la falta de tiempo en cuanto a nosotros porque trabajamos mucho después del trabajo de 8 a 4 o de 7 a 7
+[1:41:46]  casi 12 horas tenemos otras cosas extras otro ingreso extra que también nos tiene un poquito presionado a veces no tenemos tiempo de bueno a veces uno cree que le dijo algo mira te comuniqué esto, tú no me dijiste nada
+[1:42:03]  esos son como el el detonante del estrés y en realidad es un problema grande a veces cuando él no está aquí porque se la pasa mucho viajando
+[1:42:17]  al exterior, soy yo que tengo la carga al triple, entonces a veces él se va, no comunica que creo que tú llegas que tú te venías en taxi porque no me dijiste nada entonces es como más el tiempo, no la comunicación, sino como el tiempo de ponernos de acuerdo
+[1:42:33]  porque tenemos que atender tantas cosas y el caso es que no pueden ver la cara
+Speaker E
+[1:42:39]  entonces al final les voy a colocar otra diapositiva ok, y aquí, para que cambie, yo quiero que ustedes con cuál de esas imágenes se sienten identificados ok, vean allí las imágenes
+[1:42:59]  con el 4 del 32 vamos a empezar entonces ahí con el 4 vamos a empezar entonces con el 4 Edward, el 4 Edward, allí, me dices el 4
+[1:43:19]  te sentiste identificado allí cuéntame ustedes me hablaron un poco de los roles, pero quizá no me mencionaron en su momento que hace en este caso
+[1:43:30]  tu pareja y que haces tú también. O sea, digamos, ¿cómo se lo diría? Aunque tú hablaste un poco de que lo podían hacer los dos por igual, pero si ya hay, digamos, algo más definido, por ejemplo, el tema de que tú cocinas,
+[1:43:44]  ella decide la comida, pero tú la cocinas, por ejemplo, eso tú lo mencionas. Cuéntame, ¿y otros roles que tú tengas? Tú dices, bueno, yo hago esto, ella hace esto.
+Speaker F
+[1:43:54]  Bueno, regularmente, regularmente.además de cocinar por ejemplo yo lavo el baño ella limpia la casa
+Speaker A
+[1:44:15]  qué más qué más nosotros de limpiar y cocinar y dormir
+Speaker C
+[1:44:34]  si está lleno ya cualquiera que lo ve mente la propiedad mucho mucho esfuerzo eso pero si los roles de limpieza son más de ella y ya temas que tengan que ver con la cocina y son más míos
+Speaker F
+[1:44:50]  regularmente suele comprar la mente suelen dividir los roles si es para arreglar la cama y yo siempre arreglo la cama nunca nunca yo nunca arreglo la cama pero un ejemplo ella deja le gusta dejar vaso en la habitación yo siempre tengo que recoger los vasos
+[1:45:12]  de la habitación entonces son ya cosas muy específicas pero todo lo que cocina regularmente yo. Ok, perfecto.
+Speaker E
+[1:45:23]  La demás, ¿cuál sería la imagen? Y también un poco para que me expliquen allí los roles que tiene su pareja y los roles que hacen ustedes.
+Speaker B
+[1:45:29]  ¿La número dos cuál es?
+Speaker A
+[1:45:31]  ¿Qué es lo que está haciendo?
+Speaker D
+[1:45:33]  ¡Fregando!
+Speaker G
+[1:45:35]  Porque te va fregando también.
+Speaker B
+[1:45:37]  Ella está poniendo agua en la olla.
+Speaker A
+[1:45:40]  Bueno, si la dos es fregando, igual que las cinco, las dos están fregando, yo me identifico con esas dos si hay que están fregando porque mayormente yo soy la que frío en mi casa igual me puso el que mayormente cocina yo puedo hacer
+[1:45:57]  desayuno cena comida a veces pero mayormente sé que cocina yo soy la que friego y los quehaceres de la casa yo lavo los baños si tengo que limpiar la habitación y eso yo la limpio pero él ya se encarga de como dije ahorita las diligencias como que hay que
+[1:46:15]  salir mucho por ejemplo se quedan a los botellones lo hace el barrio trapear eso es su negocio eso es una negociación que no tenemos no yo trapear eso lo hace yo prefiero lavar un baño 500 veces
+[1:46:33]  brega con mi agua pero yo le que la cocina si sobre todo, tú algunas cosas, ¿no? Exactamente, mayormente en la cocina, él es el que cocina y todo eso, y si hay que limpiar, por ejemplo, en la nevera y eso, él sí lo hace,
+[1:46:49]  pero ya después el tema de limpiar las mesetas, y fregar, eso yo, y con el tema del lavado, si yo pongo la ropa, él la atiende, o si él pone la ropa, yo lo atiendo, así que, le hay que tener menos desocupado.
+Speaker C
+[1:47:03]  ¿En conjunto? Sí, en conjunto.
+Other speaker
+[1:47:05]  Ok.
+Speaker G
+[1:47:05]  Dí que lo hago tú.
+Speaker C
+[1:47:07]  Perfecto.
+Other speaker
+[1:47:07]  ¿Lamar es en tu caso?
+Speaker A
+[1:47:08]  Ah, no, en mi caso es el doble acorde. ¿Es el doble acorde?
+Speaker G
+[1:47:11]  Pero ¿cuál imagen?
+Speaker D
+[1:47:12]  El 2 y el 5 y el 3 y el 4 y el 6.
+Speaker C
+[1:47:18]  Entonces, él lo cocina.
+Speaker D
+[1:47:20]  Eso era antes que él fregaba, que él lavaba con cocina. Pero hoy por el tiempo.
+Speaker E
+[1:47:30]  Él cocina y tú haces todo lo demás.
+Other speaker
+[1:47:33]  En este caso, ¿qué sería?
+Speaker E
+[1:47:34]  Todas las demás actividades que te encargas tú. Él mueve el hamper.
+Speaker B
+[1:47:40]  No hace nada.
+Speaker D
+[1:47:42]  Sí, porque le dice que lava porque mueve el hamper.
+Speaker E
+[1:47:49]  ¿Y en este caso? ¿Cómo se crean esos roles?
+Speaker G
+[1:47:51]  Me identifico con el 6. Yo en realidad hago todo lo que está ahí, pero yo a él le prohibí limpiar.tal vez él puede barrer pero lo que pasa es que después de que no duerme soy yo cuando me vea con detergente entonces él pone también
+[1:48:12]  ropa lavar y eso pero no tiene contacto como súper directo con los detergentes porque el moquillo la rompida tendré una mala noche entonces yo me encargo de la limpieza y cuando tiene que cocinar, cocina, el 95% freta y lavamos los dos, procuramos
+Speaker A
+[1:48:34]  que él siempre empeche y doble toda la ropa porque no me gusta esa parte, me da de entera
+Speaker G
+[1:48:40]  cuando sale eso caliente, entonces así es que nosotros nos dividimos, pero eso de la ropa, un mal día que yo busco una ayuda porque yo siempre quiero limpiar profundo, aunque termine molita.
+Speaker B
+[1:48:58]  Siempre echa agua. Bueno, en mi caso a nivel quizá de limpieza como tal, no sabe que lleva la mayor carga. ¿Y cuál imaginas? Por serios. Vamos a darle la 2 porque tengo que darle el punto a ella, realmente, en eso.
+[1:49:14]  Porque yo hago cosas, puedo decir quizá la 4, porque yo coc cocino como mencioné, de todo, pero a nivel quizá de quien pasa más tiempo haciendo limpieza ella lo hace yo me adapto
+[1:49:29]  hay cosas específicas que yo hago voy a pasar a explicarlas, pero casi siempre quizá yo me adapto a lo que ella necesite en el momento, hay momentos que ella necesita que yo sea el que friegue, yo friego
+[1:49:41]  hay momentos que ella necesita que yo cocine y friegue yo hago eso, o sí hago de manera específica entonces incluso si ella osa barrer el patio
+[1:50:00]  como quiera ya sea también
+[1:50:13]  cualquier asunto
+Speaker D
+[1:50:15]  pesado que haya que mover para
+Speaker B
+[1:50:17]  barrer, eso lo hago yo no importa lo que sea ella nunca ha hecho eso ni lo va a hacer probablemente en su vida eso lo hago yo y no sé, como que
+[1:50:30]  bueno, todo eso de los botellones y asunto de la casa en general, estamos en limpieza pero cualquier asunto complicado ya sea de hay que pagar en el sentido de que el trabajo de que pagaba hay que buscar los botellones
+[1:50:41]  o hay que hacer la compra sólo tengo maneja yo si alguna manera pudiera ser considerado como tareas del hogar o sea yo sé que tengo que estar pendiente de todo eso
+[1:51:08]  aunque sea ella que esté limpiando la cocina y barro por ahí que quisieran ¿Quisieran cambiar algo de esa dinámica?
+Other speaker
+[1:51:25]  De eso que ustedes me están mencionando
+Speaker E
+[1:51:27]  De esos flores que hay ahora mismo en sus hogares ¿Quisieran cambiar algo? Damaris me está viendo
+Other speaker
+[1:51:33]  Claro, porque es lógico ¿No es lógico?
+Speaker C
+[1:51:37]  Claro
+Speaker D
+[1:51:39]  ¿Quieres lavar?
+Speaker E
+[1:51:41]  ¿Quieres lavar?
+Speaker D
+[1:51:43]  Está bien, Juan Reloj de fregues
+Speaker F
+[1:51:47]  Yo me siento bien, realmente, ¿no?
+Speaker G
+[1:51:50]  Yo quiero un lavaplata
+Speaker B
+[1:51:53]  Bueno, lo único que yo quisiera cambiar, eso va a suceder, tenés a quien limpies. La persona fija, sí. Sí, para producirle carga más a ella por el momento y obviamente indirectamente a mí también.
+Speaker G
+[1:52:07]  Sí, es que también con su condición, ya necesito una persona que la ayude. Como yo, pero yo me desespero. Esa es la persona que va, no, pero mira, no atrofia un poquito más
+Speaker E
+[1:52:25]  lo que más harían algo diferente
+Speaker A
+[1:52:29]  igual el tema de la por lo menos que vaya una persona una vez a la semana estaría bien pero por el momento no
+Speaker B
+[1:52:38]  la cual no me consigue no, si me gusta no me consigue a mi esposa no que haya nadie que consiga, solo que haya alguien que consiga solo alguien que limpie
+Speaker G
+[1:52:46]  les pregunto también
+Speaker A
+[1:52:50]  de hecho en razón ustedes me dijeron
+Speaker D
+[1:52:52]  algunas personas tienen allí en un futuro
+Speaker E
+[1:52:54]  tener sus hijos verdad? como ustedes los educarían con respecto a estos roles a estos roles de género
+Speaker G
+[1:53:04]  como ustedes lo harían
+Speaker B
+[1:53:06]  si cuando ustedes tengan sus hijos
+Speaker E
+[1:53:08]  que de verdad la mayoría tiene digamos aspiraciones de hacerlo en algún momento, ¿cómo ustedes educarían a sus hijos con respecto a esos roles de género?
+Speaker D
+[1:53:19]  Bueno, en mi caso yo, porque no pasó conmigo, porque es que a mí desde chiquita me ñuñaron demasiado. O sea, yo aprendí a hacer cuando me casé. Yo voy a ir mamando, siento, por lógica, pero, o sea, porque yo no cocino porque no quiero, tampoco porque no quiero.
+[1:53:36]  Pero no sé cocinar.
+Speaker B
+[1:53:38]  O sea, yo me alegro a él.
+Speaker D
+[1:53:40]  De que yo a querer aprender a cocinar, yo aprendo. Porque yo me pondría en un curso de cocina, en un YouTube, pero no me interesa. Y tú llegaste, ¿y qué cocina? Amén. Pero yo a veces le digo a mami que yo me arrepiento de la forma que ella me crió.
+[1:53:55]  Dándomelo todo. Yo no hacía nada en la casa. Mi habitación, recuerdo mi habitación. Pero de que ponerme a cocinar, limpiar y eso. Entonces yo digo, cuando tenga mis hijos, sí yo lo voy a enseñar a que sepan, aunque sea el papá que lo enseñe
+[1:54:10]  a cocinar, pero que sean independientes y que los roles se dividan entre dos.
+Speaker G
+[1:54:18]  Sí, mismo que tengan de mi parte eso mismo y que criarlos independientes, así como mi esposo, él de chiquito hacía todo, aunque ellos sean cinco hermanos, todo ella tenía que hacerlo.
+[1:54:30]  Y si no, le pegaba su cocotazo. ellos eran cinco hermanos todo ya tenía que ser un poco tazo pero después que tuvo que venir aquí a la capital viví solo y después vivió con otras personas tuvieron que ser todos en realidad se hace en la casa yo quisiera que tuvieran
+[1:54:46]  yo lo tuve también porque me obligaron a hacer todo tuve que aprender a la madre
+Speaker A
+[1:54:51]  pero si así sería igual enseñarlos desde pequeñitos Más con los varones Que mayormente es un tabú
+[1:55:04]  Por decirlo así No, el hombre se encarga de traer el dinero a la casa Y ya, no Sino que también aporte al hogar En el tema de los quehaceres de la casa No porque Ah, sí para que te ayudes a tu esposa
+[1:55:19]  Pero también para cuando te veas En un... viviendo solo En la necesidad sepas hacer tus cosas sepas tú cocinar te sepas tú lavar tu ropa y sepa igual que las si tengo una niña igual sepa tú hacer tus cosas los chicos
+Speaker F
+[1:55:40]  en caso de niños o niñas que realmente los roles de los ganos tienen que ver con el género o el sexo sino que todo el mundo debe estar capacitado para hacer todo
+[1:55:52]  a menos que haya un experimento físico que te limita a tu hacer algo tu deberías estar en capacidad de hacer cualquier cosa
+Speaker E
+[1:56:02]  ok perfecto, les quiero también preguntar una buena educación ustedes que consideran para que haya una buena educación
+Other speaker
+[1:56:14]  creo que...
+Speaker B
+[1:56:18]  dime Juan Carlos o sea creo que quizás aunque no necesariamente es el enfoque popular pero creo que una buena educación se basa primero en valores o sea en ser no necesariamente en saber
+[1:56:33]  lo saber que está como parte secundaria que sí tiene importancia pero si se
+Speaker G
+[1:56:42]  duelen valores creo que los otros bien por añadido regalar algo más a ese punto? ¿Qué más? ¿Los valores?
+Speaker A
+[1:56:50]  Igual como él dijo, valores, una educación, como dicen, la educación empieza en la casa y tratando dentro de lo posible de ser un ejemplo para ellos porque los niños copian
+[1:57:07]  mucho de lo que ven, de lo que escuchan, mayormente de lo que ven, más cuando van creciendo, son pequeñitos, ellos ven lo que hacen entonces eso sería qué opinión tienen sobre la
+Speaker C
+[1:57:25]  calidad de la educación en república dominicana pobre
+Speaker A
+[1:57:37]  creo que creo que se puede mejorar en cuanto mayormente no sé si impartiendo impartiéndole talleres a los profesores, no talleres de, ah, leo en español, o sea,
+[1:57:51]  sino talleres realmente de cómo formar niños, porque justamente tengo una compañera que ya está atravesando por una situación con su hijo y varias profesoras en un colegio donde él está, de que el niño es callado, o sea, él no es de los niños, ah, yo levanto la mano para esto,
+[1:58:07]  pero hace toda su tarea, le va bien en los exámenes, en cualquier cosa, pero la queja de la profesora es es que no habla entonces por eso te quemó la materia porque no me está hablando entonces es como que siento que también no todos
+[1:58:23]  los niños porque tú le pongas una frase en la pizarra copia de suya eso no es enseñar sino también es que los profesores le puedan mediante los talleres de alternativas de cómo tratar con
+[1:58:34]  diferentes niños que aprenden de diferentes formas. También el tema de los profesores de idioma, que hay un profesor de inglés que a veces el alumno sabe más inglés que el profesor, y no por un tema de que el niño vive en el extranjero, sino por un tema de
+[1:58:50]  que el niño consume canción en inglés y cosas así, pero el profesor solamente se quedó con un inglés básico, por decirlo así, entonces lo ponen como un profesor.
+Speaker G
+[1:59:01]  Esa es mi opinión realmente sería en esa parte con la misma línea que ella dijo de esos talleres que cogerían extra eso también ayudaría a trabajar con los niños que tengan no sea una condición no
+[1:59:18]  de que súper especial sino como con algún problema de hiperactividad eso no es un problema pero me retrato o sea que sean muy hiperactivos que tengan un cierto grado de autismo, o sea, si esos maestros supieran trabajar con ese tipo de niños,
+[1:59:35]  esos niños fueron más incluidos como otros amiguitos, no necesitarían una educación especial en un colegio especial que le cuesta más de la mitad del sueldo de un padre para pagar por él, pero eso ya como dices, hay que concientizar y entrenar.ya luego de la parte de
+Speaker B
+[1:59:55]  lo que dije del ser, sino del saber creo que quizá la debería enfocarse un poco más en, como ponerlo decirlo, como en, como solucionar problemas, no necesariamente
+[2:00:10]  en memorización, sino como llegar a la solución, un ejemplo de eso es matemática muchas veces, creo que es el mejor ejemplo, tú aprendes una fórmula matemática, entonces el ejercicio es, ah, eso se resuelve de tal manera, entonces
+[2:00:24]  tú tienes que memorizarlo, pero no te explican necesariamente el uso y cómo eso te va a servir, que si tú entiendes eso, o sea, tú puedes enfocarte en cómo eso te va a solucionar el problema y cómo tú tienes ese pensamiento abierto a la solución del problema, no sé
+[2:00:40]  si me explico, y no necesariamente memorizar información. Ok, les pregunto también, ¿creen que la educación formal es necesaria para progresar?
+Speaker E
+[2:00:53]  No necesariamente.
+Speaker B
+[2:00:55]  O sea, tenemos educación técnica, vamos quizás algo que está en boga y que probablemente continúa, que sería el lenguaje de programación. Es decir, tú no necesariamente necesitas educación formal, digamos, quizás a nivel universitario para hacer eso.
+[2:01:13]  Bueno, si tú así lo requieres. En mi caso, yo estoy incluso haciendo maestría, por ejemplo, entiendo que es bueno, pero si en caso de que tú decidas que no, tú puedes aprender un sinnúmero de lenguaje de programación
+[2:01:26]  e incluso asuntos técnicos, ciberseguridad y cosas así, tú te puedes especializar en lo que tú quieras sin necesariamente tener un título universitario formal, aunque sí tienes conocimientos técnicos y puedo aplicar lo mejor incluso que gente que tiene educación formal.
+[2:01:43]  Entonces es bueno, no te caldo una cosa, pero no es imprescindible.
+Speaker E
+[2:01:49]  ¿Y los demás? ¿Piensan igual? ¿Agregarían algo?
+Speaker C
+[2:01:53]  Igual.
+Speaker E
+[2:01:56]  Les pregunto también, ¿qué materia de la vida real debería enseñarse en las escuelas que hoy en día no está pasando?
+Speaker A
+[2:02:06]  Finanzas, realmente.finanzas no es, te pongo un montón de fórmula y eso, no, si no yo obviamente en bachiller da un tema de cómo tú administras, de cómo tú aprender cuando
+[2:02:20]  tenga un trabajo, administrarte, o sea como concientizar realmente en eso porque realmente he escuchado y también casi me pasa que cuando te dan tu primera tarjeta de crédito tú dices, oh dinero gratis, pero no, mi siela, tú tienes una fecha de corte, una fecha de pago,
+[2:02:38]  tú tienes, no tienes que, entonces siento que esas cosas podrían ser de mucha ayuda para los jóvenes que están en bachiller, y también que es algo que a mí me hubiera gustado aprender.
+Speaker B
+[2:02:52]  Una lista de eso, algo que impuesto, en educación financiera, una lista de impuestos por aprovecho otra cosa que la educación vial
+[2:03:10]  y qué más
+Speaker F
+[2:03:16]  sí
+Speaker B
+[2:03:19]  de verdad Yo no soy programador, pero sí también clase de programación. O por lo menos clase de lógica matemática.
+[2:03:32]  O sea, enfocada en eso, no en matemática como se da, porque eso se aborda. Pero me refiero quizás más a ampliar eso, para que la gente aprenda a pensar de manera más ecuánime.
+Other speaker
+[2:03:45]  No sé si...
+Speaker G
+[2:03:46]  Sí, curso de oratorio también. En el bachillerato, porque...
+Speaker B
+[2:03:51]  Ah, y algo... no sé cómo se podría poner así pero hay como una educación de cómo funciona el sistema laboral porque mucha gente cuando está buscando su primer trabajo
+[2:04:05]  o sea, tiene una serie de dudas y de confusiones no ha hecho nunca, no ha ido nunca a una entrevista no sabe por dónde empezar, no sabe ni siquiera por dónde empezar a buscar trabajo quizá no fue mi caso, pero veo que
+[2:04:17]  sí ha sido el caso de mucha gente.
+Speaker G
+[2:04:19]  Y no está mal agregar el de si le interesa extracurricular, es de servidor público. Para entrenar en un servidor público.
+Speaker B
+[2:04:28]  Ah, y clase de cocina. Veo que no es problema de casi nadie aquí.
+Speaker A
+[2:04:35]  Y extracurricular Excel. Ah, Excel. Sí, Excel.
+Speaker B
+[2:04:40]  Pero ustedes dicen que se va a ir en ley Excel.
+Speaker A
+[2:04:45]  ¿Ustedes se preocupan por el medio? Sí, sí.
+Speaker E
+[2:04:48]  ¿Qué acciones ustedes están realizando en su hogar para contribuir al cuidado del
+Speaker A
+[2:04:54]  pernete?
+Other speaker
+[2:04:55]  Reciclaje.
+Speaker A
+[2:04:57]  Cuando se tira la basura, por ejemplo en mi caso, nosotros ponemos, amarramos bien la pernete y le ponemos una doble funda por el mismo tema de que cuando la principal está como tiene mucha basura para que no se desborde o también para tratar de
+[2:05:16]  tapar un poco porque cuando si la ponemos y viene un animal un perro lo que sea no venga a romper la
+Speaker B
+[2:05:23]  funda y es un desastre no tiene algo sobre la calle y voluntaria yo me aseguro de todo y las cosas plásticas lo menos posible y tratar de dar
+Speaker E
+[2:06:07]  dale mejor uso a lo que tenemos plástico ahí por ejemplo el tema de las luces en cuanto a la parte de la luz y del agua gestiona no hacen algo
+[2:06:19]  también al respecto de eso para colaborar a ese cuidado del medio ambiente normal de hacerla
+Speaker A
+[2:06:26]  no deja la llave corriendo por ejemplo se está cepillando bueno apoyamos a que sepille te sigue cepillando y después volver a abrir no dejarla correr compulsivo
+Speaker B
+[2:06:40]  en que sentido
+Speaker F
+[2:06:44]  si me estoy cepillando
+Other speaker
+[2:06:46]  lo dejo abierto si estoy fregando lo dejo abierto
+Speaker B
+[2:06:48]  y me voy a bañar
+Speaker F
+[2:06:51]  pero que el agua se caliente botando agua la ducha está ahí botando
+Speaker C
+[2:06:56]  yo ahí no
+Speaker A
+[2:06:58]  yo no te digo
+Speaker B
+[2:07:00]  yo abro cierre abro cierre y si no está ahí y últimamente donde estoy viviendo tengo que dejar correr el agua en la mañana
+Speaker G
+[2:07:13]  porque es un dolor extraordinario si yo la dejo correr un poquito últimamente se suele
+Speaker B
+[2:07:22]  eso es, tu tienes una razón para eso
+Speaker G
+[2:07:24]  o sea, cómprame un filtro pero no, te estoy diciendo por si te lleva a dolor tienes que dejarla correr si para evitar cualquier cosa alguna dermatitis o algo
+Speaker C
+[2:07:35]  y ahí por ejemplo también hablaron que
+Speaker E
+[2:07:40]  tu esposa le gusta aprender pero quería preguntarle a ella también cuales son desafíos para lograr estas acciones que sean efectivas además de quizás allí por ejemplo tu decías
+Speaker A
+[2:07:52]  mi esposa le gusta aprender en esta parte
+Speaker G
+[2:07:59]  te toca apagar el luz
+Speaker B
+[2:08:00]  eso y tener que parar una de las caras
+Speaker G
+[2:08:04]  apagarla
+Speaker D
+[2:08:05]  bueno
+Speaker G
+[2:08:07]  él se encarga de los bombillos busque los bombillos que ellos puedan ver bien
+Speaker C
+[2:08:13]  pero que sean de bajo consumo dicen como que
+Speaker G
+[2:08:18]  cuando tú dejas la televisión conectada aunque esté apagada como que todo eso consume yo no puedo con eso pero por lo menos procurando tener un bicho que el tipo de mundo ustedes quieren que hereden las
+Speaker F
+[2:08:32]  futuras generaciones interesa un poco los que la generación yo trato de tratar de vivir ahora no es que yo vivo por la vida haciendo cosas para que el mundo se joda, pero los
+[2:08:52]  problemas del futuro serán de las personas que vivan en él. Eso es lo que yo creo.
+Speaker E
+[2:08:59]  No, no, pero ¿qué dicen las demás personas?
+Speaker G
+[2:09:04]  Eso mismo, soltar y no, o sea, que vivan lo que ellos tengan que vivir, pero por lo menos de la parte mía, de mi familia, de los que están alrededor de mí, incentivar a cuidar un chin más,
+[2:09:16]  aportar un granito de arena para mejorar un chin, aunque sabemos que no vamos para el futuro si continuamos con la mala administración en cuanto al medio ambiente y esas cosas.
+Speaker A
+[2:09:26]  Bueno, realmente yo quisiera que obviamente el mundo mejore a nivel de cuanto de la naturaleza, porque realmente eso, una escena que empieza por ti. Claro, yo hago lo que tengo que hacer pero tampoco dejo que las acciones de las demás
+[2:09:42]  personas me hago ven que a veces si veo un camionero que tira basura por la ventana y me da ganas de bajarme y mira pero trato de hacer mi parte realmente trato de y si tengo la
+[2:09:57]  oportunidad de mente de que se toque el tema hablar sobre eso miramos muy ambiente y todo eso pero no tratar de agobiarme si la otra persona no lo hace no lo hace es buena decisión de ella
+Speaker B
+[2:10:10]  la pregunta es desde el punto de vista medioambiental osea del futuro pero desde el punto de vista medioambiental realmente casi no nos devente a eso entonces es un asunto más bien que
+[2:10:25]  sé que hay asuntos de recursos que se escasean y se van a seguir escaseando alimento, producción, agua, lo que sea. Entonces, no me preocupo tanto por eso, pero sí me gustaría que a mis hijos no les tocara vivir esa parte de la historia.
+Other speaker
+[2:10:44]  Ok.
+Speaker A
+[2:10:45]  Finanzas, ¿verdad?
+Speaker B
+[2:10:47]  Poco lo hemos hablado un poco, pero quería preguntarles también,
+Speaker E
+[2:10:50]  ¿cuál fue la última conversación o discusión que tuvieron en su hogar sobre este tema?
+Other speaker
+[2:10:55]  ¿Oye?
+Speaker C
+[2:10:56]  Nada más, cuéntame.
+Speaker D
+[2:11:08]  Te gasté el momento indicado. No, un tema con el aire, está defectuoso, quiero arreglarlo y digo que no, que ya, que lo... Y no ha terminado la conversación.
+Speaker E
+[2:11:17]  Y ahí tú me dijiste que en un momento que tú te encargabas, digamos, de los gastos, ¿Suelen tomar una decisión o hay gastos por separado? Sí, realmente sí. ¿Cuáles son los gastos por separado, por ejemplo?
+Speaker D
+[2:11:34]  Hay meses que él se encarga de uno y otro, de la casa. Hay meses que yo, yo dependo de la compra ambos. Y de día a día, él, realmente, porque él trabaja en la calle. Pero si específico yo prefiero a veces yo pagar la casa.
+Speaker B
+[2:11:57]  Y que se encargue de los otros, de la becada, el celular.
+Speaker E
+[2:12:02]  Los demás cuéntenme allí también cuando fue esa última conversación o discusión sobre finanzas y también un poco cómo se dividen esos pagos, si es algo unificado o si hay pagos por separado. Me explican un poco cómo se divide en el camino.
+Speaker B
+[2:12:18]  Bueno, en mi caso, me puse en un momento nuevo trabajando, pero independientemente de si ella está trabajando o no, tratamos de manejar la finanza de manera unificada, como si fuera un solo bolsillo.
+[2:12:30]  Yo mencioné, yo soy el que tiene que estar pendiente de toda la fecha de pago, a ella se le olvida, yo soy el que estoy arriba de eso, hay que pagar tal cosa y a ella se le pasa incluso hasta las tarjetas de ella
+[2:12:43]  yo tengo que estar pendiente de las tarjetas de ella, de la fecha de pago
+Speaker D
+[2:12:47]  eso es una buena acción
+Speaker B
+[2:12:49]  literalmente, por ejemplo, quizás por mencionar una 8 ella me mencionó un día que vencía el 30 y ella ya se la había pagado entonces yo le dije, oh, te acordaste ahora que yo ya hace rato yo te la pagué
+[2:13:09]  es que pague el teléfono y ahí yo te lo pagué. Cosa como esa. Cabe como con la finanza, pero hay que ir muy despistado en ese sentido, aun si yo no quisiera.
+Speaker E
+[2:13:23]  Ok, perfecto. ¿Las que está de más? ¿Qué dijiste?
+Speaker G
+[2:13:27]  Bueno, la última, no discusión, fue la última conversación de finanzas que fue hace como un mes, porque la institución de niño de trabajo la va a unificar. Entonces, eso puede ser hasta un periodo de seis meses con un año puede ser antes entonces
+[2:13:45]  esas son conversaciones y le digo vamos a poner todo sobre la mesa ya está sobre la mesa lo vamos a volver a poner porque en realidad ya de lo que uno le puede entrar en diciembre hay que ver como entramos en enero, enero tiene como 80 días entonces no sé
+[2:14:00]  si me van a yo soy de la clase laboral que puede ser de patchén porque yo soy contratada yo tengo unos gastos yo me encargo de pagar los servicios básicos
+[2:14:13]  el mantenimiento de la casa pero él paga la renta y que mal paga, no me acuerdo más, la renta es muy grande ya con eso y sus préstamos el préstamo y sus que no tenemos los datos pero unificado entonces
+[2:14:38]  ese fue el tema de cuestión para ver cómo nosotros nos vamos a realizar para el año que viene porque no saben también que un muchacho pero que un trabajo nuevo entonces es un tema un poquito amargo porque es cosas mis chicos a veces a veces no lo siento, no es gente como que, pero este es el hombre de la casa, tú no te hagas preocupar,
+[2:15:01]  siempre, aquí tú no vas a pasar trabajo, gracias a Dios en tus siete años de hombre de casa no he pasado trabajo, pero nosotras siempre vengan con una, ay pero esto, lo otro, tú no me dices nada, que esto, no te preocupes, entonces esa es como la discusión mía de las finanzas, como que.
+[2:15:14]  Él lo va a resolver como quiera que sea. Exacto, entonces esa es como que la discusión como que de finanzas que siempre tenemos y él se termina quillando diciendo, acá tú corre que yo no te voy a decir por encima de todo.
+Speaker E
+[2:15:28]  Edward, en tu caso, ¿cómo sería esa parte?
+Speaker C
+[2:15:30]  Bueno, conversaciones, nosotros no discutimos realmente de finanzas, pero de conversaciones,
+Speaker F
+[2:15:39]  la última conversación que tuvimos es porque a fin de año no queremos ir de viaje y estamos planeando todo eso, y eso es tener un gasto importante de dinero. Ella por su trabajo tiene un salario fijo, yo no tengo un salario
+[2:15:56]  fijo porque yo trabajo en ventas, es mucho de algo fijo y algo que es comisiones. Entonces lo que se hace mensualmente es poner sobre la mesa el dinero que nosotros conseguimos
+[2:16:13]  o que no ganamos, es más lo que yo gano. Entonces, y así repartimos las cosas nosotros unificamos todo pagamos todo ahí les destinamos esto para
+[2:16:25]  el apartamento para los servicios compra ahorro y algo de ocio o sea no hay mucha discusión separado yo los pagos al final el dinero está en una cuenta yo realmente pago todo porque yo casi todo literalmente todo lo que pago es virtual eso un día agarrar media hora y pagarlo todo entonces ya hay una fecha
+Speaker B
+[2:16:55]  establecida para pagar todo
+Speaker F
+[2:16:59]  y yo lo hago hasta la tarjeta de ella yo la pago de ahí
+Speaker A
+[2:17:06]  igual en mi casa hay un solo bolsillo o sea nosotros ponemos nuestros sueldos, tenemos un presupuesto, cada, como
+Speaker G
+[2:17:15]  cada cosa, la casa tanto, esto tanto, esto tanto, mi esposo es el que se encarga de
+Speaker A
+[2:17:21]  pagarlo todo, claro que sí, él paga la casa, él paga el internet, paga todo, eso es algo que decidimos hasta antes de ser novios, o sea antes de casarnos, perdón, antes de
+[2:17:34]  casarnos nosotros decidimos eso, que él iba a pagar todo y que iba a manejar eso pero las decisiones de finanzas si vamos a comprar algo si vamos a hacer algo si tenemos alguna meta lo decidimos entre los dos
+[2:17:48]  es tantal creo que por algo de costumbre porque yo sé que mayormente que cuesta cada cosa porque lo tenemos en el presupuesto es como que era me manda como el voucher no sé eso hizo la luz y yo... Nada.
+Speaker G
+[2:18:05]  Exacto.
+Speaker A
+[2:18:06]  Eso pasó la luz.
+Speaker E
+[2:18:08]  ¿Y qué factores impidieron su decisión al elegir?
+Speaker A
+[2:18:13]  Los beneficios. Los beneficios. Los beneficios que nosotros recalamos. La tasa.
+Speaker G
+[2:18:20]  Sí. Las...
+Speaker E
+[2:18:22]  Las... Las...
+Speaker B
+[2:18:24]  No sé cómo decirte, pero las facilidades tecnológicas, porque yo, al igual que Eduardo, ¿verdad? Yo pago todo. De alguna manera, de hecho, yo tengo... Mucho de lo pago a, de una vez he dicho, yo tengo muchos de los pagos lo que se pueden automatizar
+[2:18:37]  y yo si reviso, pues no lo dejo dedicar que me quiten dinero, pero los pagos yo los tengo automatizados entonces yo tengo que tener esa facilidad de tiempo, de que si se me olvidó y hoy es la fecha de pago
+[2:18:51]  y yo tengo que pagarlo ahora mismo, no dig muchas cosas ya que a mí me gusta el recurso
+Speaker C
+[2:19:04]  tecnológico que yo con una llamada o una aplicación puede hacer todo para tarjeta de crédito yo
+Speaker F
+[2:19:14]  utilizo para la gente el banco me importa mucho siempre cuando más de beneficios realmente pero pero ya sé que para cualquier cosa simple
+Speaker E
+[2:19:33]  en el entorno donde ustedes están viviendo están están satisfechos
+Speaker B
+[2:19:53]  enfrentan retos en todo el nuevo sector su casa el sector todo lo que esté cerca
+Speaker E
+[2:20:01]  de donde ustedes están actualmente viviendo yo estoy bien lo único malo que
+Speaker F
+[2:20:05]  me están construyendo un edificio al lado trabajan hasta los sábados entonces yo quiero dormir los sábados y hay unos panitas que empiezan a martir a las 8 de la mañana
+[2:20:19]  eso es lo único pero después yo me siento muy feliz
+Speaker D
+[2:20:23]  si, trabajan después de la 1 y ya no entienden
+Speaker F
+[2:20:26]  ellos pueden empezar a trabajar a las 11 de la mañana y durar hasta las 6 de la tarde pero a las 8 de la mañana un sábado
+Speaker A
+[2:20:34]  está ladrando
+Speaker D
+[2:20:36]  la ley del ruido es esa, ellos pueden trabajar hasta las 1 de la tarde los sábados.
+Speaker B
+[2:20:44]  El único reto, no es más ridículo porque es algo común en Santo Domingo, pero el único reto que uno de alguna manera enfrenta, yo vivo en el Instituto Nacional, y en el Instituto Nacional siguen aumentando los precios del alquiler de manera irracional.
+[2:21:00]  Entonces algo que uno quiere seguir viviendo en el Instituto Nacional, lo tiene que enfrentar hacia ese reto en particular.
+Speaker E
+[2:21:07]  Entonces hay que lidiar con eso ¿Algún otro reto, desafío?
+Speaker A
+[2:21:11]  Sí, los tapones los tapones que se hacen literalmente casi al frente los motoritas señores hay un motor, un motorita
+[2:21:25]  que yo no sé por él le da los domingos a las 8 de la noche así le hace el motor y al frente del residencial y yo me crazy, cojo otro lado, o sea a las 8 de la noche, un domingo,
+[2:21:39]  donde todo el mundo está tranquilo, viendo una película en su casa, sentado, a él le da, pasa esa bulla con ese motor.
+Speaker G
+[2:21:47]  Pero los tapones por mi sector son los insoportables, o sea, hay tapones hasta los sábados, o sea, los sábados si tú lo coges para diligencia, salga temprano, por eso yo salgo a las 7 de la mañana, todos tienen un tapón de estrés, pero el tapón es lo principal
+Speaker E
+[2:22:03]  de hecho los chicos de tecnología para mí es importante el uso de herramientas tecnológicas para ustedes manejar finanzas ustedes también lo están utilizando hoy en día utilizan algún
+Speaker C
+[2:22:20]  para las chicas no para el tema de finanzas cualquier persona está utilizando alguna financiación de bancos usuarios
+Speaker B
+[2:22:35]  la aplicación de servicios el sur yo todo eso lo uso
+Speaker E
+[2:22:47]  y además de utilizar esas aplicaciones bancarias digamos también usan en un excel para saber si tengo una herramienta una aplicación que me diga bueno pero ya acabo de gastar en esto tienen algo así también
+Speaker A
+[2:23:02]  si un excel donde está el presupuesto y sabemos que le corresponde a cada quien y muchas veces ahí cuando tenemos que darle una revisión también lo utilizamos vemos que gastamos bueno si el excel el compartido en la aplicación y usamos uno que se llama no
+Speaker G
+[2:23:23]  tiene para eso que también estuvo en trato como están utilizando la tecnología en su familia
+Speaker A
+[2:23:33]  si ya digamos aquí en general bueno me puse muy tecnológico yo
+Speaker F
+[2:23:49]  Si, allá utilizamos mucho la tecnología. De hecho, en mi casa hay varios electrodomésticos que están conectados a la red. Tenemos un pequeño reloj. Si, se utiliza, cada quien tiene su computadora, tiene una tablet por ahí, un teléfono inteligente.
+Speaker A
+[2:24:06]  O sea, si se utiliza.
+Speaker E
+[2:24:09]  Ok, todos lo utilizan en este caso. Están bastante activos en esta parte.
+Speaker B
+[2:24:13]  Sí, sí, claro. en esta parte wifi siempre 300 computadora celular
+[2:24:34]  en internet
+Speaker D
+[2:24:43]  la televisión, o sea que eso tiene que estar. Perfecto. Ustedes hablan de política en su hogar.
+Speaker C
+[2:24:46]  Sí. No, no. Si lo hacen, cuéntenme allí si lo hacen o no lo están haciendo y si es importante
+Speaker E
+[2:24:53]  para ustedes también compartir esa misma afinidad política. Cuéntenme esa parte.
+Speaker G
+[2:24:56]  En realidad no es importante, nosotros lo hablamos para poblar, ¿no? En parte.
+Speaker C
+[2:25:02]  Ajá. nosotros no vemos noticias y diarios
+Speaker G
+[2:25:09]  pero, mal día seguimos el briefing, leemos el briefing entonces mira, pasó esto eso es como en la hora del cafecito
+Speaker C
+[2:25:17]  pero no lo hablamos
+Speaker G
+[2:25:19]  de una manera que terminemos en pelea o que
+Speaker A
+[2:25:23]  nos abrumen la noche, sino que
+Speaker G
+[2:25:25]  discutimos, damos nuestro punto de vista
+Speaker B
+[2:25:27]  en nuestro caso eso no sé, dependiendo de que sea eso de entretenimiento, o sea, no sé, a la cultura le gusta mucho estar al tanto por las noticias y ese tipo de cosas, entonces si yo no la he visto, ella como quiera me deja saber y a ella le gusta criticar o aplaudir lo que está de acuerdo o no.
+[2:25:48]  Por ejemplo, el día 5 nosotros nos acostamos a la 1 de la mañana viéndola en la tierra de Estados Unidos. Una gran testigo. cosas así, pero no es a modo de pelea, ni a modo de discusión, o cada quien da su punto de vista.
+[2:26:05]  Checha, no hice nada, no era entretenimiento, si no interesa, pues si pudiera ir, no hablamos de eso.
+Speaker E
+[2:26:14]  ¿Y qué opinan de la situación económica de República?
+Speaker B
+[2:26:19]  Para... ¿Cómo lo ve el Banco Central o cómo lo ve la gente de América?
+Speaker E
+[2:26:23]  Como lo ven ustedes, los que están aquí en esta mesa, vamos a empezar, dame cuenta.
+Speaker D
+[2:26:27]  Presta, muy presta. La situación económica es para guerreros, tú tienes que saber tener el cerebro bien
+[2:26:43]  concentrado para saber qué va a hacer, dónde invertir, dónde sacar, qué va a entrar,
+Speaker G
+[2:26:50]  qué no va a entrar. que la hay una clase social que se va a desaparecer pronto
+[2:27:01]  entonces el peso como que dice lo tenemos nosotros
+Speaker C
+[2:27:07]  y nosotros somos
+Speaker G
+[2:27:09]  la clase trabajadora porque yo lo veo en el sentido de que beneficios tú le das beneficio a lo pobre a costilla mía
+[2:27:21]  pero cuando yo estoy en la misma situación sin trabajo tú no me das beneficio para nada o sea yo desde que entró la pandemia así me meto a morir después que me votaron, duré cuatro meses sin empleo a mí nadie me dio bono
+[2:27:37]  el gobierno me dio bono, el gobierno me dio esto, me dio lo otro y yo dije nosotros vivimos matando no calificamos para nada, la clase que en realidad es la que mantiene, mantiene a los pobres y también le mantienen las empresas a los ricos.
+[2:27:52]  Entonces, la economía nos va a caer arriba. Que nosotros si creíamos que íbamos a dedicar sobre vivir y luego ser millonarios, no, no pensé en dedicarse a ser un millonario, sino en tener un buen estilo de vida.
+[2:28:06]  Nos va a costar mucho y tenemos que en realidad cogerlo con calma, porque no nos podemos forzar ni sobresforzarnos, tratar de, y como tú dijiste ahorita, como de documentarnos bien,
+[2:28:19]  como que tener una mente fuerte, porque eso es para guerreros.
+Speaker D
+[2:28:23]  ¿No? ¿Y qué viene luego?
+Speaker C
+[2:28:25]  ¿Ya para finalizar?
+Speaker F
+[2:28:27]  La situación económica yo entiendo que no está realmente un poco difícil, pero lo que lo dificulta un poco más es porque la decisión de más de 11 millones de personas la tienen un número pequeño de personas que realmente hacen cosas
+[2:28:46]  para beneficios propios entonces cuando tú tienes que tomar decisiones tan importantes
+Speaker C
+[2:28:53]  que molestan dos millones de personas concentrados en un grupo de personas que tienen muchos beneficios
+Speaker F
+[2:29:00]  eso es un cóctel de cosas fatales entonces la situación es un país que no pasa hambre mucha gente trabajadora pero la cosa podría estar para finalizar tomando en cuenta es que ustedes
+Speaker E
+[2:29:16]  están dando qué medidas creen que son necesarias para promover una sociedad más inclusiva y justo
+Speaker C
+[2:29:23]  para todos los mismos con estos a reducir el gasto y yo trabajo en el estado en regresas
+Speaker F
+[2:29:47]  algo más desde el punto de vista de lo veo reduce eso y el fin si el fin si entiza el uso de los recursos la sociedad eventualmente se va a igualar no todo es cosa del gobierno la sociedad tiene un papel fundamental porque
+Speaker C
+[2:29:59]  realmente la sociedad dominicana una sociedad altamente corrupta pero que si se dan condiciones para que uno vaya como que pueda salir del hoyo ya eso va a permear
+Speaker F
+[2:30:14]  en la sociedad sin tener que hacer políticas raras ni programas o sea es lo que yo creo
+Speaker G
+[2:30:26]  si tú arreglas si tú dices el gasto mejor puede mejorar la calidad de vida y nosotros mejorar también la educación sea diferente a varias horas mejora porque tú contratas a un buen precio pero tú tienes mejor calidad o sea que no tienen que
+[2:30:45]  gastar en un más claro elegir de una manera de calma entonces chicas chicos de verdad muchas
+Speaker E
+[2:30:56]  gracias yo les dije yo quería escucharlos por su paciencia, por su sinceridad
+Speaker C
+[2:31:01]  en todo momento voy entonces a parar la grabación y les voy a dar un pequeño obsequio, pero muchas gracias por haberme hablado yo te lo
+Other speaker
+[2:31:09]  se lo puse

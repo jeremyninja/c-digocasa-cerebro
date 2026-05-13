@@ -1,0 +1,13 @@
+rule_id,principle,application,example,weight_score,svg_implementation
+G01,Proximity,Group related elements by reducing whitespace between them,Grouping NSE C and C+ together in a bar chart,9,spacing: 8px within-group; 16px between-groups
+G02,Similarity,Use consistent color for same meaning across all visualizations,All "Estrés alto" elements use #EF4444,9,color: consistent across entire chart
+G03,Similarity,Use consistent shape/pattern for same data type,All percentages use bar height convention,8,height: maps to percentage value
+G04,Continuity,Guide eye with visual flow (typically top-left to bottom-right),Bars arranged in descending order,7,sort: descending by value; smooth transitions
+G05,Continuity,Connect related elements with lines or implied paths,Line connecting generational data points,8,path: smooth curves between data points
+G06,Closure,Humans complete incomplete patterns - use subtle backgrounds,Faint grid lines help complete implicit boxes,6,fill-opacity: 0.1; stroke: #e5e7eb
+G07,Closure,Use negative space to imply grouping,Larger gaps between categories suggest separation,7,margin-bottom: 24px between major groups
+G08,Contrast,Make primary insight pop with color saturation and size,Headline value gets brightest color (#EF4444),9,color-saturation: 100%; font-weight: bold
+G09,Contrast,De-emphasize supporting data with lower saturation,Secondary metrics use color-saturation: 60%,8,opacity: 0.6 for secondary data
+G10,Symmetry,Balance design around visual center,Diverging bar symmetric around center axis,7,text-align: center; margin: auto
+G11,Figure-Ground,Ensure main data stands out from background,Data bars contrasting with light background,9,background: #f9fafb; data-fill: #2563EB
+G12,Depth,Use layering to create visual hierarchy,Grid lines behind bars; bars in front; annotations in front,8,z-index: grid(0) < bars(1) < labels(2) < annotations(3)

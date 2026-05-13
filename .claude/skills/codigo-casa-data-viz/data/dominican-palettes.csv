@@ -1,0 +1,9 @@
+name,color1,color2,color3,color4,color5,context,pilar,sentiment,use_case
+DOMINICAN_IDENTITY_HOPE,#16A34A,#2563EB,#F59E0B,#A855F7,#f0f2f4,Natural growth and stability,Identidad,Positivo,"Family structure, hope, continuity"
+DOMINICAN_IDENTITY_TENSION,#EF4444,#A855F7,#6b7280,#f0f2f4,#03060a,Conflict and uncertainty,Identidad,Negativo,"Family conflict, identity crisis, pressure"
+DOMINICAN_FINANCE_STRUGGLE,#EF4444,#F59E0B,#2563EB,#6b7280,#f0f2f4,Stress and survival,Finanzas,Negativo,"Financial stress, debt, instability"
+DOMINICAN_FINANCE_GROWTH,#16A34A,#F59E0B,#2563EB,#A855F7,#f0f2f4,Progress and opportunity,Finanzas,Positivo,"Savings, planning, entrepreneurship"
+DOMINICAN_HEALTH_CARE,#2563EB,#16A34A,#A855F7,#F59E0B,#f0f2f4,Wellbeing and protection,Bienestar,Positivo,"Health, self-care, spirituality"
+DOMINICAN_HEALTH_CRISIS,#EF4444,#F59E0B,#6b7280,#2563EB,#f0f2f4,Struggle and recovery,Bienestar,Negativo,"Mental health, stress, burnout"
+DOMINICAN_NEUTRAL,#2563EB,#6b7280,#d1d5db,#f0f2f4,#03060a,Factual data presentation,Neutro,Neutro,"Demographic data, baselines"
+DOMINICAN_ALERT,#EF4444,#F59E0B,#2563EB,#6b7280,#f0f2f4,Warning and urgency,Alerta,Negativo,"Crisis indicators, urgent action needed"

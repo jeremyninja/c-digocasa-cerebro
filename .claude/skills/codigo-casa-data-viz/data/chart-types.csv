@@ -1,0 +1,21 @@
+no,data_type,chart_type,when_to_use,primary_color,secondary_color,accessibility_notes,performance
+1,Comparison,Grouped Bar,Compare values across categories and subcategories,#2563EB,#A855F7,"High contrast, clear labels",Excellent
+2,Composition,Stacked Bar,Show how parts make up a whole,#16A34A,#F59E0B,"Ensure distinct colors, avoid too many segments",Excellent
+3,Composition,Percentage Bar,100% stacked composition with percentages,#2563EB,#EF4444,"High contrast for segments",Excellent
+4,Trend,Line,Show changes over time,#2563EB,#A855F7,"Ensure readable line width, mark data points",Excellent
+5,Trend,Area,Accumulative trend visualization,#16A34A,#2563EB,"Use semi-transparency, high contrast edges",Good
+6,Distribution,Scatter,Show relationship between two continuous variables,#A855F7,#2563EB,"Ensure sufficient point size (min 6px)",Good
+7,Distribution,Bubble,Scatter with third dimension as bubble size,#F59E0B,#A855F7,"Use opacity for overlap, clear sizing",Moderate
+8,Ranking,Horizontal Bar,Rank items by value (easier to read labels),#2563EB,#f0f2f4,"Sort descending, clear value labels",Excellent
+9,Ranking,Lollipop,Cleaner alternative to horizontal bar,#EF4444,#2563EB,"Use solid dots, high contrast stem",Good
+10,Ranking,Bullet,Indicator against target/range,#16A34A,#EF4444,"Clear zones, accessible pattern fill",Good
+11,Relationship,Sankey,Flow between categories,#2563EB,#A855F7,"Label all paths, use consistent colors",Moderate
+12,Relationship,Chord,Circular connections between items,#F59E0B,#A855F7,"Limit to <10 items, high contrast",Moderate
+13,Relationship,Network,Complex interconnections,#2563EB,#A855F7,"Node size hierarchy, labeled clusters",Moderate
+14,Divergence,Diverging Bar,Positive vs negative split,#16A34A,#EF4444,"Clear center axis, opposite colors",Excellent
+15,Divergence,Diverging Stacked Bar,Multiple categories with divergence,#16A34A,#EF4444,"Center-aligned, clear color meaning",Good
+16,Part-to-Whole,Pie,Show composition (5-7 segments max),#2563EB,#A855F7,"Use labels not legend, high contrast",Fair
+17,Part-to-Whole,Donut,Modern pie alternative,#16A34A,#F59E0B,"Use with center label, high contrast",Good
+18,Part-to-Whole,Waffle,Proportion visualization 10×10,#2563EB,#EF4444,"Each square = 1%, clear legend",Excellent
+19,Magnitude,Heatmap,Multidimensional comparison,#EF4444,#16A34A,"Use diverging palette, provide legend",Good
+20,Magnitude,Treemap,Hierarchical composition with proportions,#2563EB,#A855F7,"Label all regions, limit nesting",Good

@@ -1,0 +1,11 @@
+pattern_id,pattern_name,purpose,element_size_px,font_size_px,font_weight,color_intensity,opacity,placement
+H01,PRIMARY_INSIGHT,Headline - most important finding,400,28,bold,100%,1.0,top-center
+H02,PRIMARY_DATA,Main data series - bars lines primary elements,300,18,semibold,80%,0.9,center
+H03,SECONDARY_DATA,Supporting context - secondary metrics,250,16,normal,70%,0.8,center
+H04,SUPPORTING_INFO,Information of support - legends annotations,150,14,normal,60%,0.7,bottom-right
+H05,BACKGROUND,Context visual - axes gridlines baseline,100,12,light,40%,0.4,edges
+H06,LABEL_EMPHASIS,Emphasized label - key axis label,120,16,bold,100%,1.0,axis-position
+H07,LABEL_NORMAL,Standard label - all other labels,100,12,normal,60%,0.6,axis-position
+H08,ANNOTATION_HIGHLIGHT,Annotation on key data point,200,14,bold,100%,1.0,data-point
+H09,ACCENT_COLOR,Pop accent color on secondary insight,150,14,semibold,90%,1.0,callout-box
+H10,FOOTER_TEXT,Source and metadata text,80,10,light,50%,0.5,bottom

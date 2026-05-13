@@ -1,0 +1,16 @@
+sensitivity_id,topic,guideline,do_this,avoid_this,dominican_context
+CS01,Family Structure,Respect diverse family models,Show nuclear monoparental extendida homoparental as equally valid,Use "traditional family" as default assumption,62% of dominicans live outside nuclear family
+CS02,Economic Reality,Acknowledge class without judgment,Present NSE E D C C+ data neutrally,Use dismissive language about poverty,Deuda and microindebtedness normalize across NSE
+CS03,Religious Context,Honor spirituality as coping mechanism,Feature Dios/Iglesia as legitimate strategy alongside therapy,Treat religion as superstition,92% of Dominicans integrate faith in life decisions
+CS04,Gender Dynamics,Show gendered realities without blame,Highlight women's financial control and household decisions,Romanticize gender equality that doesn't exist,Only 30% of women fully control household money
+CS05,Generational Bridge,Acknowledge intergenerational tension,Show how 18-24 differs from 55+ with respect,Use dismissive tone about either generation,25-35 is bridge generation with different values
+CS06,Language Use,Use Spanish terminology for concepts,Familia extendida abuela tía hermana madrina compadre,Impose English capitalist concepts untranslated,"Crianza colectiva" is Dominican not "collective parenting"
+CS07,Work Reality,Acknowledge precarity without pity,Recognize monoingreso monoempleo as structural not personal,Blame individuals for economic precarity,One income sustains 25% of Dominican households
+CS08,Healthcare Access,Respect DIY wellness strategies,Present herbal remedies prayer therapy alongside clinical,Dismiss non-clinical approaches as primitive,"Dios terapia cervecita gym" is valid stacking
+CS09,Migration Context,Acknowledge diaspora and remittances,Reference to those in USA and those staying,Ignore income sources outside formal economy,Remittances are significant income source invisible in surveys
+CS10,Colorism,Be aware of skin tone dynamics,Mention racial diversity without exoticizing,Use monolithic language about "Dominican look",Colorism and hair politics shape identity choices
+CS11,Educational Access,Recognize knowledge gaps without shame,Present financial literacy as learned not innate,Use deficiency language about poor financial skills,Money education comes from crisis not schooling
+CS12,Time as Luxury,Validate time poverty,Show busy schedules as structural not personal failing,Frame lack of time as laziness,60% report insufficient time for family quality
+CS13,Urban vs Rural,Don't flatten Dominican geography,Acknowledge differences between capital and provinces,Use capital-centric assumptions for all Dominicans,Rural areas have different access to services
+CS14,Mental Health,Integrate holistic approaches,Show therapy AI spirituality exercise as complementary,Present clinical mental health as only valid approach,Dominicans integrate multiple health modalities
+CS15,Celebration of Data,Frame results as insights not judgments,Use language of discovery and understanding,Avoid language that judges or pathologizes,Data reveals patterns not individual shortcomings

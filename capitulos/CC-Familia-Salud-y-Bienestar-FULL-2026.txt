@@ -1,0 +1,2786 @@
+================================================================================
+CÓDIGO CASA® — FAMILIA, SALUD Y BIENESTAR
+REPORTE COMPLETO · FULL 2026
+NINJA THINKING
+================================================================================
+
+
+================================================================================
+PORTADA
+================================================================================
+
+>/ Código
+
+Familia, Salud y Bienestar
+
+"¿Quién cuida al que cuida en República Dominicana?
+ Los datos revelan un país que se las arregla, aguanta y reza
+ — mientras el sistema le da la espalda."
+
+
+================================================================================
+BLOQUE 1 — ÍNDICE
+================================================================================
+
+PÁG. DIVISOR "Índice" (numeral grande "1")
+
+Índice — Familia, Salud y Bienestar
+Hallazgos, tensiones, listening, trends, oportunidades.
+
+"Una radiografía de cómo los dominicanos gestionan su cuerpo,
+ su mente y su fe — entre lo que el sistema no da, lo que la
+ cultura no permite y lo que la familia inventa por su cuenta."
+
+En este volumen                                          Página
+────────────────────────────────────────────────────────────────
+01  Tensión 1 — El dominicano no se hace el "loco" con
+    la salud mental: la delega
+02  Tensión 2 — El dominicano gestiona su salud mental
+    de rodillas
+03  Tensión 3 — El autocuidado es físico, no emocional.
+    "Yo me cuido porque hago ejercicio"
+04  Tensión 4 — Mi equilibrio mental es mi equilibrio
+    económico
+05  Tensión 5 — Me agota ser padre/madre, pero nunca me
+    canso de mis hijos
+06  Tensión 6 — La crisis monoparental no tiene tratamiento
+07  Tensión 7 — Las familias dominicanas no tienen un
+    sistema de salud, y de todas formas, no se cuidan
+08  Tensión 8 — Los ancianos son invisibles
+09  Tensión 9 — Saber aguantar se hereda
+10  Tensión 10 — El amor es lo más importante, a menos
+    que sea amor propio
+11  TREND FORECAST (3 macro fuerzas)
+12  FRAMEWORK / C.O.D.E.
+13  12 ESPACIOS / VACÍOS
+14  VERSIONES / LITE · MEDIUM · PREMIUM
+
+
+================================================================================
+BLOQUE 2 — TENSIONES + HALLAZGO + LISTENING
+================================================================================
+
+PÁG. DIVISOR "Tensiones + Hallazgo + Listening" (numeral grande "2")
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 01
+EL DOMINICANO NO SE HACE EL "LOCO" CON LA SALUD MENTAL: LA DELEGA.
+────────────────────────────────────────────────────────────────────────────────
+
+El ecosistema emocional de las familias opera "sin permiso".
+La salud mental no se ignora — se terceriza: a la mascota, a la
+música, a la comadre, a Dios. El dominicano ya tiene su propio
+sistema. Solo que ninguna marca lo ha reconocido.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+La terapia formal no figura en el mapa de autocuidado.
+
+PREGUNTA · P27:
+"¿Qué actividades realizas para cuidar tu salud mental y física?"
+
+CRUCE DEMOGRÁFICO: NSE × Tipología hogar
+
+HALLAZGO:
+Solo el 3% del total va a terapia como autocuidado. En el estrato AB
+sube a 8.7% y en D y E baja por debajo del 4%. El acceso al
+psicólogo está claramente marcado por el ingreso del hogar.
+
+ESTADÍSTICAS:
+1. 3.0% (n=15) reporta ir a terapia como actividad principal de
+   autocuidado. — 02-bienestar.md, P27.
+2. En el AB la terapia llega a 8.7%, casi triplicando el promedio
+   nacional. En el estrato D cae a 3.5% y en el E queda en 0.0%.
+   — cap-salud-bienestar.txt, P27 × NSE.
+3. En 70 horas de focus groups, la palabra "terapia" se mencionó 28
+   veces; "religión" se mencionó 198 veces. — cap-salud-bienestar.txt.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- HALLAZGO EXTENDIDO ---
+
+La mascota cumple un rol de soporte emocional sin nombre clínico.
+
+PREGUNTA · P10:
+"¿Consideras que las mascotas son parte de la familia?"
+
+CRUCE DEMOGRÁFICO: Tipología hogar
+
+HALLAZGO:
+El 85% de los dominicanos considera a las mascotas como parte de la
+familia. En los hogares sin hijos con mascota, el animal aparece en
+los focus groups como soporte emocional rutinario.
+
+ESTADÍSTICAS:
+1. 85.0% (n=425) de los dominicanos considera a las mascotas como
+   parte de la familia. — 01-identidad.md, P10.
+2. En hogares sin hijos con mascotas, la afirmación llega al 94.6%.
+   En hogares de pareja del mismo sexo, 100%.
+   — 01-identidad.md, P10 × tipología.
+3. En hogares biparentales con hijos menores la afirmación cae a 80%,
+   la cifra más baja entre tipologías. — 01-identidad.md, P10 × tipología.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"TUVE QUE HACER LO QUE YO SIEMPRE DIJE QUE NO IBA A HACER:
+MEDICARME, PASAR POR PSIQUIATRÍA. DESPUÉS DE TODO LO QUE PASÓ CON
+LA PAREJA QUE TUVE, TUVE QUE MEDICARME. PERO AL FINAL VALIÓ LA
+PENA, RINDIÓ SUS FRUTOS."
+— Familia homoparental, Speaker D
+
+"EL PERRO SUELE SER UN APOYO MUY EMOCIONAL PARA EL HOMBRE. NO ES
+QUE NO SINTAMOS AMOR, PERO LOS HOMBRES NO NOS DESAHOGAMOS COMO
+LAS MUJERES LO HACEN. NECESITAMOS COMPAÑÍA, TACTO Y SIMPLEMENTE
+PRESENCIA."
+— Sin hijos con mascota, Speaker D
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 01 · AUTOCUIDADO × TIPOLOGÍA DE HOGAR
+
+PREGUNTA: P27. ¿Qué actividades realizas para cuidar tu salud
+mental y física?
+BASE: n = 500
+CRUCE: Tipología de hogar
+
+HALLAZGO:
+La terapia es minoritaria y se concentra en el estrato AB. Para el
+resto de los hogares funciona como recurso aspiracional pero
+inalcanzable. La salud mental se resuelve por canales paralelos: fe,
+familia, mascota, ejercicio, conversación con allegados.
+
+ANÁLISIS:
+En varios hombres de los focus groups el perro cumple la función
+emocional que la cultura no les permite buscar en otra parte. En
+hogares sin hijos y monoparentales aparece como la compañía más
+estable, sobre todo en momentos de crisis personal. El dominicano
+no rechaza la salud mental — la resuelve por otros canales.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+15 veces más conversación sobre mecanismos informales de soporte
+emocional que sobre ir al psicólogo.
+
+1,867 MENCIONES · 244.1K ALCANCE
+
+El hallazgo más revelador no está en el volumen, sino en el origen
+de la conversación: el 69% de las menciones son orgánicas, con
+personas hablando desde su propia experiencia y no a través de
+medios o intermediarios institucionales. La terapia existe como
+ideal; la fe, como primera línea.
+
+"Efectivamente ve al psicólogo. O prefieres repetir la escuela
+haber si consigues comprensión lectora"
+— @Gathalis, TikTok
+
+"Mi terapeuta tiene bigotes y ronronea..."
+— @elgatonegro324, X / Twitter
+
+"Señor, del mismo modo que encomiendo a ti mi bienestar físico,
+hoy deposito en tus manos mi salud mental. Te pido que así como
+fortaleces mi cuerpo..."
+— @medrano1104, X / Twitter
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La familia dominicana ya         | Integrarse al ritual del           | "¿Qué pasaría si tu marca
+resolvió su salud mental.        | consumidor. No al revés.           | costara menos que la ansiedad
+                                 |                                    | que tu cliente no puede pagar?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La familia no necesita que le    | Redescubrir territorios de la      | "¿Qué pasaría si tu marca fuera
+vendan salud mental. Necesita    | marca en espacios existentes del   | la primera en celebrar lo que el
+que le reconozcan la que ya      | consumidor.                        | consumidor ya hace bien?"
+tiene.                           |                                    |
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Esperas que la familia           | Diseñar marcas que se conviertan   | "¿Qué pasaría si tu marca
+dominicana pida ayuda. Pero tu   | en 'first responder' para las      | aprendiera el idioma antes de
+marca no habla su idioma.        | familias.                          | intentar la conversación?"
+
+
+--- CASO DE ESTUDIO ---
+
+Pensar en el sistema completo de bienestar de la persona puede
+convertirse en una solución 360.
+
+EL CASO: CARE
+Fundada por Tevin Lucas y el cofundador de Yik Yak, lanzó en marzo
+de 2026 una plataforma que unifica salud biológica, psicológica,
+social y espiritual con herramientas personalizadas y comunidad, para
+combatir el agotamiento moderno.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+El ecosistema emocional de las familias opera "sin permiso".
+
+01 OPORTUNIDAD CLAVE
+La marca que apoya la salud emocional de la familia.
+
+02 POSTURA — ROL
+Apoyar la salud emocional de la familia.
+
+03 VERBO DE TRANSFORMACIÓN
+Validar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere apoyar tu salud emocional,
+pero tú ya sabes hacer que las cosas funcionen para ti usando tus
+propios recursos,
+por eso mi marca valida y se une a tu resiliencia, haciéndola
+visible para los demás.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 02
+EL DOMINICANO GESTIONA SU SALUD MENTAL DE RODILLAS.
+────────────────────────────────────────────────────────────────────────────────
+
+La fe es sistema primario de salud mental para muchas familias
+dominicanas. No es que no haya alternativa — es que la oración
+siempre está disponible, no cobra y no juzga.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+La fe es el primer recurso al que se acude cuando hay incertidumbre.
+
+PREGUNTA · P29:
+"En momentos de dificultad o incertidumbre, ¿qué tan frecuentemente
+recurres a la religión o espiritualidad como una forma de alivio o
+refugio?"
+
+CRUCE DEMOGRÁFICO: Frecuencia general × Tipología hogar
+
+HALLAZGO:
+El 64% de los dominicanos recurre siempre a la religión o
+espiritualidad como refugio en momentos difíciles. La conducta
+atraviesa todos los segmentos demográficos del estudio.
+
+ESTADÍSTICAS:
+1. 64.0% (n=320) recurre siempre (puntuación 5/5) a la religión o
+   espiritualidad en momentos de dificultad.
+   — 10-sistema-de-creencias.md, P29.
+2. En todas las tipologías de hogar la respuesta "siempre" es la
+   dominante. La conducta es transversal sin importar la composición
+   familiar. — 10-sistema-de-creencias.md, P29 × tipología.
+3. En 70 horas de focus groups, la palabra "religión" se mencionó 198
+   veces frente a 28 menciones de "terapia". — cap-salud-bienestar.txt.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- HALLAZGO EXTENDIDO ---
+
+La fe se concentra en mujeres y en hogares de menores ingresos.
+
+PREGUNTA · P29 + P30:
+"¿Qué tan frecuentemente recurres a la religión?" (P29)
+"¿Cuál es tu relación actual con la religión o la espiritualidad?" (P30)
+
+CRUCE DEMOGRÁFICO: Sexo × NSE × Frecuencia/Identidad de fe
+
+HALLAZGO:
+70.8% de mujeres y 72.7% del estrato D recurre siempre a la fe en
+momentos difíciles. Los dos perfiles donde la fe se intensifica son
+la mujer y los hogares de menores ingresos.
+
+ESTADÍSTICAS:
+1. 70.8% de mujeres recurre siempre a la fe en momentos difíciles,
+   vs 53.3% de hombres. Brecha de género: 17.5 puntos.
+   — 10-sistema-de-creencias.md, P29 × sexo.
+2. 72.7% del estrato D recurre siempre a la fe; en el AB la cifra
+   cae al 47.8%. Brecha por NSE: 24.9 puntos.
+   — 10-sistema-de-creencias.md, P29 × NSE.
+3. En P30, la respuesta dominante en mujeres es "muy practicante y
+   activa" (31.8%); en hombres la dominante es "creyente ocasional"
+   (31.8%). — 10-sistema-de-creencias.md, P30 × sexo.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"MI CERCANÍA CON DIOS HA SIDO CLAVE PARA MI SALUD MENTAL."
+— Biparental hijos pequeños, Speaker E
+
+"EN MI CASO, NOSOTROS CON LA BIBLIA. ESO ME AYUDÓ BASTANTE: LA
+CERCANÍA CON DIOS PARA NUESTRA SALUD MENTAL, LA DE LOS DOS."
+— Sin hijos, Speaker A
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 02 · FE GENERACIONAL
+
+PREGUNTA: P30. ¿Cuál es tu relación actual con la religión o la
+espiritualidad?
+BASE: n = 500
+CRUCE: Edad × Identidad religiosa
+
+HALLAZGO:
+Entre los 18 y 24 años, 45.5% se declara solo creyente ocasional.
+Entre los mayores de 55, 47.1% es muy practicante. La distancia
+entre las dos generaciones en frecuencia de práctica es marcada.
+
+ESTADÍSTICAS:
+1. 45.5% de los jóvenes 18-24 se declara "creyente ocasional", la
+   respuesta dominante en ese rango.
+   — 10-sistema-de-creencias.md, P30 × edad.
+2. 47.1% de los mayores de 55 se declara "muy practicante y activo",
+   liderazgo claro de la generación mayor.
+   — 10-sistema-de-creencias.md, P30 × edad.
+3. En la frecuencia de recurrir a la fe (P29), los jóvenes 18-24
+   marcan 54.5% "siempre", la cifra más baja entre rangos etarios.
+   En 45-54 sube a 69.1%. — cap-salud-bienestar.txt, P29 × edad.
+
+ANÁLISIS:
+Entre los 18 y 24 años la fe se mantiene pero pierde forma
+institucional. Es la franja con menor frecuencia de asistencia y
+mayor proporción de creyentes ocasionales. La práctica religiosa
+intensa queda concentrada en los mayores de 55. La fe no desaparece
+en los jóvenes — se personaliza.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+3 de cada 10 menciones sobre la salud mental y el malestar
+económico hacen mención a Dios.
+
+2,220 MENCIONES · 1.73M ALCANCE
+
+La gente describe el mismo estado emocional sin ponerle el nombre
+clínico: "lo que está pasando", "los tiempos que vivimos", "la
+situación del país". El estrés económico se vive como clima, no
+como diagnóstico. Tono relativamente contenido para el peso del
+tema: 27% de negatividad en incertidumbre y 22% en costo de vida.
+
+"...recuerda que aún en medio de la incertidumbre, Dios vela por
+ti, confía..."
+— @LorenSori, TikTok
+
+"...Gracias a Dios he aprendido a ser buena gente por mi y mi
+salud mental y no esperando que otro sea igual de jevi conmigo..."
+— @lespibaez, Instagram
+
+"Mi filosofía de vida me permite ver caer un diluvio y dar gracias
+a Dios por vivir en una casa resistente...mi filosofía me quita la
+ansiedad por lo que me falta"
+— @stephanie_b_93, Instagram
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El mayor obstáculo para la       | Aprovechar la cultura de           | "¿Qué pasaría si tu marca
+salud mental del dominicano no   | 'terapia alternativa' del          | costara menos que la ansiedad
+es el estigma: es la factura.    | dominicano para convertirse en     | que tu cliente no puede pagar?"
+                                 | su escape.                         |
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El dominicano no llegó al        | Ver un tutorial de maquillaje a    | "¿Qué pasaría si tu marca
+psicólogo. Pero sí llegó a Ana   | las 11pm no es entretenimiento     | viviera en el momento en que el
+Simó.                            | — es terapia.                      | consumidor por fin respira?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Bienestar es un mercado          | Liberar el bienestar.              | "¿Qué pasaría si tu marca
+reprimido en RD.                 |                                    | abriera la puerta que toda la
+                                 |                                    | categoría dejó cerrada?"
+
+
+--- CASO DE ESTUDIO ---
+
+Salud mental adaptada a la realidad puede verse como una nueva forma
+de entender los comportamientos.
+
+EL CASO: MIND · Comisión de IA y Salud Mental
+Lanzó una comisión para evaluar el uso creciente de IA como sustituto
+de terapia. Un equipo multidisciplinar desarrollará recomendaciones
+para un desarrollo responsable de estas tecnologías durante un año.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+La fe es sistema primario de salud mental para muchas familias
+dominicanas.
+
+01 OPORTUNIDAD CLAVE
+Acompañar al dominicano desde el respeto.
+
+02 POSTURA — ROL
+La marca que acompaña al dominicano desde el respeto.
+
+03 VERBO DE TRANSFORMACIÓN
+Alinear.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere acompañar al dominicano desde el respeto,
+pero ya la familia tiene quien la acompañe: su fe,
+por eso mi marca se alinea al pensamiento del dominicano sin pedirle
+que lo cambie.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 03
+EL AUTOCUIDADO ES FÍSICO, NO EMOCIONAL.
+"YO ME CUIDO PORQUE HAGO EJERCICIO."
+────────────────────────────────────────────────────────────────────────────────
+
+Hay un gap en el que cuidarse no tiene que ver con la parte
+emocional. Para el dominicano, autocuidarse es ir al gym, salir
+a caminar, jugar pelota. Lo emocional no entra en la ecuación.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+La inacción es la respuesta más común frente al cuidado de la salud.
+
+PREGUNTA · P27:
+"¿Qué actividades realizas para cuidar tu salud mental y física?"
+
+CRUCE DEMOGRÁFICO: NSE × Tipología de hogar
+
+HALLAZGO:
+Cuatro de cada diez familias dominicanas no realiza actividad alguna
+para cuidar su salud mental ni física. La cifra se mantiene estable
+en todos los segmentos y todas las tipologías de hogar.
+
+ESTADÍSTICAS:
+1. 42.6% (n=213) declara "No realizo ninguna actividad para cuidar
+   mi salud mental y física" como única respuesta. — 02-bienestar.md, P27.
+2. En el estrato D la inacción sube a 51.2%, frente al 34.8% del AB.
+   — 02-bienestar.md, P27 × NSE.
+3. La inacción es respuesta dominante en 5 de las 7 tipologías de
+   hogar. Las dos excepciones: pareja del mismo sexo (top: terapia
+   33.3%) y "otro" (top: ejercicio 52.6%).
+   — 02-bienestar.md, P27 × tipología.
+4. En la base agregada, terapia (3.0%) y meditación (9.0%) suman
+   menos del 13% de las respuestas. — 02-bienestar.md, P27.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- HALLAZGO EXTENDIDO ---
+
+El ejercicio es la única forma de autocuidado que el dominicano
+practica de forma rutinaria.
+
+PREGUNTA · P27:
+"¿Qué actividades realizas para cuidar tu salud mental y física?"
+
+CRUCE DEMOGRÁFICO: Sexo × Edad
+
+HALLAZGO:
+El 34.8% de los dominicanos se ejercita con regularidad. La
+meditación llega al 9% y la terapia al 3%. La actividad física es
+la única forma de autocuidado con presencia clara en la rutina diaria.
+
+ESTADÍSTICAS:
+1. 34.8% (n=174) declara "Me ejercito con regularidad" como práctica
+   principal de autocuidado. — 02-bienestar.md, P27.
+2. Los hombres se ejercitan más: 43.1% es la respuesta dominante en
+   masculinos, frente al 29.5% en mujeres. — cap-salud-bienestar.txt,
+   P27 × sexo.
+3. El ejercicio se vuelve la respuesta dominante a partir de los
+   35-44 (39.3%) y se mantiene en 45-54 (38.8%) y 55+ (38.7%).
+   — cap-salud-bienestar.txt, P27 × edad.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"YO SOY UNA PERSONA SÚPER ACTIVA. LA SALUD MENTAL MÍA ES DEPORTE.
+YO ME IRRITO CUANDO DURO TRES DÍAS SIN PODER HACER EJERCICIO. YO
+ENTRO A LA CANCHA Y ME OLVIDO DE TODO LO QUE TENGO ENCIMA."
+— Biparental hijos pequeños, Speaker C
+
+"YO TENÍA MUCHO TIEMPO YENDO AL GIMNASIO Y DECIDÍ TOMAR UNA PAUSA
+POR TEMAS LABORALES. ME SIENTO MENOS CARGADO, INCREÍBLEMENTE, PERO
+EL GIMNASIO AYUDABA A LIBERAR MUCHAS COSAS."
+— Sin hijos con mascota, Speaker C
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 03 · AUTOCUIDADO × SEXO
+
+PREGUNTA: P27. ¿Qué actividades realizas para cuidar tu salud
+mental y física?
+BASE: n = 500
+CRUCE: Sexo × Actividad
+
+HALLAZGO:
+Cuando el dominicano hace algo por su salud, lo más probable es que
+sea ejercicio. Los hombres lo practican más (43.1%) y lo describen
+como válvula de escape emocional. Caminar, ir al gimnasio o jugar
+pelota cubren un rol que en otros mercados toma la terapia.
+
+ANÁLISIS:
+El autocuidado dominicano es mono-canal: se reduce al cuerpo. La
+meditación y la terapia suman menos del 13%. Cuidar la mente pasa
+por mover el cuerpo, no por nombrarlo. Eso no es fallo — es código
+cultural. Pero deja sin atención toda la dimensión emocional que
+el ejercicio solo no puede cubrir.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+7.5% de las menciones sobre bienestar hablan de la salud física
+superando en volumen a la salud mental (6.1%).
+
+3,379 MENCIONES · 1.3M ALCANCE
+
+El 60% de la conversación sobre salud física gira en torno a
+enfermedades graves, el sistema de salud y el acceso a este. Cuando
+aparecen menciones de la práctica cotidiana de mantener un estilo de
+vida saludable, es desde la carga: comprar comida es presión
+económica antes que decisión de bienestar. En RD se habla de enfermar
+más de lo que se habla de cuidarse.
+
+"como te cambia la vida cuando no estás con alguien que te genera
+ansiedad todo el tiempo mamita, volvi a comer"
+— @Sofdl7, X / Twitter
+
+"Gracias a Dios yo con o sin pareja, voy al gym, hago mis viajes
+de chicas, subo mis fotos en bikinis, voy a terapia — así que
+ninguna de esa manía que tienen la mayoría cuando se separan la
+tengo"
+— @yulaidispaulaa, X / Twitter
+
+"¿Por qué gastar en lujo se siente normal... pero invertir en salud
+mental todavía se justifica, se esconde o se posterga? Un celular
+caro = 'me lo merezco'. Terapia = explicaciones."
+— @cdn37, X / Twitter
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El dominicano ya practica el     | Retar el territorio del bienestar  | "¿Qué pasaría si tu marca fuera
+autocuidado — solo que no lo     | cambiando las reglas de lo que     | la primera a la que el
+llama así.                       | significa cuidarse.                | dominicano no tuviera que
+                                 |                                    | explicarle quién es?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Las marcas de alimentación       | Las familias llenan su carrito     | "¿Qué pasaría si tu marca fuera
+saludable le hablan a quien ya   | con productos 'que los cuidan'.    | la razón por la que comer bien
+come bien.                       | Entra en la narrativa.             | dejó de ser privilegio?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El bienestar es resultado        | Usa la cultura como vehículo de    | "¿Qué pasaría si tu marca fuera
+visible que se confirma          | tu narrativa.                      | lo que otros notan cuando tu
+socialmente.                     |                                    | cliente está bien?"
+
+
+--- CASO DE ESTUDIO ---
+
+Entender lo que tu audiencia necesita antes que ellos mismos: desde
+un producto hasta una nueva narrativa.
+
+EL CASO: MEDILOAN · MyItura (Nigeria)
+Ofrece financiamiento médico para población de bajos ingresos con
+aprobación en menos de 24 horas, como alternativa a renunciar a la
+atención médica por falta de fondos.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+Hay un gap en el que cuidarse no tiene que ver con la parte
+emocional.
+
+01 OPORTUNIDAD CLAVE
+La marca que dimensiona el cuidado de manera integral.
+
+02 POSTURA — ROL
+Dimensionar el cuidado integral: cuerpo y mente.
+
+03 VERBO DE TRANSFORMACIÓN
+Ampliar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere que te cuides de manera integral: cuerpo y mente,
+pero te cuesta ver el autocuidado más allá de lo físico,
+por eso mi marca amplía tu definición de bienestar para conectar
+cuerpo y mente.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 04
+MI EQUILIBRIO MENTAL ES MI EQUILIBRIO ECONÓMICO.
+────────────────────────────────────────────────────────────────────────────────
+
+Las emociones influyen en las decisiones financieras y nadie está
+hablando de eso. El estrés dominicano no nace en la mente — nace
+en la billetera.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+La economía es la principal fuente de estrés en los hogares
+dominicanos.
+
+PREGUNTA · P26:
+"¿Qué factores generan más estrés dentro de tu vida familiar?"
+
+CRUCE DEMOGRÁFICO: NSE × Factor de estrés
+
+HALLAZGO:
+Casi la mitad de los hogares dominicanos señala la economía como su
+mayor fuente de estrés. En el estrato D la cifra sube a 51.2% y en
+el AB cae a 21.4%, donde el estresor cambia de forma.
+
+ESTADÍSTICAS:
+1. 47.8% (n=239) declara la economía como factor que más estrés
+   genera. La realidad económica aparece en segundo lugar con 28.4%
+   (n=142). — 02-bienestar.md, P26 (multirespuesta).
+2. En el estrato D la economía como estresor llega a 51.2%; en el AB
+   cae a 21.4%. — cap-salud-bienestar.txt, P26 × NSE.
+3. En el AB el estresor #1 muta: 57.1% señala "falta de tiempo
+   personal" como mayor presión.
+   — cap-salud-bienestar.txt, P26 × NSE.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- HALLAZGO EXTENDIDO ---
+
+Comer saludable depende del bolsillo, no de la voluntad.
+
+PREGUNTA · P22:
+"¿Qué factores influyen más en la compra de alimentos?"
+
+CRUCE DEMOGRÁFICO: NSE × Factor de compra
+
+HALLAZGO:
+El precio es el factor más mencionado al decidir qué se compra para
+comer. En el estrato E llega a 65.6% y desplaza a la calidad. La
+salud aparece más abajo: máximo 36.8% en el estrato C medio.
+
+ESTADÍSTICAS:
+1. 53.8% (n=269) menciona el precio como factor que más influye en
+   la compra de alimentos. — 04-alimentacion.md, P22 (multirespuesta).
+2. La calidad queda en segundo lugar agregado con 45.8% (n=229).
+   — cap-salud-bienestar.txt, P22 × NSE.
+3. En el estrato E el precio sube a 65.6% y la calidad cae a 21.9%.
+   La distancia entre ambos es de casi 44 puntos.
+   — cap-salud-bienestar.txt, P22 × NSE.
+4. La salud como factor de compra se mantiene entre 28% y 37% en
+   todos los estratos, con máximo de 36.8% en el C medio.
+   — cap-salud-bienestar.txt, P22 × NSE.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"TUVE UN TIEMPO COMO MAMÁ SOLTERA, Y MI HERMANA ES MAMÁ SOLTERA DE
+TRES NIÑOS. ES BIEN DIFÍCIL LEVANTARTE, LLEVAR AL NIÑO A LA
+ESCUELA, EL DINERO, CUANDO EL PAPÁ NO ESTÁ NI ECONÓMICAMENTE NI
+EMOCIONALMENTE."
+— Biparental hijos pequeños, Speaker A
+
+"A MÍ ME GUSTARÍA COMER MUCHO MÁS SALUDABLE, PERO LA REALIDAD ES
+QUE EL BOLSILLO, EL TRABAJO, EL AJETREO, NO TE LO PERMITE. UNO
+HACE LO QUE PUEDE CON LO QUE TIENE EN LA NEVERA."
+— Biparental hijos pequeños, Speaker A
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 04 · ESTRÉS × NSE
+
+PREGUNTA: P26. ¿Qué factores generan más estrés dentro de tu vida
+familiar?
+BASE: n = 500
+CRUCE: NSE × Factor de estrés
+
+HALLAZGO:
+La economía es la mayor fuente de estrés y cambia de forma según el
+ingreso. En los estratos D y E aparece como economía pura. En el AB
+el estresor dominante pasa a ser la falta de tiempo personal,
+mientras la economía se diluye al fondo de la lista.
+
+ANÁLISIS:
+En los focus groups la frustración aparece sin filtro: la gente sabe
+qué debería comer y no puede pagarlo. La promesa del comer sano
+choca contra el costo real de la canasta básica, y termina siendo un
+proyecto que pocos hogares logran sostener. La ansiedad financiera
+no es tema de finanzas — es tema de salud mental.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+1 de cada 22 menciones sobre familia toca el bienestar emocional.
+
+563 MENCIONES · 2.2M ALCANCE
+
+La terapia aparece casi siempre desde el costo: 3,000, 4,500, hasta
+7,000 pesos por sesión. La barrera no es solo cultural — es
+económica. Quien más habla de querer ir al psicólogo es quien menos
+puede pagarlo. Y quien puede, a veces tampoco va porque en su
+familia "eso es para locos." La conciencia crece, pero choca con
+barreras culturales y económicas.
+
+"Como la salud mental no duele, lamentablemente le restamos
+importancia."
+— @delfinamontilla, TikTok
+
+"Mi abuela dijo: 'Los psicólogos solo están para sacarle el dinero
+a la gente.'"
+— @_m0onflower_, Instagram
+
+"Es verdad, yo tengo trastorno y más cuando tengo que pagar el
+banco y a 7 prestamistas."
+— @gilberto00g1, TikTok
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La ansiedad nace de la           | Aliviar decisiones financieras     | "¿Qué pasaría si tu marca
+billetera.                       | desde la emoción, no desde el      | ofreciera alivio emocional
+                                 | Excel.                             | antes que alivio económico?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Solo 8% accede a salud mental    | Crear puntos de entrada            | "¿Qué pasaría si tu marca fuera
+formal.                          | accesibles: contenido, comunidad,  | el primer escalón — no el
+                                 | herramientas gratis.               | consultorio?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La terapia aparece desde el      | Desmontar el estigma del precio    | "¿Qué pasaría si tu marca
+costo.                           | con lenguaje honesto.              | dijera en voz alta lo que el
+                                 |                                    | dominicano calcula en silencio?"
+
+
+--- CASO DE ESTUDIO ---
+
+La ansiedad económica necesita soluciones que entiendan la emoción,
+no solo la cifra.
+
+EL CASO: NUDGE · Global Financial Wellbeing
+Plataforma B2B2C que da a empleados herramientas de bienestar
+financiero con coaching emocional integrado. Mide ROI no solo en
+ahorro, sino en reducción de ansiedad medida en encuestas
+trimestrales.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+Las emociones influyen en las decisiones financieras y nadie está
+hablando de eso.
+
+01 OPORTUNIDAD CLAVE
+Apoyar el bienestar financiero de las familias dominicanas.
+
+02 POSTURA — ROL
+Apoyar el bienestar financiero de las familias dominicanas.
+
+03 VERBO DE TRANSFORMACIÓN
+Aliviar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere que mantengas siempre tu bienestar financiero,
+pero tus emociones influyen en tus decisiones financieras,
+por eso mi marca entendemos que el alivio financiero empieza y
+termina cuando estás bien.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 05
+ME AGOTA SER PADRE/MADRE, PERO NUNCA ME CANSO DE MIS HIJOS.
+────────────────────────────────────────────────────────────────────────────────
+
+La tensión del agotamiento parental. Criar en República Dominicana
+hoy es caro, difícil, agotador — y nadie dice que no lo haría de
+nuevo.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+El estrés por crianza alcanza su pico entre los 35 y 44 años.
+
+PREGUNTA · P26:
+"¿Qué factores generan más estrés dentro de tu vida familiar?"
+
+CRUCE DEMOGRÁFICO: Edad × Tipología hogar
+
+HALLAZGO:
+El 22.3% de los adultos 35-44 declara la crianza como fuente de
+estrés, casi el doble que en el rango 25-34. En esa franja también
+suben las responsabilidades del hogar como estresor declarado.
+
+ESTADÍSTICAS:
+1. 22.3% de los adultos 35-44 declara la crianza como fuente de
+   estrés (vs 15.5% en 25-34 y 5.5% en 18-24).
+   — cap-salud-bienestar.txt, P26 × edad.
+2. El 42.2% del total siente "demasiada presión por tenerlo todo"
+   como madre o padre. — cap-salud-bienestar.txt.
+3. 23% de los hogares monoparentales cita crianza como fuente de
+   estrés, el porcentaje más alto entre tipologías.
+   — cap-salud-bienestar.txt.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"MIS HIJOS, LOS AMO Y LOS QUIERO, PERO TAMBIÉN SON UNA FUENTE DE
+ESTRÉS. A VECES UNO SE SIENTE PARTIDO ENTRE LO QUE DEBERÍA SENTIR
+Y LO QUE REALMENTE SIENTE."
+— Mixta, Speaker C
+
+"TODA MUJER QUE TIENE HIJOS SIEMPRE ESTÁ AGOTADA, CANSADA, BATIDA.
+ESO ES UN MITO: LA IMAGEN DE TODAS ELLAS RELAJADAS LIMPIANDO LA
+CASA CON EL MARIDO SENTADO ALLÁ FELIZ DE LA VIDA."
+— Monoparental, Speaker B
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 05 · CRIANZA × EDAD
+
+PREGUNTA: P26. ¿Qué factores generan más estrés dentro de tu vida
+familiar?
+BASE: n = 500
+CRUCE: Edad × Tipología hogar
+
+HALLAZGO:
+Entre los 35 y 44 años convergen los hijos en edad demandante, la
+carrera en su mayor exigencia y los compromisos económicos del adulto
+medio. El 42.2% del total siente presión por tenerlo todo.
+
+ANÁLISIS:
+La paternidad publicitaria sin matices no cabe en este perfil. El
+padre y la madre dominicanos de 35-44 están partidos entre la
+exigencia laboral, la crianza activa y una economía que no perdona.
+El agotamiento no es falta de amor — es exceso de carga sin red de
+apoyo.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+0.2% de las menciones sobre familia y bienestar abordan directamente
+la carga de la crianza.
+
+75 MENCIONES · 97K ALCANCE
+
+La conversación sobre la carga de criar no elige entre el
+agotamiento y el amor, los sostiene al mismo tiempo. Los comentarios
+señalan que criar en República Dominicana hoy es caro, es difícil,
+es agotador, y aun así nadie dice que no lo haría de nuevo.
+Agotarse criando sigue siendo, en la cultura dominicana, una forma
+de decir que lo estás haciendo bien.
+
+"Ser papá de una niña me recuerda que mis hijos aprenden no solo
+de lo que les digo, sino de lo que ven."
+— @spereyrarojas, Twitter
+
+"El mismo día que nació mi hijo fue mi primera sesión de terapia
+para poder ser la mejor versión de mí para y por mi hijo."
+— @camago85, Instagram
+
+"Y a su vez más estrés laboral, emocional... así mismo como va el
+tiempo, un hijo es mucho."
+— @Caro, TikTok
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Las madres cargan solas y el     | Diseñar para la descarga, no para  | "¿Qué pasaría si tu marca le
+mercado confunde aguante con     | la perfección.                     | restara trabajo a mamá en vez
+estar bien.                      |                                    | de sumarle estándares?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Ninguna marca le habla a las     | Activar el territorio abandonado.  | "¿Qué pasaría si tu marca fuera
+familias monoparentales.         |                                    | la primera en nombrar la
+                                 |                                    | monoparentalidad sin disfraz?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La presencia paterna es urgente  | Activar al padre como cuidador,    | "¿Qué pasaría si tu marca le
+para 62.6%.                      | no como ayudante.                  | hablara al papá como
+                                 |                                    | protagonista de la crianza?"
+
+
+--- CASO DE ESTUDIO ---
+
+Reconocer el agotamiento parental sin romantizarlo abre una
+conversación rara en la categoría.
+
+EL CASO: FRIDA MOM
+Marca de cuidado postparto que lanzó campañas mostrando la realidad
+no-glamorizada del postparto. Su tagline de 2023: 'Motherhood is
+f***ing hard. We got you.' Creció 3× en 18 meses por hablar
+honestamente.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+La tensión del agotamiento parental.
+
+01 OPORTUNIDAD CLAVE
+Cómplice de crianza.
+
+02 POSTURA — ROL
+Ser cómplice en la crianza de los hijos.
+
+03 VERBO DE TRANSFORMACIÓN
+Descargar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere ser tu cómplice en la crianza de tus hijos,
+pero existe un fuerte agotamiento al ser padres,
+por eso mi marca decide descargarte haciéndote ver lo mejor de tu
+paternidad.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 06
+LA CRISIS MONOPARENTAL NO TIENE TRATAMIENTO.
+────────────────────────────────────────────────────────────────────────────────
+
+En las familias monoparentales, los padres se sienten solos. 1 de
+cada 4 hogares es monoparental, pero el mercado diseña para dos.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+Las mujeres dominicanas se cuidan menos que los hombres.
+
+PREGUNTA · P27:
+"¿Qué actividades realizas para cuidar tu salud mental y física?"
+
+CRUCE DEMOGRÁFICO: Sexo × Actividad
+
+HALLAZGO:
+El 48.5% de las mujeres dominicanas no realiza ninguna actividad
+para cuidar su salud mental ni física, frente al 33.3% de los
+hombres. La brecha de género en autocuidado es de 15 puntos.
+
+ESTADÍSTICAS:
+1. 48.5% de mujeres no realiza ninguna actividad de autocuidado,
+   frente a 33.3% de hombres. Brecha: 15.2 puntos.
+   — cap-salud-bienestar.txt, P27 × sexo.
+2. Los hombres se ejercitan más (43.1%) que las mujeres (29.5%):
+   brecha inversa de 13.6 puntos en actividad física.
+   — cap-salud-bienestar.txt, P27 × sexo.
+3. 22.3% de las mujeres identifica la "falta de tiempo personal"
+   como fuente de estrés, vs 17.9% de hombres.
+   — cap-salud-bienestar.txt, P26 × sexo.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"ES SANO DEDICARSE UN TIEMPO A UNO MISMO. SI YO QUISIERA SENTARME
+A MIRAR EL PARQUE Y TOMARME UNA BATIDA YO SOLA... PERO ESE TIEMPO
+NO APARECE."
+— Biparental hijos pequeños, Speaker D
+
+"HAY VECES EN LAS QUE ELLA SIENTE QUE YA TIENE LA CARGA. LOS DOS
+HACEMOS TODO, PERO NO SENTIMOS LO MISMO, PORQUE CADA QUIEN EN MEDIO
+DEL ESTRÉS VE SOLO LO DE SU LADO."
+— Sin hijos con mascota, Speaker D
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+Solo el 1.65% de la conversación digital hace mención a la
+monoparentalidad.
+
+517 MENCIONES · 1.1M ALCANCE
+
+A pesar de que la monoparentalidad es una realidad en la sociedad
+dominicana, las menciones digitales no suelen mencionarla como tal.
+La madre soltera aparece en la conversación de tres formas: como
+denuncia, como ejemplo de resiliencia y como estadística ignorada.
+Lo que no aparece es una conversación sobre qué hace el sistema para
+atenderla. La madre soltera existe como cifra y como historia
+personal. No como prioridad del sistema.
+
+"Estoy muy deprimida, en ninguno de estos gobiernos salgo
+beneficiada. Madre soltera con un hijo especial y sin empleo."
+— @KataleyaRodrig5, Twitter
+
+"Que la madre soltera tenga que elegir entre dejar a su hijo solo
+o no comer. Una República Dominicana donde el apellido no sea el
+currículum."
+— @altantotv, Instagram
+
+"En RD el 40% de las madres son solteras. El problema no es la
+madre soltera — es lo que viene con esas circunstancias."
+— @GrecoHerasme, Twitter
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+1 de cada 4 hogares es           | Re-diseñar pack sizes, precios y   | "¿Qué pasaría si tu marca
+monoparental, pero el mercado    | servicios para hogares de un solo  | contara un ingreso, no dos?"
+diseña para dos.                 | adulto.                            |
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La madre soltera dedica menos    | Vender tiempo. Literalmente. Como  | "¿Qué pasaría si tu marca no
+de 3 horas semanales a sí        | beneficio principal.               | vendiera producto, sino
+misma.                           |                                    | minutos?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La monoparentalidad se vive      | Legitimarla en el lenguaje de      | "¿Qué pasaría si tu marca
+como falla, no como estructura.  | marca sin moralizar.               | dijera 'esta casa es completa'
+                                 |                                    | — aunque falte un adulto?"
+
+
+--- CASO DE ESTUDIO ---
+
+Diseñar para la realidad, no para el ideal: la marca que lo hace
+desbloquea un mercado que todos ignoran.
+
+EL CASO: DUOLINGO SINGLE PARENTS
+Duolingo lanzó en 2024 un programa específico para padres/madres
+solteras: sesiones micro (3 min), notificaciones que respetan
+horarios caóticos, y comunidad dentro de la app. El engagement en
+ese segmento subió 62%.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+En las familias monoparentales, los padres se sienten solos.
+
+01 OPORTUNIDAD CLAVE
+Sistema de apoyo.
+
+02 POSTURA — ROL
+Entrar en el sistema de apoyo de la crianza.
+
+03 VERBO DE TRANSFORMACIÓN
+Convivir.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere entrar en tu sistema de apoyo en la crianza,
+pero muchas veces la maternidad se siente solitaria,
+por eso mi marca decide convivir contigo, para que no tengas que
+ser "todo".
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 07
+LAS FAMILIAS DOMINICANAS NO TIENEN UN SISTEMA DE SALUD, Y DE TODAS
+FORMAS, NO SE CUIDAN.
+────────────────────────────────────────────────────────────────────────────────
+
+Modo supervivencia no toma en cuenta los imprevistos. No es que el
+dominicano no quiera cuidarse. Es que no sabe que puede, no confía
+en que funcione, o no tiene cómo pagarlo.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+El sistema de salud pública falla primero en el acceso.
+
+PREGUNTA · P28:
+"Evalúa las siguientes opciones y organiza en base a lo que más le
+haga falta al Sistema de Salud Pública de la República Dominicana,
+el primero siendo el más importante."
+
+CRUCE DEMOGRÁFICO: Tipología de hogar × Edad
+
+HALLAZGO:
+Lo que los dominicanos sienten que más le hace falta al sistema
+público es el acceso a servicios. Le siguen, en ese orden, calidad
+de la atención, costo y disponibilidad de medicamentos.
+
+ESTADÍSTICAS:
+1. El #1 del ranking de carencias del sistema de salud pública es el
+   acceso a servicios. — 02-bienestar.md, P28 (ranking, n=500).
+2. El #2 es la calidad de la atención médica; el #3, el costo; y el
+   #4, la disponibilidad de medicamentos.
+   — 02-bienestar.md, P28.
+3. Las dos últimas opciones del ranking P28 son tiempo de espera (#6)
+   y eficiencia del seguro de salud (#7). Las prioridades del público
+   son estructurales (acceso, calidad, costo) antes que operativas.
+   — 02-bienestar.md, P28.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"TÚ VAS CON UN DOLOR, AUNQUE SEA UN DOLOR DE UNA HEBRA DE CABELLO,
+Y TE DICEN QUE HASTA QUE EL SEGURO NO TE APRUEBE, NO. O VAS A
+COMPRAR UN MEDICAMENTO Y TE DICEN QUE TU LÍMITE YA SE AGOTÓ."
+— Homoparental, Speaker A
+
+"SI TÚ NO TIENES ALGUIEN QUE TE PUEDA AYUDAR EN EL SISTEMA, TÚ
+ESTÁS MUERTO. HAY QUE DIVIDIR EL MEDICAMENTO EN TRES PORQUE NO HAY
+SUFICIENTE, POR SI LLEGA OTRO CASO QUE REALMENTE LO NECESITE."
+— Sin hijos con mascota, Speaker B
+
+
+--- CRUCE / ANÁLISIS PROFUNDO ---
+
+TENSIÓN 07 · SISTEMA DE SALUD × ACCESO
+
+PREGUNTA: P28. Ranking de carencias del sistema público.
+BASE: n = 500
+CRUCE: Tipología de hogar × Edad
+
+HALLAZGO:
+El problema empieza antes de llegar al médico: no se llega.
+
+ANÁLISIS:
+En los focus groups, las familias hablan del sistema público
+asumiendo que sin un seguro privado fuerte la atención no aparece,
+y esa expectativa cambia cómo organizan el presupuesto del hogar.
+La prevención no entra en el vocabulario porque el sistema ni
+siquiera cubre la urgencia. El dominicano no es negligente con su
+salud — es pragmático con un sistema que no funciona.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+Se encuentran 177 menciones sobre salud familiar como sistema social
+y organizacional dentro del hogar.
+
+117 MENCIONES · 47.2K ALCANCE
+
+La conversación llega de dos puntos: denuncias al sistema (enlazado
+al caso de Senasa) o patrones culturales (como la salud sexual o
+mental). Los comentarios más recientes suman algo concreto: personas
+compartiendo dónde encontrar atención barata o gratuita. Una
+comunidad que construye su propia guía de recursos porque el sistema
+oficial no comunica los que tiene.
+
+"Lo que antes era un seguro confiable, hoy es una lotería de
+esperas, excusas y puertas cerradas."
+— @Reaccionandoando, Twitter
+
+"Aquí en RD tienen muchos tabúes de todo lo sexual y muchos miedos
+a los ginecólogos. Es penoso."
+— @Letii_v, TikTok
+
+"RD$52 mil millones gastados y enfermos escuchando 'regrese la
+semana que viene'."
+— @MonteneDamian, Twitter
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Los jóvenes hablan de salud      | Crear primeros pasos               | "¿Qué pasaría si tu marca
+mental y no hacen nada.          | ridículamente bajos — 1 minuto,    | vendiera el primer micro-paso,
+                                 | 1 pregunta, 1 acción.              | no la transformación?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La comunidad está armando su     | Sumarse como curador, no como      | "¿Qué pasaría si tu marca fuera
+propia guía de recursos.         | proveedor.                         | el Waze del sistema de salud
+                                 |                                    | dominicano?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Prevenir no es hábito, ir al     | Convertir prevención en pequeño    | "¿Qué pasaría si tu marca
+doctor sí.                       | ritual, no en proyecto.            | hiciera la prevención tan fácil
+                                 |                                    | como pedir un desayuno?"
+
+
+--- CASO DE ESTUDIO ---
+
+Convertir la navegación del sistema en un producto es la oportunidad
+más clara de la categoría.
+
+EL CASO: ZOCDOC
+Marketplace de citas médicas en EE.UU. que democratizó encontrar
+doctor, ver reseñas y agendar en 60 segundos. Volvió la prevención
+un hábito de app, no un proyecto familiar. 150M+ usuarios activos.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+Modo supervivencia no toma en cuenta los imprevistos.
+
+01 OPORTUNIDAD CLAVE
+Salud preventiva.
+
+02 POSTURA — ROL
+Que la familia practique la salud preventiva.
+
+03 VERBO DE TRANSFORMACIÓN
+Activar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere que practiques la salud preventiva con tu familia,
+pero en modo supervivencia no tomas en cuenta "lo que tal vez no
+pase",
+por eso mi marca activa la conversación que no puedes iniciar y te
+protege antes que lo necesites.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 08
+LOS ANCIANOS SON INVISIBLES.
+────────────────────────────────────────────────────────────────────────────────
+
+Ser envejeciente es un tema que preocupa, pero no ocupa. El 55+ es
+el segmento más activo en autocuidado, y el menos visible en
+publicidad.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+El segmento 55+ se cuida más de lo que el mercado reconoce — pero
+nadie lo ve.
+
+DATOS CLAVE:
+1. El ejercicio se mantiene como respuesta dominante de autocuidado
+   en el rango 55+ con 38.7%, por encima de todos los rangos
+   menores de 35. — cap-salud-bienestar.txt, P27 × edad.
+2. Solo 12.8% del dominicano es cuidador directo de un adulto
+   mayor en su hogar; 73.8% pide pensiones suficientes y 24.0%
+   pide capacitación para cuidadores familiares — una categoría
+   que el mercado no atiende. — Código Casa, P78 + P79.
+3. La pre-vejez (45-54) es quien más teme envejecer: el miedo a la
+   dependencia supera al miedo económico en ese rango.
+   — Código Casa, grupos focales.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"LA FRUSTRACIÓN EN CUANTO A SALUD Y BIENESTAR PARA MÍ ES EL TEMA
+DEL PRESUPUESTO QUE REQUIERE CUIDARSE. TENGO UN CHOQUE ENTRE LO
+QUE DIGO QUE TENGO QUE ACEPTAR Y LAS COSTUMBRES PASADAS."
+— Sin hijos con mascota, Speaker E
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+1 de cada 37 posts hacen mención a los adultos mayores, usualmente
+desde la nostalgia — no como segmento.
+
+838 MENCIONES · 379.2K ALCANCE
+
+Los adultos mayores aparecen sobre todo cuando ya no están. Se les
+menciona al extrañarlos, al recordarlos, al lamentar no haber
+aprovechado más tiempo. La conversación sobre su cuidado activo es
+casi inexistente. Nadie habla de quién los cuida, qué sistema los
+protege, cómo se financia su vejez. La abuela sí es mencionada
+como figura materna y centro familiar. Los ancianos aparecen como
+figuras de amor recordado — no como ciudadanos con necesidades
+presentes.
+
+"Mi abuelita no sabe leer ni escribir pero me enseñó — con un
+palito y una o. Así aprendí la d, la p, la b."
+— @Klamotz, TikTok
+
+"Los amo, amo ir a su casa para hablar mientras me escuchan con
+sus caritas de orgullo. Mis titos hermosos ojalá fueran para
+siempre."
+— @Elsa_tellez23, TikTok
+
+"Ya no los tengo aquí conmigo. :("
+— @ximrd, TikTok
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El 55+ es el segmento más        | Casting, tono, canales: rediseñar  | "¿Qué pasaría si tu marca le
+activo en autocuidado, y el      | la representación.                 | hablara al abuelo como cliente,
+menos visible en publicidad.     |                                    | no como figura sentimental?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El cuidador familiar no tiene    | Crear una sub-categoría:           | "¿Qué pasaría si tu marca le
+producto, servicio ni marca      | herramientas de cuidador.          | hiciera la vida más fácil al
+aliada.                          |                                    | que cuida, no solo al que es
+                                 |                                    | cuidado?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La pre-vejez (45-54) es quien    | Vender planeación de vejez como    | "¿Qué pasaría si tu marca le
+más teme envejecer.              | acto de libertad, no de miedo.     | vendiera al dominicano de 50 la
+                                 |                                    | vejez que quiere, no la que
+                                 |                                    | teme?"
+
+
+--- CASO DE ESTUDIO ---
+
+Diseñar productos que reconozcan al envejeciente y al cuidador como
+clientes legítimos redefine categorías.
+
+EL CASO: PAPA · Companionship Network
+Plataforma que conecta adultos mayores con "pals" — estudiantes
+universitarios que ofrecen compañía, transporte, ayuda tecnológica.
+Integrado con aseguradoras. $150M+ en Series D. Cuida al
+envejeciente y emplea al joven.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+Ser envejeciente es un tema que preocupa, pero no ocupa.
+
+01 OPORTUNIDAD CLAVE
+Dignificar al envejeciente.
+
+02 POSTURA — ROL
+Que cada envejeciente en tu vida tenga dignidad.
+
+03 VERBO DE TRANSFORMACIÓN
+Proyectar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere que cada envejeciente en tu vida tenga dignidad,
+pero aunque los envejecientes nos preocupan, no nos ocupamos de
+ellos,
+por eso mi marca proyecta tu yo futuro.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 09
+SABER AGUANTAR SE HEREDA.
+────────────────────────────────────────────────────────────────────────────────
+
+El modelo emocional heredado de la figura materna. La cultura del
+aguante se premia en generaciones que terminan en terapia.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+El molde emocional se hereda sin manual.
+
+DATOS CLAVE:
+1. 89.2% del dominicano declara que sus figuras cuidadoras fueron
+   muy influyentes en su formación emocional.
+   — Código Casa Estudio Cuanti+Cuali 2025, P4.
+2. 63.5% de NNA dominicanos de 1 a 14 años sufre violencia como
+   método de crianza en el hogar. — UNICEF Análisis Situación NNA 2025.
+3. En 70 horas de focus groups, la palabra "religión" se mencionó 198
+   veces frente a 28 de "terapia". La herencia emocional se procesa
+   por los canales que la generación anterior legó: fe, aguante,
+   familia. — cap-salud-bienestar.txt.
+
+VERDADES INCÓMODAS:
+01. La cultura del aguante se premia en generaciones que terminan en
+    terapia.
+02. Hay una generación cargando terapia, culpa histórica y cero
+    manual de reparación.
+03. Romper el ciclo es acto político, pero lo están haciendo en
+    silencio.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025 / UNICEF 2025
+
+
+--- CONSUMER VOICE ---
+
+"TENGO SENTIMIENTOS ENCONTRADOS CON LA FAMILIA [DEL MISMO SEXO],
+PORQUE POR TEMAS RELIGIOSOS Y TEMAS CULTURALES NO ESTOY DE
+ACUERDO. DENTRO DE MIS VALORES, LO RELIGIOSO ES LO CORRECTO."
+— Sin hijos con mascota, Speaker B
+
+"VAMOS A LA IGLESIA O HACEMOS CUALQUIER OTRA ACTIVIDAD. LA IGLESIA
+ES UNA OPCIÓN MÁS EN LA RUTINA, NO LA ÚNICA."
+— Sin hijos, Speaker B
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+0.4% de la conversación se concentra todo el peso generacional.
+
+114 MENCIONES · 27.8K ALCANCE
+
+En la conversación dominicana, los patrones que se heredan son casi
+siempre los que duelen. El favoritismo que nadie admite pero todos
+vivieron. El silencio que se llama "resolver los problemas en casa".
+El aguante que se llama fortaleza. Comentarios señalan que eso se
+aprende mirando y se repite sin querer.
+
+"La mujer sabia no deja ver a terceros cuando está molesta con su
+pareja. Los problemas se resuelven en casa."
+— @BrujitaMSM, Twitter
+
+"¿Qué hacemos como padres de una nueva generación que quiere hacer
+las cosas distinto? ¿Reconocerles a nuestros hijos que sí tenemos
+mayor afinidad con uno?"
+— @laymichell31, Instagram
+
+"Siempre sentí que en mi casa la favorita es mi hermana. Eso me
+llevó a no tener más que un solo hijo, para que no se sintiera así."
+— @cythiagarate, Instagram
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+89.2% del dominicano fue         | Convertir la herencia en acto de   | "¿Qué pasaría si tu marca le
+formado emocionalmente por sus   | elección, no destino.              | ayudara al dominicano a decidir
+figuras cuidadoras.              |                                    | qué heredar y qué no?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Los padres millennials quieren   | Volverse aliado del 'cycle         | "¿Qué pasaría si tu marca fuera
+romper el ciclo pero cargan      | breaker'.                          | el manual que nadie les dio?"
+solos.                           |                                    |
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El peso generacional se repite   | Nombrar en voz alta lo que todos   | "¿Qué pasaría si tu marca
+en silencio.                     | cargan.                            | dijera 'tú no eres tu mamá'
+                                 |                                    | sin culpar a mamá?"
+
+
+--- CASO DE ESTUDIO ---
+
+La crianza reparativa es territorio virgen en RD, pero tiene
+evidencia global de generar lealtad profunda.
+
+EL CASO: GOOD INSIDE · Dr. Becky
+Plataforma de parenting que habla directo a la generación que quiere
+criar distinto. 1M+ suscriptores, producto digital (curso, chatbot
+IA Gigi) y comunidad. Crece por boca a boca de padres en terapia.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+El modelo emocional heredado de la figura materna.
+
+01 OPORTUNIDAD CLAVE
+La marca que recuerda.
+
+02 POSTURA — ROL
+Ser la marca que recuerda tus raíces.
+
+03 VERBO DE TRANSFORMACIÓN
+Honrar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere ser la marca que recuerda tus raíces,
+pero tu herencia también viene con una carga emocional,
+por eso mi marca convierte en nuevas memorias para honrar de forma
+más positiva a los antepasados.
+
+
+────────────────────────────────────────────────────────────────────────────────
+TENSIÓN 10
+EL AMOR ES LO MÁS IMPORTANTE, A MENOS QUE SEA AMOR PROPIO.
+────────────────────────────────────────────────────────────────────────────────
+
+En nuestra cultura, la abnegación es negarse totalmente a uno mismo.
+Sacrificio = amor en el lenguaje dominicano.
+
+
+--- HALLAZGO / SET DE DATOS ---
+
+Las mujeres dominicanas se cuidan menos que los hombres.
+
+PREGUNTA · P27:
+"¿Qué actividades realizas para cuidar tu salud mental y física?"
+
+CRUCE DEMOGRÁFICO: Sexo × Actividad
+
+HALLAZGO:
+El 48.5% de las mujeres dominicanas no realiza ninguna actividad
+para cuidar su salud mental ni física, frente al 33.3% de los
+hombres. La brecha de género en autocuidado es de 15 puntos.
+
+ESTADÍSTICAS:
+1. 48.5% de mujeres no realiza ninguna actividad de autocuidado,
+   frente a 33.3% de hombres. Brecha: 15.2 puntos.
+   — cap-salud-bienestar.txt, P27 × sexo.
+2. La mujer lidera la inacción con 48.5%.
+   — cap-salud-bienestar.txt, P27 × sexo.
+
+Source: Código Casa Estudio Cuanti+Cuali 2025
+
+
+--- CONSUMER VOICE ---
+
+"ES SANO DEDICARSE UN TIEMPO A UNO MISMO. SI YO QUISIERA SENTARME
+A MIRAR EL PARQUE Y TOMARME UNA BATIDA YO SOLA... PERO ESE TIEMPO
+NO APARECE."
+— Biparental hijos pequeños, Speaker D
+
+
+--- CONVERSACIÓN DIGITAL ---
+
+CONVERSACIÓN DIGITAL
+
+El amor hacia la familia genera 4 veces más menciones que el amor
+propio.
+
+486 MENCIONES · 568.7K ALCANCE
+
+El sacrificio como lenguaje de amor. La entrega como prueba de que
+lo estás haciendo bien. Querer a los demás se celebra y se espera.
+Poner límites, priorizarse, decir no, elegirse, son actos que la
+conversación empieza a nombrar, pero que todavía van acompañados de
+justificaciones. Cuidar a otros es esperado; cuidarse a uno mismo
+aún es novedad.
+
+"¿Que me importa ser la favorita de alguien? Yo misma soy mi propia
+favorita — porque si yo no me priorizo, nadie lo hará por mí."
+— @mariangelloaiza, Instagram
+
+"Abriendo un linaje donde las mujeres se escuchan, se validan, se
+eligen. No se apagan para calmar a otros."
+— @NathaliaNCesped, Twitter
+
+"Nadie tiene derecho a herir, minimizar o controlar a otro ser
+humano. Ni en la familia ni en la pareja."
+— @ingridmendozap, Instagram
+
+Source: Ninja Social Listening Impact®
+
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                  | OPORTUNIDAD                        | DETONADOR
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+La mujer lidera la inacción con  | Bajar la barrera del autocuidado   | "¿Qué pasaría si tu marca
+48.5%.                           | a 5 minutos diarios, sin culpa.    | normalizara el egoísmo
+                                 |                                    | saludable?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+El amor propio se conversa pero  | Quitar el asterisco cultural.      | "¿Qué pasaría si tu marca
+se justifica.                    |                                    | dijera 'primero tú' sin pedir
+                                 |                                    | perdón?"
+─────────────────────────────────┼────────────────────────────────────┼──────────────────────────────────
+Sacrificio = amor en el          | Re-escribir la ecuación: cuidarte  | "¿Qué pasaría si tu marca
+lenguaje dominicano.             | es cuidarlos.                      | hiciera del amor propio el acto
+                                 |                                    | más generoso del hogar?"
+
+
+--- CASO DE ESTUDIO ---
+
+La marca que descriminaliza el priorizarse tiene un territorio
+brutal en RD.
+
+EL CASO: BUMBLE · "Block It Like It's Hot"
+Campañas que celebran explícitamente el derecho femenino a elegirse
+a sí misma primero. Sin moralizar a quien elige pareja, Bumble se
+posicionó en "priorizarte no es fallar, es comenzar". Adopción
+cultural global.
+
+Source: Ninja Desktop Research — 2026
+
+
+--- PREGUNTA DETONADORA ---
+
+¿CÓMO PUEDE TU MARCA TRANSFORMAR SU NARRATIVA
+PARA RESPONDER A ESTA TENSIÓN?
+
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa.
+
+SITUACIÓN:
+En nuestra cultura, la abnegación es negarse totalmente a uno mismo.
+
+01 OPORTUNIDAD CLAVE
+La marca que te da tu valor.
+
+02 POSTURA — ROL
+Que veas tu propio valor.
+
+03 VERBO DE TRANSFORMACIÓN
+Priorizar.
+
+NUEVA NARRATIVA DE MARCA:
+Mi marca quiere que veas tu propio valor,
+pero ganar a tu familia a veces significa perderse a uno mismo,
+por eso mi marca se convierte en la marca que te prioriza mientras
+priorizas a los demás.
+
+
+================================================================================
+BLOQUE 3 — TREND FORECAST
+================================================================================
+
+PÁG. DIVISOR "Trend Forecast" (numeral grande "3")
+
+
+--- INTRO DEL FORECAST ---
+
+TREND APPROACH
+
+Las tendencias no son predicción. Son diagnóstico.
+
+Son el emotional pattern que se repite hasta volverse comportamiento,
+y después mercado. Lo que leemos aquí son las señales de hacia dónde
+se está moviendo la familia dominicana en su relación con el cuerpo,
+la mente, el plato y la cama. No desde lo que dice que hace, sino
+desde lo que el algoritmo, la data y los grupos focales están
+mostrando que hace de verdad.
+
+Este pilar decodifica 3 macro-fuerzas que atraviesan la salud y el
+bienestar del hogar dominicano. Están contrastadas desde lo global,
+lo local y los silencios que ningún estudio había nombrado antes.
+Porque lo interesante no es que la gente esté ansiosa. Es que ya
+tiene un coping stack armado, y dentro de ese stack cabe Dios, el
+psicólogo, ChatGPT y la cervecita del viernes, sin jerarquía.
+
+En diferentes entregas vamos a ver cómo estas 3 fuerzas impactan las
+distintas áreas estudiadas de las familias dominicanas, contrastadas
+desde lo global, lo local y la oportunidad para las marcas. En esta
+entrega analizamos a la familia desde su salud y su bienestar.
+
+3 MACRO FUERZAS + MICRO TRENDS:
+
+1. INVENTOLOGÍA DE LA ADULTEZ
+   La adultez dominicana se está reescribiendo desde el malestar.
+
+2. LOS HERNÁNDEZ ARE PROMPTED
+   El dominicano está delegando en la IA conversaciones que antes
+   tenía con la tía, el pastor, la comadre o el médico de cabecera.
+
+3. ALGORITMO DEL HOGAR
+   Estar sano dejó de ser un estado del cuerpo. Se volvió un look,
+   una rutina, un feed.
+
+
+================================================================================
+MACRO 1 · INVENTOLOGÍA DE LA ADULTEZ
+[en clave Salud y Bienestar]
+================================================================================
+
+--- MACRO FUERZA — DEFINICIÓN ---
+
+EL COMPORTAMIENTO:
+La adultez dominicana se está reescribiendo desde el malestar. Ser
+adulto ya no es aguantar en silencio, es nombrar lo que duele,
+buscarle ayuda, y aun así seguir funcionando. Pero la búsqueda no
+reemplaza los métodos viejos: los apila. Dios, terapia, gym,
+cervecita y podcast coexisten como un mismo sistema de sobrevivencia.
+La adultez se volvió un emotional pattern de auto-diagnóstico
+constante en un país donde la canasta básica no baja y la fantasía
+del "todo bien" se está cayendo a pedazos.
+
+EL CONTRASTE CON CÓDIGO CASA:
+El dominicano está construyendo una adultez apilada: cree en Dios,
+va al psicólogo, toma su cervecita y escucha podcasts de salud
+mental, todo junto. "Me refugio mucho en Dios, busqué ayuda
+profesional, escucho podcasts de salud mental" [FAM BIPARENTAL HIJOS
+ADULTOS, 15-11-2024]. No hay contradicción, hay acumulación. El
+estigma cede pero el aguante cultural no se va.
+
+THE TRANSFORMATION:
+La nueva adultez dominicana no se medirá por cuánto aguantas, sino
+por cuántos lenguajes de bienestar puedes hablar al mismo tiempo.
+Terapia, fe, humor, descanso y consumo van a convivir en un mismo
+sujeto, y la marca que no entienda ese apilamiento se va a quedar
+hablándole a un solo fragmento.
+
+THE TRIGGERS:
+[Local] "La canasta básica está por las nubes, la economía es un
+desastre". Verbatim FAM HOMOPARENTALES 19-11-2024, Código Casa.
+
+[Local] Entre 2017 y 2022 se registraron 174 casos de suicidio en
+NNA dominicanos, con adolescentes 15-17 como grupo de mayor riesgo.
+Fuente: UNICEF Análisis Situación NNA ante Violencias RD 2025.
+
+[LATAM] Los trastornos de ansiedad y depresión aumentaron de forma
+sostenida en América Latina post-pandemia, con acceso a tratamiento
+por debajo del 25% en países de ingreso medio.
+Fuente: OPS/OMS, reporte salud mental LATAM.
+
+[Global] 91% de consumidores globales prefieren marcas divertidas,
+señalando el humor como herramienta de regulación emocional frente
+al burnout sistémico. Fuente: WGSN x TikTok Shop 2026.
+
+SEÑALES:
+· https://www.ihearttherapy.com/adulting-and-mental-health-an-unspoken-challenge
+  Artículo clínico nombra el adulting como crisis silenciosa.
+
+ASK YOURSELF:
+¿Tu marca le está hablando al dominicano que ya va a terapia, o
+todavía le escribes como si aguantar fuera virtud?
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 1.1 · SESGO DE OPTIMISMO ---
+
+EL FENÓMENO:
+El dominicano declara satisfacción alta con la vida mientras reporta
+estrés económico creciente. Dice "todo bien" y gasta como si no lo
+estuviera. El say-do gap emocional se volvió lenguaje nacional.
+
+HASHTAGS:
+#delulu #todobien #ladominicana #esoesotro #vamoalante
+#dominicanoptimism
+
+THE TRIGGERS:
+- Pulso Dominicano 2026: la mayoría reporta estar satisfecho con su
+  vida personal pese a percepción negativa de la economía.
+- "La canasta básica está por el cielo pero hay un rejuego inmenso
+  para tener una vida" [FAM HOMOPARENTALES, Código Casa].
+- TikTok: #delulu supera 20B de views globales.
+- Dosis de Realidad, señal de tendencia TikTok Next 2026.
+
+SEÑALES:
+· https://www.camacoes.org.do/republica-dominicana-lidera-el-optimismo-economico-en-america-latina/
+  Latinobarómetro 2024: 74% de dominicanos creen que su economía
+  mejorará, liderando LATAM pese a inflación y brechas reales.
+· https://www.psychologytoday.com/us/blog/perfectionism/202502/delulu-and-defensive-pessimism-are-harmful-strategies
+  Psychology Today analiza la psicología del #delulu como sesgo de
+  optimismo performativo.
+
+THE CONTRAST:
+El optimismo dominicano es función cultural, no dato económico. La
+marca que lo lea literal va a producir campañas que suenan a otro
+país. Hay que hablarle a la persona que dice "todo bien" y sabe que
+no lo está, sin desmontarle la máscara.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 1.2 · DIOS + TERAPEUTA + CERVECITA ---
+
+EL FENÓMENO:
+El coping stack tridominicano: fe, salud mental profesional y ritual
+social coexisten sin jerarquía. No se excluyen, se apilan. La
+familia moderna construye bienestar con piezas de tres sistemas que
+en teoría se contradicen.
+
+HASHTAGS:
+#oracionymeditacion #copingstack #dominicanfaith
+#saludmentalcatolica #viernesdecerveza
+
+THE TRIGGERS:
+- "Me refugio en Dios, busqué ayuda profesional, escucho podcasts de
+  salud mental" [FAM BIPARENTAL HIJOS ADULTOS, Código Casa].
+- "Yo me tomo mi cervecita el viernes y el sábado para relajarme"
+  [mismo grupo].
+- Reddit r/Anxiety, r/StopDrinking y r/Meditation entre subreddits
+  más activos en conversación de Headspace.
+- Evangelismo + wellness app: crecimiento de apps como Hallow y
+  Glorify con millones de descargas globales.
+
+SEÑALES:
+· https://www.interfaithamerica.org/article/faithtok-how-religion-and-spirituality-are-evolving-in-the-age-of-tiktok/
+  #FaithTok muestra fe, espiritualidad y bienestar coexistiendo sin
+  jerarquía en TikTok.
+· https://research.contrary.com/company/hallow
+  Hallow: app católica de oración y meditación con 20M+ descargas y
+  $157M en fondeo.
+
+THE CONTRAST:
+El dominicano no está eligiendo entre fe y terapia, los está
+sumando. La marca secular que pretende reemplazar a Dios con
+mindfulness no va a ganar esta casa. La marca que convive con ese
+stack sí.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 1.3 · CRIANZA REPARATIVA ---
+
+EL FENÓMENO:
+Padres dominicanos millennials y Gen Z están criando con consciencia
+de lo que a ellos les dolió. Rompen el ciclo de crianza violenta,
+leen libros de parenting, van a terapia con sus hijos. Es la primera
+generación que se cría a sí misma mientras cría.
+
+HASHTAGS:
+#crianzarespetuosa #romperelciclo #parentingdominicano #apegoseguro
+#mamaensanando #papaensanando
+
+THE TRIGGERS:
+- 63.5% de NNA dominicanos de 1 a 14 años sufre violencia como
+  método de crianza en el hogar [UNICEF 2025].
+- Reddit r/NewParents, r/SleepTrain combinan how-to con contención
+  emocional.
+- Crianza respetuosa y apego seguro entre los hashtags top de
+  parenting en TikTok LATAM.
+
+SEÑALES:
+· https://elnuevodiario.com.do/persisten-las-practicas-violentas-de-crianza-en-republica-dominicana-segun-unicef/
+  UNICEF 2024: 63.5% de niños en RD sufren disciplina violenta.
+· https://www.romper.com/parenting/what-it-really-means-to-be-a-cycle-breaker
+  "Cycle breaker" como tendencia cultural.
+
+THE CONTRAST:
+Criar diferente en RD es acto político. La generación que lo intenta
+está cargando terapia, culpa histórica y cero manual. La marca que
+les hable desde el "tú no eres tu mamá" gana una lealtad brutal. La
+que les hable como consumidores gana nada.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 1.4 · KIDULT DOMINICANO ---
+
+EL FENÓMENO:
+Adultos 28-42 resignifican el play como anti-burnout. Legos, Labubus,
+gaming, Hot Wheels, F1, coleccionables. No es nostalgia, es
+regulación emocional explícita. Jugar es la nueva higiene mental.
+
+HASHTAGS:
+#kidult #labubudominicana #legoadult #formulaunord #gamingdad
+#joyfulregression
+
+THE TRIGGERS:
+- Kidult Consumer identificado como tendencia de consumo global en
+  WGSN x TikTok Shop 2026.
+- Labubu genera 400M+ interacciones globales en TikTok en 2024.
+- F1 duplicó su audiencia dominicana en Gen Z y millennials post-
+  Drive to Survive.
+
+SEÑALES:
+· https://www.marketingbrew.com/stories/2025/07/24/labubus-hot-wheels-kidults-market-growth
+  Ventas de juguetes a adultos +12% en Q1 2025.
+· https://www.tatlerasia.com/power-purpose/impact/labubu-craze-redefining-adult-play-sparking-kidult-movement-deep-dive
+  Pop Mart convierte juguetes en herramienta de bienestar.
+
+THE CONTRAST:
+El adulto dominicano que juega no se está infantilizando, se está
+protegiendo. La marca que trate al Kidult como cliché millennial
+tardío pierde. La que lo lea como self-care legítimo gana categoría.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 1.5 · SOBRIEDAD SUAVE [DAMP LIFESTYLE] ---
+
+EL FENÓMENO:
+El dominicano le está bajando al ron sin dejarlo. No es sober curious
+hardcore, es damp: menos cerveza entre semana, mocktails en la
+salida, alcohol 0.0 en el supermercado. Wellness empezó a llegar al
+colmado.
+
+HASHTAGS:
+#damplifestyle #sobercurious #mocktail #cerosinculpa
+#mindfuldrinking #finesdesemanasuaves
+
+THE TRIGGERS:
+- "Damp lifestyle" supera 50M de views en TikTok en 2024-2025.
+- Heineken 0.0, Corona Cero y cerveza sin alcohol crecen dígitos
+  doble año sobre año en LATAM.
+- r/StopDrinking entre comunidades Reddit de mayor crecimiento.
+- En Código Casa, Gen Z dominicana reporta consumo de alcohol más
+  bajo que millennials en la misma edad.
+
+SEÑALES:
+· https://www.unsw.edu.au/newsroom/news/2025/02/with-damp-drinking-and-zebra-striping-gen-z-are-embracing-moderation
+  UNSW (2025): Gen Z adopta "damp drinking" y "zebra striping".
+· https://www.beveragedaily.com/Article/2026/01/23/heineken-00-alcohol-free-beer-innovation-success/
+  Heineken 0.0: cerveza sin alcohol #1 del mundo, +53% crecimiento.
+
+THE CONTRAST:
+El dominicano no está dejando el ron, está negociándolo. La categoría
+alcohol tiene que decidir si compite con el 0.0 o lo integra. La
+categoría de bebidas no alcohólicas tiene una ventana rarísima para
+volverse protagonista del happy hour.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+================================================================================
+MACRO 2 · LOS HERNÁNDEZ ARE PROMPTED
+[en clave Salud y Bienestar]
+================================================================================
+
+--- MACRO FUERZA — DEFINICIÓN ---
+
+EL COMPORTAMIENTO:
+El dominicano está delegando en la IA conversaciones que antes tenía
+con la tía, el pastor, la comadre o el médico de cabecera. ChatGPT y
+derivados se volvieron la primera puerta a la que se toca cuando hay
+un dolor raro, un hijo con fiebre, una pareja en crisis o una
+ansiedad a las 3am. El AI acompaña, traduce, diagnostica y consuela,
+pero no sabe de sancocho, no sabe de duelo cristiano, no sabe del
+sistema público dominicano y no sabe que en esta casa no se habla de
+eso. La salud del hogar está entrando en un régimen de self-awareness
+mediado por una inteligencia que no tiene contexto local.
+
+EL CONTRASTE CON CÓDIGO CASA:
+El AI llegó al hogar dominicano como primer recurso, no como último.
+Pero fue entrenado en inglés, con data clínica anglosajona y sin
+pistas del contexto sociocultural local. La mamá que le pregunta al
+bot por el brote de su hijo, el señor que le cuenta su depresión, la
+pareja que negocia con ChatGPT como mediador — todos están recibiendo
+respuestas técnicamente correctas y culturalmente ciegas.
+
+THE TRANSFORMATION:
+La salud del hogar dominicano se va a resolver en dos pantallas: una
+donde el AI informa y diagnostica, otra donde un humano en redes
+valida lo que el AI dijo. La marca que entienda esa dualidad — AI
+para el dato y creador humano para la contención — va a dominar la
+categoría salud en los próximos tres años.
+
+THE TRIGGERS:
+[Global] Merriam-Webster declaró "slop" palabra del año 2025,
+señalando la crisis de confianza frente al contenido generado por IA.
+Solo 47% de americanos dice poder identificar texto AI.
+Fuente: Hootsuite Social Trends 2026.
+
+[Local] Encuesta sobre IA y Derechos Humanos en RD: la mayoría del
+dominicano ya usa IA generativa sin formación previa sobre sus sesgos
+ni límites clínicos. Fuente: Brief encuesta IA y DH en RD.
+
+[LATAM] OpenAI reportó en 2025 que salud mental, relaciones y
+decisiones médicas están entre los usos top de ChatGPT a nivel
+global, con crecimiento acelerado en LATAM.
+
+[Global] TikTok Next 2026 identifica el "ROI emocional" como fuerza
+dominante: la audiencia obtiene datos de la IA, pero vuelve a
+creadores humanos por la chispa que el AI no da.
+
+SEÑALES:
+· https://techcrunch.com/2026/01/07/openai-unveils-chatgpt-health-says-230-million-users-ask-about-health-each-week/
+  230 millones de personas hacen preguntas de salud a ChatGPT cada
+  semana.
+
+ASK YOURSELF:
+¿Tu marca está compitiendo con ChatGPT, o está enseñándole al
+dominicano a preguntarle mejor?
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 2.1 · CHATGPT COMO TERAPEUTA-SOMBRA ---
+
+EL FENÓMENO:
+A las 3am el dominicano no llama a nadie, abre ChatGPT. El bot se
+volvió acompañante emocional de facto: valida, escucha, reformula,
+nunca juzga. Pero tampoco conoce tu historia, tu familia, tu fe ni
+tu contexto. Es terapia sin terapeuta.
+
+HASHTAGS:
+#chatgpttherapy #aitherapy #ventingtoai #saludmentaldigital
+#terapiasombra
+
+THE TRIGGERS:
+- OpenAI reportó salud mental y relaciones entre los usos top
+  globales de ChatGPT en 2025.
+- Crecimiento de GPTs personalizados de terapia [Pi, Replika,
+  Character.AI] supera millones de usuarios mensuales.
+- TikTok #ChatGPTtherapy supera 500M de views globales.
+- En Código Casa, grupos focales mencionan podcasts de salud mental
+  como parte del coping stack.
+
+SEÑALES:
+· https://arxiv.org/abs/2504.20320
+  Estudio: usuarios usan ChatGPT de madrugada en crisis de ansiedad.
+· https://www.headspace.com/ai-mental-health-companion
+  Headspace lanza Ebb, compañero IA empático.
+
+THE CONTRAST:
+El AI es primer respondiente emocional, no reemplazo clínico. El
+problema es que el dominicano no siempre distingue la diferencia. La
+marca con producto de salud mental tiene que educar sobre ese límite.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 2.2 · AI PARENTING COACH ---
+
+EL FENÓMENO:
+La mamá primeriza dominicana le pregunta a ChatGPT antes que a su
+mamá. El bot no juzga, responde en segundos y no dice "eso no se
+hace así". La autoridad intergeneracional de la crianza se está
+reescribiendo en prompts.
+
+HASHTAGS:
+#momlife #parentingwithai #crianzamoderna #chatgptmom #babychatgpt
+#primerizaconbot
+
+THE TRIGGERS:
+- Crecimiento de apps de parenting con IA: BabyCenter AI, Huckleberry,
+  Nanit.
+- r/NewParents y r/Parenting entre comunidades Reddit de mayor
+  actividad global.
+- TikTok #momsofAI y #parentingwithchatgpt en crecimiento acelerado.
+- Sleep training y alimentación infantil entre temas top de consulta
+  AI en hogares latinos.
+
+SEÑALES:
+· https://www.cbc.ca/news/canada/ai-parenting-advice-1.7534527
+  CBC: mamás preguntan a ChatGPT antes que a su propia madre.
+· https://www.fastcompany.com/91335445/dr-becky-good-inside-parenting-advice-ai-chatbot
+  Dr. Becky lanza Gigi, chatbot IA de crianza.
+
+THE CONTRAST:
+El AI como parenting coach rompe la cadena de transmisión matriarcal
+dominicana. La abuela pierde autoridad, la tía pierde relevancia, el
+bot gana terreno. La marca de puericultura que no se integre queda
+fuera de la decisión.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 2.3 · DESINFO MÉDICA EN WHATSAPP ---
+
+EL FENÓMENO:
+El family group de WhatsApp se volvió vector de desinformación médica
+asistida por IA. Cadenas con diagnósticos falsos, remedios virales,
+audios generados, todo con aparente autoridad. La tía reenvía, la
+mamá aplica, el niño sufre.
+
+HASHTAGS:
+#aislop #desinformaciondigital #whatsappfamily #faketips
+#saludverdadera
+
+THE TRIGGERS:
+- "Slop" palabra del año Merriam-Webster 2025.
+- Brief encuesta IA y DH en RD identifica desinformación como
+  preocupación principal.
+- OMS y OPS documentan aumento sostenido de desinfo sanitaria post-
+  pandemia en LATAM.
+- WhatsApp sigue siendo canal #1 del hogar dominicano.
+
+SEÑALES:
+· https://www.thinkglobalhealth.org/article/health-disinformation-grows-latin-america
+  Granjas de trolls en LATAM usan desinformación de salud como arma.
+· https://www.who.int/news-room/feature-stories/detail/who-health-alert-brings-covid-19-facts-to-billions-via-whatsapp
+  OMS lanza Health Alert en WhatsApp: 13.5M de personas alcanzadas.
+
+THE CONTRAST:
+El dominicano no va a dejar el family group, pero sí puede aprender a
+verificar. La marca de salud que se posicione como antídoto contra la
+cadena, con contenido breve, claro y reenviable, gana confianza
+generacional.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 2.4 · DR. GPT · AUTODIAGNÓSTICO CON CONFIANZA INFLADA ---
+
+EL FENÓMENO:
+"ChatGPT me dijo que era esto" se volvió frase de consulta médica. El
+dominicano llega al doctor con diagnóstico pre-hecho y expectativa de
+que el médico confirme o pierda autoridad. El autodiagnóstico se
+democratizó con un sesgo peligroso: el AI rara vez te dice "no sé".
+
+HASHTAGS:
+#autodiagnostico #chatgptmedico #drgpt #saludporprompt
+#saltarmealdoctor
+
+THE TRIGGERS:
+- Estudios médicos 2024-2025 reportan aumento sostenido de pacientes
+  con autodiagnóstico AI.
+- Sistema público dominicano saturado empuja a buscar respuestas en
+  otras vías.
+- TikTok #ChatGPTdiagnosed y #WebMDevolution entre trends de salud.
+
+SEÑALES:
+· https://www.statnews.com/2025/12/30/ai-patients-doctors-chatgpt-med-school-dartmouth-harvard/
+  Pacientes llegan diciendo "le pregunté a ChatGPT sobre el
+  tratamiento."
+· https://openai.com/index/introducing-chatgpt-health/
+  OpenAI lanza ChatGPT Health con disclaimer explícito.
+
+THE CONTRAST:
+El doctor dominicano compite con un bot que siempre responde. El bot
+compite con un sistema de salud colapsado. El perdedor es el paciente
+que confía en el medio. La marca de servicios de salud tiene que
+diseñar para un usuario que ya llegó con tesis propia.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 2.5 · SESGO DEL AI EN SALUD MENTAL ---
+
+EL FENÓMENO:
+Los modelos de IA fueron entrenados en data clínica anglosajona.
+Cuando un dominicano le cuenta su duelo católico, su ansiedad con
+tintura cultural, su depresión mezclada con brujería sospechada, el
+AI responde con el manual DSM traducido. La recomendación es
+técnicamente correcta, culturalmente ciega.
+
+HASHTAGS:
+#aibiased #saludmentallatina #culturalaicare #lamaquinanosabe
+#terapiaencontexto
+
+THE TRIGGERS:
+- Crítica académica creciente sobre sesgo cultural en modelos de
+  lenguaje aplicados a salud mental.
+- Brief IA y DH en RD documenta preocupación dominicana por falta de
+  adaptación cultural de la IA.
+- Hootsuite 2026 reporta caída de confianza en contenido AI.
+
+SEÑALES:
+· https://www.nature.com/articles/s41746-025-01746-4
+  Nature/Cedars-Sinai: cuando se indica raza, los modelos proponen
+  tratamientos inferiores.
+· https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics
+  Brown U. mapea 15 riesgos éticos de chatbots terapéuticos.
+
+THE CONTRAST:
+El dominicano necesita un AI que entienda que "darle mucha mente a la
+cosa" es ansiedad, que "hacerse la vida sin vergüenza" es evasión
+saludable y que Dios cuenta. La marca que entrene o curate AI con
+contexto local tiene una ventaja histórica en la categoría.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+================================================================================
+MACRO 3 · ALGORITMO DEL HOGAR
+[en clave Salud y Bienestar]
+================================================================================
+
+--- MACRO FUERZA — DEFINICIÓN ---
+
+EL COMPORTAMIENTO:
+Estar sano dejó de ser un estado del cuerpo. Se volvió un look, una
+rutina, un feed. El dominicano está editando su plato, su sueño, su
+piel, su cuerpo y su vocabulario emocional a partir de lo que ve en
+TikTok, Instagram y YouTube. Wellness se volvió estética antes que
+práctica, y lo performativo ya no se distingue de lo real. El hogar
+consume salud como contenido, y el algoritmo decide qué es estar bien
+esta semana, con una consecuencia invisible: el mismo feed que promete
+calma es el que produce la ansiedad que dice curar.
+
+EL CONTRASTE CON CÓDIGO CASA:
+El algoritmo está editando la canasta básica del wellness dominicano
+sin tocarla. Lo que entra al plato, la hora en que se duerme, el
+skincare infantil, la conversación sobre el peso, la rutina del gym
+— todo pasa por un filtro global que no considera clima tropical,
+economía local, cuerpo dominicano ni estructura familiar. Mientras
+tanto, en focus groups el mismo dominicano dice "yo me como todo lo
+que yo quiera y a la hora que yo quiera" [FAM BIPARENTAL HIJOS
+ADULTOS, Código Casa].
+
+THE TRANSFORMATION:
+El wellness dominicano va a fracturarse en dos carriles: uno
+aspiracional, global, estético y caro; otro pragmático, local,
+editorial y con ROI emocional real. Las marcas que no elijan carril
+conscientemente van a quedar atrapadas en el medio, produciendo el
+sea of sameness beige que ya nadie quiere comprar.
+
+THE TRIGGERS:
+[Global] 53% de la Gen Z global espera que las marcas tengan postura
+sobre salud mental, más que sobre cualquier otro tema social.
+Fuente: Storeis Decoding Gen Z Report.
+
+[Global] Búsquedas en TikTok aumentaron más de 40% año sobre año,
+con nichos como #mymakeuptype y #cookinghacks liderando.
+Fuente: TikTok Next 2026 Trend Report LA.
+
+[Local] Informe Kids Online RD: NNA dominicanos acceden a contenido
+de belleza, fitness y alimentación sin mediación parental ni escolar.
+Fuente: UNICEF, Informe Kids Online RD.
+
+[Global] Mercado global de GLP-1 [Ozempic, Wegovy, Mounjaro] superó
+los 50 mil millones USD en 2024.
+Fuente: reportes farmacéuticos globales 2024-2025.
+
+SEÑALES:
+· https://www.washingtonpost.com/technology/interactive/2025/tiktok-algorithm-mental-health/
+  Washington Post: el algoritmo de TikTok favorece contenido de salud
+  mental; es "sticky" — cuesta 2.2 skips sacarlo del feed.
+
+ASK YOURSELF:
+¿Tu marca está curando algo, o solo está decorando la ansiedad que el
+mismo feed produce?
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 3.1 · SLEEPMAXXING DOMINICANO ---
+
+EL FENÓMENO:
+Dormir dejó de ser descanso para volverse proyecto. Mouth tape,
+magnesium glycinate, blue light glasses, sleep trackers, cuartos
+oscurísimos. El dominicano joven está optimizando el sueño como si
+fuera gym. Lo paradójico: el que sleepmaxxea duerme peor de la
+ansiedad que le produce hacerlo.
+
+HASHTAGS:
+#sleepmaxxing #mouthtaping #magnesiumglycinate #ouraring
+#biohackingdominicano #suenooptimizado
+
+THE TRIGGERS:
+- #sleepmaxxing supera 200M de views en TikTok 2024-2025.
+- Mercado global de sleep wellness supera 400 mil millones USD.
+- Oura Ring, Whoop, Apple Watch se venden en RD como dispositivos de
+  optimización personal.
+
+SEÑALES:
+· https://www.cnn.com/2025/03/09/health/sleepmaxxing-benefits-risks-wellness
+  CNN documenta el boom del sleepmaxxing. Expertos advierten sobre
+  ortosomnia.
+· https://www.businesswire.com/news/home/20250514085532/en/Eight-Sleep-Introduces-Pod-5-The-First-AI-Powered-Sleep-System-with-Immersive-Temperature-Zero-Gravity-Elevation-and-Surround-Sound-To-Improve-Your-Sleep
+  Eight Sleep lanza Pod 5: sistema de sueño con IA. Valuación $1.5B.
+
+THE CONTRAST:
+El dominicano que sleepmaxxea en RD lo hace en un clima caliente, con
+calles ruidosas y muchas veces sin aire acondicionado. La marca
+global que venda el kit completo sin aterrizarlo al contexto pierde.
+La marca local que traduzca el sleepmaxxing a la casa dominicana real
+gana.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 3.2 · OZEMPIC TALK EN EL COLMADO ---
+
+EL FENÓMENO:
+El cuerpo editado farmacológicamente entró a la conversación
+familiar. Ozempic, Wegovy, Mounjaro dejaron de ser medicamentos de
+diabéticos para volverse tema de cena dominicana. La pregunta ya no
+es si lo usas, es si lo conoces, si lo has considerado, si tu prima
+lo está haciendo.
+
+HASHTAGS:
+#ozempic #glp1 #cuerpoeditado #pesoenelcolmado #bodywatching
+#antesydespues
+
+THE TRIGGERS:
+- Mercado global de GLP-1 superó 50 mil millones USD en 2024.
+- TikTok #ozempic y #glp1 acumulan miles de millones de views.
+- Reportes médicos dominicanos 2024-2025 alertan sobre uso off-label
+  creciente sin supervisión clínica.
+- WGSN 2026 identifica body editing farmacológico como comportamiento
+  de categoría.
+
+SEÑALES:
+· https://www.newsweek.com/2025/05/09/weight-loss-drugs-ozempic-mounjaro-body-positivity-2065061.html
+  Ozempic/Mounjaro ya son fenómeno cultural masivo. 12% de americanos
+  los usan.
+· https://www.nestle.com/media/news/vital-pursuit-brand-glp-1-weight-support
+  Nestlé lanza Vital Pursuit: primera línea de comida diseñada para
+  usuarios de GLP-1.
+
+[Nota editorial: tratamiento cuidadoso, sin romantizar ni demonizar.
+Dato sí, juicio no.]
+
+THE CONTRAST:
+El dominicano está entrando al Ozempic con información de TikTok y
+prescripción de amigo de amigo. La marca de salud preventiva,
+nutrición o fitness que se posicione como alternativa informada y no
+moralista, gana categoría.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 3.3 · FOOD NOISE ALGORÍTMICO ---
+
+EL FENÓMENO:
+El feed decidiendo qué es comida buena o mala cada semana. Lunes
+huevo es super food, jueves es villano. El dominicano joven está
+comiendo con culpa algorítmica permanente, y el ruido del feed ya no
+distingue entre dato clínico y contenido viral.
+
+HASHTAGS:
+#foodnoise #whatieatinaday #comidadominicana #realfood
+#nutricionsinculpa
+
+THE TRIGGERS:
+- #foodnoise y #whatieatinaday superan miles de millones de views.
+- WGSN 2026 identifica ruido informativo como fatiga principal del
+  consumidor de wellness.
+- UNICEF RD documenta déficit de información nutricional clara.
+- ROI emocional TikTok Next 2026: la audiencia valida comida por
+  significado, no solo por precio.
+
+SEÑALES:
+· https://www.eurekalert.org/news-releases/1083773
+  Estudio: 50% de TikToks sobre "food noise" mencionan medicamentos
+  GLP-1 como solución.
+· https://zoe.com/en-us
+  ZOE: app de nutrición personalizada basada en ciencia.
+
+THE CONTRAST:
+El plato dominicano [arroz, habichuela, carne, plátano] está siendo
+juzgado por estándares de feed que ignoran tradición, economía y
+balance real. La marca de alimentación que defienda el plato local
+con data, no con nostalgia, gana autoridad.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 3.4 · MASCULINIDAD EN TERAPIA ---
+
+EL FENÓMENO:
+El tíguere dominicano postea skincare, llora en reels, habla de su
+terapeuta, y nadie dice nada. La masculinidad dura se está agrietando
+en público, y la Gen Z masculina está liderando el cambio sin pedir
+permiso.
+
+HASHTAGS:
+#tiguereensanacion #skincareparahombres #malementalhealth
+#nuevamasculinidad #terapiaparachicos
+
+THE TRIGGERS:
+- WGSN 2026 identifica Evolving Masculinity como tendencia de
+  categoría.
+- Reddit r/AskMen entre comunidades de mayor crecimiento en
+  conversación emocional.
+- Mercado global de skincare masculino supera 20 mil millones USD.
+- 53% de Gen Z espera que marcas apoyen salud mental, sin diferencia
+  fuerte por género.
+
+SEÑALES:
+· https://penciumedical.com/therapy-bro-summer/
+  "Therapy Bro Summer" 2025: hombres Gen Z van a terapia y lo
+  postean. 55% de mujeres Gen Z no saldrían con hombre que rechaza
+  terapia.
+· https://wwd.com/beauty-industry-news/products/harrys-mental-health-men-boys-open-minds-initiative-1235166882/
+  Harry's invierte $5M en Open Minds: red de salud mental para
+  hombres jóvenes.
+
+THE CONTRAST:
+La marca masculina dominicana que siga vendiendo aguante y
+testosterona pierde a la Gen Z completa. La que abra el registro
+emocional sin ridiculizar al señor tradicional gana dos generaciones
+al mismo tiempo.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+--- MICRO 3.5 · GEN Z EXIGE POSTURA ---
+
+EL FENÓMENO:
+Para la Gen Z dominicana, la marca sin statement real de salud mental
+es marca invisible. No basta con el post de octubre, no basta con la
+frase bonita. Piden comportamiento, política, producto que lo
+demuestre. El performative wellness se acabó.
+
+HASHTAGS:
+#brandwithpurpose #saludmentalsindrama #marcasreales
+#genzdominicana #posturasirealista
+
+THE TRIGGERS:
+- 53% de Gen Z global espera que marcas se pronuncien sobre salud
+  mental, más que cualquier otro tema.
+- Top 5 preocupaciones Gen Z: costo de vida, desempleo, clima, salud
+  mental, seguridad.
+- ROI emocional TikTok Next 2026: marcas que justifican el porqué
+  comprar ganan, las que solo gritan precio pierden.
+- UNICEF RD: estigma cultural sobre salud mental sigue vigente.
+
+SEÑALES:
+· https://www.sortlist.com/datahub/reports/gen-z-mental-health-social-media/
+  Sortlist: 49.83% de Gen Z percibe advocacy de salud mental como
+  performativo. Pagan 52% más por marcas que demuestren
+  responsabilidad real.
+· https://www.quirks.com/articles/gen-z-s-mental-health-crisis-is-real-what-research-tells-us-about-brand-responsibility
+  Quirks: 1 de 3 jóvenes 18-29 no se siente preparado para manejar
+  su salud mental.
+
+THE CONTRAST:
+La Gen Z dominicana no perdona el statement vacío. Pide política
+interna, producto adaptado y creadores que lo validen. La marca que
+lo entregue gana lealtad a largo plazo. La que solo lo posta pierde
+credibilidad en un ciclo de contenido.
+
+Source: Ninja Forecast — Pronóstico de macro fuerzas
+
+
+================================================================================
+BLOQUE 4 — USE OUR FRAMEWORK
+================================================================================
+
+PÁG. DIVISOR "Use our framework" (numeral grande "4")
+
+
+--- FRAMEWORK C.O.D.E. — EXPLICACIÓN ---
+
+Cuatro pasos para convertir data en acción de marca.
+
+C — CONTEXTO:    ¿Qué dice la data sobre esta familia?
+O — OPORTUNIDAD: ¿Dónde está el gap entre lo que existe y lo que
+                  necesitan?
+D — DIRECCIÓN:   ¿Cómo creo un producto para esta realidad?
+E — EVOLUCIÓN:   ¿Cómo activo, mido y escalo?
+
+
+--- 12 TERRITORIOS DE MARCA ---
+
+12 espacios vacíos que ninguna marca está habitando.
+
+01. BILLETERA EMOCIONAL
+    Generar alivio financiero real, no aspiracional. Porque el
+    estrés del dinero no es solo económico — es emocional, y merece
+    ser atendido como tal.
+
+02. DELEGACIÓN ESPIRITUAL
+    Habitar los espacios de fe y comunidad para ofrecer herramientas
+    de bienestar sin terminología clínica que ahuyente. La
+    espiritualidad ya es un canal de salud mental — solo falta quien
+    lo ocupe bien.
+
+03. BURNOUT DE PADRES BUENOS
+    Devolverle autonomía y descanso real a los cuidadores. No hablar
+    de felicidad familiar — hablar de logística del alivio. Porque
+    quien cuida también necesita que alguien lo cuide.
+
+04. BIENESTAR 360
+    Romper la estética perfecta y validar el bienestar interior, el
+    descanso y la salud metabólica real por encima de los "cuadritos".
+    El cuerpo que funciona bien no siempre se ve como el de la
+    revista.
+
+05. EL QUE CARGA EN SILENCIO (La Salud Mental Sin Nombre)
+    Darle entrada a quien sostiene sin descanso, desde el
+    reconocimiento de que cargar en silencio también tiene un costo.
+    Atenderlo no es fallo — es fortaleza.
+
+06. CUIDAR DESDE LEJOS (La Presencia a Distancia)
+    Resolver el vacío entre quien quiere cuidar a su padre o madre
+    mayor y la distancia que se lo impide. No como producto de
+    emergencia — como presencia sostenida cuando la proximidad física
+    no es posible.
+
+07. NUTRICIÓN DE SUPERVIVENCIA
+    Dignificar la dieta local optimizándola nutricionalmente sin
+    subir el precio ni cambiar el sabor tradicional. "La bandera" no
+    necesita ser reemplazada — necesita ser reconocida.
+
+08. ROMPE-SILENCIOS
+    Ponerle nombre a lo que el consumidor siente, actuando como
+    traductor de su propia realidad interna. Muchas veces el alivio
+    empieza por encontrar las palabras correctas.
+
+09. TERAPIA DE COLMADO
+    Fomentar la colectividad y los espacios de desahogo social como
+    un beneficio real de salud mental comunitaria. La esquina siempre
+    fue terapia — solo que nadie lo había dicho así.
+
+10. REVOLUCIÓN DEL DESCANSO
+    Vender la recuperación como herramienta de alto rendimiento,
+    elevando el estatus del descanso para que deje de ser visto como
+    pereza. Descansar bien no es hacer menos — es poder hacer más.
+
+11. PERMISO PARA MÍ (La Desculpabilización del Autocuidado)
+    Decirle al dominicano que cuidarse no es quitarle nada a su
+    familia. No como slogan — como arquitectura de producto que hace
+    que elegirse no requiera justificación.
+
+12. EL ESTRÉS QUE NO SE NOMBRA (La Normalización del Malestar Cotidiano)
+    Validar que estar agotado, ansioso y al límite no es exageración
+    ni debilidad — es la experiencia real de familias que cargan
+    demasiado sin que nadie lo reconozca. El primer paso para resolver
+    algo es poder decirlo en voz alta.
+
+
+--- C.O.D.E. APLICADO · BANCA / FINTECH ---
+
+"Banca diseñada para la familia que existe, no para la del afiche."
+
+CONTEXTO:
+El principal enemigo del bienestar del dominicano es económico, no
+clínico. El 48% identifica la economía como su principal fuente de
+estrés familiar — una presión que se acumula, se normaliza y termina
+afectando la salud mental de toda la familia. El 24.4% de los
+hogares son monoparentales, con una sola persona asumiendo el rol
+de proveedor y cuidador sin red de soporte, y los adultos mayores
+enfrentan una vulnerabilidad que va más allá de lo económico: es el
+aislamiento y la dependencia que ningún producto financiero ha sabido
+abordar desde la salud mental. El dominicano sí tiene un sistema.
+Solo que no cabe en ningún producto bancario existente.
+
+OPORTUNIDAD / OBSTÁCULO:
+La banca le habla de futuro a quien está resolviendo el presente —
+construye plataformas educativas que nadie usa y productos de ahorro
+para quien no tiene margen. El mayor obstáculo es que los productos
+financieros y el bienestar emocional operan como mundos separados:
+no existe un producto que reconozca que pagar una deuda a tiempo,
+tener un colchón mínimo o simplificar la gestión del dinero reduce
+la ansiedad de forma tan concreta como cualquier intervención
+clínica. El gap es una banca que entienda que darle herramientas
+reales a quien carga solo, a quien cuida en silencio y a quien
+sostiene a su familia a distancia es también reducir la carga
+emocional que el sistema formal de salud no puede cubrir.
+
+DIRECCIÓN:
+Tres movimientos.
+1. Diseñar productos diferenciados por realidad familiar: el hogar
+   monoparental, el adulto mayor que necesita apoyo a distancia y
+   el trabajador informal que aguanta sin red necesitan soluciones
+   distintas, no el mismo producto con diferente nombre.
+2. Construir productos que reduzcan la ansiedad financiera de forma
+   concreta: menos pasos, menos fricción, más claridad — el
+   dominicano no necesita que le expliquen cómo ahorrar, necesita
+   que ahorrar sea tan fácil que no tenga que pensarlo.
+3. Ampliar la mirada del cliente: la mujer administra el hogar y
+   toma la mayoría de las decisiones cotidianas, pero el hombre
+   carga también una presión mental real y distinta — la del
+   proveedor que no puede flaquear, la de quien resuelve en
+   silencio — y la banca que ve a los dos tiene un territorio que
+   la oferta actual no está ocupando.
+
+EVOLUCIÓN:
+Los hitos que importan no son cuántas cuentas se abrieron, sino:
+¿el cliente del hogar monoparental pudo cubrir un imprevisto sin
+endeudarse? ¿Quien carga en silencio sintió que tenía un respaldo
+real, no solo un producto? ¿La persona que heredó la cultura del
+aguante pudo interrumpir ese patrón aunque fuera una vez? Desde ahí
+se escala con productos que conviertan la carga invisible en
+logística resuelta y la presión acumulada en alivio concreto — la
+banca que crece cada vez que su cliente respira tiene un territorio
+que ninguna otra está ocupando.
+
+
+--- C.O.D.E. APLICADO · SEGUROS / AFP ---
+
+"Protección para quien cría, no solo para quien figura en la póliza."
+
+CONTEXTO:
+El dominicano ya tiene un sistema de protección: se llama fe, familia
+y aguante. El 45% recurre a la religión como primer recurso ante el
+malestar emocional, el 48% a la familia o pareja, y solo el 3% va a
+terapia — el seguro formal no aparece en ningún punto de esa cadena,
+no porque el dominicano lo rechace, sino porque nunca fue diseñado
+para entrar en ella. La familia monoparental es el perfil con mayor
+necesidad de protección y menor acceso a ella, y el adulto mayor —
+que el 72.8% de las familias cuida desde la distancia — necesita más
+que apoyo económico: necesita acompañamiento y presencia que ninguna
+póliza ha sabido ofrecer todavía.
+
+OPORTUNIDAD / OBSTÁCULO:
+El mayor obstáculo no es el estigma ni la desinformación — es que los
+productos de protección asumen una estabilidad que la mayoría no
+tiene, por lo que quien cuida solo, sostiene a su madre a distancia y
+aguanta sin nombre no ve en el seguro una solución sino algo diseñado
+para otro. La salud mental formal está fuera del alcance del 92% que
+no accede a terapia, y ahí hay una oportunidad concreta: ser el
+instrumento que evita que el estrés acumulado se convierta en crisis,
+no vendiéndose como producto de salud mental sino resolviendo las
+condiciones económicas que generan ese estrés — un imprevisto cubierto
+es también una noche que se duerme tranquilo.
+
+DIRECCIÓN:
+Tres movimientos.
+1. Reencuadrar el seguro como el mecanismo que evita que el aguante
+   de hoy se convierta en crisis mañana — no como previsión abstracta
+   del futuro.
+2. Diseñar cobertura para el cuidado a distancia: quien no convive
+   con su padre o madre mayor necesita un producto que convierta esa
+   distancia en presencia sostenida, y ese producto no existe.
+3. Reconocer que la carga de proteger al hogar no recae en una sola
+   persona — el hombre dominicano carga también en silencio,
+   sosteniendo una imagen de fortaleza que tiene un costo mental real,
+   y el producto que le habla desde esa realidad está por construirse.
+
+EVOLUCIÓN:
+Los hitos que importan: ¿el cliente pudo cubrir un imprevisto sin
+endeudarse? ¿El adulto mayor tuvo acompañamiento real sin que su
+familia tuviera que elegir entre trabajar y cuidar? ¿Quien nunca
+pedía ayuda encontró en el producto un respaldo que no lo hacía
+sentir vulnerable? Desde ahí se escala hacia la familia monoparental
+— el perfil más desprotegido y más ignorado — y luego hacia el
+cuidado del adulto mayor a distancia, un mercado que ninguna
+aseguradora ha sabido nombrar todavía.
+
+
+--- C.O.D.E. APLICADO · RETAIL / CONSUMO ---
+
+"El bienestar que ya existe en tu casa — solo que nadie lo había
+nombrado."
+
+CONTEXTO:
+El dominicano se cuida — solo que no usa esa palabra. Lo que el
+mercado llama bienestar, él lo vive como rutina: caminar, comer en
+casa, descansar cuando puede. El problema es que el mercado no lo ve
+porque no se parece al que aparece en las campañas — mientras tanto,
+el 53.8% decide qué come según el precio, no porque no le importe su
+salud, sino porque el bienestar aspiracional que vende el mercado
+nunca fue diseñado para su realidad. Solo el 8.2% considera que
+cuidarse a sí mismo es lo primero que debe hacer un buen padre o
+madre — mientras eso no cambie, ninguna categoría de bienestar en
+retail va a penetrar de verdad en este mercado.
+
+OPORTUNIDAD / OBSTÁCULO:
+Las marcas de bienestar le hablan a quien ya come bien, ya se cuida
+y ya tiene el presupuesto para elegir — la familia dominicana real no
+se siente aludida porque el bienestar que vende el mercado está
+construido sobre una vida que la mayoría no tiene. El mayor obstáculo
+es la culpa: el dominicano que se compra algo para sí mismo siente
+que tomó algo que no le pertenecía, una culpa cultural directamente
+atada al modelo de lo que significa ser buen padre o buena madre que
+ningún producto de autocuidado ha sabido resolver todavía. El gap es
+que nadie ha reconocido el sistema de bienestar que el dominicano ya
+practica — la caminata al parque, el café de mañana, el momento de
+silencio antes de que empiece el día — y lo ha convertido en
+territorio de marca.
+
+DIRECCIÓN:
+Tres movimientos.
+1. Dignificar el autocuidado real del dominicano — no el aspiracional
+   — entrando en los rituales que ya existen sin pedirle que cambie
+   su vida.
+2. Resolver el nudo de la culpa: el único argumento que el dominicano
+   puede darse permiso de creer es que cuidarse es una forma de
+   cuidar a su familia, no una traición a ella, y eso aplica igual
+   para quien sea el cuidador principal.
+3. Entrar en la conversación del precio sin abandonar la de la salud
+   — el 53.8% está diciéndole al mercado que el precio es lo que se
+   lo impide, y la marca que resuelve esa tensión sin pretender que
+   no existe tiene un territorio sólido y duradero.
+
+EVOLUCIÓN:
+Los hitos que importan: ¿el cliente dejó de sentir culpa al comprarse
+algo para sí mismo? ¿La marca sigue siendo relevante cuando el trend
+ya pasó? ¿La marca logró que el dominicano que nunca se vio en una
+campaña de familia ahora se sienta parte de la conversación? Desde
+ahí se escala hacia la familia monoparental — que necesita soluciones
+accesibles, rápidas y sin ritual — y hacia el adulto mayor, un
+consumidor completamente ignorado por las marcas de consumo y
+bienestar cuya lealtad ningún algoritmo puede interrumpir.
+
+
+--- CIERRE: AHORA TU MARCA ---
+
+¡TE TOCA!
+USA EL FRAMEWORK ESTRATÉGICO C.O.D.E.
+Y convierte en accionables la data que acabas de conocer...
+
+C  ¿Qué dice la data sobre tu familia?
+O  ¿Dónde está el gap que nadie atiende?
+D  ¿Cómo creas producto para esta realidad?
+E  ¿Cómo activas, mides y escalas?
+
+
+================================================================================
+FIN DEL DOCUMENTO
+CÓDIGO CASA® — FAMILIA, SALUD Y BIENESTAR — FULL 2026
+NINJA THINKING
+================================================================================

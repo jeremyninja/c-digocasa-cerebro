@@ -1,0 +1,1551 @@
+================================================================================
+CÓDIGO CASA® - REPORTE NINJA THINKING
+FAMILIA E IDENTIDAD
+================================================================================
+
+¿Quién define qué es una 'familia de verdad' en RD?
+Los datos desafían lo que creíamos saber sobre nuestras propias configuraciones.
+
+================================================================================
+ÍNDICE
+================================================================================
+
+Familia e Identidad
+Hallazgos, tensiones, listening, trends, oportunidades
+
+Una radiografía de cómo los dominicanos criamos, heredamos y discutimos lo que somos hoy.
+
+EN ESTE VOLUMEN                                                          PÁGINA
+
+01  En RD "mamá y papá" es el ideal. "Abuela, tía y nana" es la realidad.     4
+02  La figura del padre como un rol secundario.                                16
+03  Lo más importante para ser buen padre o madre es el tiempo.                28
+04  Si la homosexualidad fuera una etapa de duelo, para el dominicano
+    es la eterna etapa de negación.                                            40
+05  Parir y criar no es lo mismo. Pero el dominicano muchas veces no
+    sabe la diferencia.                                                        50
+06  Los dominicanos quieren ser padres, pero no quieren que eso sea
+    todo lo que son.                                                           60
+07  La edad ideal para tener hijos son los 20s. El problema es que a esa
+    edad todavía no han terminado de criarse.                                  69
+08  En el discurso, el hogar dominicano ya es equitativo. En la práctica,
+    ella sigue planchando.                                                     79
+09  No tener hijos ya no es un escándalo. Pero sí una explicación que
+    pareces deberle a todo el mundo.                                           89
+10  El dominicano quiere que sus hijos sean orgullosamente dominicanos.
+    Solo que no está muy seguro de qué significa eso hoy.                      99
+
+11  TREND FORECAST / INVENTOLOGÍA DE LA ADULTEZ / HERNANDEZ ARE
+    PROMPTED / ALGORITMO DEL HOGAR                                            109
+12  FRAMEWORK / C.O.D.E.                                                      133
+13  12 ESPACIOS / VACÍOS                                                      135
+14  VERSIONES / LITE · MEDIUM · PREMIUM                                       140
+
+
+================================================================================
+SECCIÓN 2: TENSIONES + HALLAZGO + LISTENING
+================================================================================
+
+
+================================================================================
+TENSIÓN 01
+EN RD "MAMÁ Y PAPÁ" ES EL IDEAL
+"ABUELA, TÍA Y NANA" ES LA REALIDAD
+Aquí no cría la familia nuclear, cría la red
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+PARA EL DOMINICANO LA CRIANZA ES COLECTIVA, NO NUCLEAR
+
+38%  Vive en una familia tradicional nuclear [mamá, papá e hijos]
+62%  Vive en familias NO convencionales: monoparental, extendida, hogar sin hijos, acogido.
+14.4%  Dice que la abuela materna fue activa en su formación
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P1 ¿Cuál de estas opciones describe mejor a tu hogar o núcleo familiar actual?
+P3 ¿Quiénes participaron activamente en tu crianza? (multirespuesta)
+
+Figuras activas en la crianza
+Pregunta P3 · Base n=500 · Santo Domingo + Santiago · Multirespuesta
+
+Mis padres         48.2%
+Mi mamá            37.4%
+Abuela materna     14.4%
+Mi papá            14.4%
+Abuelo materno      6.0%
+Abuela paterna      5.2%
+Tíos/as             4.8%
+Hermano(a) mayor    3.0%
+Abuelo paterno      2.4%
+
+CONSUMER VOICE:
+"YO ME CRIE CON MI MAMA, MI ABUELA Y MI TIA... CUANDO DICEN FAMILIA ME SIENTO MAS IDENTIFICADA HACIA ALLÁ."
+— Familia sin hijos con mascota
+
+EL QUE CRÍA ES FAMILIA. TENGA O NO EL APELLIDO. LA FIGURA QUE CRÍA NO SIEMPRE ES LA QUE LA SOCIEDAD NOMBRA.
+
+89%  Dice que sus figuras de crianza fueron muy influyentes en su formación emocional. No solo los padres biológicos. Quien sea que estuvo.
+79%  Recuerda la crianza a través de "me cuidaba cuando estaba enfermo/a."
+
+"Vecinos que crían que no son familia… el papá nunca apareció, la mamá se murió, y los vecinos se hicieron cargo del niño." — Familia Mixta.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P4 ¿Qué tan influyentes son estas personas en tu formación emocional? (Likert)
+P5 ¿Qué tipo de actividades hacías con tus figuras cuidadoras? (multirespuesta)
+
+PERO LA CONVERSACIÓN CONTRASTA UN SENTIMIENTO DE ABANDONO VS EL RECONOCIMIENTO AL QUE SÍ ESTUVO PRESENTE
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+258 MENCIONES | 1.3M ALCANCE
+
+La conversación "castiga" a la familia que no aparece: el 53% de las menciones señala:
+[AL PAPÁ QUE NO ESTABA, A LA MAMÁ QUE LOS DEJÓ CON LA ABUELA]
+
+La conversación digital no castiga a la familia no tradicional por existir, pero sí expone el peso simbólico, social y económico que todavía recae sobre ella. Más que mostrar qué estructuras familiares predominan, el debate revela cuáles siguen siendo más cuestionadas, más discutidas y más difíciles de validar fuera del modelo tradicional.
+
+Ismael_ Tik Tok
+"Crecí sin amor de padre y madre y a pesar de que me siento bien, siempre quise sentir ese amor…"
+
+Jaydennoficial Tik Tok
+"Quieren regalo por el día de la madre y al muchacho lo crió la abuela"
+
+cdn37 Tik Tok
+"Niño de 12 años conmueve al defender a su padrastro frente a su padre biológico"
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+La crianza en la familia dominicana es       | Diseñar productos / plataformas para la        | ¿Qué pasaría si tu marca fuera la primera
+colectiva: pero tu marca solo habla del      | crianza compartida.                             | en reconocer que la familia dominicana
+día de las madres                            |                                                 | cría en tribu?
+                                             |                                                 |
+El mercado sigue hablándole a la familia     | Reconfigurar el concepto de familia:            | ¿Y si tu marca comienza a verse tan real
+nuclear que aparece en los comerciales.      | Familia es a donde sientes que llegaste         | como la verdadera familia dominicana?
+                                             |                                                 |
+Las marcas hablan del momento en que las     | Construir productos y comunicación para         | ¿Qué pasaría si tu marca existiera en las
+familias están compartiendo, pero eso no     | la conexión asincrónica de las familias.        | horas en que la familia no está junta?
+sucede más de 7 horas a la semana            |                                                 |
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+AYUDA PARA SER PADRES CUANDO NO TENGO TIEMPO
+WhatsApp lanzó en marzo de 2026 cuentas para preadolescentes gestionadas por padres. Permiten supervisar contactos, grupos y privacidad mediante un panel con PIN, manteniendo el cifrado de extremo a extremo en los mensajes.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+De un hallazgo a una narrativa
+
+SITUACIÓN: Planteamiento a resolver
+Usa el cuadro de oportunidades → Determina el rol ante el hallazgo → Establece el verbo
+[Tu marca] + quiere [rol de marca] + pero sabe que [Oportunidad Clave] + por eso [Transformación]
+
+01 OPORTUNIDAD CLAVE | 02 VERBO TRANSFORMACIÓN | 03 POSTURA - ROL
+
+Tensión 1
+
+SITUACIÓN: En RD "mamá y papá" es el ideal. "Abuela, tía y nana" es la realidad.
+OPORTUNIDAD CLAVE: Familia extendida ignorada como estructura funcional
+VERBO TRANSFORMACIÓN: Celebrar
+POSTURA - ROL: La marca que "hace visible" a mi familia
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere hacer visible a la familia dominicana
+Pero sabe que tu verdadera familia va más allá del núcleo tradicional,
+por eso celebra la familia real sin importar cómo esté compuesta
+
+
+================================================================================
+TENSIÓN 02
+LA FIGURA DEL PADRE COMO UN ROL SECUNDARIO
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+CUANDO HABLAMOS DE QUIÉN CRÍA, LA RESPUESTA YA NO NOMBRA AL PADRE: ELLA APARECE MÁS VECES QUE ÉL
+
+41% VS 15%  Atribuye la mayor responsabilidad de crianza a la madre 41%, frente a solo un 15.8% que señala al padre.
+37% VS 14%  La mención de la madre como figura activa de crianza casi triplica la del padre.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P2 ¿Quién tiene la mayor responsabilidad de la crianza en el hogar?
+P3 ¿Quiénes participaron activamente en tu crianza?
+
+LA IGUALDAD SE QUEDA EN EL DISCURSO: PLANCHAR, COCINAR Y LAVAR SIGUEN SIENDO TERRITORIO DE ELLA.
+
+54%  Asigna "planchar ropa" a la mujer. Solo el 1.8% lo asigna al hombre. La brecha se repite en cocinar (44% vs 1.2%) y lavar (46.4% vs 1.4%)
+78%  Dice que "las compras del supermercado" son responsabilidad de ambos, la única tarea con distribución equilibrada, pero las tareas domésticas siguen siendo territorio femenino.
+
+Las tareas del hogar siguen feminizadas a pesar del discurso igualitario…
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P15 ¿Quién DEBE encargarse de las tareas del hogar? (matriz)
+
+LA AUSENCIA DEL PADRE NO ES UN ACCIDENTE
+
+78%  Prefiere que la custodia quede con la madre en caso de divorcio, incluso quienes dicen creer en crianza compartida.
+48%  Dice que "mis padres" participaron en su crianza, pero al nombrarlo por separado, la madre (37.4%) triplica al padre (14.4%) como figura individual de cuidado.
+
+EL SISTEMA ENTERO: CUSTODIA, CRIANZA, CARGA, DA POR HECHO QUE ELLA VA A ASUMIRLO TODO
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P14 Si los padres se divorcian, ¿quién debe quedarse con la custodia?
+P3 ¿Quiénes participaron activamente en tu crianza?
+
+CONSUMER VOICE:
+"MI PAPÁ FUE UN PADRE PROVEEDOR, NO PRESENTE. PROVEEDOR."
+— Familia homoparental
+
+TENSIÓN 02 · RESPONSABILIDAD
+PREGUNTA: P2. ¿Quién tiene la mayor responsabilidad de la crianza de los hijos en el hogar?
+BASE: n = 500
+CRUCE: Sexo · F = 305 · M = 195
+HALLAZGO: El hombre declara que participa más: 22.6% de los hombres dice "papá cría", solo 11.5% de ellas lo confirma.
+ANÁLISIS: La percepción del padre sobre su rol está inflada. Casi la mitad de las mujeres sabe que la carga recae en ella, mientras él cree que participa más de lo que realmente hace. La brecha no es solo de acción — es de percepción.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+333 MENCIONES | 1.2M ALCANCE
+
+57% conversación negativa: La conversación no castiga ser madre soltera; castiga todo lo que ella termina cargando sola cuando él desaparece.
+
+La negatividad no recae sobre la monoparentalidad como estructura, sino sobre las condiciones de abandono, juicio y sobrecarga con las que suele vivirse. Cuando la conversación se vuelve positiva, no celebra la situación, sino la capacidad de estas familias para sostenerse, crecer y salir adelante a pesar de ella.
+
+GrecoHerasme X/Twitter
+"…El problema no es la madre soltera, es lo que viene con esas circunstancias. En RD el 40% de las madres lo son."
+
+JulySeEs X/Twitter
+"Si una mujer es divorciada-madre soltera, dicen que fue culpa de ella por no saber retener a un hombre. Si una mujer se queda en un matrimonio infeliz, dicen que es una loca que no se valora."
+
+radikeltotel X/Twitter
+"-Soy madre soltera- dice una vieja como de 70 años en CDN ¿a qué edad es que el título deja de ser tarjeta de víctima para las mujeres?."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+La figura del papá parece una especie en     | Dos posibles ángulos: 1 reivindicadores de     | ¿Qué pasaría si tu marca fuera la que
+extinción                                    | los padres (marcas masculinas) / 2 Ser aliado   | devuelve al padre a la familia?
+                                             | de las madres que crían casi solas              |
+                                             |                                                 |
+Las tareas del hogar siguen siendo de las    | Apoderarse de la jefatura del hogar             | ¿Qué pasaría si tu marca fuera la primera
+mujeres                                      | (promoviendo que todos ayudan)                  | que le dijera al hombre dominicano que
+                                             |                                                 | el hogar también es suyo?
+                                             |                                                 |
+La carga de las madres es                    | Iniciar el movimiento de la cuota masculina     | ¿Y si tu marca abogara por mayor "cuota
+desproporcional, aunque esté criando con     | en el hogar. Un hogar más sostenible.           | masculina" en el hogar, medido en
+una pareja                                   |                                                 | tiempo?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+"IFTAR AT OURS"
+IKEA lanzó "Iftar At Ours" en Londres y Mánchester durante Ramadán: espacios hogareños con comida, áreas de oración y decoración tradicional para que musulmanes rompieran el ayuno durante el commute vespertino. Una marca que provoca momentos para desconectar desde su propuesta de valor.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 2
+
+SITUACIÓN: El dominicano quiere ser un padre diferente al que tuvo, pero no sabe cuál.
+OPORTUNIDAD CLAVE: Existe poca participación del padre en la familia
+VERBO TRANSFORMACIÓN: Empoderamiento masculino
+POSTURA - ROL: Aliado de la paternidad positiva
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser el aliado de la paternidad positiva,
+pero sabe que papá no participa tanto en casa
+por eso hoy empodera a papá dándole un mapa que lo haga adueñarse de su hogar.
+
+
+================================================================================
+TENSIÓN 03
+LO MÁS IMPORTANTE PARA SER BUEN PADRE O MADRE ES EL TIEMPO
+Y es exactamente lo que menos tienen...
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+SER BUEN PADRE SE DEFINE POR DAR TIEMPO. PERO 7 DE CADA 10 PADRES DOMINICANOS DEDICAN MENOS DE UNA HORA AL DÍA A SU FAMILIA.
+
+44%  Coloca "dedicar tiempo a los hijos" como el atributo #1 de ser buen padre/madre.
+68%  Dedica 7 horas o menos a la semana a actividades familiares. Un 24.4% no llega ni a 3 horas semanales.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P6 ¿Qué hace a una buena madre/padre? (ranking)
+
+TENSIÓN 03 · TIEMPO
+PREGUNTA: P17. ¿Cuánto tiempo dedicas semanalmente a actividades familiares (no laborales)?
+BASE: n = 500
+CRUCE: NSE · Ingreso del hogar
+HALLAZGO: En el NSE E no hay término medio o trabajan sin parar, o están todo el día en casa sin empleo?
+ANÁLISIS: El NSE E no tiene tiempo de calidad intermedio. O no tienen tiempo porque trabajan sin parar, o están todo el día en casa sin empleo. La clase media vive en 3–7 hrs. El tiempo familiar es un lujo que la pobreza polariza.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+LA FAMILIA DOMINICANA VIVE APRETADA: DE DINERO, DE TIEMPO E IDENTIDAD PARENTAL
+
+44%  Señala la economía como el principal factor de estrés familiar, lo que roba tiempo al obligar a ambos padres a trabajar más.
+58%  Está de acuerdo con que "hay demasiada presión para que los padres lo tengan todo".
+65.8%  Siente que existe información contradictoria sobre crianza.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P23 ¿Qué factores generan más estrés dentro de tu vida familiar?
+P8 ¿Qué tan de acuerdo con "Hay demasiada presión para que las mamás o papás lo tengan todo"?
+P8 ¿Qué tan de acuerdo con "Hay demasiada información contradictoria sobre crianza"?
+
+CONSUMER VOICE:
+"LA FUENTE DE ESTRÉS SERÍA COMO QUE LA FALTA DE TIEMPO, EN CUANTO A NOSOTROS, PORQUE TRABAJAMOS MUCHO… DESPUÉS DEL TRABAJO DE 8 A 4 O DE 7 A 7… SOY YO QUE TENGO LA CARGA AL TRIPLE"
+— Grupo Focal — Familias Sin Hijos
+
+CUANDO EL "TIEMPO DE CALIDAD" SE DESGLOSA, NO HAY CALIDAD: HAY LOGÍSTICA. TAREAS, TRANSPORTE, TELEVISIÓN.
+
+68%  Dedica 7 horas o menos a la semana a actividades familiares. Un 24.4% no llega ni a 3 horas. Eso es menos de 25 minutos al día para "calidad."
+52%  De las actividades semanales con hijos es "ayudarlos con las tareas." Le siguen pasear/jugar (43.9%) y ver televisión juntos (42.9%).
+
+El "tiempo de calidad" es la excusa favorita del sistema. Pero cuando desglosas qué hacen realmente los padres con sus hijos, no hay calidad: hay logística.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P17 ¿Cuánto tiempo dedicas semanalmente a actividades familiares?
+P16 ¿Qué actividades haces en la semana con tus hijos?
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+2,863 MENCIONES | 756.5K ALCANCE
+
+Criar se cuenta más como una deuda pendiente, que como un proyecto de vida.
+
+El dominicano habla más de lo que sacrifica por su familia que del tiempo que le dedica, y cuando habla de estar presente, lo hace desde la culpa de no poder o desde el dolor de lo que no recibió. Criar bien en RD se enuncia más como deuda con el pasado que como proyecto hacia el futuro.
+
+20% de la conversación sobre crianza y sus frustraciones abordan el tiempo familiar y la calidad de este
+
+Raeldolopez X/Twitter
+"Estaba dedicándole tiempo de calidad a mis hijos, construyendo mi familia — la institución que representa el núcleo de esta sociedad y de donde surge la gente que dirige y aporta."
+
+erickprometeo X/Twitter
+"La familia moderna en República Dominicana se enfrenta a retos significativos en el cuidado de sus miembros más jóvenes y ancianos. Con ambos padres trabajando fuera del hogar, los niños suelen quedar al cuidado de terceros."
+
+thssfkcc X/Twitter
+"El dinero apenas alcanzaba para la renta, la comida, el transporte. Mi familia se iba de vacaciones y yo no podía acompañarlos: trabajaba todo el tiempo."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+Ser buen padre o madre requiere de           | Diseñar productos que le devuelvan el           | ¿Qué pasaría si tu marca fuera la razón
+tiempo que nadie parece tener.               | tiempo a las familias                           | por la que una familia tuvo una hora más
+                                             |                                                 | juntos?
+                                             |                                                 |
+No tener tiempo para los hijos y la falta    | Entender que la familia viene con una            | ¿Qué pasaría si tu marca fuera la que le
+de dinero son los factores que más estresan  | dosis extra de estrés                           | quitara peso a quien ya carga demasiado?
+a los padres y madres de familia             |                                                 |
+                                             |                                                 |
+El tiempo de calidad, se convierte en        | Intervenir en las rutinas volviendo los          | ¿Qué pasaría si tu marca convirtiera el
+tiempo de logística                          | momentos de logística en tiempo de calidad      | trayecto al colegio en el mejor momento
+                                             |                                                 | del día?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+COLRUYT EXPANDE SU SMART CART
+Manejo del tiempo puede verse desde diversas perspectivas, como por ejemplo, el tiempo que emplean en tu marca. Colruyt expande su Smart Cart, un carrito que escanea productos y permite pagar sin pasar por caja. Tras su éxito en Halle, lo plantea como opción complementaria al sistema tradicional.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 3
+
+SITUACIÓN: No hay tiempo para ser un buen papá
+OPORTUNIDAD CLAVE: El valor del tiempo vs la escasez
+VERBO TRANSFORMACIÓN: Devolver el tiempo
+POSTURA - ROL: Proporcionador de tiempo de calidad
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere proporcionarte tiempo de calidad con tu familia,
+Pero sabe que el valioso tiempo cada vez es más escaso para ti,
+por eso te devuelve tiempo que puedes usar en lo que realmente importa
+
+
+================================================================================
+TENSIÓN 04
+SI LA HOMOSEXUALIDAD FUERA UNA ETAPA DE DUELO, PARA EL DOMINICANO
+ES LA ETERNA ETAPA DE NEGACIÓN
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+EL DOMINICANO ACEPTA QUE UNA PAREJA GAY COMPARTA CASA Y SEGURO. LO QUE NO ACEPTA ES QUE COMPARTAN UN HIJO.
+
+61%  Está en desacuerdo con que parejas del mismo sexo puedan adoptar legalmente
+60%  Rechaza que sean reconocidos legalmente como padres de un mismo hijo.
+47%  Acepta que accedan a servicios de salud como beneficiarios
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P18 ¿De acuerdo con que pareja del mismo sexo pueda adoptar? (matriz Likert)
+P18 ¿…ser reconocidos legalmente como padres de un mismo menor?
+P18 ¿…acceder a servicios de salud familiar?
+
+CONSUMER VOICE:
+"RESPETO SU DECISIÓN PERO NO LA COMPARTO. QUIEREN HACERLO COMO NORMAL, ALGO QUE NO ES NORMAL."
+— Familias monoparentales
+
+TENSIÓN 04 · DERECHOS
+PREGUNTA: P18. ¿Qué tan de acuerdo estás con que una pareja del mismo sexo pueda acceder a estos derechos?
+BASE: n = 500
+CRUCE: Tipo de derecho · Likert 1–5
+HALLAZGO: LA LÍNEA ROJA ESTÁ EN LOS HIJOS, NO EN LA PAREJA. LA TOLERANCIA SE CONVIERTE EN RECHAZO CUANDO APARECE LA CRIANZA.
+ANÁLISIS: La aceptación es utilitaria, no emocional. Comprar casa juntos "se puede". Criar juntos, no. El hijo es la frontera donde la tolerancia se convierte en rechazo. La sociedad dominicana tolera la convivencia pero protege la parentalidad.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+103 MENCIONES | 24.7K ALCANCE
+
+1.8% de la conversación sobre familia e identidad toca el tema de la homosexualidad, pero no como entidad
+
+La conversación digital refleja que no hay debate sobre familias homoparentales porque el discurso asume que esa familia no existe. En la República Dominicana todavía se está peleando el paso anterior, el reconocimiento de estas parejas como ente social.
+
+@DOUPPUATTE
+"En la República Dominicana, las parejas homosexuales no tenemos reconocimiento legal como familia, por lo que no accedemos a los mismos derechos que sí tiene una pareja heterosexual casada."
+
+_ncpd Instagram
+"Un chico murió esperando cirugía en el sector público mientras su pareja tenía seguro privado. No podía agregarlo a su núcleo familiar solo porque eran una pareja gay."
+
+MAXWELL218 TIKTOK
+"Qué horrible es saber que si tu pareja muere no la puedes enterrar porque 'no son familia'."
+
+[La conversación seria sobre temas de familia homoparental es prácticamente inexistente]
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+"Yo respeto, pero no comparto" es la frase   | Ocupar el espacio entre la tolerancia y la     | ¿Y si las marcas hablaran de lo que nos
+más honesta de una sociedad que aprendió a   | aceptación sin banderas. Todavía no hay         | hace iguales, no de las diferencias?
+tolerar sin aceptar.                         | transformación cultural.                         |
+                                             |                                                 |
+La tensión por opiniones contrarias está     | Entender que la falta de comunicación es el     | ¿Qué pasaría si tu marca le diera al
+adentro del silencio cotidiano del hogar     | síntoma: Se trata de acercar a la familia.      | dominicano las palabras que necesita para
+                                             |                                                 | hablar de lo que siempre supo que existía
+                                             |                                                 | pero nunca supo cómo nombrar?
+                                             |                                                 |
+El cambio ya ocurrió en la mente.            | Encontrar el territorio donde las generaciones  | ¿Qué pasaría si tu marca fuera el puente
+Todavía no llegó a la mesa.                  | y opiniones encuentran el punto medio.          | entre la generación que ya aceptó y la
+                                             |                                                 | generación que todavía está aprendiendo
+                                             |                                                 | a hacerlo?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+HACER QUE LAS FAMILIAS CONVERSEN MÁS.
+Una marca contrató a Emil 'Nyhrox' Pedersen, campeón mundial de Fortnite, para enfrentarse a adolescentes y eliminar sus partidas justo antes de la cena. Los padres ingresan a una plataforma, introducen el usuario y Nyhrox juega para que los chicos terminen a tiempo y compartan en familia.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 4
+
+SITUACIÓN: Si la homosexualidad fuera una etapa de duelo, para el dominicano es la eterna etapa de negación.
+OPORTUNIDAD CLAVE: Ser familia es un valor, aunque las opiniones nos separen
+VERBO TRANSFORMACIÓN: Conciliar
+POSTURA - ROL: LA marca que une
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser la marca que une a tu familia,
+pero sabe que las opiniones pueden separarnos y dificultar poder compartir,
+por eso transforma el momento de la mesa en una pausa donde las diferencias se quedan afuera
+
+
+================================================================================
+TENSIÓN 05
+PARIR Y CRIAR NO ES LO MISMO.
+PERO EL DOMINICANO MUCHAS VECES NO SABE LA DIFERENCIA.
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+CRIAR, PARA EL DOMINICANO, ES UN SENTIMIENTO ANTES QUE UNA ACCIÓN: 7 DE CADA 10 DICEN "AMAR". MENOS DE 2 DICEN "JUGAR".
+
+68%  Dice que criar es ante todo 'Amar'; seguido de 'Enseñar' (41%) y 'Educar' (32.8%).
+7%   Asocia criar con 'Escuchar'
+1.8%  Asocia criar con 'Jugar'
+37%  Fue criado principalmente por su mamá sola, sin la pareja
+
+Escuchar y jugar — las acciones más concretas de vínculo — casi no aparecen.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P13 ¿Qué significa para ti "criar a un hijo"? (máx. 3)
+P3 ¿Quiénes participaron activamente en tu crianza?
+
+CONSUMER VOICE:
+"MUCHAS VECES LOS ABUELOS SON LOS QUE TIENEN QUE TOMAR ESA CARGA Y ESA RESPONSABILIDAD... EL PAPÁ Y MAMÁ EXISTEN, PERO ESTÁN DISPERSOS, BÁSICAMENTE AUSENTES"
+— Familias mixtas
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+137 MENCIONES | 22.6K ALCANCE
+
+Los hijos llaman padres a quienes los criaron; los padres llaman crianza al sacrificio de no haber estado.
+
+Mientras persiste la figura del padre ausente, la crianza se redistribuye en la familia -abuelas, tías y otras figuras que, sin haber parido, asumen el rol. Esto evidencia que la presencia no siempre coincide con la biología. Al mismo tiempo, emerge una generación que cuestiona la crianza como deuda futura, moviendo la conversación del sacrificio a la responsabilidad elegida.
+
+CUANDO SE HABLA DE CRIANZA EL 15% DE LAS MENCIONES ABORDA LA DIFERENCIA ENTRE TENER HIJOS Y CRIARLOS
+
+orquidearuizmota94
+"Las madres siempre andamos cubriendo y tapando. Para los niños, esos fines de semana son pura diversión, ellos no enfrentan con papá las tareas, los proyectos, la alimentación, el día a día."
+
+audreyjohana Instagram
+"Mis hijos no son mi plan de retiro. Si al final me quieren dar ayuda por amor a su madre, bien -pero yo estoy luchando para tener mi propio plan."
+
+cristalcortes27 Tiktok
+"Mis abuelitos en realidad son mi mamá y papá. No puedo imaginarme mi vida sin ellos."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+Para los padres criar es darle a los hijos   | Redefinir la paternidad activa como             | ¿Qué pasaría si tu marca fuera la que le
+lo que necesitan y para eso, deben delegar   | estándar.                                       | dijera al padre dominicano que proveer es
+su presencia                                 |                                                 | el piso, no el techo?
+                                             |                                                 |
+Para los padres, criar es un sacrificio      | Quitarle el sacrificio a la crianza             | ¿Qué pasaría si tu marca fuera la que le
+                                             |                                                 | dijera al padre dominicano que proveer es
+                                             |                                                 | el piso, no el techo?
+                                             |                                                 |
+En realidad, "amar" es "estar" para los      | La marca que traduce la intención en acción     | ¿Qué pasaría si tu marca le enseñara a
+hijos                                        | dentro del hogar tiene un rol que ninguna        | la familia que estar presente no es un
+                                             | campaña de "familia feliz" ha ocupado todavía.  | lugar — es una decisión que se toma cada
+                                             |                                                 | vez?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+EMPODERAR A PAPÁ Y CAMBIAR LA CONVERSACIÓN
+Dove Men+Care invitó a padres en Canadá a añadir "Papá" como cargo en LinkedIn. La campaña buscó revalorizar la paternidad activa y su impacto positivo en la salud mental.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 5
+
+SITUACIÓN: Parir y criar no es lo mismo, pero el dominicano muchas veces no sabe la diferencia.
+OPORTUNIDAD CLAVE: Marcar la diferencia entre ser padres y estar presente en la vida de los hijos
+VERBO TRANSFORMACIÓN: Enseñar
+POSTURA - ROL: La marca de los momentos que realmente importan
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser la marca de los momentos que realmente importan,
+Pero sabe que como padres "se nos pasa" estar presente en la vida de los hijos
+por eso enseña que estar presente vale más que el título de "padres"
+
+
+================================================================================
+TENSIÓN 06
+LOS DOMINICANOS QUIEREN SER PADRES, PERO NO QUIEREN QUE ESO SEA TODO LO QUE SON
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+ESTA GENERACIÓN ES LA PRIMERA QUE SE ATREVE A DECIRLO: QUIERO SER MÁS QUE SOLO PADRE
+
+40%  Está 'Muy de acuerdo' con que no le gusta que lo vean solo como padre/madre
+68%  Quiere que sus hijos los vean como amigos
+42%  Siente que hay demasiada presión para que los padres lo tengan todo.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P8 (batería de enunciados, Likert)
+
+CONSUMER VOICE:
+"LA TRANQUILIDAD DEL HOGAR Y LA SOLEDAD ES BÁSICAMENTE QUE A UNO LE VA A QUEDAR CUANDO SE VAYAN TODOS."
+— Biparentales con hijos adultos
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+370 MENCIONES | 235K ALCANCE
+
+1 de cada 5 menciones sobre identidad parental habla de quién eres más allá del rol familiar o como pareja
+
+Más que una pérdida de identidad, la conversación empieza a reflejar una transformación: personas que están aprendiendo a integrar su rol como padres sin dejar de reconocerse como individuos y como pareja. Aunque persisten presiones externas, familia, entorno, redes, emerge con más fuerza una narrativa de autonomía: criar desde el propio criterio, desde lo que funciona en cada hogar.
+
+La conversación es una declaración de independencia que grita: "tengo un hijo, pero también soy una persona".
+
+IvanekJimenez
+"Jamás se lleven de presión social, ni la Iglesia, ni la familia, ni los amigos. A usted nadie le va a cuidar, ni a usted ni a un hijo."
+
+_ncpd Instagram
+"Le paso el bebé a mi esposo, le digo 'tómalo un momento, mamá está saturada', salgo, doy mi lloradita, y la calma vuelve a mí."
+
+npynicole Tiktok
+"No se puede hacer todo, pero siempre lo hacemos todo."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+La madre o padre dejan de ser ellos          | Crear espacio para la identidad                 | ¿Qué pasaría si tu marca fuera la que le
+mismos y se convierten en un rol             | individual dentro del rol parental.              | recordara al dominicano que sus hijos no
+                                             |                                                 | necesitan un padre perfecto -necesitan un
+                                             |                                                 | padre presente que también sea feliz?
+                                             |                                                 |
+La paternidad dominicana moderna está        | Darle nombre y permiso al deseo                 | ¿Qué pasaría si tu marca fuera la primera
+atrapada entre el modelo heredado que exige  | de ser más que padre.                           | en decir en voz alta lo que todos los padres
+sacrificio total y una generación que siente,|                                                 | dominicanos piensan pero ninguno se
+por primera vez, que tiene derecho a ser     |                                                 | atreve a confesar?
+algo más.                                    |                                                 |
+                                             |                                                 |
+La generación de padres dominicanos de hoy   | Posicionarse como La marca que acompaña          | ¿Qué pasaría si tu marca construyera su
+es la primera que se hace esta pregunta en   | esa búsqueda de identidad sin abandonar el      | comunicación alrededor del padre
+serio: ¿quién soy yo además de papá o mamá? | amor por los hijos.                             | dominicano completo — no el que lo da
+                                             |                                                 | todo, sino el que lo tiene todo para dar?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+CUIDAR LA FAMILIA EMPIEZA POR CUIDARSE A SÍ MISMO
+Naturium lanza gel Multi-Peptide con campaña que replantea el cuidado: de antiedad a autocuidado futuro. Con voz del "yo del mañana", conecta ciencia de péptidos con beneficio emocional diario.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 6
+
+SITUACIÓN: Los dominicanos quieren ser padres, pero no quieren que eso sea todo lo que son
+OPORTUNIDAD CLAVE: El sacrificio total como modelo de crianza ya no funciona
+VERBO TRANSFORMACIÓN: Empoderar
+POSTURA - ROL: La marca que te da permiso para ser tú
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere darte permiso para ser más que padre/madre,
+pero sabe que la presión social te obliga a sacrificarlo todo por el rol,
+por eso empodera tu identidad completa para que puedas dar lo mejor desde quien realmente eres
+
+
+================================================================================
+TENSIÓN 07
+LA EDAD IDEAL PARA TENER HIJOS SON LOS 20S,
+EL PROBLEMA ES QUE A ESA EDAD TODAVÍA NO HAN TERMINADO DE CRIARSE ELLOS MISMOS.
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+85% CREE QUE HAY QUE SER PADRE ANTES DE LOS 30. JUSTO CUANDO LA ESTABILIDAD ECONÓMICA Y EMOCIONAL TODAVÍA NO HA LLEGADO.
+
+46%  Dice que la edad ideal para tener hijos es entre 20 y 24 años
+38%  Dice que es entre 25 y 29 años. Solo 7.8% dice 30-34
+6%   Cree que la edad ideal es menos de 20 años
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P9 ¿Cuál crees que es la edad adecuada para tener hijos?
+
+CONSUMER VOICE:
+"ME DA PENA CUANDO YO VEO YA HOMBRES DE 45 O 50 EN LOS SUPERMERCADOS CON ESTOS NIÑOS CHIQUITOS"
+— Biparentales con hijos adultos
+
+TENSIÓN 07 · EDAD IDEAL
+PREGUNTA: P9. ¿Cuál crees que es la edad adecuada para tener hijos?
+BASE: n = 500
+CRUCE: NSE · Ingreso del hogar
+HALLAZGO: 12.5% del NSE E cree que hay que ser madre antes de los 20. En NSE C+, nadie. La maternidad temprana no es decisión, viene de estado económico.
+ANÁLISIS: Tener hijos temprano no es una decisión — es una inercia económica. El NSE E no posterga porque no tiene la estructura para hacerlo. El ingreso no compra tiempo; compra el derecho a esperar. La maternidad temprana es un síntoma de clase.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+114 MENCIONES | 18.7K ALCANCE
+
+No están rechazando ser madres. Están rechazando las razones por las que se les pide serlo…
+
+114 menciones sobre una generación que empieza a cuestionar cuándo convertirse en padres.
+
+Surgen relatos de jóvenes que asumieron la maternidad o paternidad antes de terminar de formarse, en un contexto donde finales de los 20 e inicios de los 30 se mantienen como la edad esperada para tener hijos. Frente a esto, emerge una narrativa más consciente sobre preparación y responsabilidad, donde decidir no estar listo se cuestiona más que asumir la maternidad temprana.
+
+IvanekJimenez
+"Me dicen que estoy muy joven para decir que no quiero hijos. Pero cuando una adolescente sale embarazada, ahí ella no es joven."
+
+_ncpd Tiktok
+"Me funan cuando digo que los hijos no tienen obligación de mantener a los padres. Los hijos no son un proyecto a futuro. Tengo 2 niñas y no pienso así."
+
+npynicole Tiktok
+"Me tienen harta con eso — 'ya tienes 34, ¿quién te va a cuidar?' Como que uno tiene hijos pa eso."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+La maternidad/paternidad se aprende en       | Ser la marca que acompaña sin juicios.          | ¿Qué pasaría si tu marca fuera la única
+el camino.                                   |                                                 | que le hablara al padre dominicano de 22
+                                             |                                                 | años como lo que es — alguien que está
+                                             |                                                 | aprendiendo a ser dos personas al mismo
+                                             |                                                 | tiempo?
+                                             |                                                 |
+Tener hijos temprano todavía está en el      | Adelantarse a la presión social con             | ¿Qué pasaría si tu marca cambiara la
+guión cultural de los dominicanos.           | conversaciones sobre preparación,               | conversación sobre la paternidad
+                                             | identidad y decisión consciente.                | temprana?
+                                             |                                                 |
+Padres que no terminaron de criarse tienen   | Ser la marca que le da al dominicano joven      | ¿Qué pasaría si tu marca fuera la razón
+hijos que tampoco terminarán de criarse      | los recursos para conocerse, prepararse y       | por la que una generación entera de
+antes de tener los suyos.                    | decidir conscientemente.                        | dominicanos llegó a la paternidad
+                                             |                                                 | sabiendo quién era primero?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+QUÉ PASA CUANDO NOS PROPONEMOS INTEGRARNOS EN LUGAR DE QUERER CAMBIAR LA CULTURA…
+Utrecht lanza modelo posnatal grupal que reúne familias para controles, aprendizaje y apoyo mutuo. Incluye app de chat y busca fortalecer redes, prevenir problemas y expandirse a toda la ciudad para 2028.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 7
+
+SITUACIÓN: La edad ideal para tener hijos son los 20s, cuando todavía no han terminado de criarse ellos mismos.
+OPORTUNIDAD CLAVE: Se llega a la paternidad sin haber terminado de criarse uno mismo
+VERBO TRANSFORMACIÓN: Anticipar
+POSTURA - ROL: La marca que prepara antes de que la vida empuje
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser la marca que te hace disfrutar de la paternidad,
+Pero sabe que a veces el momento llega cuando no estás preparado para asumirla,
+por eso se anticipa tu preparación antes de que la vida te empuje a hacerlo.
+
+
+================================================================================
+TENSIÓN 08
+EN EL DISCURSO, EL HOGAR DOMINICANO YA ES EQUITATIVO.
+EN LA PRÁCTICA, ELLA SIGUE PLANCHANDO.
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+CUANDO PREGUNTAS QUIÉN "DEBE" HACER LAS TAREAS, LA RESPUESTA ES 'AMBOS'. CUANDO PREGUNTAS QUIÉN LAS HACE, LA RESPUESTA ES "ELLA".
+
+54%  Dice que planchar es tarea de la mujer; solo 1.8% dice del hombre
+66%  Dice que en su hogar cocinar lo hace más la mujer
+63%  Dice que lavar la ropa lo hace más la mujer
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P15 ¿Quién DEBE encargarse de las tareas del hogar?
+P34 ¿Quién SUELE realizar estas tareas en tu hogar?
+
+CONSUMER VOICE:
+"YO COCINO EN LA SEMANA, MI ESPOSA COCINA LOS FINES DE SEMANA Y YO SOY EL QUE LLEVA EL MENÚ."
+— Biparentales con hijos adultos
+
+TENSIÓN 08 · DISCURSO VS. PRÁCTICA
+PREGUNTA: P15. ¿Quién DEBE encargarse? · P33. ¿Quién SUELE realizar estas tareas?
+BASE: n = 500
+CRUCE: Debería · Hace · Gap
+HALLAZGO: LA REALIDAD ES +26 PUNTOS MÁS MACHISTA QUE EL PROPIO DISCURSO
+ANÁLISIS: El dominicano dice que las tareas deben ser compartidas, pero en la práctica la mujer carga 20+ puntos más de lo que incluso el propio discurso machista asigna. La equidad fracasa dos veces: en la aspiración y en la ejecución.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+856 MENCIONES | 132.7K ALCANCE
+
+En la conversación ella sostiene, él descansa, y el discurso dice que es igual.
+
+2.3% de la conversación de la familia hablan de los roles en el hogar con tareas y expectativas
+
+La conversación sobre roles en el hogar muestra que el conflicto no está solo en las tareas, sino en las expectativas que cada rol carga. Persisten mandatos tradicionales — la mujer en doble jornada y el hombre como proveedor —, pero empiezan a cuestionarse desde nuevas dinámicas donde se busca mayor equilibrio, autonomía y corresponsabilidad en la crianza y la vida en casa.
+
+rosanagaracena
+"Mi pareja llegaba horas antes que yo y me esperaba sentado viendo TV para que yo le hiciera la cena. Mi día libre era para lavar la ropa."
+
+valerybob Instagram
+"Lo que más impacta es el mandato misógino del aguante: '¡Dale, puedes un chin más!' Mientras tanto, la mujer sostiene mil y una cosas a la vez."
+
+casandrajimenez08 Tiktok
+"¿El hombre no come en ese plato? ¿No bebe en vasos? ¿No sale y entra de la casa? ¿Cuál es el problema entonces?"
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+La equidad doméstica todavía es una          | Hacer visible la brecha entre el discurso       | ¿Qué pasaría si tu marca fuera la que
+aspiración                                   | y la práctica sin convertirlo en ataque.        | para al hombre del sofá?
+                                             |                                                 |
+La carga doméstica invisible no es solo      | Hablemos de cargas…                              | ¿Qué pasaría si tu marca le diera nombre
+física — es emocional, mental y logística.   |                                                 | a la carga que ella carga sola — y ese
+                                             |                                                 | nombre cambiara la conversación en cada
+                                             |                                                 | hogar dominicano?
+                                             |                                                 |
+La equidad doméstica en RD fracasa por       | Reta la herencia cultural.                      | ¿Qué pasaría si tu marca diseñara cada
+inercia. Los roles se heredaron.             |                                                 | punto de contacto asumiendo que en este
+                                             |                                                 | hogar las tareas se reparten — y esa sola
+                                             |                                                 | decisión cambiara quién te compra y por
+                                             |                                                 | qué?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+CREAR PARA LA EFICIENCIA
+Lucid Bots lanza RaaS para limpieza exterior: suscripción sin gran inversión que incluye drones, robots, software y formación. Con IA, reduce tiempos 2–5x y permite asumir proyectos más grandes.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 8
+
+SITUACIÓN: En el discurso, el hogar dominicano ya es equitativo. En la práctica, ella sigue planchando.
+OPORTUNIDAD CLAVE: Las tareas no están realmente divididas
+VERBO TRANSFORMACIÓN: Dividir
+POSTURA - ROL: La marca del equilibrio en el hogar
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser la marca que trae equilibrio en tu hogar,
+Pero sabe que a veces una sola persona tiene toda la carga,
+por eso se convierte en la marca que divide para unir más
+
+
+================================================================================
+TENSIÓN 09
+NO TENER HIJOS YA NO ES UN ESCÁNDALO.
+PERO SÍ UNA EXPLICACIÓN QUE PARECES DEBERLE A TODO EL MUNDO.
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+LA SOCIEDAD DOMINICANA HA REDUCIDO EL ESTIGMA, PERO NO LA CURIOSIDAD. HAY UN 85% QUE YA ACEPTA A LA MASCOTA COMO FAMILIA, EL PET PARENTHOOD ES MAINSTREAM.
+
+85%    Considera que las mascotas son parte de la familia
+14.5%  De quienes no tienen hijos siente que la sociedad los juzga por ello
+18.4%  Siente que la mascota ocupa el espacio que podría tener un hijo
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P10 ¿Consideras que las mascotas son parte de la familia?
+P12 - Batería de enunciados Escala de Likert
+
+CONSUMER VOICE:
+"NO TODAS LAS PERSONAS ESTÁN PREPARADAS PARA TENER HIJOS Y A VECES QUIEREN UN PERRO... HAY QUE RESPETARLES SU DECISIÓN."
+— Familias mixtas
+
+TENSIÓN 09 · JUICIO SOCIAL
+PREGUNTA: P12. "Siento que la sociedad me juzga por no tener hijos" (solo sin hijos)
+BASE: n = 76 · F=29 · M=47
+CRUCE: Sexo · Likert 1–5
+HALLAZGO: LA LIBERTAD REPRODUCTIVA TIENE GÉNERO: A ÉL NO LE PREGUNTAN
+ANÁLISIS: La presión social sobre no tener hijos es desigual: al hombre se le permite postergar; a la mujer se le cuestiona. "¿Y los hijos?" es una pregunta que solo ella recibe en cada reunión familiar.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+61 MENCIONES | 9.3K ALCANCE
+
+La conversación digital la gente ahora se defiende sobre no tener hijos
+
+61 MENCIONES CUESTIONAN SI TENER HIJOS DESDE EL "NO QUIERO" HASTA EL "PRIMERO TENGO QUE RESOLVER YO"
+
+La conversación sobre no tener hijos es más compleja que un simple rechazo: incluye a quienes evalúan, postergan o condicionan la decisión desde la responsabilidad personal. Sin embargo, esa decisión no ocurre en privado, sino bajo una fuerte presión social que la cuestiona constantemente.
+
+Abby_creaciones_art
+"Cada día que paso tengo MUCHAS más razones para no tener hijos. Si me pongo a nombrar esa lista, Listín Diario me tiene que contratar."
+
+yudelisdelarosa2 Tiktok
+"'Él está joven y no tiene hijos -tienes que darle uno aunque sea.' O sea, linda, él se casó conmigo sabiendo que no quiero más."
+
+casandrajimenez08 Tiktok
+"Me gusta ver las caras de susto que ponen cuando digo que me voy a operar para no tener hijos. Creen que todos quieren lo que ellos desean."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+No tener hijos requiere dar explicaciones.   | Ser la marca que ayuda a no pedir               | ¿Qué pasaría si tu marca fuera un
+                                             | permiso y marcar las propias reglas             | "contenedor de juicios"?
+                                             |                                                 |
+Adultos sin hijos tienen mayor posibilidad   | Ser la marca que amplía su definición de        | ¿Qué pasaría si tu marca redefiniera
+de pagar más de lo necesario.                | familia sin abandonar su esencia.               | "familia" de una forma tan honesta que
+                                             |                                                 | cada dominicano — con hijos o sin ellos —
+                                             |                                                 | se viera reflejado en ella?
+                                             |                                                 |
+La presión social sobre la decisión viene    | Crear espacio dentro de la narrativa: tu        | ¿Qué pasaría si tu marca fuera la que le
+también de adentro.                          | vida es perfecta como es                        | dijera al dominicano que la mejor familia
+                                             |                                                 | es la que él decide tener?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+CUANDO EL ENTENDIMIENTO DE LA CULTURA ACTUAL SE CONVIERTE EN EMPATÍA VIVA QUE LAS MARCAS PUEDEN ACCIONAR
+Blue Buffalo lanza "crédito fiscal" para perros en EE. UU.: dueños pueden colocar a su mascota como dependiente y "reclamar" para ganar USD 1000 para alimentos Love Made Fresh. La campaña aprovecha la humanización de mascotas y el interés en deducciones, sin vínculo con el IRS.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 9
+
+SITUACIÓN: No tener hijos en RD ya no es un escándalo pero sí una explicación que pareces deberle a todo el mundo.
+OPORTUNIDAD CLAVE: La maternidad se presiona, aunque todos saben que a cada uno le llega su momento
+VERBO TRANSFORMACIÓN: Liberar
+POSTURA - ROL: La marca que invita a vivir sin prisas
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere ser la marca que te invita a vivir sin prisas,
+Pero sabe que a veces los que nos quieren nos presionan a apresurar las etapas,
+por eso libera de dar explicaciones cambiando la conversación para exaltar la etapa de vida en la que estás
+
+
+================================================================================
+TENSIÓN 10
+LA FAMILIA DOMINICANA QUIERE REESCRIBIRSE
+PERO NO TIENE EL LÁPIZ NI EL PAPEL
+================================================================================
+
+--- HALLAZGO / SET DE DATOS ---
+
+A LA FAMILIA DOMINICANA LE IMPORTA MÁS SU IDENTIDAD CULTURAL QUE LA FAMILIAR. ESTOS DATOS NOS HABLAN DE UNA IDENTIDAD FAMILIAR ALREDEDOR DE DOMINICANIDAD, AMOR, FE. PERO ¿DÓNDE ESTÁN LOS VALORES DE CRIANZA SALUDABLE?: ENSEÑAR, ESCUCHAR, JUGAR.
+
+64%  Está 'Muy de acuerdo' con que le preocupa que sus hijos no valoren la identidad dominicana
+55%  Pone el amor como el valor #1 de la familia donde creció.
+1%   Pone fe o espiritualidad como valor principal de su familia, pese a que 64% recurre siempre a la religión en momentos difíciles.
+
+Aunque recurre a fe en momentos difíciles
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+P12 - Batería de enunciados Escala de Likert
+P7 Ordena los valores que caracterizan a la familia donde creciste (ranking)
+P25 En momentos de dificultad, ¿qué tan frecuentemente recurres a la religión? (Likert)
+
+TENSIÓN 10 · IDENTIDAD DOMINICANA
+PREGUNTA: P8. "Me preocupa que mis hijos no valoren nuestra identidad como dominicanos"
+BASE: n = 500
+CRUCE: Rango de edad · Likert 1–5
+HALLAZGO: EL MIEDO A PERDER LA DOMINICANIDAD ES NOSTALGIA, NO URGENCIA PARENTAL
+ANÁLISIS: La preocupación por la identidad dominicana aumenta con la edad, no con la etapa de crianza. El que ya crió (55+) se preocupa más que el que está criando (35–44). El miedo a perder la dominicanidad es más nostalgia que urgencia parental.
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+CONSUMER VOICE:
+"NOS CRÍAN COMPARÁNDONOS CON LOS DEMÁS. SI DICES QUE ESTÁS CANSADA, MINIMIZAN NUESTRO DOLOR. LA CRIANZA AQUÍ SIEMPRE HA SIDO DEFICIENTE, ES UN TRAUMA GENERACIONAL TERRIBLE."
+— social listening mention, tiktok 2025
+
+--- HALLAZGO SOCIAL LISTENING ---
+
+CONVERSACIÓN DIGITAL
+
+61 MENCIONES | 9.3K ALCANCE
+
+El 4.3% de la conversación sobre familia e identidad intenta definir qué significa criar siendo dominicano hoy…
+
+La conversación sobre identidad dominicana en la crianza revela una tensión generacional: el deseo de transmitir valores culturales se enfrenta con nuevas formas de criar más abiertas y emocionales. No es un choque entre lo dominicano y lo externo, sino entre la crianza que se recibió y la que se quiere construir.
+
+joseeduardosantam0
+"Esta jovencita creció en un país totalmente diferente al que crecimos nosotros. En nuestro tiempo no había oportunidad para estar tristes."
+
+Maii.g26 Tiktok
+"Los padres que no son comprensivos quieren culpar a sus padres diciendo que así era la crianza. Pero tú ya eres adulto, puedes hacer algo diferente."
+
+yafreisy19 Tiktok
+"Nos crían comparándonos con los demás. Si dices que estás cansada, minimizan nuestro dolor. La crianza aquí siempre ha sido deficiente, es un trauma generacional terrible."
+
+SOURCE: NINJA SOCIAL LISTENING IMPACT® — DATA RECOPILADA DESDE EL 01 DE SEPTIEMBRE AL 31 DE DICIEMBRE DEL 2025.
+
+--- MAPEO DE OPORTUNIDADES ---
+
+VERDAD INCÓMODA                              | OPORTUNIDAD                                    | DETONADOR
+El orgullo dominicano está en transición.    | Definir la nueva versión de su identidad        | ¿Qué pasaría si tu marca fuera la que
+Todavía la gente no lo identifica bien       | cultural                                        | ayudara al dominicano a decidir qué parte
+                                             |                                                 | de ser dominicano quiere que sus hijos
+                                             |                                                 | hereden — y cuál no?
+                                             |                                                 |
+El dominicano moderno vive entre dos mundos  | Construir narrativas de identidad dominicana    | ¿Qué pasaría si tu marca construyera un
+— el de sus raíces y el de un futuro global  | que sean simultáneamente raíz y futuro.         | nuevo lenguaje del orgullo dominicano?
+que sus hijos ya habitan — y no tiene un     |                                                 |
+lenguaje que conecte los dos sin traicionar  |                                                 |
+ninguno.                                     |                                                 |
+                                             |                                                 |
+El orgullo dominicano tiene niveles desde el | Liderar la conversación sobre la identidad      | ¿Qué pasaría si tu marca fuera la que
+nivel diáspora, hasta el nivel cuestionable. | dominicana contemporánea antes de que otros     | iniciara la conversación más importante
+                                             | la definan desde afuera.                        | que los dominicanos llevan años teniendo
+                                             |                                                 | en privado — qué significa estar orgulloso
+                                             |                                                 | de ser de aquí hoy?
+
+SOURCE: CÓDIGO CASA: ESTUDIO CUANTITATIVO Y CUALITATIVO FAMILIAS DOMINICANAS 2025 | 500 PERSONAS | +70 HORAS DE GRUPOS FOCALES
+
+--- CASO DE ESTUDIO ---
+
+INTERPRETAR LA HERENCIA CULTURAL DESDE EL CONTEXTO ACTUAL. OJOS FRESCOS, PERO ACTUALES.
+Arqueólogos lanzaron en 2026 un mapa interactivo que documenta daños a sitios históricos de Irán por el conflicto. La plataforma geolocaliza, verifica con múltiples fuentes y detalla impacto y valor cultural, buscando crear conciencia global.
+SOURCE: NINJA DESKTOP RESEARCH - 2026
+
+--- KIT DE RESPUESTA DE MARCA ---
+
+Tensión 10
+
+SITUACIÓN: La familia dominicana quiere reescribirse pero no tiene el lápiz ni el papel
+OPORTUNIDAD CLAVE: La dominicanidad define quiénes somos, pero no cómo criamos
+VERBO TRANSFORMACIÓN: Traducir
+POSTURA - ROL: La marca que traduce identidad en crianza
+
+NUEVA NARRATIVA DE MARCA:
+[Tu marca] Quiere traducir la identidad dominicana en una crianza más saludable,
+pero sabe que hoy sabemos ser dominicanos pero no sabemos criar como tales,
+por eso traduce el orgullo de ser de aquí en una nueva forma de enseñar, escuchar y estar presente
+
+
+================================================================================
+SECCIÓN 3: TREND FORECAST
+================================================================================
+
+3 MACRO FUERZAS + 55 MICROTRENDS
+
+================================================================================
+MACRO FUERZA 1: INVENTOLOGÍA DE LA ADULTEZ
+Un mundo en crisis dimensiona nuevas formas de ser adulto y formar nuevos esquemas familiares.
+================================================================================
+
+UN MUNDO EN CRISIS ESTÁ REESCRIBIENDO QUÉ SIGNIFICA SER ADULTO Y FORMAR FAMILIA
+
+El mundo entró en crisis múltiple: económica, climática, política, demográfica. Y eso rompió los marcadores que durante un siglo definieron qué era ser adulto: casarse, parir, comprar casa, sostener un hogar nuclear. Se rompieron porque el contexto los hizo imposibles. Una generación entera está inventando otras formas de llegar a adultez y otros esquemas para hacer familia. La familia no desaparece.
+
+EL COMPORTAMIENTO
+EL CONTRASTE CON CÓDIGO CASA
+Ya la familia no es necesariamente un padre, madre e hijos, es un hogar con roomates, con Pedros, viven otros familiares.
+
+THE TRANSFORMATION
+Un 64% de familias dominicanas sintiéndose invalidadas porque no pertenecen al formato biparental, poca representación = a una sociedad más vacía.
+
+THE TRIGGERS
+- Cayó la tasa de fecundidad global en los 50 a 2.3 en 2023. América Latina ya está en 1.8, debajo del umbral de reemplazo. ONU World Population Prospects 2024
+- 18% de Gen Z global ve subir la escalera corporativa como inteligente. El rol de proveedor único murió. Fiverr October 2025
+- El hogar dominicano se encogió de 4-5 miembros en 2005 a 2-3 hoy. ONE, ENHOGAR 2005-2022
+- 38% Son los hogares dominicanos que son biparentales clásicos. El 62% restante vive en estructuras distintas al ideal. Código Casa 2025
+
+SEÑALES
+- Sobre gentrificación en Santo Domingo: "manga tu trabajito en dólares." La economía rompió el guion de la adultez.
+- Los marcadores de adultez ya no siguen el guion heredado.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: PERRHIJO: EL PRIMER HIJO QUE LA ECONOMÍA SÍ ME DEJÓ TENER ---
+
+La mascota dejó de ser el animal de la casa para volverse el primer hijo. Se le celebra cumpleaños, se le pone nombre de gente, se le compra seguro. No es sustitución barata: es traslado completo de rol. Lo que antes probaba adultez (parir), hoy lo prueba adoptar un perro.
+
+HASHTAGS: #DogMom · #furbaby · #perrhijo · #DINKWAD
+
+THE TRIGGERS
+- "MASCOTA" Y "PERRO" Aparecen más de 170 veces en los 9 grupos focales. Más que matrimonio, casa propia o ahorro. Código Casa 2024
+- 43% de americanos prefiere mascota sobre hijos. Gen Z gasta US$6,103 anuales en su mascota. Harris Poll 2024
+- 70% de Gen Z prefiere mascota antes que hijos. Pet care rompió US$152B en 2024. APPA 2025
+- 55% de Gen Z prioriza casa pet-friendly sobre kid-friendly al buscar vivienda. Zillow 2023
+
+SEÑALES
+- "Larga vida a tu perrhijo." Marca de suplementos caninos que normalizó el término perrhijo como identidad parental.
+- "No tengas hijos y ten un perrihijo, decían..." Humor panameño sobre la cuenta del veterinario. El hijo simbólico cuesta.
+- Chewy: perfil individual por mascota con nombre, emails personalizados, recomendaciones. Trata al animal como miembro de familia.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: SE FUE Y VOLVIÓ: ADULTO POR EDAD, HIJO POR RENTA ---
+
+El joven dominicano vuelve donde mami después de los 30. No es que necesariamente fracasaron, es más que los números no dan. Renta en dólares, supermercado inflado, salarios estancados. La adultez se rebautiza: se es adulto por edad y responsabilidad, pero no por techo propio. El hogar multigeneracional dejó de ser atraso cultural y se volvió estrategia racional.
+
+HASHTAGS: #boomerangeneration · #vivoconmimamá · #multigeneracional · #rentaimposible · #alquilerensantodomingo
+
+THE TRIGGERS
+- 29% de dominicanos 18-24 vive en familia extendida, más que cualquier otro grupo etario. Código Casa 2025
+- 12.6% del total de hogares son extendidos: tres generaciones bajo un techo. Código Casa 2025
+- 67% de Gen Z global dice que múltiples fuentes de ingreso son esenciales para seguridad. Fiverr 2025
+
+SEÑALES
+- TikTokers normalizando vivir con sus padres: "I'd be working multiple jobs just to get by." No es fracaso, es matemática.
+- "Cuando vives con tus papás vs cuando vives solo." Formato comparación con 237K likes.
+- Lennar "Next Gen": suite privada con entrada separada, cocina y baño dentro de la casa principal. Diseñada para convivencia multigeneracional.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: DIOS BENDICE, LA FIRMA ES CIVIL: EL AMOR SE QUEDA. EL PASTOR SE VA. ---
+
+El matrimonio religioso dominicano se derrumbó en silencio. Solo 1 de cada 10 parejas se casa por la iglesia. No es que la gente dejó de creer: dejó de necesitar a la iglesia para validar su pareja. El amor se mantiene, el rito desaparece. Con él se cae toda una industria simbólica.
+
+HASHTAGS: #bodasincrucifijo · #matrimoniocivil · #solonoscasamos · #bodadiscreta
+
+THE TRIGGERS
+- 10.5% de los matrimonios dominicanos se celebran por la iglesia. Católicos en caída incluso frente a evangélicos: 3,081 canónicas vs 2,053 de otras denominaciones en 2025. ONAREC-JCE, El Dinero enero 2026
+- El CIAS 1971 ya identificaba la caída del matrimonio canónico frente al civil. Lo que en 1971 era tendencia, hoy es norma. Estudios Sociales CIAS 1971
+- Edad promedio del primer matrimonio en LATAM: 29 años, cinco más que en 2000. CEPAL 2024
+- En EE.UU. el matrimonio civil superó al religioso hace una década. RD sigue el mismo arco. Pew Research 2024
+
+SEÑALES
+- "How we got married in Court House." Paso a paso de boda civil: aplicar online, 2 testigos, ceremonia rápida. Sin iglesia.
+- Trend · #courthouseElopement: parejas se casan en secreto en el civil y muestran el video en la recepción. Las reacciones son el contenido.
+- Zola 2026: 86% de parejas incluyen fondos de efectivo en vez de regalos. Más de la mitad busca inspiración de boda en TikTok.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: LA CASA ES MÍA Y NADIE LA PISA - VIVIR SOLA DEJÓ DE SER TRAGEDIA. ES PRESUPUESTO CON VISTA. ---
+
+La mujer adulta que vive sola dejó de ser tragedia para volverse decisión estratégica. No es la soltera esperando marido. Es la profesional, la freelance, la que migró del pueblo, la divorciada que no volvió donde mami. Su vida no se organiza alrededor de quién llega: se organiza alrededor de qué construye.
+
+HASHTAGS: #livingalone · #SolaYFeliz · #cocinarparauna · #softlife · #nestingsolo · #solteriaconproposito
+
+THE TRIGGERS
+- 2x Hogares unipersonales son los que más rápido crecen en LATAM, con proyección de duplicarse para 2040. Mujeres lideran la tendencia. CEPAL 2024
+- 28% de hogares en países OCDE ya son unipersonales. Mujeres 30-50 son el segmento de mayor crecimiento. OECD Family Database 2024
+- 58% de Gen Z preferiría no tener hijos antes que cumplir el guion tradicional pareja-hijos-hipoteca. StudyFinds 2024
+- 2.5B views supera #livingalone en TikTok. Rituales de cocinar para una, decorar para una, dormir sola sin culpa. TikTok 2025
+
+SEÑALES
+- @elmillennialtimes: "vivir sola es transformador por donde lo veas." La soledad como infraestructura emocional elegida.
+- Trend · 8.1M views (@gettothepointbro): "Compites con su weighted blanket, su paz, su gato." Mujeres: "finally feel seen."
+- Toyota 2024: compactos con mujeres solas, plantas y perro en el asiento trasero — no hijos. MediaCat UK
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: LA FAMILIA QUE EL ESTADO NO NOMBRA "LA FAMILIA ES REAL. EL CÓDIGO CIVIL SIGUE EN 1971." ---
+
+Las familias homoparentales dominicanas existen, crían, aman, proveen. Pero no pueden adoptar legalmente, no pueden casarse, y la violencia empieza en casa. La adultez LGBTI dominicana se construye con doble trabajo: inventar el rol familiar y esconderlo del Estado, de la escuela y a veces de la propia sangre.
+
+HASHTAGS: #familiadiversa · #matrimonioigualitariord · #dosmamasdospapas · #unionesdehecho
+
+THE TRIGGERS
+- 22.1% de personas LGBTI dominicanas sufrió violencia de un familiar. 8.3% fue expulsada del hogar. En mujeres trans sube a 14.8%. PNUD RD, Encuesta Nacional LGBTI 2020
+- 96.7% sufrió o presenció violencia por su orientación o identidad de género en la adolescencia. 88.9% tuvo que esconder su identidad. PNUD RD 2020
+- 17.8% intentó quitarse la vida. Entre 18-21 años sube a 24.5%. PNUD RD 2020
+- 38 países reconocen matrimonio igualitario en 2026: Cuba, México, Argentina, Chile, Colombia. RD es isla rodeada de reconocimiento. Human Rights Watch 2026
+
+SEÑALES
+- @team2moms: 7.1M seguidores. Puertorriqueña + beliceña, casadas desde 2010, tres hijos. Vlogs de crianza como dos mamás. Nominadas a GLAAD.
+- Innovación · Savage X Fenty "Love Your Way": dona a Caribbean Equality Project y Trans Latin@ Coalition. Axios 2025.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+================================================================================
+MACRO FUERZA 2: LOS HERNANDEZ ARE PROMPTED
+El dominicano cada vez se inclina a un mundo post gen AI más pronunciado, ¿Cuál será el impacto?
+================================================================================
+
+CONSUMER VOICE:
+"IGUAL YO UTILIZO MUCHO CHAT, GPT. MI TRABAJO ES VITAL, LA TECNOLOGÍA."
+— Familias Homoparentales
+
+LOS HERNÁNDEZ ARE PROMPTED: EL DOMINICANO YA ENTRÓ AL MUNDO PROMPTEADO.
+
+EL COMPORTAMIENTO
+El dominicano entró a la era post-GenAI digitalmente activo: 72% declara usar IA, y la casa ya tiene Alexa antes que biblioteca. Pero el uso todavía es instrumental: se delega tarea, no criterio. La pregunta no es si entramos al mundo prompteado. Ya entramos. Es qué pasa cuando el algoritmo deje de ser herramienta y empiece a ser consejero de crianza, de pareja, de fe, de consumo.
+
+EL CONTRASTE CON CÓDIGO CASA
+La IA entra al hogar dominicano por tres puertas: productividad, vigilancia y delegación generacional. No todavía por la puerta de la intimidad emocional.
+
+THE TRANSFORMATION
+En 3-5 años la IA dejará de ser herramienta del muchacho y se volverá consejera de la casa. La infraestructura de confianza ya está montada.
+
+THE TRIGGERS
+- 72% de dominicanos afirma haber usado herramientas de IA. Global Public Confidence Study 2025, IRIS Network
+- 9°/19 RD es "adoptante en acción" en el ILIA: noveno de 19 países, 44.96/100. CEPAL 2025, vía Diario Libre
+- 47% de usuarios fuertes de IA se sienten más confiados al usarla en momentos de inseguridad para comprar. Accenture October 2025
+- 2x El mercado de asistentes de voz domésticos crece a doble dígito anual. Statista Smart Home Report 2025
+
+SEÑALES
+- Creación de Noticiero RD: "La gente opina sobre el impacto de la IA en República Dominicana." Se usa la IA intensificar el humor dominicano.
+- Hony Estrella presenta a Lea Santore, primera modelo de IA creada en RD. Personalidad mediática validando la IA como herramienta creativa.
+- Qik Banco Digital usando código de AI: préstamo 100% digital desde la app. Banco dominicano nativo digital — la IA ya entró a los servicios financieros locales.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: EL EQUIPO DE MARKETING ME CABE EN EL BOLSILLO: LA EMPRENDEDORA DEJÓ DE NECESITAR AGENCIA. NECESITA PROMPT. ---
+
+La emprendedora desde casa descubrió que la IA le da lo que nunca pudo pagar: un equipo. Le programa los posts, le redacta los captions, le edita los videos, le contesta los DMs cuando duerme. Lo que antes requería community manager, diseñador y copywriter, hoy lo hace una sola persona con tres prompts.
+
+HASHTAGS: #AIhacks · #SmallBusinessAI · #ChatGPTforbusiness · #IAparaemprender · #promptsparavender
+
+THE TRIGGERS
+- $80B tamaño del mercado de IA para creadores y micro-negocios proyectado para 2030. Grand View Research 2025
+- 56% de pymes en LATAM ya usa IA generativa en marketing o atención al cliente. Brasil, México y Colombia lideran. Meta / OECD 2025
+- Top 2 ChatGPT y Canva AI son las dos herramientas más adoptadas por solopreneurs y creators globalmente. Hootsuite Social Trends 2026
+- Boom #AIhacks y #SmallBusinessAI explotan en español: "cómo hacer un mes de contenido en una tarde", "responder DMs con IA". TikTok 2025
+
+SEÑALES
+- @sansomon.x analiza si la IA reemplazará los call centers en RD. Conversación sobre impacto económico real de la IA en empleo dominicano.
+- Locuras De Neirotv: "Ta' fuerte la vaina" — humor dominicano sobre IA. El tema ya permea la cultura pop dominicana.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: CHATGPT, LA NUEVA ABUELA QUE NO SE CANSA, NO JUZGA, NO OPINA SIN QUE LE PREGUNTEN. ---
+
+La mamá moderna descubrió que ChatGPT puede cargarle el 97% de la carga mental: planifica menús, arma listas del súper, escribe cuentos para dormir, redacta mensajes a la maestra. La IA dejó de ser herramienta de oficina para volverse co-parent. Lo que antes se delegaba en la abuela o en el grupo de WhatsApp de mamás, hoy se delega en un prompt.
+
+HASHTAGS: #ChatGPTforMoms · #AImom · #coparentingwithAI · #mentalload · #promptsparamamás
+
+THE TRIGGERS
+- 755K views el TikTok "I asked ChatGPT to act as a co-parent that handles 97% of my mental load" + comunidad de 21K mamás. Fast Company / Mother.ly 2025
+- 2.5B prompts diarios registra ChatGPT. Salud mental, parenting y planificación familiar entre los casos de mayor crecimiento. Axios / OpenAI 2025
+- Crisis El U.S. Surgeon General declaró el "parental stress" crisis de salud pública en 2024. U.S. Surgeon General Advisory 2024
+- 100M+ views acumulan #ChatGPTforMoms · #AImom · #mentalload. La carga mental como contenido masivo. TikTok Creative Center 2025
+
+SEÑALES
+- @heylilianschmidt 710K views: "ChatGPT como co-parent que resuelve el 97% de mi carga mental." Meal planning, listas, tantrums — todo por prompt.
+- Fast Company cubre el fenómeno: miles de mamás siguiendo prompts de @heylilianschmidt. #ChatGPTforMoms se vuelve formato.
+- Milo: AI copilot familiar (Y Combinator, $40/mes). Padres envían eventos por SMS, Milo organiza calendario y manda resúmenes diarios. joinmilo.com
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: LE PREGUNTÉ A CHATGPT ANTES DE COMPRAR: LA IA NO ME VENDE. ME CONFIRMA. ---
+
+El consumidor moderno consulta a la IA antes de comprar: compárame esto, qué laptop me conviene, qué crema sirve para mi piel. La IA reemplazó a Google, al influencer y al vendedor en una sola interacción. Es coach de compra, comparador imparcial y validador emocional. Cuando estás a punto de gastar, la IA no te vende: te confirma.
+
+HASHTAGS: #AIshopping · #ChatGPTsavedme · #IAparacomprar · #smartshopping · #promptparacomprar
+
+THE TRIGGERS
+- 47% de usuarios fuertes de IA se sienten más confiados al usarla en momentos de inseguridad para comprar. Accenture Life Trends 2025
+- >$100 compras pasan cada vez más por consulta previa a IA. ChatGPT y Perplexity desplazan búsquedas comerciales de Google. Bain & Co 2025
+- $30B GMV de TikTok Shop en 2024 con descubrimiento de productos potenciado por IA generativa de recomendación. Bloomberg 2025
+- Millones "ChatGPT helped me save money" e "I asked AI before buying" suman views. La consulta previa se volvió ritual. TikTok 2025
+
+SEÑALES
+- @ejayisgay 7.6M views: "Use ChatGPT for grocery shopping on a budget." Lista de compras para familia de 4 por $100/semana, generada por prompt.
+- @smartworkai tutorial: cómo usar ChatGPT por voz para meal planning semanal. La IA reemplaza al comparador, al influencer y al vendedor.
+- Amazon Rufus: 300M usuarios, $12B en ventas incrementales. Compra autónomamente cuando bajan precios. El shopping agent ya existe.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: LA FOTO FAMILIAR QUE NUNCA NOS TOMAMOS "NOSTALGIA Y DESEO EN ALTA RESOLUCIÓN." ---
+
+La IA generativa de imagen y video llegó al hogar como entretenimiento, no como amenaza. Familias enteras suben fotos a ChatGPT, Gemini o Sora y piden: muéstranos en 20 años, imagina al hijo que no tuvimos, haznos una foto de los 5. La IA ya no responde con texto: produce mundos. El dominicano la usa para imaginar la familia que tiene, la que tuvo o la que nunca tendrá.
+
+HASHTAGS: #FamilyAITrend · #AIBabyTrend · #aifilter · #familiaconIA · #ultrarealisticfamily
+
+THE TRIGGERS
+- Boom Sora 2 (OpenAI), Veo 3 (Google) y nano banana en Gemini se viralizaron en 2025 con video hiperrealista. Cruzaron del nicho tech al mainstream familiar. The Verge / Wired 2025
+- Millones #FamilyAITrend acumula views: usuarios subiendo fotos para que la IA genere retratos familiares ultra-realistas. TikTok 2025
+- 100M+ views combinados en #AIBabyTrend: parejas generando cómo se vería su bebé futuro. TikTok 2025
+- $200B+ tamaño proyectado del mercado de IA generativa multimodal (imagen, video, voz) para 2030. Statista / Bloomberg 2025
+
+SEÑALES
+- @thetimetravelai recrea los Padres de la Patria dominicanos con IA: "¿Cuál personaje de la historia quisieras ver en la vida real?"
+- Dominican Fruit Island: frutas dominicanas generadas/estilizadas con IA. Identidad nacional + IA generativa como herramienta estética.
+- Google Gemini Storybook: prompts de texto → cuentos de 10 páginas con arte AI y narración de audio. Los padres suben fotos como input.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+================================================================================
+MACRO FUERZA 3: ALGORITMO DEL HOGAR
+Estamos viviendo una era donde percibimos el mundo desde lo digital, guiando nuestro pensar, sentir y comprar.
+================================================================================
+
+ALGORITMO DEL HOGAR: EL FEED SE SENTÓ EN LA MESA Y NADIE LE OFRECIÓ SILLA.
+
+Percibimos el mundo desde lo digital antes que desde lo físico. El feed gobierna qué se cocina, qué se compra, cómo se cría, qué se discute en la mesa. Ya no es que el dominicano use redes: es que las redes son el sistema operativo del hogar. La abuela, el pastor y el padre compiten por atención con un algoritmo que nunca se cansa y siempre tiene opinión.
+
+EL COMPORTAMIENTO
+
+EL CONTRASTE CON CÓDIGO CASA
+El algoritmo entra al hogar dominicano con dos caras: ritual nocturno compartido y fuente primaria de criterio de crianza y pareja.
+
+THE TRANSFORMATION
+En la próxima década, el algoritmo dejará de ser infraestructura invisible para volverse miembro reconocido del hogar: con nombre, con voz, con opinión pedida. La pregunta no será si entra a la familia. Será qué asiento le dan.
+
+THE TRIGGERS
+- 15% de consumidores globales compra productos puramente porque son tendencia en TikTok. SAP Emarsys October 2025
+- Kids Online RD documenta exposición infantil a pantallas más temprana y menos mediada que promedios regionales. UNICEF Kids Online RD
+- 2020 Vargas-Ferrán ya documentaba en zonas francas patrones de consumo mediados por aspiración digital antes de TikTok. Patrones de comportamiento en ZF, 2020
+- 7.22M de usuarios activos mayores de 18 años en la República Dominicana, lo que representa un alcance del 91.8% de la población adulta en línea. DataReportal - Global insights
+
+SEÑALES
+- @rosa.martienzz — vida doméstica mediada por algoritmo. Rituales del hogar dominicano filmados como contenido cotidiano. TikTok
+- Altice Dominicana: "más data para navegar todo lo que quieras." El telecom vendiendo la infraestructura del algoritmo.
+- @nijoreyes — relación hogar-feed-tecnología. El feed para glorificar ocurrencias dominicanas.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: COMPRO PORQUE ELLA LO TIENE: LA FAMILY INFLUENCER REEMPLAZÓ A LA SUEGRA COMO AUTORIDAD DOMÉSTICA. ---
+
+El feed reemplazó a la suegra. La mamá-creator de Instagram y TikTok ya no inspira: dicta. Cada video de "morning routine" o "Amazon must-haves" es un carrito de compras disfrazado de intimidad. La family influencer convirtió la casa en showroom permanente, y al espectador en cliente recurrente.
+
+HASHTAGS: #momtok · #buybecause · #amazonmusthaves · #cleantok · #tiktokmademebuyit · #morningroutine
+
+THE TRIGGERS
+- $21B movió el mercado de family/parenting influencers en 2024. Proyección US$32B para 2027. Influencer Marketing Hub 2025
+- 38B views #MomTok en TikTok. "Trad wife" + "clean girl mom" entre los nichos de mayor CPM del mundo. TikTok Creative Center 2025
+- 71% de Gen Z y millennials dice haber comprado un producto de hogar después de verlo en TikTok. Adweek / TikTok 2024
+- RD$145K Familia biparental dominicana confiesa compra de electrodomésticos vía Marketplace impulsada por contenido visto en redes. Código Casa 2024
+
+SEÑALES
+- #TikTokMadeMeBuyIt: 86% de consumidores hacen al menos una compra inspirada por influencers al año.
+- Nestlé FamilyNes RD: ad de NESTOGENO 3 en formato TikTok nativo. Nutrición infantil vendida como contenido de feed, no como comercial.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: LA CASA SIN COLOR: PINTÉ LA CASA BEIGE PORQUE MI FEED NO AGUANTA OTRO TONO. ---
+
+Toda la casa se pintó beige. Los juguetes son de madera natural, la ropa del bebé color avena, los muebles bouclé crema. Detrás del minimalismo aspiracional hay un sistema: lo beige fotografía mejor, envejece menos en el grid, te hace ver "puesta". El color se volvió señal de clase visual.
+
+HASHTAGS: #sadbeige · #beigemom · #neutralhome · #quietluxury · #montessoriroom · #esteticaneutra
+
+THE TRIGGERS
+- 850M views #SadBeigeMom como crítica al fenómeno, lo cual paradójicamente lo expandió. NYT Style 2024
+- 380% crecimiento de búsquedas "beige nursery" en Pinterest entre 2022-2025. Pinterest Predicts 2025
+- 12B+ views combinados de "quiet luxury" + "old money aesthetic". La paleta neutra se volvió shorthand de estatus aspiracional global. TikTok Trend Report 2025
+- Familias jóvenes dominicanas describen el deseo de "salir del barrio" hacia "la claridad" como aspiración estética y de clase. Código Casa 2024
+
+SEÑALES
+- @sadbeige (Hayley DeRoche) narró con voz de Werner Herzog: "sad beige toys for sad beige children." La sátira que amplificó el fenómeno.
+- #SadBeige: 850M views. "Beige nursery" creció 380% en Pinterest. La paleta neutra como shorthand de estatus aspiracional.
+- Posh Peanut: campaña "Say Goodbye to Sad Beige Baby." Posicionamiento anti-beige: "kids love color." Backlash convertido en marca.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: COCINO PA' GRABAR, NO PA' COMER: LA ISLA DE MÁRMOL ALIMENTA AL FEED, NO A LA FAMILIA. ---
+
+La cocina millennial dejó de ser funcional para volverse set. Isla central de mármol, campana dorada, gabinetes shaker, frutero con limones que nadie usa. Las recetas virales no se cocinan por hambre: se cocinan por contenido. La cocina se volvió el escenario más caro de la casa, y el plato el shot final.
+
+HASHTAGS: #cooktok · #recipevideo · #girldinner · #dreamkitchen · #aestheticfood · #foodtok
+
+THE TRIGGERS
+- 95B+ views #CookTok. "Girl dinner" (1.8B) y "Dubai chocolate" (causó shortage global de pistacho en 2024) movieron el retail real. TikTok Creative Center 2025
+- 30.7% CAGR del segmento smart kitchen appliances en LATAM. El de mayor crecimiento dentro de smart home. Grand View Research 2025
+- +22% crecimiento del mercado global de kitchen renovations post-pandemia, con "showroom kitchen" como driver principal. Houzz Kitchen Trends 2024
+- 4 canastos Familia mixta describe compra de freidora de aire de 4 canastos con sondas de temperatura, comprada porque el speaker "se imaginó tenerla" tras verla online. Código Casa 2024
+
+SEÑALES
+- @mariavehera257 Dubai Chocolate ASMR: 120M views en 15 segundos. Causó que el pistacho subiera 34% globalmente. La cocina como espectáculo.
+- Videos virales con intención obvia de producción para grabar proceso de recetas.
+- Caraway: colección "TikTok Famous" en su web. Cookware de cerámica en pasteles diseñado para exhibir, no esconder. La cocina como set.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: MI CUARTO ES MI SETUP: EL CUARTO PRINCIPAL YA NO ES LA SALA. ES DONDE ESTÁ EL RGB. ---
+
+La sala familiar perdió jerarquía. El nuevo centro emocional del hogar joven es el gaming room: RGB lighting, silla ergonómica de US$400, doble monitor, micrófono Blue Yeti. No es solo para gamers: es para creators, traders, freelancers, streamers. La domesticidad masculina se mudó del televisor compartido al setup individual.
+
+HASHTAGS: #gamingsetup · #battlestation · #rgbsetup · #pcbuild · #setuptour · #cuartogamer
+
+THE TRIGGERS
+- 18B+ views #GamingSetup en TikTok. #BattleStation suma 4.2B. El setup como categoría de contenido masiva. TikTok 2025
+- $2.1B tamaño del mercado global de gaming furniture al cierre de 2024. Proyección US$4.8B para 2030. Grand View Research 2025
+- Top 3 RD, México y Colombia lideran adopción de RGB lighting domiciliario en LATAM, empujado por streamers locales. Newzoo LATAM 2024
+- "Vivo" Familia biparental con hijos adultos: "yo vivo de la tecnología... a las seis de la tarde yo lo guardo." El setup es trabajo, ocio e identidad. Código Casa 2024
+
+SEÑALES
+- @dinocornel Gaming Room Setup Tour 2025: 1M likes. RGB, doble monitor, silla ergonómica. El cuarto como oficina + estudio + refugio.
+- #GamingSetup 18B views, #BattleStation 4.2B views — el setup como categoría de contenido masiva en TikTok.
+- IKEA × ASUS ROG: ~30 productos de muebles gaming a precios IKEA. Democratiza el setup que antes costaba US$2,000+.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: STORYTIME DE BEBÉS QUE NO EXISTEN: LLORAMOS POR PERSONAJES QUE SABEMOS QUE SON RENDER. ---
+
+El feed se llenó de historias narradas por bebés generados con IA, abuelas pixar-style, parejas tipo Sims contando dramas familiares: infidelidades, suegras tóxicas, traiciones. El formato (voz sintética + personaje IA + texto en pantalla + música tensa) explotó en 2024-2025. Lo que antes era novela de Telemundo ahora lo escribe ChatGPT y lo ilustra Midjourney.
+
+HASHTAGS: #aistorytime · #aibaby · #storytime · #pov · #aianimation · #fakestorytime
+
+THE TRIGGERS
+- 6.2B+ views #AIStorytime en TikTok. El subgénero "AI baby drama" alcanzó 2.1B views en 2025. TikTok Creative Center 2025
+- 43% de usuarios TikTok 18-34 reportó haber consumido contenido generado con IA sin saberlo en el último mes. Edelman Trust Barometer 2025
+- 5M+ followers @historiasdebebes y cuentas LATAM usando voces sintéticas en español neutro contando dramas familiares ficticios. Tubular Labs 2025
+- Familias dominicanas mencionan ChatGPT espontáneamente como herramienta cotidiana. La IA ya entró al hogar como utility, lo que normaliza su entrada como entretenimiento. Código Casa 2024
+
+SEÑALES
+- El dominicano usando la IA como lenguaje en algoritmo.
+- @babypodcast: versiones bebé de podcasters famosos hechas con AI. 11M views. Proceso: menos de 10 minutos por video.
+- Sleepytale: AI llamada "Cleo" que aprende personajes favoritos del niño y lee cuentos personalizados. La IA en la rutina nocturna.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+--- MICRO FUERZA: MI DÍA EN 60 SEGUNDOS: SI NO LO GRABASTE, NO CONTÓ COMO DÍA. ---
+
+El "day in my life" reemplazó al diario íntimo. La rutina doméstica (despertarse, hacer la cama, batido verde, skincare, escritorio, almuerzo aesthetic, gym, dinner) se convirtió en formato narrativo dominante. No es vlog: es liturgia visual. Cada acción doméstica se ejecuta sabiendo que puede ser grabada. La vida se volvió ensayo de la vida.
+
+HASHTAGS: #dayinmylife · #thatgirl · #morningroutine · #5to9 · #productivityroutine · #softlife
+
+THE TRIGGERS
+- 92B+ views #DayInMyLife en TikTok. Top 5 formatos más usados por creators femeninas 18-35 globalmente. TikTok Creative Center 2025
+- 18B+ views sub-formato "that girl". Empujó categorías enteras: matcha, journaling, athleisure, Stanley cups. Business of Fashion 2024
+- 62% de Gen Z dice sentir presión por documentar su vida cotidiana para redes. Pew Research 2024
+- "Verme" Familia sin hijos: "yo uso prácticamente la tecnología para que tanto yo... ella pueda ver mi agenda." La vida ya se diseña para ser vista. Código Casa 2024
+
+SEÑALES
+- @thecelyvazquez "Living Alone in Your 20s: A Single Girl's Diary." Morning vlogs, cocinar sola, rutinas. "No one's son is telling her to keep it down."
+- Trend · #DayInMyLife 92B + #ThatGirl 1.3B views — formato: rutina dieta de productividad femenina como categoría dominante.
+- L'Oréal "This is my apartment": 1M views mostrando solo segundos de producto. La marca embedded en la vida, no como ad.
+
+SOURCE: NINJA FORECAST - PRONÓSTICO DE MACRO FUERZAS - 2026
+
+
+================================================================================
+SECCIÓN 4: FRAMEWORK C.O.D.E.
+================================================================================
+
+CUATRO PASOS PARA CONVERTIR DATA EN ACCIÓN DE MARCA
+
+C — CONTEXTO: ¿Qué dice la data sobre esta familia?
+O — OPORTUNIDAD: ¿Dónde está el gap entre lo que existe y lo que necesitan?
+D — DIRECCIÓN: ¿Cómo creo un producto para esta realidad?
+E — EVOLUCIÓN: ¿Cómo activo, mido y escalo?
+
+
+================================================================================
+SECCIÓN 5: 12 TERRITORIOS DE MARCA
+DOCE TERRITORIOS DE MARCA QUE NINGÚN COMPETIDOR ESTÁ HABITANDO TODAVÍA
+================================================================================
+
+01  El tiempo que cuenta
+    Habilitar los momentos pequeños y validar esos 5 minutos extras con los hijos como lo que son: tiempo que importa.
+
+02  Asistente de carga mental
+    Gestionar una parte de la carga invisible que cargan las madres, especialmente en hogares monoparentales.
+
+03  Co-living
+    Transparentar las diferentes realidades de las familias dominicanas sin jerarquizarlas.
+
+04  Pausa obligatoria
+    Usar la pausa como motor narrativo en una cultura que glorifica el movimiento constante.
+
+05  Mi familia es esta
+    Tratar la elección de no tener hijos como lo que es — una elección — sin pedir explicaciones ni ofrecer consuelo.
+
+06  El que cría es familia
+    Reconocer a las figuras que crían sin apellido — la abuela, la tía, la vecina — que el 89% identifica como influyentes.
+
+07  Dignificador unipersonal
+    Reconocer la realidad de quienes viven solos sin tratarla como etapa, problema o excepción.
+
+08  Traductor de realidades
+    Dominar el lenguaje actual de las familias dominicanas — no el de hace diez años, no el importado.
+
+09  Reconstrucción de vida
+    Acompañar al consumidor en divorcios, duelos y nuevos comienzos — los momentos que las marcas suelen evitar.
+
+10  Sin guión
+    Acompañar a quien quiere criar diferente a como lo criaron pero no sabe exactamente cómo. Caminar al lado.
+
+11  Ser de aquí, hoy
+    Ayudar al dominicano a decidir qué parte de ser dominicano quiere que sus hijos hereden — y cuál no.
+
+12  Cuota de padres en casa
+    Provocar un cambio de conversación en el que los padres asuman un rol muy diferente al actual.
+
+
+================================================================================
+SECCIÓN 6: APLICACIÓN DEL FRAMEWORK C.O.D.E. — EJEMPLOS
+================================================================================
+
+--- EJEMPLO 1: BANCA ---
+
+BANCA DISEÑADA PARA LA FAMILIA QUE EXISTE, NO PARA LA DEL AFICHE.
+
+C — CONTEXTO
+El 62% de los hogares dominicanos no es biparental clásico. La abuela materna aparece más en la crianza que el padre como figura individual. Ningún producto financiero fue diseñado desde esa realidad.
+
+O — OPORTUNIDAD
+La banca le habla a roles fijos — el proveedor, la administradora — en un momento en que esos roles están siendo renegociados dentro de cada hogar. El monoparental necesita herramientas distintas al biparental.
+
+D — DIRECCIÓN
+Diseñar productos que reconozcan la estructura familiar real. Entrar en la conversación de quien cría diferente sin mapa. Acompañar la identidad dominicana en transición con instrumentos tan flexibles como esa redefinición.
+
+E — EVOLUCIÓN
+¿El producto funciona igual para quien cría solo que para la pareja con hijos? ¿La familia que no parece al modelo se vio reflejada? Escalar hacia hogares en transición — divorcios, recomposiciones, familias que se amplían.
+
+
+--- EJEMPLO 2: SEGUROS ---
+
+PROTECCIÓN PARA QUIEN CRÍA, NO SOLO PARA QUIEN FIGURA EN EL ACTA.
+
+C — CONTEXTO
+Quien cría no siempre tiene contrato. El 89% reconoce que sus figuras de crianza fueron muy influyentes, pero la abuela, la tía y la nana no tienen cobertura formal por ese trabajo.
+
+O — OPORTUNIDAD
+Los seguros asumen trayectorias lineales — trabajo formal, ingreso estable, familia nuclear. El dominicano real entra y sale del mercado formal, cría en red, tiene hijos joven y construye estabilidad después.
+
+D — DIRECCIÓN
+Cobertura para la crianza real, no solo para quien figura en el acta. Protección para quien tiene hijos joven sin historial. Reencuadrar la AFP desde la identidad, no solo desde el retiro.
+
+E — EVOLUCIÓN
+¿La cobertura funciona para la estructura familiar real, no la declarada? ¿La cuidadora informal tiene algún reconocimiento? Escalar hacia familias en transición — las que se separan, recomponen, amplían.
+
+
+--- EJEMPLO 3: RETAIL / CONSUMO MASIVO ---
+
+REEMPLAZAR LA FAMILIA DEL AFICHE POR LA FAMILIA DEL BARRIO
+
+C — CONTEXTO
+64.2% se preocupa porque sus hijos no valoren la identidad dominicana. 40.2% no quiere ser visto solo como padre o madre. El dominicano compra lo que lo representa y rechaza lo que lo reduce.
+
+O — OPORTUNIDAD
+El 62% de los hogares se siente invisible en la narrativa de las marcas que consume todos los días. Cuando una marca muestra a la abuela que cría, la respuesta no es indiferencia — es lealtad inmediata.
+
+D — DIRECCIÓN
+Reemplazar la familia del afiche por la del barrio como decisión de negocio. Entrar en la conversación sobre identidad dominicana en transición. Hablarle a quien cría, decide y compra — y que el retail ignoró.
+
+E — EVOLUCIÓN
+¿El cliente se vio reflejado en la comunicación? ¿La marca sigue siendo relevante cuando el dominicano redefine su familia? Escalar hacia la identidad dominicana como territorio de marca.
+
+
+--- AHORA TU MARCA ---
+
+Usa el framework para convertir la data en acción de marca.
+
+C — CONTEXTO: ¿Qué dice la data sobre tu familia?
+O — OPORTUNIDAD: ¿Dónde está el gap que nadie atiende?
+D — DIRECCIÓN: ¿Cómo creas producto para esta realidad?
+E — EVOLUCIÓN: ¿Cómo activas, mides y escalas?
+
+
+================================================================================
+FIN DEL DOCUMENTO
+CÓDIGO CASA® - REPORTE NINJA THINKING
+FAMILIA E IDENTIDAD — FULL 2026
+================================================================================
