@@ -78,7 +78,7 @@ def build_qa_pdf(pptx_path, pdf_path):
         # Número de slide (esquina superior izquierda)
         c.setFillColor(ACCENT)
         c.setFont("Helvetica-Bold", 14)
-        c.drawString(0.3*inch, page_h - 0.4*inch, f"Slide {n}/16")
+        c.drawString(0.3*inch, page_h - 0.4*inch, f"Slide {n}/{len(slides_data)}")
 
         # Línea separadora fina
         c.setStrokeColor(HexColor('#2E2E2E'))

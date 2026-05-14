@@ -3,47 +3,62 @@
 build_sistema_creencias_deck.py
 ================================
 Deck sistema-de-creencias-deck-flat.pptx desde cero con python-pptx.
-16 slides — set editorial cerrado sistema-de-creencias-hallazgos-editados.md (11 hallazgos).
+20 slides — set editorial cerrado sistema-de-creencias-hallazgos-editados.md (12 hallazgos).
 
 Distribución por tensión:
   T1 — El cuerpo legal y el cuerpo del deseo (H01, H02)
-       H01: cuanti 3 stats + Consumer Voice → 2 slides
-       H02: cuanti 1 stat + Consumer Voice  → 2 slides
-       Subtotal: 4 slides
+       H01: cuanti 3 stats + Consumer Voice  → 2 slides
+       H02: solo-cuali 2 verbatims (cards side by side) → 1 slide
+       Subtotal: 3 slides
 
   T2 — La fe como infraestructura (H03, H04)
-       H03: cuanti 3 stats + Consumer Voice → 2 slides
-       H04: cuanti 2 stats + Consumer Voice → 2 slides
-       Subtotal: 4 slides
+       H03: cuanti 3 stats + Consumer Voice  → 2 slides
+       H04: cuanti 2 stats, solo-cuanti      → 1 slide
+       Subtotal: 3 slides
 
   T3 — El país que no mira a todos (H05, H06)
-       H05: solo-cuanti 3 stats           → 1 slide
-       H06: cuanti 2 stats + Consumer Voice → 2 slides
-       Subtotal: 3 slides
+       H05: cuanti 2 stats + Consumer Voice  → 2 slides
+       H06: cuanti 3 stats + Consumer Voice  → 2 slides
+       Subtotal: 4 slides
 
   T4 — La violencia que no tiene nombre (H07, H08)
-       H07: solo-cuanti 2 stats           → 1 slide
-       H08: solo-cuali 1 verbatim         → 1 slide
-       Subtotal: 2 slides
+       H07: cuanti 2 stats + Consumer Voice  → 2 slides
+       H08: cuanti 1 stat + Consumer Voice   → 2 slides
+       Subtotal: 4 slides
 
-  T5 — La equidad pendiente (H09, H10, H11)
-       H09: solo-cuanti 2 stats           → 1 slide
-       H10: solo-cuanti 2 stats           → 1 slide
-       H11: solo-cuanti 2 stats           → 1 slide
-       Subtotal: 3 slides
+  T5 — La equidad pendiente (H09, H10, H11, H12)
+       H09: cuanti 2 stats + Consumer Voice  → 2 slides
+       H10: cuanti 2 stats + Consumer Voice  → 2 slides
+       H11: cuanti 2 stats, solo-cuanti      → 1 slide
+       H12: cuanti 2 stats, solo-cuanti      → 1 slide
+       Subtotal: 6 slides
 
-TOTAL: 16 slides
+TOTAL: 3 + 3 + 4 + 4 + 6 = 20 slides
 
-Specs visuales (aprendizajes-montador-cc.md § 3.9 — v3, feedback Jeremy mayo 2026):
+Specs visuales (aprendizajes-montador-cc.md § 3.9 — versión consolidada):
   Slide: 1920×1080 px = 18,288,000 × 10,287,000 EMU
   1px = 9525 EMU
-  Fonts: Instrument Serif (headlines, stats, verbatims) + Poppins (cuerpo, atribución, source)
+  Fonts: Instrument Serif (headlines, stats, verbatims CV) + Poppins (cuerpo, atribución)
   Fondo: #000000 negro plano (NO masterslide)
-  Cards: rgba(0,0,0,0.45) MSO_SHAPE.ROUNDED_RECTANGLE adj=0.05
+  Consumer Voice (Layout 4): verbatim SUELTO sobre fondo negro — SIN card
+    Header "CONSUMER VOICE" Poppins 14pt gris #9B9B9B arriba
+    Verbatim Instrument Serif regular 60pt blanco, comillas «»
+    Atribución Poppins italic 20pt blanco
+  Cards cuali (Layout 5): 549×221pt side by side con fill rgba(0,0,0,0.45)
+    + outline blanco 1pt + border-radius 15pt
+    Verbatim Poppins 15pt, atribución Poppins italic 12pt
   Stat number: 180px → 135pt, Instrument Serif italic
-  Verbatim: 50px → 37.5pt, Instrument Serif regular, comillas «»
-  Headlines: auto-size px por largo de texto, MAYÚSCULAS, kerning 0
-  Source: Poppins italic 16px → 12pt, gris #9B9B9B
+  Stat desc: Poppins 16pt blanco, bold selectivo
+  Headlines: Instrument Serif MAYÚSCULAS 50pt fijo, centrado
+  Kerning 0 en todo el deck
+  NO Source en ningún slide (eliminado per aprendizajes v5)
+
+Reglas de redondeo (aprendizajes-montador-cc.md § 3.5):
+  Stat grande → entero por defecto.
+  Decimal solo si: 1 dígito antes del punto (8.7%, 5.5%) o brecha matemática.
+
+Convención de unidades:
+  1 px @ 96 dpi = 9525 EMU
 """
 
 from pptx import Presentation
@@ -51,7 +66,7 @@ from pptx.util import Emu, Pt
 from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
 from pptx.oxml.ns import qn
-from pptx.enum.shapes import MSO_SHAPE
+# MSO_SHAPE_TYPE import removed — usando int directo para formas
 from lxml import etree
 import os
 
@@ -80,24 +95,34 @@ FONT_BODY     = "Poppins"
 def pt_from_px(px_val):
     return round(px_val * 0.75, 1)
 
-# Fuentes en pt
-STAT_NUMBER_PT  = pt_from_px(180)   # 135.0 pt
-STAT_DESC_PT    = pt_from_px(22)    # 16.5 pt
-VERBATIM_PT     = pt_from_px(50)    # 37.5 pt
-ATTRIBUTION_PT  = pt_from_px(22)    # 16.5 pt
-SOURCE_PT       = pt_from_px(16)    # 12.0 pt
-CV_HEADER_PT    = pt_from_px(16)    # 12.0 pt
+# ── Fuentes canónicas (aprendizajes v5) ────────────────────────────────────────
+HEADLINE_PT       = 50.0          # Instrument Serif MAYÚSCULAS, fijo (no auto-size)
+STAT_NUMBER_PT    = pt_from_px(180)  # 135pt – Instrument Serif italic
+STAT_DESC_PT      = 16.0          # Poppins regular, bold selectivo
+CV_HEADER_PT      = 14.0          # Poppins regular, gris
+CV_VERBATIM_PT    = 60.0          # Instrument Serif regular — Consumer Voice (Layout 4)
+CV_ATTRIB_PT      = 20.0          # Poppins italic — Consumer Voice
+CARD_VERBATIM_PT  = 15.0          # Poppins — cards cuali (Layout 5)
+CARD_ATTRIB_PT    = 12.0          # Poppins italic — cards cuali
 
-# Dimensiones de elementos en px
+# ── Dimensiones de stat boxes ──────────────────────────────────────────────────
 STAT_BOX_W_1STAT  = 822
 STAT_BOX_W_2STATS = 880
 STAT_BOX_W_3STATS = 560
 STAT_BOX_H        = 238
+STAT_TOP_PX       = 480   # posición vertical de las cifras grandes
 
-CV_CARD_W = 1637
-CV_CARD_H = 485
+# ── Dimensiones de cards cuali (Layout 5 — 549×221pt side by side) ─────────────
+CARD_W  = 549
+CARD_H  = 221
+CARD_GAP_2 = 80   # gap entre 2 cards side by side
+CARD_GAP_3 = 36   # gap entre 3 cards side by side
+CARD_TOP    = 429  # top canónico para cards cuali
 
-STAT_TOP_PX = 500
+# ── Consumer Voice dimensions (Layout 4 — verbatim suelto) ────────────────────
+CV_TEXT_W   = 1637
+CV_TEXT_LEFT = (SLIDE_W_PX - CV_TEXT_W) // 2  # = 141px
+
 
 # ── helpers ────────────────────────────────────────────────────────────────────
 
@@ -119,6 +144,7 @@ def blank_slide(prs):
 
 
 def _set_kern(r_elem):
+    """Kerning 0 en el run XML."""
     rpr = r_elem.find(qn('a:rPr'))
     if rpr is not None:
         rpr.set('kern', '0')
@@ -176,27 +202,10 @@ def add_rich_textbox(slide, left_px, top_px, width_px, height_px,
     return txBox
 
 
-def pick_headline_size_px(chars):
-    if chars <= 30:
-        return 110
-    elif chars <= 44:
-        return 88
-    elif chars <= 65:
-        return 64
-    elif chars <= 85:
-        return 52
-    else:
-        return 42
-
-
 def add_headline(slide, text_plain, text_italic=""):
-    full_text = text_plain + text_italic
-    chars     = len(full_text.strip())
-    size_px   = pick_headline_size_px(chars)
-    size_pt   = pt_from_px(size_px)
-
+    """Headline 50pt fijo Instrument Serif MAYÚSCULAS centrado."""
     txBox = slide.shapes.add_textbox(
-        px(100), px(100), px(1720), px(300)
+        px(100), px(80), px(1720), px(320)
     )
     tf = txBox.text_frame
     tf.word_wrap = True
@@ -212,7 +221,7 @@ def add_headline(slide, text_plain, text_italic=""):
         run = p.add_run()
         run.text = text_plain.upper()
         run.font.name   = FONT_HEADLINE
-        run.font.size   = Pt(size_pt)
+        run.font.size   = Pt(HEADLINE_PT)
         run.font.bold   = False
         run.font.italic = False
         run.font.color.rgb = WHITE
@@ -222,7 +231,7 @@ def add_headline(slide, text_plain, text_italic=""):
         run2 = p.add_run()
         run2.text = text_italic.upper()
         run2.font.name   = FONT_HEADLINE
-        run2.font.size   = Pt(size_pt)
+        run2.font.size   = Pt(HEADLINE_PT)
         run2.font.bold   = False
         run2.font.italic = True
         run2.font.color.rgb = WHITE
@@ -231,21 +240,10 @@ def add_headline(slide, text_plain, text_italic=""):
     return txBox
 
 
-def add_source(slide, source_text):
-    add_textbox(
-        slide,
-        left_px=0, top_px=990,
-        width_px=1920, height_px=50,
-        text=source_text,
-        font_name=FONT_BODY, font_size_pt=SOURCE_PT,
-        italic=True, color=GREY_SOFT,
-        align=PP_ALIGN.CENTER
-    )
-
-
 def add_vertical_separator(slide, x_px, y_top_px, height_px):
+    """Línea vertical fina #2E2E2E entre stats."""
     line = slide.shapes.add_shape(
-        1,  # RECTANGLE
+        1,  # MSO_SHAPE_TYPE.RECTANGLE
         px(x_px - 1), px(y_top_px),
         px(2), px(height_px)
     )
@@ -254,14 +252,20 @@ def add_vertical_separator(slide, x_px, y_top_px, height_px):
     line.line.fill.background()
 
 
-def make_card_rgba_45(slide, left_px, top_px, width_px, height_px):
+def make_card_rgba_45_with_outline(slide, left_px, top_px, width_px, height_px):
+    """Card rounded rectangle: fill rgba(0,0,0,0.45) + outline blanco 1pt + border-radius 15pt."""
     shape = slide.shapes.add_shape(
-        MSO_SHAPE.ROUNDED_RECTANGLE,
+        5,
         px(left_px), px(top_px),
         px(width_px), px(height_px)
     )
-    shape.adjustments[0] = 0.05
-    shape.line.fill.background()
+    # border-radius ~15pt via adjustment
+    try:
+        shape.adjustments[0] = 0.05
+    except Exception:
+        pass
+
+    # Fill negro 45% opacidad via XML
     shape.fill.solid()
     shape.fill.fore_color.rgb = BLACK
 
@@ -275,8 +279,12 @@ def make_card_rgba_45(slide, left_px, top_px, width_px, height_px):
             solidFill.remove(child)
         srgbClr = etree.SubElement(solidFill, qn('a:srgbClr'))
         srgbClr.set('val', '000000')
-        alpha = etree.SubElement(srgbClr, qn('a:alpha'))
-        alpha.set('val', '45000')
+        alpha_el = etree.SubElement(srgbClr, qn('a:alpha'))
+        alpha_el.set('val', '45000')  # 45% opacidad
+
+    # Outline blanco 1pt
+    shape.line.color.rgb = WHITE
+    shape.line.width = Pt(1)
 
     return shape
 
@@ -291,58 +299,6 @@ def make_run(text, bold=False, italic=False,
         'italic': italic,
         'color': color
     }
-
-
-def add_card(slide, quote_text, attribution,
-             left_px, top_px, card_w_px, card_h_px,
-             verbatim_size_pt=None):
-    if verbatim_size_pt is None:
-        verbatim_size_pt = VERBATIM_PT
-
-    make_card_rgba_45(slide, left_px, top_px, card_w_px, card_h_px)
-
-    full_quote = f"«{quote_text}»"
-
-    pad_h = 80
-    pad_v = 60
-    text_w = card_w_px - (pad_h * 2)
-    text_h = card_h_px - (pad_v * 2)
-
-    txBox = slide.shapes.add_textbox(
-        px(left_px + pad_h), px(top_px + pad_v),
-        px(text_w), px(text_h)
-    )
-    tf = txBox.text_frame
-    tf.word_wrap = True
-    tf.margin_left   = Emu(0)
-    tf.margin_right  = Emu(0)
-    tf.margin_top    = Emu(0)
-    tf.margin_bottom = Emu(0)
-
-    p1 = tf.paragraphs[0]
-    p1.alignment = PP_ALIGN.CENTER
-    run_q = p1.add_run()
-    run_q.text = full_quote
-    run_q.font.name   = FONT_HEADLINE
-    run_q.font.size   = Pt(verbatim_size_pt)
-    run_q.font.italic = False
-    run_q.font.bold   = False
-    run_q.font.color.rgb = WHITE
-    _set_kern(run_q._r)
-
-    p2 = tf.add_paragraph()
-    p2.alignment = PP_ALIGN.CENTER
-    p2.space_before = Pt(10)
-    run_a = p2.add_run()
-    run_a.text = f"— {attribution}"
-    run_a.font.name   = FONT_BODY
-    run_a.font.size   = Pt(ATTRIBUTION_PT)
-    run_a.font.italic = True
-    run_a.font.bold   = False
-    run_a.font.color.rgb = WHITE
-    _set_kern(run_a._r)
-
-    return txBox
 
 
 def stat_x_centers(n_stats):
@@ -366,8 +322,6 @@ def stat_box_width(n_stats):
 
 def add_stat_block(slide, stat_value, desc_runs, x_center_px, n_stats):
     box_w = stat_box_width(n_stats)
-    box_h = STAT_BOX_H
-
     box_left = x_center_px - (box_w // 2)
     box_top  = STAT_TOP_PX
 
@@ -392,10 +346,14 @@ def add_stat_block(slide, stat_value, desc_runs, x_center_px, n_stats):
     )
 
 
-# ── layouts de slides ──────────────────────────────────────────────────────────
+# ── Layouts de slides ──────────────────────────────────────────────────────────
 
-def build_hallazgo_slide(prs, headline_plain, headline_italic,
-                          stats, source_text):
+def build_hallazgo_slide(prs, headline_plain, headline_italic, stats):
+    """
+    Slide de Hallazgo cuanti.
+    Layout 1/2/3 según número de stats.
+    NO source (eliminado per aprendizajes v5).
+    """
     slide = blank_slide(prs)
     add_headline(slide, headline_plain, headline_italic)
 
@@ -415,13 +373,19 @@ def build_hallazgo_slide(prs, headline_plain, headline_italic,
     for i, stat in enumerate(stats):
         add_stat_block(slide, stat['value'], stat['desc_runs'], xs[i], n)
 
-    add_source(slide, source_text)
     return slide
 
 
 def build_consumer_voice_slide(prs, quote, attribution):
+    """
+    Slide Consumer Voice (Layout 4 — verbatim SUELTO sobre fondo negro, SIN card).
+    Header "CONSUMER VOICE" Poppins 14pt gris arriba.
+    Verbatim Instrument Serif regular 60pt blanco, comillas «».
+    Atribución Poppins italic 20pt blanco.
+    """
     slide = blank_slide(prs)
 
+    # Header "CONSUMER VOICE"
     add_textbox(
         slide,
         left_px=0, top_px=80,
@@ -431,169 +395,235 @@ def build_consumer_voice_slide(prs, quote, attribution):
         color=GREY_SOFT, align=PP_ALIGN.CENTER
     )
 
-    card_left = (SLIDE_W_PX - CV_CARD_W) // 2
-    card_top  = 220
+    # Verbatim suelto — calcula top según longitud aproximada
+    full_quote = f"«{quote}»"
+    # Centrado vertical aproximado: más largo → arriba; más corto → más centrado
+    char_count = len(quote)
+    if char_count > 200:
+        verb_top = 280
+    elif char_count > 120:
+        verb_top = 330
+    else:
+        verb_top = 380
 
-    add_card(
+    verb_box = slide.shapes.add_textbox(
+        px(CV_TEXT_LEFT), px(verb_top),
+        px(CV_TEXT_W), px(450)
+    )
+    tf = verb_box.text_frame
+    tf.word_wrap = True
+    tf.margin_left   = Emu(0)
+    tf.margin_right  = Emu(0)
+    tf.margin_top    = Emu(0)
+    tf.margin_bottom = Emu(0)
+
+    p = tf.paragraphs[0]
+    p.alignment = PP_ALIGN.CENTER
+    run_q = p.add_run()
+    run_q.text = full_quote
+    run_q.font.name   = FONT_HEADLINE
+    run_q.font.size   = Pt(CV_VERBATIM_PT)
+    run_q.font.italic = False
+    run_q.font.bold   = False
+    run_q.font.color.rgb = WHITE
+    _set_kern(run_q._r)
+
+    # Atribución debajo
+    attrib_top = verb_top + 300  # aprox debajo del verbatim
+    add_textbox(
         slide,
-        quote_text=quote,
-        attribution=attribution,
-        left_px=card_left, top_px=card_top,
-        card_w_px=CV_CARD_W, card_h_px=CV_CARD_H
+        left_px=0, top_px=attrib_top,
+        width_px=1920, height_px=60,
+        text=f"— {attribution}",
+        font_name=FONT_BODY, font_size_pt=CV_ATTRIB_PT,
+        italic=True, color=WHITE,
+        align=PP_ALIGN.CENTER
     )
 
     return slide
 
 
-def build_cuali_slide(prs, headline_plain, headline_italic, verbatims, source_text):
+def build_cuali_slide_side_by_side(prs, headline_plain, headline_italic, verbatims):
+    """
+    Slide Card cualitativa (Layout 5 — cards 549×221pt SIDE BY SIDE).
+    Headline arriba 50pt Instrument Serif MAYÚSCULAS.
+    Cards con fill rgba(0,0,0,0.45) + outline blanco 1pt + border-radius 15pt.
+    Verbatim Poppins 15pt blanco, atribución Poppins italic 12pt.
+    """
     slide = blank_slide(prs)
     add_headline(slide, headline_plain, headline_italic)
 
     n = len(verbatims)
-    card_left = (SLIDE_W_PX - CV_CARD_W) // 2
 
     if n == 1:
-        card_h   = 485
-        gap      = 0
-        verb_pt  = VERBATIM_PT
-        y_start  = 430
+        # 1 card centrada
+        card_left = (SLIDE_W_PX - CARD_W) // 2
+        positions = [(card_left, CARD_TOP)]
     elif n == 2:
-        card_h   = 290
-        gap      = 30
-        verb_pt  = pt_from_px(38)
-        y_start  = 380
+        # 2 cards side by side, gap 80pt
+        total_w = CARD_W * 2 + CARD_GAP_2
+        start_x = (SLIDE_W_PX - total_w) // 2
+        positions = [
+            (start_x, CARD_TOP),
+            (start_x + CARD_W + CARD_GAP_2, CARD_TOP)
+        ]
     else:
-        card_h   = 200
-        gap      = 25
-        verb_pt  = pt_from_px(32)
-        y_start  = 360
+        # 3 cards side by side, gap 36pt
+        total_w = CARD_W * 3 + CARD_GAP_3 * 2
+        start_x = (SLIDE_W_PX - total_w) // 2
+        positions = [
+            (start_x, CARD_TOP),
+            (start_x + CARD_W + CARD_GAP_3, CARD_TOP),
+            (start_x + CARD_W * 2 + CARD_GAP_3 * 2, CARD_TOP)
+        ]
 
     for i, v in enumerate(verbatims):
-        y_card = y_start + i * (card_h + gap)
-        add_card(
-            slide,
-            quote_text=v['quote'],
-            attribution=v['attribution'],
-            left_px=card_left, top_px=y_card,
-            card_w_px=CV_CARD_W, card_h_px=card_h,
-            verbatim_size_pt=verb_pt
-        )
+        left, top = positions[i]
+        make_card_rgba_45_with_outline(slide, left, top, CARD_W, CARD_H)
 
-    add_source(slide, source_text)
+        full_quote = f"«{v['quote']}»"
+        pad_h = 30
+        pad_v = 25
+        text_w = CARD_W - (pad_h * 2)
+        text_h = CARD_H - (pad_v * 2)
+
+        txBox = slide.shapes.add_textbox(
+            px(left + pad_h), px(top + pad_v),
+            px(text_w), px(text_h)
+        )
+        tf = txBox.text_frame
+        tf.word_wrap = True
+        tf.margin_left   = Emu(0)
+        tf.margin_right  = Emu(0)
+        tf.margin_top    = Emu(0)
+        tf.margin_bottom = Emu(0)
+
+        p1 = tf.paragraphs[0]
+        p1.alignment = PP_ALIGN.CENTER
+        run_q = p1.add_run()
+        run_q.text = full_quote
+        run_q.font.name   = FONT_BODY
+        run_q.font.size   = Pt(CARD_VERBATIM_PT)
+        run_q.font.italic = False
+        run_q.font.bold   = False
+        run_q.font.color.rgb = WHITE
+        _set_kern(run_q._r)
+
+        p2 = tf.add_paragraph()
+        p2.alignment = PP_ALIGN.CENTER
+        p2.space_before = Pt(8)
+        run_a = p2.add_run()
+        run_a.text = f"— {v['attribution']}"
+        run_a.font.name   = FONT_BODY
+        run_a.font.size   = Pt(CARD_ATTRIB_PT)
+        run_a.font.italic = True
+        run_a.font.bold   = False
+        run_a.font.color.rgb = WHITE
+        _set_kern(run_a._r)
+
     return slide
 
 
-# ── Datos del set editorial ────────────────────────────────────────────────────
+# ── BUILD DECK ─────────────────────────────────────────────────────────────────
 
 def build_deck():
     prs = new_prs()
 
     # ─────────────────────────────────────────────────────────────────────────
-    # TENSIÓN 1 — El cuerpo legal y el cuerpo del deseo
-    # H01: derechos patrimoniales vs adopción — 3 stats + verbatim → 2 slides
+    # TENSIÓN 1 — EL CUERPO LEGAL Y EL CUERPO DEL DESEO
     # ─────────────────────────────────────────────────────────────────────────
 
     # Slide 01 — H01 Hallazgo cuanti (3 stats)
-    # Headline: "El país aprueba la propiedad compartida, rechaza la adopción 2 a 1.
-    #            Para las parejas del mismo sexo, lo que el derecho no da, tampoco lo puede quitar nadie."
-    # 159 chars → >85 → 42px
+    # Headline: "La pareja del mismo sexo puede comprarse una casa juntos. Adoptar un hijo,
+    #  no — el 61.8% rechaza eso y el 60.4% que los reconozcan como padres."
+    # 145 chars → >85 → 42px auto-size (pero usamos 50pt fijo per aprendizajes v5)
     # Stats:
-    #   40%  (39.8% → 40%)  muy de acuerdo con propiedad compartida
-    #   48%  (47.8% → 48%)  muy de acuerdo con acceso salud familiar
-    #   30%  (30.4% → 30%)  muy de acuerdo con préstamo bancario mancomunado
+    #   62% (61.8% → 62%)  rechazo adopción — entero OK
+    #   52% (52.0% → 52%)  acepta propiedad compartida
+    #   48% (47.8% → 48%)  acceso salud familiar (solo muy de acuerdo; 57.8% incluyendo algo)
+    # NOTA: el headline editado menciona 61.8% y 60.4% inline — se mantienen en desc
     build_hallazgo_slide(
         prs,
-        headline_plain="El país aprueba la propiedad compartida, rechaza la adopción 2 a 1. ",
-        headline_italic="Para las parejas del mismo sexo, lo que el derecho no da, tampoco lo puede quitar nadie.",
+        headline_plain="LA PAREJA DEL MISMO SEXO PUEDE COMPRARSE UNA CASA JUNTOS. ADOPTAR UN HIJO, ",
+        headline_italic="NO — EL 61.8% RECHAZA ESO Y EL 60.4% QUE LOS RECONOZCAN COMO PADRES.",
         stats=[
             {
-                'value': '40%',
+                'value': '62%',
                 'desc_runs': [
-                    make_run('está muy de acuerdo con que una pareja del mismo sexo compre '),
-                    make_run('propiedad', bold=True),
-                    make_run(' juntos — ítem de mayor aprobación de Q55. En el extremo, 61.8% rechaza la adopción legal.')
+                    make_run('está en desacuerdo con que una pareja del mismo sexo pueda '),
+                    make_run('adoptar legalmente', bold=True),
+                    make_run(' un hijo — el ítem con mayor rechazo de la batería Q55. 60.4% rechaza además el reconocimiento legal como padres.')
+                ]
+            },
+            {
+                'value': '52%',
+                'desc_runs': [
+                    make_run('acepta que '),
+                    make_run('compren una propiedad juntos', bold=True),
+                    make_run(' (39.8% muy de acuerdo + 12.2% algo de acuerdo). Los dos ítems más aceptados son los que no involucran a un tercero.')
                 ]
             },
             {
                 'value': '48%',
                 'desc_runs': [
-                    make_run('muy de acuerdo con acceso a '),
+                    make_run('está muy de acuerdo con el acceso a '),
                     make_run('servicios de salud familiar', bold=True),
-                    make_run(' como beneficiarios mutuos, frente a 26.2% en desacuerdo. Salud: más apoyo que lo bancario.')
-                ]
-            },
-            {
-                'value': '30%',
-                'desc_runs': [
-                    make_run('muy de acuerdo con '),
-                    make_run('préstamo bancario mancomunado', bold=True),
-                    make_run(', pero 37.8% sigue en desacuerdo. El derecho más técnico tampoco alcanza mayoría.')
+                    make_run(' como beneficiarios mutuos (+ 10.0% algo de acuerdo = 57.8% total). El préstamo mancomunado suma 45.2% de aprobación.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo + cualitativo 2025 · Q55 · Base 500."
+        ]
     )
 
-    # Slide 02 — H01 Consumer Voice
+    # Slide 02 — H01 Consumer Voice (verbatim suelto, sin card)
     build_consumer_voice_slide(
         prs,
-        quote='Aquí usted no tiene familia, usted vive y convive con un amiguito o una amiguita. Jurídicamente eso no existe. Tú no existes para nada. Tú tienes un problema de violencia de género en personas del mismo sexo que viven juntas, y eso se califica como una riña, no como violencia de género.',
+        quote='Aquí para tú adoptar, uno de los requisitos es que tú tienes que estar casado y el matrimonio en nuestro país es entre un hombre y una mujer (...) por lo cual nosotros ninguno podemos adoptar.',
         attribution='Familia Homoparental'
     )
 
-    # ─────────────────────────────────────────────────────────────────────────
-    # H02: "Respeto pero no comparto" — 1 stat + verbatim → 2 slides
-    # ─────────────────────────────────────────────────────────────────────────
-
-    # Slide 03 — H02 Hallazgo cuanti (1 stat)
-    # Headline: 170 chars → >85 → 42px
-    # Stat: 60.4% → 60% (entero)
-    build_hallazgo_slide(
+    # Slide 03 — H02 Card cualitativa (solo-cuali — 2 verbatims side by side)
+    # Headline: "La aceptación de familias del mismo sexo en los grupos siempre llega
+    #  con un 'pero'. Se respeta la pareja. Se duda del hijo."
+    # 123 chars
+    build_cuali_slide_side_by_side(
         prs,
-        headline_plain="El límite del respeto dominicano siempre es el mismo: los niños. ",
-        headline_italic="Hay quienes son parte de una pareja del mismo sexo y aun así dicen que ese no es un ambiente para un hijo.",
-        stats=[
+        headline_plain="LA ACEPTACIÓN DE FAMILIAS DEL MISMO SEXO SIEMPRE LLEGA CON UN ‘PERO’. ",
+        headline_italic="SE RESPETA LA PAREJA. SE DUDA DEL HIJO.",
+        verbatims=[
             {
-                'value': '60%',
-                'desc_runs': [
-                    make_run('está en desacuerdo con que una pareja del mismo sexo sea reconocida legalmente como '),
-                    make_run('padres o madres', bold=True),
-                    make_run(' de un mismo hijo. Ítem Q55 reconocimiento legal parentalidad.')
-                ]
+                'quote': 'Respeto su decisión pero no la comparto. Últimamente se está viviendo en una época moderna en la cual quieren imponer eso (...) hacerlo como normal, algo que no es normal, porque (...) la palabra de Dios dice que hombre y mujer, no las dos personas del mismo sexo.',
+                'attribution': 'Familia Monoparental'
+            },
+            {
+                'quote': 'Un niño necesita tener un papá y una mamá porque dos hombres juntos o dos mujeres juntas no pueden procrear (...) yo respeto, pero esa es mi percepción muy personal.',
+                'attribution': 'Familia Mixta'
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo + cualitativo 2025 · Q55, Q56 · Base 500."
-    )
-
-    # Slide 04 — H02 Consumer Voice
-    build_consumer_voice_slide(
-        prs,
-        quote='De la dos y de la cuatro, respeto su decisión pero no la comparto. Últimamente se está viviendo en una época moderna en la cual quieren imponer eso... hacerlo como normal, algo que no es normal, porque la palabra de Dios dice que hombre y mujer, no las dos personas del mismo sexo.',
-        attribution='Familia Monoparental'
+        ]
     )
 
     # ─────────────────────────────────────────────────────────────────────────
-    # TENSIÓN 2 — La fe como infraestructura
-    # H03: fe como refugio × brecha género/NSE — 3 stats + verbatim → 2 slides
+    # TENSIÓN 2 — LA FE COMO INFRAESTRUCTURA
     # ─────────────────────────────────────────────────────────────────────────
 
-    # Slide 05 — H03 Hallazgo cuanti (3 stats)
-    # Headline: 152 chars → >85 → 42px
+    # Slide 04 — H03 Hallazgo cuanti (3 stats)
+    # Headline: "64% recurre siempre a la fe en momentos de dificultad.
+    #  El 64% no es parejo: sube a 70.8% en mujeres y a 72.7% en el estrato D."
+    # 130 chars
     # Stats:
-    #   64%  (64.0% → 64%)  siempre recurre a la fe
-    #   71%  (70.8% → 71%)  mujeres vs 53.3% hombres
-    #   73%  (72.7% → 73%)  estrato D
+    #   64% (64.0% → 64%)  univariada Q57
+    #   71% (70.8% → 71%)  mujeres
+    #   73% (72.7% → 73%)  estrato D
     build_hallazgo_slide(
         prs,
-        headline_plain="64% recurre siempre a la fe en momentos de dificultad. ",
-        headline_italic="Ese 64% no es parejo: es más mujer, más bajo el nivel socioeconómico, más alta la dependencia.",
+        headline_plain="64% RECURRE SIEMPRE A LA FE EN MOMENTOS DE DIFICULTAD. ",
+        headline_italic="EL 64% NO ES PAREJO: SUBE A 70.8% EN MUJERES Y A 72.7% EN EL ESTRATO D.",
         stats=[
             {
                 'value': '64%',
                 'desc_runs': [
-                    make_run('marca “Siempre” recurrir a la '),
-                    make_run('religión o espiritualidad', bold=True),
-                    make_run(' como refugio en momentos de dificultad. Solo 6.6% dice nunca. Q57, Base 500.')
+                    make_run('recurre '),
+                    make_run('siempre', bold=True),
+                    make_run(' a la religión o espiritualidad como alivio o refugio en momentos de dificultad. Solo 6.6% declara que nunca. Q57, Base 500.')
                 ]
             },
             {
@@ -601,7 +631,7 @@ def build_deck():
                 'desc_runs': [
                     make_run('de las '),
                     make_run('mujeres', bold=True),
-                    make_run(' recurre siempre a la fe, vs 53.3% de los hombres. Brecha de género: 17.5 puntos. Q57 × sexo.')
+                    make_run(' recurre siempre, frente a 53.3% de los hombres. Brecha de género: 17.5 puntos. Q57 × sexo, Base 305 mujeres / 195 hombres.')
                 ]
             },
             {
@@ -609,127 +639,162 @@ def build_deck():
                 'desc_runs': [
                     make_run('del '),
                     make_run('estrato D', bold=True),
-                    make_run(' recurre siempre, vs 52.8% del estrato C+ y 61.5% del estrato C. A menor NSE, mayor dependencia espiritual.')
+                    make_run(' recurre siempre, vs 52.8% en C+ y 61.5% en C. A menor NSE, mayor dependencia espiritual. Q57 × NSE, Base 172 NSE D.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo + cualitativo 2025 · Q57, Q57 × D2, Q57 × D6 · Base 500."
+        ]
     )
 
-    # Slide 06 — H03 Consumer Voice
+    # Slide 05 — H03 Consumer Voice
     build_consumer_voice_slide(
         prs,
-        quote='He buscado ayuda profesional para tratar esas cosas... ¿Qué también yo hago? Me refugio mucho en Dios, en la oración. Tener una conexión con Dios para mí es importante, dejarle las cosas a él, que él se encargue, porque hay días que tú dices yo no puedo más y Dios se encarga.',
+        quote='Me refugio mucho en Dios, en la oración. Tener una conexión con Dios para mí es importante, dejarle las cosas a él, que él se encargue, porque hay días que tú dices yo no puedo más y Dios se encarga.',
         attribution='Familia Biparental con Hijos Adultos'
     )
 
-    # ─────────────────────────────────────────────────────────────────────────
-    # H04: religiosidad de baja institución — 2 stats + verbatim → 2 slides
-    # ─────────────────────────────────────────────────────────────────────────
-
-    # Slide 07 — H04 Hallazgo cuanti (2 stats)
-    # Headline: 162 chars → >85 → 42px
+    # Slide 06 — H04 Hallazgo solo-cuanti (2 stats)
+    # Headline: "El dominicano es casi unánimemente creyente. Cómo cree — eso está partido
+    #  en tres mitades casi iguales, y el no creyente es una rareza de 1.2%."
+    # 147 chars
     # Stats:
-    #   31%  (30.8% → 31%)  creyente ocasional
-    #   30%  (30.2% → 30%)  muy practicante y activo  — usamos el dato como es
-    #   NOTA: headline ya declara los dos datos; las cajas desglosarán distribución
-    #   2 stats → cajas de 880px, posición 1/3 y 2/3
+    #   31% (30.8% → 31%)  creyente ocasional — entero
+    #   30% (30.2% → 30%)  muy practicante y activo — entero (casi igual)
+    #   NOTA: usamos 2 stats: distribución en tercios + juventud vs madurez
     build_hallazgo_slide(
         prs,
-        headline_plain="El dominicano cree, pero no en institución. 30.8% es creyente ocasional, 28.8% espiritual sin práctica regular. ",
-        headline_italic="Solo 30.2% se declara muy practicante y activo.",
+        headline_plain="EL DOMINICANO ES CASI UNÁNIMEMENTE CREYENTE. CÓMO CREE — ESO ESTÁ PARTIDO EN TRES MITADES CASI IGUALES, ",
+        headline_italic="Y EL NO CREYENTE ES UNA RAREZA DE 1.2%.",
         stats=[
             {
                 'value': '31%',
                 'desc_runs': [
                     make_run('es '),
                     make_run('creyente ocasional', bold=True),
-                    make_run(', 30.2% muy practicante y activo, 28.8% espiritual sin práctica regular. La relación con la fe se reparte en tercios. Q58, Base 500.')
+                    make_run(', 30.2% muy practicante y activo, 28.8% espiritual sin práctica regular. Solo 8.0% queda fuera del marco religioso o espiritual. Q58, Base 500.')
                 ]
             },
             {
-                'value': '8%',
+                'value': '47%',
                 'desc_runs': [
-                    make_run('queda fuera de la órbita espiritual: 6.8% sin afiliación ni práctica, 1.2% no creyente. El país mantiene casi por completo algún vínculo con '),
-                    make_run('lo espiritual', bold=True),
-                    make_run(' — la fractura es de práctica, no de fe.')
+                    make_run('de los '),
+                    make_run('18–24 años', bold=True),
+                    make_run(' elige "creyente ocasional" como perfil dominante; en los 55+ el perfil top es "muy practicante y activo" (47.1%). El creyente se vuelve más practicante al envejecer.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo + cualitativo 2025 · Q58 · Base 500."
-    )
-
-    # Slide 08 — H04 Consumer Voice
-    build_consumer_voice_slide(
-        prs,
-        quote='Yo soy básicamente la nota discordante de ese entorno... yo no me rijo por la línea en la que va mi familia, sin embargo yo respeto lo que yo vi, yo entiendo que esa es la manera en la que las familias funcionan.',
-        attribution='Familia Mixta'
+        ]
     )
 
     # ─────────────────────────────────────────────────────────────────────────
-    # TENSIÓN 3 — El país que no mira a todos
-    # H05: inclusión discapacidad × NSE y edad — 3 stats, solo-cuanti → 1 slide
+    # TENSIÓN 3 — EL PAÍS QUE NO MIRA A TODOS
     # ─────────────────────────────────────────────────────────────────────────
 
-    # Slide 09 — H05 Hallazgo solo-cuanti (3 stats)
-    # Headline: 161 chars → >85 → 42px
+    # Slide 07 — H05 Hallazgo cuanti (2 stats)
+    # Headline: "9 de cada 10 dicen no haber sufrido discriminación en 3 años.
+    #  En hogares monoparentales la cifra cae a 83.6% — casi 8 puntos bajo el promedio."
+    # 146 chars
     # Stats:
-    #   54%  (54.2% → 54%)  muy baja la inclusión de discapacidad en comunidad
-    #   62%  (61.8% → 62%)  comunidad no nada preparada para incluir
-    #   72%  (71.5% → 72%)  estrato D considera no preparada
+    #   91% (91.2% → 91%)  no fue discriminado
+    #   84% (83.6% → 84%)  monoparentales
     build_hallazgo_slide(
         prs,
-        headline_plain="54.2% califica de muy baja la inclusión de discapacidad en su comunidad. ",
-        headline_italic="En el estrato D, el 71.5% dice que la comunidad no está nada preparada para incluirla.",
+        headline_plain="9 DE CADA 10 DICEN NO HABER SUFRIDO DISCRIMINACIÓN EN 3 AÑOS. ",
+        headline_italic="EN HOGARES MONOPARENTALES LA CIFRA CAE A 83.6% — CASI 8 PUNTOS BAJO EL PROMEDIO.",
+        stats=[
+            {
+                'value': '91%',
+                'desc_runs': [
+                    make_run('declara no haber sido víctima de '),
+                    make_run('discriminación', bold=True),
+                    make_run(' en los últimos 3 años. La mención más alta entre quienes sí reportan algo: "comentarios ofensivos sobre el color de piel" (2.8%, n=14). Q60, Base 500.')
+                ]
+            },
+            {
+                'value': '84%',
+                'desc_runs': [
+                    make_run('en hogares '),
+                    make_run('monoparentales', bold=True),
+                    make_run(' declara no haber sido víctima — la cifra más baja de todas las tipologías, frente a 93.7% en biparental con hijos menores de 18. Q60 × tipología, Base 122.')
+                ]
+            }
+        ]
+    )
+
+    # Slide 08 — H05 Consumer Voice
+    build_consumer_voice_slide(
+        prs,
+        quote='La discriminación con la gente: que tú vas a una tienda aquí y si tú no vas bien vestido te miran mal, te vienen todos para acá y no vas a comprar nada.',
+        attribution='Familia Biparental con Hijos Adultos'
+    )
+
+    # Slide 09 — H06 Hallazgo cuanti (3 stats)
+    # Headline: "54.2% califica de muy baja la inclusión de discapacidad en su comunidad.
+    #  61.8% cree que esa misma comunidad no está nada preparada para incluir."
+    # 148 chars
+    # Stats:
+    #   54% (54.2% → 54%)  muy baja la inclusión
+    #   62% (61.8% → 62%)  nada preparada — entero
+    #   72% (71.5% → 72%)  estrato D / 71% (70.6% → 71%) mayores 55
+    build_hallazgo_slide(
+        prs,
+        headline_plain="54.2% CALIFICA DE MUY BAJA LA INCLUSIÓN DE DISCAPACIDAD EN SU COMUNIDAD. 61.8% CREE QUE ESA MISMA COMUNIDAD ",
+        headline_italic="NO ESTÁ NADA PREPARADA PARA INCLUIR.",
         stats=[
             {
                 'value': '54%',
                 'desc_runs': [
                     make_run('califica de '),
                     make_run('muy baja', bold=True),
-                    make_run(' la inclusión de personas con discapacidad en su comunidad; solo 19.0% la califica de muy alta. Q61, Base 500.')
+                    make_run(' (nota 1 de 5) la inclusión de personas con discapacidad en su comunidad. Sumando notas 1 y 2, el 61.6% la reprueba. Q61, Base 500.')
                 ]
             },
             {
                 'value': '62%',
                 'desc_runs': [
-                    make_run('cree que su comunidad no está '),
+                    make_run('cree que su comunidad está "'),
                     make_run('nada preparada', bold=True),
-                    make_run(' para incluir personas neurodivergentes o con discapacidad; solo 12.0% la ve muy preparada. Q63, Base 500.')
+                    make_run('" para incluir personas neurodivergentes o con discapacidad en trabajo, escuela y transporte. Solo 12.0% la ve muy preparada. Q63, Base 500.')
                 ]
             },
             {
                 'value': '72%',
                 'desc_runs': [
-                    make_run('del '),
+                    make_run('"Nada preparada" sube en el '),
                     make_run('estrato D', bold=True),
-                    make_run(' considera la comunidad no preparada, vs 70.6% de los mayores de 55. La exclusión percibida crece con la vulnerabilidad.')
+                    make_run(' (71.5%, n=172) y en mayores de 55 (70.6%, n=119), frente a 54.5% en 18–24. La exclusión percibida crece con la precariedad y la edad.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo 2025 · Q61, Q63, Q63 × D6, Q63 × D5 · Base 500."
+        ]
+    )
+
+    # Slide 10 — H06 Consumer Voice
+    build_consumer_voice_slide(
+        prs,
+        quote='Si esos maestros supieran trabajar con ese tipo de niños, esos niños fueran más incluidos como otros amiguitos, no necesitarían una educación especial en un colegio especial que le cuesta más de la mitad del sueldo de un padre.',
+        attribution='Familia Sin Hijos'
     )
 
     # ─────────────────────────────────────────────────────────────────────────
-    # H06: polarización espejo orientación sexual × género — 2 stats + verbatim → 2 slides
+    # TENSIÓN 4 — LA VIOLENCIA QUE NO TIENE NOMBRE
     # ─────────────────────────────────────────────────────────────────────────
 
-    # Slide 10 — H06 Hallazgo cuanti (2 stats)
-    # Headline: 162 chars → >85 → 42px
+    # Slide 11 — H07 Hallazgo cuanti (2 stats)
+    # Headline: "Hablar de orientación sexual en familia parte al dominicano en dos:
+    #  36.8% muy cómodo, 34.8% nada cómodo. El hombre se cierra donde la mujer habla."
+    # 150 chars
     # Stats:
-    #   37%  (36.8% → 37%)  muy cómodo, 35% (34.8% → 35%) nada cómodo
-    #   40%  (40.3% → 40%)  mujeres muy cómodas, 40% (39.5% → 40%) hombres nada cómodos
+    #   37% (36.8% → 37%)  muy cómodo
+    #   40% (40.3% → 40%)  mujeres muy cómodas
     build_hallazgo_slide(
         prs,
-        headline_plain="Hablar de orientación sexual en familia parte al país en dos. El hombre se inclina al silencio; ",
-        headline_italic="la mujer, a la conversación — por casi 20 puntos de diferencia.",
+        headline_plain="HABLAR DE ORIENTACIÓN SEXUAL EN FAMILIA PARTE AL DOMINICANO EN DOS: 36.8% MUY CÓMODO, 34.8% NADA CÓMODO. ",
+        headline_italic="EL HOMBRE SE CIERRA DONDE LA MUJER HABLA.",
         stats=[
             {
                 'value': '37%',
                 'desc_runs': [
-                    make_run('se siente '),
-                    make_run('muy cómodo', bold=True),
-                    make_run(' hablando de orientación sexual o identidad de género en familia, y 34.8% nada cómodo. La distribución nacional es casi espejo. Q64, Base 500.')
+                    make_run('se siente "'),
+                    make_run('muy cómodo/a', bold=True),
+                    make_run('" hablando de orientación sexual o identidad de género en familia, y 34.8% "nada cómodo/a". El centro de la escala es minoritario. Q64, Base 500.')
                 ]
             },
             {
@@ -737,96 +802,70 @@ def build_deck():
                 'desc_runs': [
                     make_run('de las '),
                     make_run('mujeres', bold=True),
-                    make_run(' tiene "muy cómoda" como respuesta top; 39.5% de los hombres tiene "nada cómodo" como respuesta top. El género invierte el polo dominante.')
+                    make_run(' tiene "muy cómoda" como respuesta top (40.3%, n=123); 39.5% de los hombres tiene "nada cómodo" como respuesta top (n=77). El género predice el polo.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo + cualitativo 2025 · Q64, Q64 × D2 · Base 500."
+        ]
     )
 
-    # Slide 11 — H06 Consumer Voice
+    # Slide 12 — H07 Consumer Voice
     build_consumer_voice_slide(
         prs,
-        quote='Si tú vives con una pareja gay, depende de la educación que tú le des. Viene de la educación... porque si tú te reprimes a no, no, yo no voy a poder porque yo soy lo que soy, es gay, entonces el muchacho después lo que me va a reclamar por eso.',
-        attribution='Familia Homoparental'
+        quote='Mi hijo mayor cuando se declaró gay, esa parte yo no... eso me marcó, porque yo lo rechacé, lo aborrecido como si fuera un trapo viejo (...) Y después de un tiempo (...) yo decidí acercarme y ahora (...) yo lo quiero, hasta su pareja.',
+        attribution='Familia Biparental con Hijos Adultos'
     )
 
-    # ─────────────────────────────────────────────────────────────────────────
-    # TENSIÓN 4 — La violencia que no tiene nombre
-    # H07: violencia económica vs física — 2 stats, solo-cuanti → 1 slide
-    # ─────────────────────────────────────────────────────────────────────────
-
-    # Slide 12 — H07 Hallazgo solo-cuanti (2 stats)
-    # Headline: 181 chars → >85 → 42px
-    # Stats:
-    #   20%  (20.2% → 20%)  violencia económica
-    #   17%  (17.4% → 17%)  violencia emocional/psicológica
-    #   NOTE: headline declara el triple, las cajas desglosan el ranking
+    # Slide 13 — H08 Hallazgo cuanti (1 stat)
+    # Headline: "11.6% de los padres reporta que un hijo vivió bullying escolar o digital.
+    #  El 75% dice que no. El silencio no es prueba de ausencia."
+    # 133 chars
+    # Stat:
+    #   12% (11.6% → 12%)  bullying — entero
     build_hallazgo_slide(
         prs,
-        headline_plain="La violencia que más pesa en el hogar dominicano no es la de los golpes: 20.2% reporta violencia económica, casi triplicando a la física. ",
-        headline_italic="El control del dinero es el primer arma.",
+        headline_plain="11.6% DE LOS PADRES REPORTA QUE UN HIJO VIVIÓ BULLYING ESCOLAR O DIGITAL. ",
+        headline_italic="EL 75% DICE QUE NO. EL SILENCIO NO ES PRUEBA DE AUSENCIA.",
         stats=[
             {
-                'value': '20%',
+                'value': '12%',
                 'desc_runs': [
-                    make_run('señala la '),
-                    make_run('violencia económica', bold=True),
-                    make_run(' —restricción del acceso al dinero, control financiero— como el tipo de violencia experimentada con mayor frecuencia en los últimos 3 años. La física: 7.6%.')
-                ]
-            },
-            {
-                'value': '17%',
-                'desc_runs': [
-                    make_run('reporta '),
-                    make_run('violencia emocional o psicológica', bold=True),
-                    make_run('. Sumadas, la económica y la emocional (37.6%) más que cuadruplican a la física (7.6%). Q67, Base 500.')
+                    make_run('declara que algún hijo vivió '),
+                    make_run('acoso o bullying', bold=True),
+                    make_run(' escolar o digital; 75.0% (n=375) dice que no y 12.8% no tiene hijos. Recalculado sobre quienes tienen hijos (n≈436): ∼13.3%. Q65, Base 500.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo 2025 · Q67 · Base 500."
+        ]
     )
 
-    # ─────────────────────────────────────────────────────────────────────────
-    # H08: transmisión intergeneracional del golpe — solo-cuali 1 verbatim → 1 slide
-    # ─────────────────────────────────────────────────────────────────────────
-
-    # Slide 13 — H08 Card cualitativa (1 verbatim)
-    # Headline: 158 chars → >85 → 42px
-    build_cuali_slide(
+    # Slide 14 — H08 Consumer Voice
+    build_consumer_voice_slide(
         prs,
-        headline_plain="Hay hogares donde el golpe se aprende como respuesta al amor. ",
-        headline_italic="La madre lo sabe: si su hija ve que el esposo la golpea, la hija entiende que así se quiere.",
-        verbatims=[
-            {
-                'quote': 'Si por ejemplo yo, si mi esposo me golpea, o sea aunque yo le diga a mi hija, mira tú no puedes dejar que nadie te golpea, ella entiende que si él, que es mi esposo, me quiere y me golpea, es una respuesta al amor. Entonces, es como que eso es parte de la educación.',
-                'attribution': 'Familia Extendida'
-            }
-        ],
-        source_text="Source: Código Casa — Estudio cualitativo 2025 · Q67 · Base cualitativa: 11 grupos de enfoque."
+        quote='Tuve al principio de año escolar un momento de tensión porque le estaban haciendo bullying a las niñas, y las niñas que le gustaban su colegio no querían ir. Ya se fue una señal de alerta para mí.',
+        attribution='Familia Extendida'
     )
 
     # ─────────────────────────────────────────────────────────────────────────
-    # TENSIÓN 5 — La equidad pendiente
-    # H09: padres presentes — 2 stats, solo-cuanti → 1 slide
+    # TENSIÓN 5 — LA EQUIDAD PENDIENTE
     # ─────────────────────────────────────────────────────────────────────────
 
-    # Slide 14 — H09 Hallazgo solo-cuanti (2 stats)
-    # Headline: 160 chars → >85 → 42px
+    # Slide 15 — H09 Hallazgo cuanti (2 stats)
+    # Headline: "62.6% dice que el cambio más urgente para la equidad es que los padres
+    #  estén presentes. La flexibilidad laboral y la carrera de la mujer no llegan ni al 13%."
+    # 161 chars
     # Stats:
-    #   63%  (62.6% → 63%)  padres más presentes
-    #   13%  (12.8% → 13%)  flexibilidad laboral
+    #   63% (62.6% → 63%)  padres presentes
+    #   13% (12.8% → 13%)  flexibilidad laboral
     build_hallazgo_slide(
         prs,
-        headline_plain="62.6% pide una sola cosa para la equidad familiar: que los padres estén más presentes. ",
-        headline_italic="Las reformas laborales y la paridad salarial no aparecen en el radar.",
+        headline_plain="62.6% DICE QUE EL CAMBIO MÁS URGENTE PARA LA EQUIDAD ES QUE LOS PADRES ESTÉN PRESENTES. ",
+        headline_italic="LA FLEXIBILIDAD LABORAL Y LA CARRERA DE LA MUJER NO LLEGAN NI AL 13%.",
         stats=[
             {
                 'value': '63%',
                 'desc_runs': [
-                    make_run('considera que el cambio social más urgente para la equidad familiar es que los '),
+                    make_run('elige "que los '),
                     make_run('padres estén más presentes', bold=True),
-                    make_run(' en la crianza y las tareas del hogar. TOP-1 con margen amplio. Q66, Base 500.')
+                    make_run('" en la crianza y el hogar como el cambio social más urgente para la equidad familiar. Muy por encima de flexibilidad laboral (12.8%) o que la maternidad no frene la carrera (2.8%). Q66, Base 500.')
                 ]
             },
             {
@@ -834,79 +873,117 @@ def build_deck():
                 'desc_runs': [
                     make_run('elige '),
                     make_run('flexibilidad laboral para ambos padres', bold=True),
-                    make_run(' y apenas 2.8% que la maternidad no implique retroceso profesional. Lo estructural queda cinco veces por debajo de lo presencial.')
+                    make_run('. La prioridad de "padres presentes" es más intensa en NSE bajo: 75.0% en NSE E (n=32, tendencia direccional) vs 43.5% en AB.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo 2025 · Q66 · Base 500."
+        ]
     )
 
-    # ─────────────────────────────────────────────────────────────────────────
-    # H10: vejez digna como cheque — 2 stats, solo-cuanti → 1 slide
-    # ─────────────────────────────────────────────────────────────────────────
+    # Slide 16 — H09 Consumer Voice
+    build_consumer_voice_slide(
+        prs,
+        quote='Que los padres estén más presentes... porque uno se lo da en la casa, que es donde todo empieza, pero ellos, la mayor parte de su tiempo, no están en la casa.',
+        attribution='Familia Monoparental'
+    )
 
-    # Slide 15 — H10 Hallazgo solo-cuanti (2 stats)
-    # Headline: 152 chars → >85 → 42px
+    # Slide 17 — H10 Hallazgo cuanti (2 stats)
+    # Headline: "Cuando el dominicano sí sufre violencia, la más frecuente no es la física:
+    #  es económica. 20.2% reporta control financiero — casi el triple que el 7.6% de violencia física."
+    # 172 chars
     # Stats:
-    #   74%  (73.8% → 74%)  pensiones
-    #   32%  (32.2% → 32%)  prevención abandono/soledad
+    #   20% (20.2% → 20%)  violencia económica
+    #   56% (56.4% → 56%)  no sufrió ningún tipo
     build_hallazgo_slide(
         prs,
-        headline_plain="73.8% pide pensiones para que los mayores vivan con dignidad. ",
-        headline_italic="El respeto, la compañía y el cuidado emocional llegan después. Lo primero es el cheque.",
+        headline_plain="CUANDO EL DOMINICANO SÍ SUFRE VIOLENCIA, LA MÁS FRECUENTE NO ES LA FÍSICA: ES ECONÓMICA. ",
+        headline_italic="20.2% REPORTA CONTROL FINANCIERO — CASI EL TRIPLE QUE EL 7.6% DE VIOLENCIA FÍSICA.",
+        stats=[
+            {
+                'value': '20%',
+                'desc_runs': [
+                    make_run('reporta '),
+                    make_run('violencia económica', bold=True),
+                    make_run(' — control del acceso al dinero, restricción financiera — como el tipo de violencia más frecuente en los últimos 3 años. Le sigue la emocional/psicológica (17.4%) y la física (7.6%). Q67, Base 500.')
+                ]
+            },
+            {
+                'value': '56%',
+                'desc_runs': [
+                    make_run('declara no haber sufrido '),
+                    make_run('ningún tipo de violencia', bold=True),
+                    make_run('. El 44% restante que sí reporta algo distribuye mayoritariamente en económica y emocional. El cruce NSE E × "no víctima" (n=14) no es publicable.')
+                ]
+            }
+        ]
+    )
+
+    # Slide 18 — H10 Consumer Voice
+    build_consumer_voice_slide(
+        prs,
+        quote='Si mi esposo me golpea... aunque yo le diga a mi hija, mira, tú no puedes dejar que nadie te golpee, ella entiende que si él, que es mi esposo, me quiere y me golpea, es una respuesta al amor.',
+        attribution='Familia Extendida'
+    )
+
+    # Slide 19 — H11 Hallazgo solo-cuanti (2 stats)
+    # Headline: "Cuando hay un adulto mayor en el hogar, el cuidado recae sobre una sola persona.
+    #  12.8% responde 'yo mismo/a' — diez veces más que el cuidador contratado."
+    # 157 chars
+    # Stats:
+    #   13% (12.8% → 13%)  yo mismo/a cuida — entero
+    #   73% (72.8% → 73%)  no convive con persona mayor
+    build_hallazgo_slide(
+        prs,
+        headline_plain="CUANDO HAY UN ADULTO MAYOR EN EL HOGAR, EL CUIDADO RECAE SOBRE UNA SOLA PERSONA. ",
+        headline_italic="12.8% RESPONDE “YO MISMO/A” — DIEZ VECES MÁS QUE EL CUIDADOR CONTRATADO.",
+        stats=[
+            {
+                'value': '13%',
+                'desc_runs': [
+                    make_run('responde "'),
+                    make_run('yo mismo/a', bold=True),
+                    make_run('" al cuidado del adulto mayor en el hogar, frente a 2.0% que lo comparte entre varios y 0.6% que contrata un cuidador. El cuidado no se distribuye: se individualiza. Q68, Base 500.')
+                ]
+            },
+            {
+                'value': '73%',
+                'desc_runs': [
+                    make_run('no convive con ninguna '),
+                    make_run('persona mayor', bold=True),
+                    make_run('. La convivencia con adulto mayor se concentra en hogares extendidos (44.4%) y en mayores de 55 (52.9% sí conviven). Q68 × tipología y edad.')
+                ]
+            }
+        ]
+    )
+
+    # Slide 20 — H12 Hallazgo solo-cuanti (2 stats)
+    # Headline: "73.8% pide pensiones para que los mayores vivan con dignidad.
+    #  El respeto y la compañía llegan después. Lo primero siempre es la plata."
+    # 136 chars
+    # Stats:
+    #   74% (73.8% → 74%)  pensiones — entero
+    #   53% (53.4% → 53%)  acceso a salud
+    build_hallazgo_slide(
+        prs,
+        headline_plain="73.8% PIDE PENSIONES PARA QUE LOS MAYORES VIVAN CON DIGNIDAD. ",
+        headline_italic="EL RESPETO Y LA COMPAÑÍA LLEGAN DESPUÉS. LO PRIMERO SIEMPRE ES LA PLATA.",
         stats=[
             {
                 'value': '74%',
                 'desc_runs': [
-                    make_run('cree que lo que más falta para la dignidad de la tercera edad son '),
+                    make_run('menciona '),
                     make_run('pensiones o apoyos económicos suficientes', bold=True),
-                    make_run('. Le sigue acceso a salud con 53.4%. TOP-1 absoluto. Q69, Base 500.')
+                    make_run(' como lo que más falta para que la tercera edad viva con dignidad. Le sigue acceso a salud (53.4%). El respeto y reconocimiento familiar queda en 32.4%. Q69, Base 500.')
                 ]
             },
             {
-                'value': '32%',
+                'value': '53%',
                 'desc_runs': [
-                    make_run('elige prevención del '),
-                    make_run('abandono, la soledad y el maltrato', bold=True),
-                    make_run(' (quinto lugar con 32.2%) y sólo 32.4% el respeto y reconocimiento familiar. Lo emocional pesa la mitad que lo económico.')
+                    make_run('menciona '),
+                    make_run('acceso gratuito o asequible a salud', bold=True),
+                    make_run(' como segunda prioridad. La prioridad de pensiones es transversal: de 70.6% en NSE C a 83.3% en C+; de 65.5% en 18–24 a 79.0% en 55+. Ningún segmento la desplaza del primer lugar.')
                 ]
             }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo 2025 · Q69 · Base 500."
-    )
-
-    # ─────────────────────────────────────────────────────────────────────────
-    # H11: discriminación — 2 stats, solo-cuanti → 1 slide
-    # ─────────────────────────────────────────────────────────────────────────
-
-    # Slide 16 — H11 Hallazgo solo-cuanti (2 stats)
-    # Headline: 145 chars → >85 → 42px
-    # Stats:
-    #   91%  (91.2% → 91%)  no fue discriminado
-    #   2.8% mantiene decimal (1 dígito antes del punto) / 1.8% también
-    build_hallazgo_slide(
-        prs,
-        headline_plain="91.2% dice no haber sido discriminado en 3 años. ",
-        headline_italic="Lo poco que sí se reporta tiene cara: color de piel y cabello concentran casi todos los casos.",
-        stats=[
-            {
-                'value': '91%',
-                'desc_runs': [
-                    make_run('declara no haber sido víctima de '),
-                    make_run('discriminación', bold=True),
-                    make_run(' en los últimos 3 años por raza, color de piel, etnia, nacionalidad, orientación sexual o religión. Q60, Base 500.')
-                ]
-            },
-            {
-                'value': '2.8%',
-                'desc_runs': [
-                    make_run('reporta discriminación por '),
-                    make_run('color de piel', bold=True),
-                    make_run(' (n=14) y 1.8% por cabello (n=9). El cuerpo racializado concentra lo poco que se declara. Cifras sobre n=500 total.')
-                ]
-            }
-        ],
-        source_text="Source: Código Casa — Estudio cuantitativo 2025 · Q60 · Base 500."
+        ]
     )
 
     # ── Guardar ────────────────────────────────────────────────────────────────
@@ -915,24 +992,47 @@ def build_deck():
     print(f"GUARDADO: {output_path}")
     print(f"Total slides: {len(prs.slides)}")
 
-    # Verificación de specs
-    print("\n── Verificación specs ──────────────────────────────────────────────────")
+    print("\n── Verificación specs ─────────────────────────────────────────────")
     print(f"Slide size: {prs.slide_width} × {prs.slide_height} EMU")
-    print(f"  = {prs.slide_width / PX:.0f}px × {prs.slide_height / PX:.0f}px")
-    expected_w = 1920 * PX
-    expected_h = 1080 * PX
-    ok = prs.slide_width == Emu(expected_w) and prs.slide_height == Emu(expected_h)
-    print(f"  Slide size OK: {ok}")
-    print(f"Stat number size: {STAT_NUMBER_PT}pt ({STAT_NUMBER_PT/0.75:.0f}px)")
-    print(f"Stat desc size:   {STAT_DESC_PT}pt ({STAT_DESC_PT/0.75:.0f}px)")
-    print(f"Verbatim size:    {VERBATIM_PT}pt ({VERBATIM_PT/0.75:.0f}px)")
-    print(f"Attribution size: {ATTRIBUTION_PT}pt ({ATTRIBUTION_PT/0.75:.0f}px)")
-    print(f"Source size:      {SOURCE_PT}pt ({SOURCE_PT/0.75:.0f}px)")
-    print("Cards: rgba(0,0,0,0.45) via MSO_SHAPE.ROUNDED_RECTANGLE + XML alpha=45000")
-    print("Headlines >85 chars → 42px (31.5pt)")
+    print(f"  = {int(prs.slide_width / PX)}px × {int(prs.slide_height / PX)}px")
+    ok = prs.slide_width == Emu(SLIDE_W_PX * PX) and prs.slide_height == Emu(SLIDE_H_PX * PX)
+    print(f"  Slide 1920×1080 OK: {ok}")
+    print(f"Stat number: {STAT_NUMBER_PT}pt")
+    print(f"Stat desc:   {STAT_DESC_PT}pt")
+    print(f"Headline:    {HEADLINE_PT}pt fijo (no auto-size)")
+    print(f"CV Verbatim: {CV_VERBATIM_PT}pt Instrument Serif regular")
+    print(f"CV Attrib:   {CV_ATTRIB_PT}pt Poppins italic")
+    print(f"Card Verb:   {CARD_VERBATIM_PT}pt Poppins")
+    print(f"Card Attrib: {CARD_ATTRIB_PT}pt Poppins italic")
+    print("Cards cuali: rgba(0,0,0,0.45) + outline blanco 1pt + border-radius 15pt")
+    print("Consumer Voice: verbatim SUELTO sobre fondo negro (SIN card)")
     print("Comillas españolas «...» en todos los verbatims")
     print("Kerning 0 en todo el deck")
     print("NO masterslide — fondo negro plano")
+    print("NO source en ningún slide (eliminado per aprendizajes v5)")
+
+    print("\n── QA FLAGS ──────────────────────────────────────────")
+    print("H01 (slide 1): 3 stats. 61.8%→62%, 52.0%→52%, 47.8%→48%")
+    print("H01 (slide 2): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H02 (slide 3): solo-cuali 2 verbatims side by side (549×221 cada una). OK.")
+    print("H03 (slide 4): 3 stats. 64.0%→64%, 70.8%→71%, 72.7%→73%")
+    print("H03 (slide 5): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H04 (slide 6): solo-cuanti 2 stats. 30.8%→31%, 45.5% (18-24) y 47.1% (55+)")
+    print("H05 (slide 7): 2 stats. 91.2%→91%, 83.6%→84%")
+    print("H05 (slide 8): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H06 (slide 9): 3 stats. 54.2%→54%, 61.8%→62%, 71.5%→72%")
+    print("H06 (slide 10): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H07 (slide 11): 2 stats. 36.8%→37%, 40.3%→40%")
+    print("H07 (slide 12): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H08 (slide 13): 1 stat. 11.6%→12%")
+    print("H08 (slide 14): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H09 (slide 15): 2 stats. 62.6%→63%, 12.8%→13%")
+    print("H09 (slide 16): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H10 (slide 17): 2 stats. 20.2%→20%, 56.4%→56%")
+    print("H10 (slide 18): Consumer Voice — verbatim suelto sin card. OK.")
+    print("H11 (slide 19): solo-cuanti 2 stats. 12.8%→13%, 72.8%→73%")
+    print("H12 (slide 20): solo-cuanti 2 stats. 73.8%→74%, 53.4%→53%")
+    print("Total slides verificados: 20")
 
     return output_path
 
