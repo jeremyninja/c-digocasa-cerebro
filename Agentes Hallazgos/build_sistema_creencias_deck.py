@@ -98,18 +98,18 @@ def pt_from_px(px_val):
 # ── Fuentes canónicas (aprendizajes v5) ────────────────────────────────────────
 HEADLINE_PT       = 50.0          # Instrument Serif MAYÚSCULAS, fijo (no auto-size)
 STAT_NUMBER_PT    = pt_from_px(180)  # 135pt – Instrument Serif italic
-STAT_DESC_PT      = 16.0          # Poppins regular, bold selectivo
+STAT_DESC_PT      = 13.0          # v5: era 16, ahora 13pt fijo
 CV_HEADER_PT      = 14.0          # Poppins regular, gris
 CV_VERBATIM_PT    = 60.0          # Instrument Serif regular — Consumer Voice (Layout 4)
 CV_ATTRIB_PT      = 20.0          # Poppins italic — Consumer Voice
 CARD_VERBATIM_PT  = 15.0          # Poppins — cards cuali (Layout 5)
 CARD_ATTRIB_PT    = 12.0          # Poppins italic — cards cuali
 
-# ── Dimensiones de stat boxes ──────────────────────────────────────────────────
-STAT_BOX_W_1STAT  = 822
-STAT_BOX_W_2STATS = 880
-STAT_BOX_W_3STATS = 560
-STAT_BOX_H        = 238
+# ── Dimensiones de stat boxes (v5: 10cm × 3cm = 378×113pt fijo) ────────────────
+STAT_BOX_W_1STAT  = 378
+STAT_BOX_W_2STATS = 378
+STAT_BOX_W_3STATS = 378
+STAT_BOX_H        = 113
 STAT_TOP_PX       = 480   # posición vertical de las cifras grandes
 
 # ── Dimensiones de cards cuali (Layout 5 — 549×221pt side by side) ─────────────
@@ -340,7 +340,7 @@ def add_stat_block(slide, stat_value, desc_runs, x_center_px, n_stats):
     add_rich_textbox(
         slide,
         left_px=box_left, top_px=desc_top,
-        width_px=box_w, height_px=180,
+        width_px=box_w, height_px=STAT_BOX_H,  # v5: 113pt = 3cm
         runs=desc_runs,
         align=PP_ALIGN.CENTER
     )
@@ -987,7 +987,7 @@ def build_deck():
     )
 
     # ── Guardar ────────────────────────────────────────────────────────────────
-    output_path = "/home/user/c-digocasa-cerebro/Agentes Hallazgos/sistema-de-creencias-deck-flat.pptx"
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sistema-de-creencias-deck-flat.pptx")
     prs.save(output_path)
     print(f"GUARDADO: {output_path}")
     print(f"Total slides: {len(prs.slides)}")

@@ -85,17 +85,18 @@ def pt_from_px(px_val):
     return round(px_val * 0.75, 1)
 
 STAT_NUMBER_PT  = pt_from_px(180)   # 135.0 pt
-STAT_DESC_PT    = pt_from_px(22)    # 16.5 pt
+STAT_DESC_PT    = 13                # v5: descripción stat fija 13pt
+HEADLINE_PT     = 50                # v5: headline del hallazgo fijo 50pt
 VERBATIM_PT     = pt_from_px(50)    # 37.5 pt
 ATTRIBUTION_PT  = pt_from_px(22)    # 16.5 pt
 SOURCE_PT       = pt_from_px(16)    # 12.0 pt
 CV_HEADER_PT    = pt_from_px(16)    # 12.0 pt
 
-# ── Dimensiones de elementos ───────────────────────────────────────────────────
-STAT_BOX_W_1STAT  = 822
-STAT_BOX_W_2STATS = 880
-STAT_BOX_W_3STATS = 560
-STAT_BOX_H        = 238
+# ── Dimensiones de elementos (v5: 10cm × 3cm = 378×113pt fijo) ─────────────────
+STAT_BOX_W_1STAT  = 378
+STAT_BOX_W_2STATS = 378
+STAT_BOX_W_3STATS = 378
+STAT_BOX_H        = 113
 
 CV_CARD_W = 1637
 CV_CARD_H = 485
@@ -196,8 +197,7 @@ def pick_headline_size_px(chars):
 def add_headline(slide, text_plain, text_italic=""):
     full_text = text_plain + text_italic
     chars     = len(full_text.strip())
-    size_px   = pick_headline_size_px(chars)
-    size_pt   = pt_from_px(size_px)
+    size_pt   = HEADLINE_PT  # v5: fijo 50pt, sin auto-size
 
     txBox = slide.shapes.add_textbox(
         px(100), px(100), px(1720), px(300)
@@ -388,7 +388,7 @@ def add_stat_block(slide, stat_value, desc_runs, x_center_px, n_stats):
     add_rich_textbox(
         slide,
         left_px=box_left, top_px=desc_top,
-        width_px=box_w, height_px=180,
+        width_px=box_w, height_px=STAT_BOX_H,  # v5: 113pt = 3cm
         runs=desc_runs,
         align=PP_ALIGN.CENTER
     )
@@ -964,7 +964,7 @@ def build_deck():
     )
 
     # ── Guardar ────────────────────────────────────────────────────────────────
-    output_path = "/home/user/c-digocasa-cerebro/Agentes Hallazgos/opiniones-politicas-deck-flat.pptx"
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "opiniones-politicas-deck-flat.pptx")
     prs.save(output_path)
     print(f"GUARDADO: {output_path}")
     print(f"Total slides: {len(prs.slides)}")

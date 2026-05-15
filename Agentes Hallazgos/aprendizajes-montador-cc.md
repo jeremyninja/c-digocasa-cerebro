@@ -175,6 +175,26 @@ Esto elimina la línea Poppins italic 9pt que aparecía al pie en versiones ante
 
 **v5 — feedback Jeremy 14-may-2026 (Pilar Mujer): reemplaza la versión anterior de 360×75pt + 16pt. La caja se mide en CENTÍMETROS, no pulgadas, no "auto-size". 10cm × 3cm fijo. Texto de la descripción a 13pt fijo. Headline del hallazgo a 50pt fijo (ver sección de Headlines más abajo).**
 
+> ## ⚠ LECCIÓN OPERATIVA CRÍTICA (15-may-2026 — Pilares Creencias + Opiniones Políticas)
+>
+> **Si en el repo ya existe un `build_<pilar>_deck.py` de una corrida anterior, NO LO REUTILICES TAL CUAL.** El cazador puede generar un script con dimensiones desactualizadas si copia patrones de la corrida previa.
+>
+> **Antes de correr cualquier build script, verifica que estas 4 constantes existan con estos valores exactos:**
+> ```python
+> HEADLINE_PT     = 50           # fijo, no auto-size, no pick_headline_size_px()
+> STAT_DESC_PT    = 13           # 13pt fijo (NO 16, NO 16.5, NO pt_from_px(22))
+> STAT_BOX_W      = 378          # 10cm fijo para 1, 2 y 3 stats
+> STAT_BOX_H      = 113          # 3cm fijo
+> ```
+>
+> **Si encuentras alguna de estas variantes prohibidas, regenera el script o patcheálo ANTES de buildear:**
+> - `STAT_BOX_W_1STAT = 822`, `STAT_BOX_W_2STATS = 880`, `STAT_BOX_W_3STATS = 560` ← v3 antigua
+> - `STAT_BOX_H = 238` o `height_px=180` en la `add_rich_textbox` de descripción ← v3 antigua
+> - `STAT_DESC_PT = 16` o `pt_from_px(22)` ← v3 antigua
+> - `size_pt = pt_from_px(pick_headline_size_px(chars))` en `add_headline()` ← auto-size, v3 antigua. Reemplazar por `size_pt = HEADLINE_PT`.
+>
+> Esta lección nace de que el cazador, en Sistema de Creencias y Opiniones Políticas (re-run 15-may), reusó el script del run anterior y NO aplicó v5. Hubo que patchear post-hoc. **Próxima vez: aplicar v5 al construir el script desde el primer write, sin importar si hay un build_*.py previo en `Agentes Hallazgos/`.**
+
 **La cifra grande Instrument Serif va aparte (encima de la caja de descripción). La "caja de texto del stat" se refiere a la caja de descripción Poppins debajo de la cifra.**
 
 **Conversión operativa (cm → pt → EMU):**
