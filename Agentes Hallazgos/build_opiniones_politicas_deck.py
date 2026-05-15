@@ -304,16 +304,32 @@ def make_run(text, bold=False, italic=False,
 
 def add_card(slide, quote_text, attribution,
              left_px, top_px, card_w_px, card_h_px,
-             verbatim_size_pt=None):
+             verbatim_size_pt=None, is_cuali=False):
+    """
+    is_cuali=True (v6): card cualitativa Poppins 15pt, padding 30/25.
+    is_cuali=False: card legacy Consumer Voice grande, Instrument Serif, padding 80/60.
+    """
     if verbatim_size_pt is None:
-        verbatim_size_pt = VERBATIM_PT
+        verbatim_size_pt = 15 if is_cuali else VERBATIM_PT
 
     make_card_rgba_45(slide, left_px, top_px, card_w_px, card_h_px)
 
     full_quote = f"«{quote_text}»"
 
-    pad_h = 80
-    pad_v = 60
+    # v6: padding chico para cards cuali 567×227; padding grande para card legacy 1637×485
+    if is_cuali:
+        pad_h = 30
+        pad_v = 25
+        font_name_q = FONT_BODY      # Poppins para cards cuali
+        attrib_pt   = 12
+        space_before_attrib = 8
+    else:
+        pad_h = 80
+        pad_v = 60
+        font_name_q = FONT_HEADLINE  # Instrument Serif para CV legacy
+        attrib_pt   = ATTRIBUTION_PT
+        space_before_attrib = 10
+
     text_w = card_w_px - (pad_h * 2)
     text_h = card_h_px - (pad_v * 2)
 
@@ -332,7 +348,7 @@ def add_card(slide, quote_text, attribution,
     p1.alignment = PP_ALIGN.CENTER
     run_q = p1.add_run()
     run_q.text = full_quote
-    run_q.font.name   = FONT_HEADLINE
+    run_q.font.name   = font_name_q
     run_q.font.size   = Pt(verbatim_size_pt)
     run_q.font.italic = False
     run_q.font.bold   = False
@@ -341,11 +357,11 @@ def add_card(slide, quote_text, attribution,
 
     p2 = tf.add_paragraph()
     p2.alignment = PP_ALIGN.CENTER
-    p2.space_before = Pt(10)
+    p2.space_before = Pt(space_before_attrib)
     run_a = p2.add_run()
     run_a.text = f"— {attribution}"
     run_a.font.name   = FONT_BODY
-    run_a.font.size   = Pt(ATTRIBUTION_PT)
+    run_a.font.size   = Pt(attrib_pt)
     run_a.font.italic = True
     run_a.font.bold   = False
     run_a.font.color.rgb = WHITE
@@ -483,7 +499,7 @@ def build_cuali_slide(prs, headline_plain, headline_italic, verbatims, source_te
                 attribution=v['attribution'],
                 left_px=x, top_px=card_top,
                 card_w_px=CARD_W, card_h_px=CARD_H,
-                verbatim_size_pt=VERBATIM_PT
+                is_cuali=True
             )
     else:  # 3
         gap = 36
@@ -497,7 +513,7 @@ def build_cuali_slide(prs, headline_plain, headline_italic, verbatims, source_te
                 attribution=v['attribution'],
                 left_px=x, top_px=card_top,
                 card_w_px=CARD_W, card_h_px=CARD_H,
-                verbatim_size_pt=VERBATIM_PT
+                is_cuali=True
             )
 
     if source_text:

@@ -271,15 +271,18 @@ Esto elimina la línea Poppins italic 9pt que aparecía al pie en versiones ante
 ```css
 .verbatim-card {
   background: rgba(0, 0, 0, 0.45);   /* NEGRO con 45% opacidad — NO #2E2E2E */
-  border: 1pt solid #FFFFFF;          /* outline blanco 1pt — NUEVO */
+  border: 1pt solid #FFFFFF;          /* outline blanco 1pt */
   border-radius: 15pt;
-  padding: 60pt 80pt;
+  /* v6: padding compacto porque la card es 567×227pt (15×6cm), no la card grande legacy */
+  padding: 25pt 30pt;                /* arriba/abajo 25pt, lados 30pt */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 ```
+
+> ⚠ **Padding fix (v6):** las cards cualitativas a 567×227pt necesitan padding compacto (30pt lados, 25pt arriba/abajo). El padding 60×80 del v5 era para card grande legacy 1637×485 (Consumer Voice antiguo), NO para cards cuali pequeñas. Si encuentras `pad_h=80, pad_v=60` en una función `add_card` para cards 567×227, el texto se va a ver apretado o cortado — corrige a `pad_h=30, pad_v=25`.
 
 **python-pptx equivalente para el fill translúcido + outline blanco 1pt:**
 ```python
@@ -574,7 +577,7 @@ REGLA: si el layout integrado no respira (cajas pegadas, texto solapado), DESCAR
 1. **Slide: 1920×1080 pt** (configurar el deck a 18,288,000×10,287,000 EMU al inicio).
 2. **Fondo negro plano `#000000`.** Sin masterslide decorativo. Jeremy aplica halos arcoíris, headers, logo, textura después.
 3. **Cards de verbatim (solo en Layouts 5 y 6): `rgba(0, 0, 0, 0.45)` + outline blanco 1pt + border-radius 15pt.** NO `#2E2E2E` sólido. EL SLIDE CONSUMER VOICE (Layout 4) NO LLEVA CARD — verbatim suelto sobre fondo negro.
-4. **Verbatims en Consumer Voice (Layout 4 — slide dedicado, SIN card):** Instrument Serif regular 60pt (NO italic) con comillas españolas `«...»`, suelto sobre fondo negro. Atribución Poppins italic 20pt centrada debajo. Header "CONSUMER VOICE" Poppins 14pt gris #9B9B9B arriba.
+4. **Verbatims en Consumer Voice (Layout 4 — slide dedicado, SIN card):** Instrument Serif regular **50pt (v6, era 60)** (NO italic) con comillas españolas `«...»`, suelto sobre fondo negro. Atribución Poppins italic 20pt centrada debajo. Header "CONSUMER VOICE" Poppins 14pt gris #9B9B9B arriba.
 5. **Verbatims en cards cualitativas (Layouts 5 y 6 — con card):** Poppins 15pt con comillas españolas `«...»`. Atribución Poppins italic 12-13pt. Card 567×227pt (v6: 15×6cm) con fill 45% opacidad + outline blanco 1pt + border-radius 15pt.
 6. **Headlines: 50pt fijo Instrument Serif MAYÚSCULAS centralizados.** Sin auto-size. Italic solo en frase del giro.
 7. **Cifras grandes: 180pt Instrument Serif italic blanco.** Redondeo a entero por defecto (47.8 → 48); decimal solo si 1 dígito antes (5.5%, 8.7%) o brecha matemática (15.2 pts).
