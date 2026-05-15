@@ -21,7 +21,7 @@ description: >
   "necesito 10–15 hallazgos del pilar". NO usar para redactar el texto
   editorial final (eso es editor-hallazgos-cc) ni para montar slides (eso
   es montador-deck-cc).
-tools: Read, Grep, Glob, Write, Bash
+tools: Read, Grep, Glob, Write, Bash, Skill
 model: opus
 ---
 
