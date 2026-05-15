@@ -14,7 +14,7 @@ description: >
   para deck", "revisa que los verbatims se entiendan". NO usar para construir
   hallazgos desde cero (eso es cazador-hallazgos-cc) ni para montar slides
   (eso es montador-deck-cc).
-tools: Read, Write
+tools: Read, Write, Skill
 model: sonnet
 ---
 

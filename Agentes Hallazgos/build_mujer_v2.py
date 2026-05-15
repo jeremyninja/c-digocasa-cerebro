@@ -15,7 +15,7 @@ Specs v5 activas (aprendizajes-montador-cc.md § 3.9 v5):
 - Verbatim en cards cuali: Poppins 15pt blanco, comillas «...»
 - Atribución: Poppins italic 20pt (Consumer Voice) / 12pt (cards cuali)
 - Kerning 0 en todo el deck
-- NO source en ningún slide
+- Source: Poppins italic 12pt, gris GREY_SOFT, centrado, top 1010pt (solo hallazgos, no portadas)
 - NO masterslide decorativo
 
 Convención de unidades:
@@ -33,7 +33,6 @@ from pptx.enum.text import PP_ALIGN
 from pptx.oxml.ns import qn
 from pptx.enum.shapes import MSO_SHAPE
 from lxml import etree
-import os
 
 # ── Conversión px/pt → EMU ─────────────────────────────────────────────────────
 PX = 9525  # 1 px @ 96 dpi = 9525 EMU (también 1 pt Keynote = 9525 EMU)
@@ -50,21 +49,22 @@ SLIDE_H = 1080   # pt
 BLACK     = RGBColor(0x00, 0x00, 0x00)
 WHITE     = RGBColor(0xFF, 0xFF, 0xFF)
 GREY_SEP  = RGBColor(0x2E, 0x2E, 0x2E)   # separadores verticales entre stats
-GREY_SOFT = RGBColor(0x9B, 0x9B, 0x9B)   # header CONSUMER VOICE
+GREY_SOFT = RGBColor(0x9B, 0x9B, 0x9B)   # header CONSUMER VOICE + source
 
 # ── Tipografías ────────────────────────────────────────────────────────────────
 FONT_HEADLINE = "Instrument Serif"
 FONT_BODY     = "Poppins"
 
 # ── Tamaños en pt (v5 activa — specs exactas de aprendizajes-montador-cc.md) ──
-HEADLINE_PT     = 50    # headlines — fijo, no auto-size
-STAT_NUMBER_PT  = 180   # cifra dominante Instrument Serif italic
-STAT_DESC_PT    = 13    # descripción stat Poppins (v5: era 16pt, ahora 13pt)
-CV_VERBATIM_PT  = 50    # v6: Consumer Voice verbatim Instrument Serif (era 60, ahora 50)
-CV_HEADER_PT    = 14    # "CONSUMER VOICE" Poppins regular
-CV_ATTRIBUTION_PT = 20  # atribución Consumer Voice Poppins italic
-CARD_VERBATIM_PT  = 15  # verbatim dentro de card cualitativa Poppins
+HEADLINE_PT       = 50    # headlines — fijo, no auto-size
+STAT_NUMBER_PT    = 180   # cifra dominante Instrument Serif italic
+STAT_DESC_PT      = 13    # descripción stat Poppins (v5: era 16pt, ahora 13pt)
+CV_VERBATIM_PT    = 50    # v6: Consumer Voice verbatim Instrument Serif (era 60, ahora 50)
+CV_HEADER_PT      = 14    # "CONSUMER VOICE" Poppins regular
+CV_ATTRIBUTION_PT = 20    # atribución Consumer Voice Poppins italic
+CARD_VERBATIM_PT  = 15    # verbatim dentro de card cualitativa Poppins
 CARD_ATTRIBUTION_PT = 12  # atribución card cualitativa Poppins italic
+SOURCE_PT         = 12    # source line: Poppins italic, GREY_SOFT, centrado
 
 # ── Dimensiones de stat box (v5: 378×113pt — 10×3cm) ─────────────────────────
 STAT_BOX_W = 378   # pt = 10 cm
@@ -114,10 +114,17 @@ def _set_kern(r_elem):
 def add_textbox(slide, left, top, width, height,
                 text, font_name, font_size_pt,
                 bold=False, italic=False, color=WHITE,
-                align=PP_ALIGN.LEFT, word_wrap=True):
+                align=PP_ALIGN.LEFT, word_wrap=True,
+                left_px=None, top_px=None, width_px=None, height_px=None):
     """Textbox simple de un solo run, posicionado en pt."""
+    # Acepta también parámetros _px para compatibilidad con add_source
+    l = left_px if left_px is not None else left
+    t = top_px  if top_px  is not None else top
+    w = width_px if width_px is not None else width
+    h = height_px if height_px is not None else height
+
     txBox = slide.shapes.add_textbox(
-        px(left), px(top), px(width), px(height)
+        px(l), px(t), px(w), px(h)
     )
     tf = txBox.text_frame
     tf.word_wrap = word_wrap
@@ -136,6 +143,23 @@ def add_textbox(slide, left, top, width, height,
     run.font.color.rgb = color
     _set_kern(run._r)
     return txBox
+
+
+def add_source(slide, source_text):
+    """
+    Line de source en la parte inferior del slide.
+    Poppins italic SOURCE_PT (12pt), GREY_SOFT, centrado, top 1010pt.
+    Solo se llama en slides de hallazgo — NO en portadas de tensión.
+    """
+    add_textbox(
+        slide,
+        left=0, top=1010,
+        width=1920, height=50,
+        text=source_text,
+        font_name=FONT_BODY, font_size_pt=SOURCE_PT,
+        italic=True, color=GREY_SOFT,
+        align=PP_ALIGN.CENTER
+    )
 
 
 def add_rich_textbox(slide, left, top, width, height,
@@ -295,7 +319,6 @@ def add_stat_block(slide, stat_value, desc_runs, left_pt, n_stats):
     La cifra se centra sobre la caja.
     """
     # Cifra grande — centrada horizontalmente sobre la caja
-    # La cifra a 180pt puede ser más ancha que la caja → usamos ancho generoso
     cifra_w = 500   # pt — ancho suficiente para 180pt centrado
     cifra_left = left_pt + STAT_BOX_W // 2 - cifra_w // 2
 
@@ -319,11 +342,11 @@ def add_stat_block(slide, stat_value, desc_runs, left_pt, n_stats):
     )
 
 
-def build_hallazgo_slide(prs, headline_plain, headline_italic, stats):
+def build_hallazgo_slide(prs, headline_plain, headline_italic, stats, source_text=""):
     """
     Slide Hallazgo cuanti.
     stats: lista de dicts {value, desc_runs} — 1, 2 o 3 elementos.
-    Sin source (eliminado en v5).
+    source_text: si se pasa, se agrega en top 1010pt (Poppins italic 12pt gris).
     """
     slide = blank_slide(prs)
     add_headline(slide, headline_plain, headline_italic)
@@ -345,16 +368,20 @@ def build_hallazgo_slide(prs, headline_plain, headline_italic, stats):
     for i, stat in enumerate(stats):
         add_stat_block(slide, stat['value'], stat['desc_runs'], xs[i], n)
 
+    if source_text:
+        add_source(slide, source_text)
+
     return slide
 
 
-def build_consumer_voice_slide(prs, quote, attribution):
+def build_consumer_voice_slide(prs, quote, attribution, source_text=""):
     """
     Slide Consumer Voice — verbatim SUELTO sobre fondo negro (sin card).
     v5/v6: NO card. Solo texto suelto centrado.
     Header "CONSUMER VOICE" arriba, Poppins 14pt gris.
-    Verbatim: Instrument Serif regular 60pt, comillas «...».
+    Verbatim: Instrument Serif regular 50pt, comillas «...».
     Atribución: Poppins italic 20pt.
+    source_text: si se pasa, se agrega en top 1010pt.
     """
     slide = blank_slide(prs)
 
@@ -395,6 +422,9 @@ def build_consumer_voice_slide(prs, quote, attribution):
         align=PP_ALIGN.CENTER
     )
 
+    if source_text:
+        add_source(slide, source_text)
+
     return slide
 
 
@@ -424,12 +454,12 @@ def add_cuali_card(slide, quote_text, attribution, left, top, card_w, card_h):
     tf.margin_top    = Emu(0)
     tf.margin_bottom = Emu(0)
 
-    # Verbatim — Poppins 15pt (diferencia visual vs Consumer Voice que usa Instrument Serif)
+    # Verbatim — Poppins 15pt
     p1 = tf.paragraphs[0]
     p1.alignment = PP_ALIGN.CENTER
     run_q = p1.add_run()
     run_q.text = full_quote
-    run_q.font.name   = FONT_BODY      # Poppins, NO Instrument Serif
+    run_q.font.name   = FONT_BODY
     run_q.font.size   = Pt(CARD_VERBATIM_PT)
     run_q.font.italic = False
     run_q.font.bold   = False
@@ -452,11 +482,11 @@ def add_cuali_card(slide, quote_text, attribution, left, top, card_w, card_h):
     return txBox
 
 
-def build_cuali_slide(prs, headline_plain, headline_italic, verbatims):
+def build_cuali_slide(prs, headline_plain, headline_italic, verbatims, source_text=""):
     """
     Slide card cualitativa — headline arriba + 1-3 cards side by side.
     Layout 5: posiciones canónicas según número de verbatims.
-    Sin source.
+    source_text: si se pasa, se agrega en top 1010pt.
     """
     slide = blank_slide(prs)
     add_headline(slide, headline_plain, headline_italic)
@@ -485,6 +515,9 @@ def build_cuali_slide(prs, headline_plain, headline_italic, verbatims):
             add_cuali_card(slide, v['quote'], v['attribution'],
                            x, card_top, CARD_W, CARD_H)
 
+    if source_text:
+        add_source(slide, source_text)
+
     return slide
 
 
@@ -492,7 +525,7 @@ def build_cuali_slide(prs, headline_plain, headline_italic, verbatims):
 
 def build_tension_cover(prs, tension_num, tension_title, tension_subtitle=""):
     """
-    Slide portada de tensión.
+    Slide portada de tensión — SIN source.
     Título grande centrado en el slide.
     """
     slide = blank_slide(prs)
@@ -538,6 +571,29 @@ def build_tension_cover(prs, tension_num, tension_title, tension_subtitle=""):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
+# SOURCE STRINGS — mapeados por hallazgo
+# CC: "Source: Código Casa — Pilar Mujer · QXXX · Base 500."
+# FW: "Source: Finance Women — Estudio cuantitativo 2025 · MXX · Mujeres n=240."
+# NO Banreservas en ningún source FW.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+SRC_H01 = "Source: Código Casa — Pilar Mujer · Q054 · Base 500."
+SRC_H02 = "Source: Código Casa — Pilar Mujer · Q056 · Base 500."
+SRC_H03 = "Source: Código Casa — Pilar Mujer · Q057, Q056 · Base 500."
+SRC_H04 = "Source: Código Casa — Pilar Mujer · Q058 · Base 500."
+SRC_H05 = "Source: Código Casa — Pilar Mujer · Q059 · Base 500."
+SRC_H06 = "Source: Código Casa — Pilar Mujer · Q060 · Base 500."
+SRC_H07 = "Source: Finance Women — Estudio cuantitativo 2025 · M20, M21 · Mujeres n=240."
+SRC_H08 = "Source: Finance Women — Estudio cuantitativo 2025 · M23, M24, M54 · Mujeres n=240."
+SRC_H09 = "Source: Finance Women — Estudio cuantitativo 2025 · M16, M28, M32, M60 · Mujeres n=240."
+SRC_H10 = "Source: Finance Women — Estudio cuantitativo 2025 · M45, M45b · Mujeres n=240."
+SRC_H11 = "Source: Finance Women — Estudio cuantitativo 2025 · M19, M43, M44 · Mujeres n=240."
+SRC_H12 = "Source: Finance Women — Estudio cuantitativo 2025 · M33, M34, M36, M37 · Mujeres n=240."
+SRC_H13 = "Source: Finance Women — Estudio cuantitativo 2025 · M38, M39, M40, M61 · Mujeres n=240."
+SRC_H14 = "Source: Finance Women — Estudio cuantitativo 2025 · M8, M5, M17 · Mujeres n=240."
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
 # DATOS DEL SET EDITORIAL — MUJER v2
 # Fuentes: CC (n=305/500) y FW (n=240)
 # 5 tensiones × hallazgos asignados
@@ -558,16 +614,13 @@ def build_deck():
         tension_subtitle="Crianza, tareas domésticas y el autocuidado que se pospone para siempre."
     )
 
-    # ── H01 — La crianza tiene nombre de mujer ─────────────────────────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H01 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "tiene nombre de mujer"
 
-    # Slide H01-A — Hallazgo cuanti (3 stats)
-    # 41.8% → 42% (entero); 49.5% → mantiene decimal (1 dígito antes del punto)
-    # 56.6% → 57% (entero); 59.4% → 59% (entero)
     build_hallazgo_slide(
         prs,
-        headline_plain="La crianza tiene nombre de mujer. Las mujeres mismas lo confirman: ",
-        headline_italic="49.5% dice que la madre es la principal responsable, no ambos padres.",
+        headline_plain="49.5% de las mujeres dice que la madre es la principal responsable de la crianza. ",
+        headline_italic="Solo el hombre distribuye la carga — ella ya la tiene asignada.",
         stats=[
             {
                 'value': '42%',
@@ -593,21 +646,19 @@ def build_deck():
                     make_run(' y 59.4% del estrato E responden "Madre". La carga se concentra donde no hay con quién repartirla.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H01
     )
 
-    # Slide H01-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Yo tengo un papá que es el papá bueno, el papá consentidor, el papá que dice vete suave, vete en paz. Pero no es el que está con ella todos los días. No es el que tiene que regañarla por las tareas, porque tiene que ir a impulsar los deberes de la casa.',
-        attribution='Familia Monoparental'
+        attribution='Familia Monoparental',
+        source_text=SRC_H01
     )
 
-    # ── H02 — Cocinar, lavar y limpiar siguen siendo territorio de ella ────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H02 ───────────────────────────────────────────────────────────────────
 
-    # Slide H02-A — Hallazgo cuanti (3 stats)
-    # 66.6% → 67% (entero); 48.4% → 48% (entero); 45.2% → 45% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="Cocinar, lavar y limpiar siguen siendo territorio de ella. ",
@@ -637,21 +688,19 @@ def build_deck():
                     make_run(' lo hace "más la mujer". El cuidado logístico de los hijos tampoco se reparte.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H02
     )
 
-    # Slide H02-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Como mujer, bueno, no sabía cocinar y tuve que hacerlo. Obligada, aprendí a mamá, pero... no me gusta, pero tengo que hacerlo.',
-        attribution='Familia Monoparental'
+        attribution='Familia Monoparental',
+        source_text=SRC_H02
     )
 
-    # ── H06 — 48.5% de las mujeres no hace nada por su salud mental ni física ─
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H06 ───────────────────────────────────────────────────────────────────
 
-    # Slide H06-A — Hallazgo cuanti (3 stats)
-    # 48.5% → mantiene decimal (1 dígito antes); 42.6% → 43% (entero); 60.0% → 60% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="48.5% de las mujeres no hace nada por su salud mental ni física. ",
@@ -681,14 +730,15 @@ def build_deck():
                     make_run(' no realiza ninguna actividad de autocuidado. El abandono es mayor en las más jóvenes.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H06
     )
 
-    # Slide H06-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Ese tema de que dependa de mí 24-7 lo que se vaya a hacer te da un poco de estrés.',
-        attribution='Familia Mixta'
+        attribution='Familia Mixta',
+        source_text=SRC_H06
     )
 
     # ═══════════════════════════════════════════════════════════════════════════
@@ -700,18 +750,16 @@ def build_deck():
         prs,
         tension_num=2,
         tension_title="El discurso del cambio vs. el reparto real",
-        tension_subtitle="74.8% dice que los roles cambiaron mucho. Las tareas domésticas no se enteraron."
+        tension_subtitle="74.8% dice que los roles cambiaron mucho. Las tareas domésticas siguieron siendo de ella."
     )
 
-    # ── H03 — 74.8% dice que el rol cambió mucho ──────────────────────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H03 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "no de reparto"
 
-    # Slide H03-A — Hallazgo cuanti (3 stats)
-    # 74.8% → 75% (entero); 76.7% → 77% (entero); 66.6% → 67% inline en desc
     build_hallazgo_slide(
         prs,
-        headline_plain="74.8% dice que el rol de género cambió mucho. La cocina, el lavado y la limpieza no se enteraron: ",
-        headline_italic="el cambio es de discurso, no de reparto.",
+        headline_plain="74.8% dice que el rol de género cambió mucho. La cocina, el lavado y la limpieza siguieron siendo de ella. ",
+        headline_italic="El discurso avanzó; el reparto, no.",
         stats=[
             {
                 'value': '75%',
@@ -734,24 +782,22 @@ def build_deck():
                 'desc_runs': [
                     make_run('reporta cocinar '),
                     make_run('"más la mujer"', bold=True),
-                    make_run(' (Q056). Convive con la percepción de cambio (Q057). El reparto material no acompaña la narrativa.')
+                    make_run(' (Q056). Convive con la percepción de cambio (Q057). El reparto material no acompaña la percepción.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H03
     )
 
-    # Slide H03-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Las que salimos a echar para adelante, a trabajar, a luchar, la que ya no dependemos de un hombre para salir adelante. Y yo en mi caso, que aunque esté casada, trabajo igualito como si no, hago y lucho y no tengo que depender como tiempo atrás que las mujeres dominicanas nos creaban como que era para depender del hombre.',
-        attribution='Familia Preferente Roles de Liderazgo'
+        attribution='Familia Preferente Roles de Liderazgo',
+        source_text=SRC_H03
     )
 
-    # ── H05 — 47.8% de las mujeres nombra la economía como su mayor estrés ────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H05 ───────────────────────────────────────────────────────────────────
 
-    # Slide H05-A — Hallazgo cuanti (3 stats)
-    # 47.8% → 48% (entero); 20.6% → 21% (entero); 16.2% → 16% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="47.8% de las mujeres nombra la economía como su mayor fuente de estrés. ",
@@ -781,14 +827,15 @@ def build_deck():
                     make_run('" 16.2% y "Responsabilidades del hogar" 16.2%. El trabajo de cuidado estresa menos que el dinero.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H05
     )
 
-    # Slide H05-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='No tengo paciencia cuando no tengo dinero. Cuando no tengo dinero, que no sé qué voy a hacer con los compromisos, entonces yo pienso, le doy vuelta a la cosa, un estrés. La mayor parte del problema hoy en día es el dinero, todo lo resuelve el dinero aunque la gente no lo quiera admitir.',
-        attribution='Familia Monoparental'
+        attribution='Familia Monoparental',
+        source_text=SRC_H05
     )
 
     # ═══════════════════════════════════════════════════════════════════════════
@@ -800,14 +847,11 @@ def build_deck():
         prs,
         tension_num=3,
         tension_title="Autoridad y poder",
-        tension_subtitle="La mujer decide qué se come y también quién provee. El imaginario no lo reconoce todavía."
+        tension_subtitle="La mujer decide qué se come y también quién provee. El discurso social tarda en reconocerlo."
     )
 
-    # ── H04 — 89.5% de las mujeres decide siempre qué se compra de comer ─────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H04 ───────────────────────────────────────────────────────────────────
 
-    # Slide H04-A — Hallazgo cuanti (3 stats)
-    # 89.5% → 90% (entero); 85.0% → 85% (entero); 89.0% → 89% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="89.5% de las mujeres decide siempre qué se compra de comer. ",
@@ -837,25 +881,24 @@ def build_deck():
                     make_run(' y 87.5% en NSE E responden "Siempre", frente a 52.2% en NSE AB. [AB n≈23: contraste, no cifra robusta.]')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H04
     )
 
-    # Slide H04-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Yo considero saludable la comida que yo cocino, ese tipo de ingredientes que le estoy echando, y también las porciones. Lo que tú cocinas en tu casa.',
-        attribution='Familia Monoparental'
+        attribution='Familia Monoparental',
+        source_text=SRC_H04
     )
 
-    # ── H14 — 40% de las mujeres es la principal proveedora de su hogar ───────
-    # 3 stats cuanti + 2 verbatims → cuali+cuanti integrado o 1 slide cuanti + 1 slide cuali
+    # ── H14 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "imaginario" + sin "la realidad cambió, el chip no"
 
-    # Slide H14-A — Hallazgo cuanti (3 stats)
-    # 40.0% → 40% (entero); 68.1% → 68% (entero); 42.5% → 43% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="40% de las mujeres es la principal proveedora de su hogar. ",
-        headline_italic="El imaginario sigue siendo del hombre: la realidad cambió, el chip no.",
+        headline_italic="40% provee. El rol que se le atribuye al hombre lo ocupa ella.",
         stats=[
             {
                 'value': '40%',
@@ -881,14 +924,16 @@ def build_deck():
                     make_run('" es la frase con mayor acuerdo top-2 en decisiones financieras (μ=3.01). "No las tomo yo, lo hace mi esposo" tiene el mayor desacuerdo (bottom-2 79.6%).')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H14
     )
 
-    # Slide H14-B — Cards cualitativas (2 verbatims side by side)
+    # Slide H14-B — Cards cualitativas
+    # Headline cuali v6: sin "imaginario"
     build_cuali_slide(
         prs,
-        headline_plain="El imaginario del proveedor no cedió. ",
-        headline_italic="Ellas proveen, el rol sigue siendo del hombre en el discurso.",
+        headline_plain="El discurso del proveedor no cedió. ",
+        headline_italic="Ellas proveen, el rol sigue siendo del hombre en el cuento social.",
         verbatims=[
             {
                 'quote': 'No, por tu trabajo tú eres proveedor. Pero se supone que el rol del proveedor siempre ha sido el hombre.',
@@ -898,7 +943,8 @@ def build_deck():
                 'quote': 'Yo no resuelvo de nadie. Mi esposo es la madre. [Modismo: ella ocupa el rol de proveedor que culturalmente se le asigna al hombre.]',
                 'attribution': 'Familia Masivo Jefas de Hogar'
             }
-        ]
+        ],
+        source_text=SRC_H14
     )
 
     # ═══════════════════════════════════════════════════════════════════════════
@@ -913,15 +959,13 @@ def build_deck():
         tension_subtitle="Sueña con un techo propio, planifica mejor que el estereotipo, y carga con un prejuicio que dice lo contrario."
     )
 
-    # ── H07 — La meta financiera #1 es un techo propio ────────────────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H07 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "no es consumo — es"
 
-    # Slide H07-A — Hallazgo cuanti (3 stats)
-    # 60.0% → 60% (entero); 47.9% → 48% (entero); 13.8% → 14% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="La meta financiera #1 de la mujer dominicana es un techo propio. ",
-        headline_italic="El sueño no es consumo — es no depender del próximo sueldo.",
+        headline_italic="El sueño es no depender del próximo sueldo.",
         stats=[
             {
                 'value': '60%',
@@ -947,25 +991,24 @@ def build_deck():
                     make_run('" queda último o penúltimo en ambas selecciones (13.8% y 2.1%). El prejuicio de la mujer que sueña con consumo estético no aguanta la data.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H07
     )
 
-    # Slide H07-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Siempre ha sido mi sueño, siempre ha sido como que pagar mi cosa yo, si yo pudiera pagar todo, o sea, todo lo mío yo.',
-        attribution='Familia Preferente Jóvenes'
+        attribution='Familia Preferente Jóvenes',
+        source_text=SRC_H07
     )
 
-    # ── H08 — 74.9% siente que algo le bloquea el sueño financiero ────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H08 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "el problema no es la disciplina, es la plata"
 
-    # Slide H08-A — Hallazgo cuanti (3 stats)
-    # 74.9% → 75% (entero); 87.1% → 87% (entero); 60.3% → 60% (entero)
     build_hallazgo_slide(
         prs,
-        headline_plain="74.9% siente que algo le bloquea el sueño financiero. Para 87.1% de ellas ese algo es la falta de ingresos: ",
-        headline_italic="el problema no es la disciplina, es la plata.",
+        headline_plain="74.9% siente que algo le bloquea el sueño financiero. ",
+        headline_italic="87.1% apunta a lo mismo: falta plata.",
         stats=[
             {
                 'value': '75%',
@@ -991,25 +1034,24 @@ def build_deck():
                     make_run('" como lo que le impide tomar mejores decisiones financieras hoy.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H08
     )
 
-    # Slide H08-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Comparado con un año atrás que yo no tenía libertad financiera, tenía que depender de otro y es difícil, porque aunque el otro quiera, a veces uno quiere hacer algo y no puede. Ahora como yo tengo mi negocio, si quiero comprar algo lo compro, si le quiero comprar algo a mis hijos no tengo que esperar que otro me dé.',
-        attribution='Familia Masivo Emprendedoras'
+        attribution='Familia Masivo Emprendedoras',
+        source_text=SRC_H08
     )
 
-    # ── H09 — 74.2% tiene presupuesto, 74.1% planifica siempre ───────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H09 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "no es el estereotipo: es la norma"
 
-    # Slide H09-A — Hallazgo cuanti (3 stats)
-    # 74.2% → 74% (entero); 74.1% → 74% (entero); 42.9% → 43% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="74.2% tiene presupuesto, 74.1% planifica siempre o casi siempre, 78.7% revisa sus cuentas cada semana o cada día. ",
-        headline_italic="La administradora no es el estereotipo: es la norma.",
+        headline_italic="La administradora es la norma, no la excepción.",
         stats=[
             {
                 'value': '74%',
@@ -1035,21 +1077,19 @@ def build_deck():
                     make_run('" con el dinero y 20% como "Práctica"; solo 6.7% se define "Libre". La autopercepción es de control, no de derroche.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H09
     )
 
-    # Slide H09-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Hay mujeres que no, que son ocultas, que si se presenta un caso, ellas siempre están ahí tapando la falta del esposo. Hay mujeres que son muy honradas con el dinero.',
-        attribution='Familia Masivo Jefas de Hogar'
+        attribution='Familia Masivo Jefas de Hogar',
+        source_text=SRC_H09
     )
 
-    # ── H10 — 39.2% siente que se espera algo distinto de ella en dinero ──────
-    # 2 stats (1 cuanti + 1 cuali) + 2 verbatims → slide cuanti + slide cuali
+    # ── H10 ───────────────────────────────────────────────────────────────────
 
-    # Slide H10-A — Hallazgo cuanti (1 stat)
-    # 39.2% → 39% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="39.2% siente que se espera algo distinto de ella en dinero por ser mujer. ",
@@ -1063,11 +1103,10 @@ def build_deck():
                     make_run('; 31.7% dice "No" y 29.2% "No estoy segura". La mayoría no descarta la presión.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H10
     )
 
-    # Slide H10-B — Cards cualitativas (2 verbatims side by side)
-    # Hallazgo cuali integrado: las dos voces capturan los dos polos del prejuicio
     build_cuali_slide(
         prs,
         headline_plain="Dos prejuicios, una mujer: ",
@@ -1081,7 +1120,8 @@ def build_deck():
                 'quote': 'Que al no ser proveedoras no somos buenas administradoras.',
                 'attribution': 'Familia Masivo Jefas de Hogar'
             }
-        ]
+        ],
+        source_text=SRC_H10
     )
 
     # ═══════════════════════════════════════════════════════════════════════════
@@ -1096,15 +1136,12 @@ def build_deck():
         tension_subtitle="El dinero se vive como amenaza, la compra impulsiva como desahogo y el ahorro como una trampa de la que no se sale."
     )
 
-    # ── H11 — La emoción que más siente la mujer al pensar en su dinero es estrés
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H11 ───────────────────────────────────────────────────────────────────
 
-    # Slide H11-A — Hallazgo cuanti (3 stats)
-    # 44.3% → 44% (entero); 5.5% → mantiene decimal (1 dígito antes); 41.3% → 41% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="La emoción que más siente la mujer al pensar en su dinero es estrés (44.3%). ",
-        headline_italic="El orgullo solo llega al 5.5%: el dinero no se vive como logro, se vive como amenaza.",
+        headline_italic="El orgullo solo llega al 5.5%: el dinero se vive como amenaza, no como logro.",
         stats=[
             {
                 'value': '44%',
@@ -1130,25 +1167,24 @@ def build_deck():
                     make_run('); 30.8% está insatisfecha (bottom-2). El promedio es 2.75 sobre 5.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H11
     )
 
-    # Slide H11-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Tengo miedo a no ser lo que yo espero ser, o a que las cosas no se den como yo quiero. Siento que el tiempo está pasando muy rápido, que no tengo una casa mía o no tengo un auto propio.',
-        attribution='Familia Masivo Jóvenes'
+        attribution='Familia Masivo Jóvenes',
+        source_text=SRC_H11
     )
 
-    # ── H12 — 47.9% hizo una compra impulsiva el último mes ──────────────────
-    # 3 stats cuanti + 1 verbatim → 2 slides
+    # ── H12 ───────────────────────────────────────────────────────────────────
+    # Headline v6: sin "El motivo #1 no es la promoción: es consentirse"
 
-    # Slide H12-A — Hallazgo cuanti (3 stats)
-    # 47.9% → 48% (entero); 44.2% → 44% (entero); 72.6% → 73% (entero)
     build_hallazgo_slide(
         prs,
-        headline_plain="47.9% hizo una compra impulsiva el último mes. El motivo #1 no es la promoción: ",
-        headline_italic="es consentirse, porque el rol no deja otro espacio para hacerlo.",
+        headline_plain="47.9% hizo una compra impulsiva el último mes. ",
+        headline_italic="El motivo #1 es consentirse — el único espacio que el rol le deja solo para ella.",
         stats=[
             {
                 'value': '48%',
@@ -1171,24 +1207,22 @@ def build_deck():
                 'desc_runs': [
                     make_run('de categorías son "'),
                     make_run('Comidas/Bebidas', bold=True),
-                    make_run('" y 59.8% "Ropa/Accesorios"; "Electrónica" apenas 5.0%. No es derroche aspiracional: es desahogo de día a día.')
+                    make_run('" y 59.8% "Ropa/Accesorios"; "Electrónica" apenas 5.0%. Desahogo de día a día, no derroche aspiracional.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H12
     )
 
-    # Slide H12-B — Consumer Voice
     build_consumer_voice_slide(
         prs,
         quote='Uno se siente como empoderada y señor me lo merezco, por eso yo trabajo. Tiene como su momento, le llega de vez en vez, no siempre. Déjame comprar ese porchecito, porque se me suba el ánimo.',
-        attribution='Familia Masivo Jefas de Hogar'
+        attribution='Familia Masivo Jefas de Hogar',
+        source_text=SRC_H12
     )
 
-    # ── H13 — 50% no logra ahorrar con facilidad ─────────────────────────────
-    # 3 stats cuanti + 2 verbatims → cuanti slide + cuali slide (2 cards convergentes)
+    # ── H13 ───────────────────────────────────────────────────────────────────
 
-    # Slide H13-A — Hallazgo cuanti (3 stats)
-    # 50% → 50% (entero); 23.8% → 24% (entero); 65.5% → 66% (entero)
     build_hallazgo_slide(
         prs,
         headline_plain="50% no logra ahorrar con facilidad. La estrategia que más funciona: ",
@@ -1215,13 +1249,13 @@ def build_deck():
                 'desc_runs': [
                     make_run('"'),
                     make_run('No me alcanza el dinero', bold=True),
-                    make_run('" es el obstáculo #1 (65.5%), por encima de "Falta de educación financiera" (58.4%). El problema es estructural.')
+                    make_run('" es el obstáculo #1 (65.5%), por encima de "Falta de educación financiera" (58.4%). La brecha de ahorro es de ingresos, no de conocimiento.')
                 ]
             }
-        ]
+        ],
+        source_text=SRC_H13
     )
 
-    # Slide H13-B — Cards cualitativas (2 verbatims side by side — convergencia del mecanismo)
     build_cuali_slide(
         prs,
         headline_plain="El mecanismo del ahorro: ",
@@ -1235,7 +1269,8 @@ def build_deck():
                 'quote': 'Me entré en la cooperativa del trabajo, que es la única forma que ese dinero no entre a mi cuenta y salga.',
                 'attribution': 'Familia Preferente Jefas de Hogar'
             }
-        ]
+        ],
+        source_text=SRC_H13
     )
 
     return prs
@@ -1253,7 +1288,6 @@ def main():
     print(f"Deck guardado: {output_path}")
     print(f"Total slides: {len(prs.slides)}")
 
-    # Listar slides
     for i, slide in enumerate(prs.slides, 1):
         print(f"  Slide {i:02d}")
 

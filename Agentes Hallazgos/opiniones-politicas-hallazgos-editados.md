@@ -1,6 +1,6 @@
 # OPINIONES POLÍTICAS — HALLAZGOS EDITADOS
 ## Editor-hallazgos-cc · versión cerrada
-## Fecha: 2026-05-14
+## Fecha: 2026-05-14 · Auditoría anti-AI: 2026-05-15
 
 ---
 
@@ -159,9 +159,9 @@ Ninguno. La tensión vive en el cruce demográfico. El corpus FG no aísla la fu
 ## HALLAZGO #03 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"58% del dominicano se declara nada interesado en política. El desinterés no es una postura de minoría — *es el estado declarado de la mayoría.*"
+"58% del dominicano se declara nada interesado en política. *El desinterés no es de una minoría — lo declara la mayoría.*"
 
-CARACTERES: 143
+CARACTERES: 119
 
 **PREGUNTAS REFERENCIADAS:** P57
 
@@ -194,7 +194,7 @@ CARACTERES: 143
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "no es una postura de minoría — es el estado declarado"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Mixta)
@@ -254,9 +254,9 @@ Ninguno. El corpus FG no aísla la dimensión de género o edad en el desinteré
 ## HALLAZGO #05 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"77% del dominicano votó en las últimas elecciones. El mismo país declara 58% de desinterés total en política. *Votar no requiere creer — requiere ir.*"
+"77% del dominicano votó en las últimas elecciones. El mismo país declara 58% de desinterés total en política. *Votar y creer son cosas distintas.*"
 
-CARACTERES: 152
+CARACTERES: 146
 
 **PREGUNTAS REFERENCIADAS:** P58, P57
 
@@ -288,7 +288,7 @@ CARACTERES: 152
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; reescrita la fórmula "Votar no requiere creer — requiere ir"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Biparental con Hijos Pequeños)
@@ -302,7 +302,7 @@ CARACTERES: 152
 ## HALLAZGO #06 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"El voto sube con la edad: 82% de los mayores de 55 votó, contra 69% de los 18-24. *El hábito electoral no se transmite — se acumula con los años.*"
+"El voto sube con la edad: 82% de los mayores de 55 votó, contra 69% de los 18-24. *El hábito electoral se acumula con los años — no se transmite.*"
 
 CARACTERES: 147
 
@@ -335,7 +335,7 @@ Ninguno. El corpus FG no aísla la dimensión generacional del hábito de voto. 
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; reordenada para eliminar "no se transmite — se acumula" (orden no contrastivo ahora)
 [x] Stats con cifras exactas
 [x] Hallazgo solo-cuanti declarado
 [x] Sin marcas de IA
@@ -348,9 +348,9 @@ Ninguno. El corpus FG no aísla la dimensión generacional del hábito de voto. 
 ## HALLAZGO #07 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"4 de cada 10 dominicanos califican la gestión del gobierno como "muy mala". *El descontento no es matiz — es el escalón más poblado de la escala.*"
+"4 de cada 10 dominicanos califican la gestión del gobierno como "muy mala". *Es el escalón más poblado de la escala — el descontento domina.*"
 
-CARACTERES: 148
+CARACTERES: 141
 
 **PREGUNTAS REFERENCIADAS:** P59
 
@@ -382,7 +382,7 @@ CARACTERES: 148
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "el descontento no es matiz — es el escalón más poblado"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Biparental con Hijos Adultos)
@@ -443,9 +443,9 @@ Ninguno. El NSE no está taggeado en el corpus cuali. Hallazgo solo-cuanti.
 ## HALLAZGO #09 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"Votar es la única forma válida de cambio para 4 de cada 10. El segundo lugar no es protestar ni organizarse — *es no creer en nada de eso.*"
+"Votar es la única forma válida de cambio para 4 de cada 10. *El segundo lugar es no creer en nada de eso: 21.2% descarta todas las opciones.*"
 
-CARACTERES: 140
+CARACTERES: 141
 
 **PREGUNTAS REFERENCIADAS:** P60
 
@@ -478,7 +478,7 @@ CARACTERES: 140
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "El segundo lugar no es protestar ni organizarse — es no creer en nada"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Monoparental)
@@ -492,9 +492,9 @@ CARACTERES: 140
 ## HALLAZGO #10 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"Las protestas y las peticiones digitales no llegan al 7% como vía de cambio. *El dominicano delega la transformación al voto — y no mueve el cuerpo.*"
+"Las protestas y las peticiones digitales no llegan al 7% como vía de cambio. *El dominicano delega la transformación al voto y queda quieto.*"
 
-CARACTERES: 151
+CARACTERES: 142
 
 **PREGUNTAS REFERENCIADAS:** P60, P64
 
@@ -524,7 +524,7 @@ CARACTERES: 151
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "no mueve el cuerpo"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Mixta)
@@ -539,9 +539,9 @@ CARACTERES: 151
 ## HALLAZGO #11 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"Cuando se imagina el cambio, el dominicano no nombra ideología. Nombra corrupción, salud, educación y seguridad. *La política dominicana se vive como déficit de servicios, no de bando.*"
+"Cuando se imagina el cambio, el dominicano no nombra ideología. Nombra corrupción, salud, educación y seguridad. *La política se vive como déficit de servicios.*"
 
-CARACTERES: 184
+CARACTERES: 160
 
 **PREGUNTAS REFERENCIADAS:** P61
 
@@ -577,7 +577,7 @@ Sin cifra publicable. Ver nota visible arriba.
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminado el segmento "no es de bando" de la versión anterior
 [x] Nota visible de solo-cuali incluida antes de los stats
 [x] Dos verbatims justificados (hallazgo sin stat publicable)
 [x] Verbatims sin recortes que rompan el sentido
@@ -593,9 +593,9 @@ Sin cifra publicable. Ver nota visible arriba.
 *(Fusión de H12 + H13 del set crudo)*
 
 **HEADLINE FINAL (≤190 caracteres):**
-"73% del dominicano dice que el sistema político es nada o poco justo. *La percepción de injusticia no es de un sector — atraviesa todos los estratos y todas las edades.*"
+"73% del dominicano dice que el sistema político es nada o poco justo. *La percepción atraviesa todos los estratos y todas las edades.*"
 
-CARACTERES: 168
+CARACTERES: 133
 
 **PREGUNTAS REFERENCIADAS:** P62, P62 × rango edad, P62 × NSE
 
@@ -609,7 +609,7 @@ CARACTERES: 168
 2. En los rangos 25-34 (49.6%), 35-44 (46.4%), 45-54 (49.5%) y 55+ (47.1%), la respuesta top es "1 = nada justo". Solo los jóvenes de 18-24 ponen en primer lugar "2 = poco justo" (36.4%) — el único segmento que no llega al extremo.
    · P62 × rango edad · Base 500 (subset 18-24 n≈55; resto de rangos n≥97) · 10-opiniones-politicas.md
 
-3. La percepción de injusticia es transversal por NSE: el estrato E y el C lideran "nada justo" pero incluso en el segmento AB la respuesta más votada es también "nada justo". El techo económico no protege de la lectura de injusticia del sistema. *Subset E (n≈32): leer como tendencia direccional. Subset AB (n≈23): bajo umbral publicable — se declara solo como ilustración de transversalidad.*
+3. La percepción de injusticia es transversal por NSE: el estrato E y el C lideran "nada justo" pero incluso en el segmento AB la respuesta más votada es también "nada justo". El techo económico no cambia la lectura del sistema. *Subset E (n≈32): leer como tendencia direccional. Subset AB (n≈23): bajo umbral publicable — se declara solo como ilustración de transversalidad.*
    · P62 × NSE · Base 500 (subset E n≈32, caveat; subset C n≈218; subset AB n≈23, solo ilustrativo) · 10-opiniones-politicas.md
 
 ---
@@ -633,9 +633,10 @@ CARACTERES: 168
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "no es de un sector — atraviesa"
 [x] Stats con cifras exactas y caveats de subsets reducidos
 [x] Subset AB declarado solo como ilustración, no como cifra propia
+[x] Stat 3: eliminada frase "el techo económico no protege de la lectura de injusticia" (variante de "no es X, es Y")
 [x] Un verbatim elegido, segundo descartado con razón
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Mixta)

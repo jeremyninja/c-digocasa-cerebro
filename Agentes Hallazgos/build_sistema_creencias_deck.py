@@ -587,7 +587,7 @@ def build_deck():
     # 123 chars
     build_cuali_slide_side_by_side(
         prs,
-        headline_plain="LA ACEPTACIÓN DE FAMILIAS DEL MISMO SEXO SIEMPRE LLEGA CON UN ‘PERO’. ",
+        headline_plain="LA ACEPTACIÓN DE FAMILIAS DEL MISMO SEXO SIEMPRE LLEGA CON UN 'PERO'. ",
         headline_italic="SE RESPETA LA PAREJA. SE DUDA DEL HIJO.",
         verbatims=[
             {
@@ -887,15 +887,15 @@ def build_deck():
     )
 
     # Slide 17 — H10 Hallazgo cuanti (2 stats)
-    # Headline: "Cuando el dominicano sí sufre violencia, la más frecuente no es la física:
-    #  es económica. 20.2% reporta control financiero — casi el triple que el 7.6% de violencia física."
-    # 172 chars
+    # Headline: "La violencia más frecuente en el hogar dominicano es la económica:
+    #  20.2% reporta control financiero — casi el triple que el 7.6% de violencia física."
+    # 151 chars
     # Stats:
     #   20% (20.2% → 20%)  violencia económica
     #   56% (56.4% → 56%)  no sufrió ningún tipo
     build_hallazgo_slide(
         prs,
-        headline_plain="CUANDO EL DOMINICANO SÍ SUFRE VIOLENCIA, LA MÁS FRECUENTE NO ES LA FÍSICA: ES ECONÓMICA. ",
+        headline_plain="LA VIOLENCIA MÁS FRECUENTE EN EL HOGAR DOMINICANO ES LA ECONÓMICA: ",
         headline_italic="20.2% REPORTA CONTROL FINANCIERO — CASI EL TRIPLE QUE EL 7.6% DE VIOLENCIA FÍSICA.",
         stats=[
             {

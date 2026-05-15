@@ -169,6 +169,76 @@ Las del editor agent vigentes + estas adicionales detectadas en el corpus de Jer
 - Em-dashes "—" como pausa dramática repetida (Jeremy usa frase corta seca)
 - Emojis (jamás)
 
+### 7.bis Patrón anti-AI específico (refuerzo crítico 15-may-2026)
+
+**El editor DEBE leer este bloque antes de tocar cualquier hallazgo. Estos son los patrones que más están saliendo en redacciones AI y que Jeremy detecta de inmediato:**
+
+#### 🚫 Estructura "no es X, es Y" — proscrita
+
+Patrón pegajoso que el LLM repite sin darse cuenta. Variantes prohibidas:
+- "El problema no es la disciplina, es la plata."
+- "No es que sea machismo, es estructura."
+- "No es X. Es Y."
+- "No es solo X, sino también Y."
+- "El sueño no es consumo — es no depender del próximo sueldo."
+- "El imaginario sigue siendo X: la realidad cambió, el chip no."
+
+**Por qué se prohíbe:** suena a IA porque es una construcción que se aprende de corpus de marketing y self-help. Jeremy nunca usa esa forma. Suena armado, suena vendedor, suena "te lo explico".
+
+**Cómo se reemplaza:**
+- Afirmación directa: "El problema es la plata." (sin contrastar)
+- Diagnóstico seco: "Es estructura, no machismo." (invierte y elimina la fórmula)
+- Solo el hecho, sin marco contrastivo: "El sueño es no depender del próximo sueldo."
+- Paradoja sin "no es X": "La realidad cambió. El imaginario no."
+
+#### 🚫 Palabras-comodín repetidas dentro del mismo set
+
+Si una palabra aparece en más de 3 hallazgos del mismo set, es señal de muletilla. Top muletillas detectadas:
+- **"imaginario"** — sociologismo de bolsillo. Reemplazar por: "lo que se piensa", "lo que se dice", "la creencia popular", o simplemente describir el contenido.
+- **"el chip"** — metáfora vieja de Jeremy que se sobreusa. Máximo 1 vez por pilar.
+- **"narrativa"** — del manual de planeación estratégica. Reemplazar por: "discurso", "cuento", "versión".
+- **"resignificar"** — totalmente prohibida (ya estaba).
+- **"el dominicano se siente / la dominicana siente"** repetido en headlines consecutivos.
+
+#### 🚫 Redacción explicativa / declarativa
+
+El editor está sobre-explicando. Cada hallazgo no necesita una "lección moral" al final. La cifra y el verbatim ya cuentan la historia. Marcas:
+- "Esto demuestra que…"
+- "Lo que está en juego es…"
+- "El verdadero hallazgo aquí es…"
+- "La pregunta entonces es…"
+
+**Cómo se reemplaza:** quitarlo. La afirmación seca con la cifra suele bastar.
+
+#### ✅ Regla de simplicidad con profundidad
+
+**Más simple, no más superficial.** Jeremy prefiere:
+- Una frase plana descriptiva (lo que pasa) + una italic con el giro cultural (lo que significa). Sin "no es X es Y".
+- Headline en 2 partes: hecho + interpretación. Ej: "47.9% hizo una compra impulsiva el último mes. *Consentirse es la única forma de hacer algo solo para ellas.*"
+- NO: "47.9% hizo una compra impulsiva. *El motivo no es la promoción: es consentirse, porque el rol no deja otro espacio.*" ← contiene "no es X: es Y" + sobre-explica.
+
+#### 🔁 Recordatorio al editor
+
+**Antes de pulir cada hallazgo, el editor relee este bloque (sección 7.bis) y se pregunta:**
+1. ¿Tengo "no es X, es Y" en algún headline o stat? → corrijo a afirmación directa.
+2. ¿Estoy repitiendo "imaginario / chip / narrativa" en este hallazgo y en otro reciente? → varío o elimino.
+3. ¿Hay una frase que "explica" lo que ya dice el dato? → la borro.
+4. ¿La italic agrega capa cultural o solo repite el stat con otras palabras? → si solo repite, la cambio o la quito.
+
+### 7.ter Lista NEGRA expandida (palabras / frases bloqueadas en el corpus 2026)
+
+Adicional a 7.bis, estas frases aparecieron y deben evitarse:
+- "tener nombre de mujer" (cliché de campaña)
+- "tener nombre de X" en general (sobreuso)
+- "X no se enteró" / "X no se enteraron" (personificación cursi)
+- "el cambio es de discurso, no de reparto" — patrón "no de Y" detrás de "es de X"
+- "todavía / aún + no se nombra" — formula gastada
+- "todo lo demás se hace solo" / "lo demás no" — minimización irónica
+- "la realidad cambió, el chip no" / "la realidad cambió, X no" — fórmula plantilla
+- "X siempre fue Y" — afirmación falsamente histórica
+- "el verdadero X" — heroismo barato
+- "Y no se hereda, se elige" — máxima motivacional
+
 ---
 
 ## 8. Recursos retóricos que Jeremy SÍ usa

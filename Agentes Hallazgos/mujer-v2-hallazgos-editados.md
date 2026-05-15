@@ -14,9 +14,9 @@
 ## HALLAZGO #01 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"La crianza tiene nombre de mujer. Las mujeres mismas lo confirman: *49.5% dice que la madre es la principal responsable, no ambos padres.*"
+"49.5% de las mujeres dice que la madre es la principal responsable de la crianza. *Solo el hombre distribuye la carga — ella ya la tiene asignada.*"
 
-CARACTERES: 136
+CARACTERES: 148
 
 **PREGUNTAS REFERENCIADAS:** Q054 (CC)
 
@@ -121,9 +121,9 @@ CARACTERES: 138
 ## HALLAZGO #03 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"74.8% dice que el rol de género cambió mucho. La cocina, el lavado y la limpieza no se enteraron: *el cambio es de discurso, no de reparto.*"
+"74.8% dice que el rol de género cambió mucho. La cocina, el lavado y la limpieza siguieron siendo de ella. *El discurso avanzó; el reparto, no.*"
 
-CARACTERES: 140
+CARACTERES: 144
 
 **PREGUNTAS REFERENCIADAS:** Q057, Q056 (CC)
 
@@ -336,9 +336,9 @@ CARACTERES: 123
 ## HALLAZGO #07 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"La meta financiera #1 de la mujer dominicana es un techo propio. *El sueño no es consumo — es no depender del próximo sueldo.*"
+"La meta financiera #1 de la mujer dominicana es un techo propio. *El sueño es no depender del próximo sueldo.*"
 
-CARACTERES: 126
+CARACTERES: 110
 
 **PREGUNTAS REFERENCIADAS:** M20, M21 (FW)
 
@@ -377,7 +377,7 @@ CARACTERES: 126
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "no es consumo — es"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología
@@ -392,9 +392,9 @@ CARACTERES: 126
 ## HALLAZGO #08 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"74.9% siente que algo le bloquea el sueño financiero. Para 87.1% de ellas ese algo es la falta de ingresos: *el problema no es la disciplina, es la plata.*"
+"74.9% siente que algo le bloquea el sueño financiero. *87.1% apunta a lo mismo: falta plata.*"
 
-CARACTERES: 156
+CARACTERES: 93
 
 **PREGUNTAS REFERENCIADAS:** M23, M24, M54 (FW)
 
@@ -431,7 +431,7 @@ CARACTERES: 156
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "el problema no es la disciplina, es la plata"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología
@@ -446,9 +446,9 @@ CARACTERES: 156
 ## HALLAZGO #09 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"74.2% tiene presupuesto, 74.1% planifica siempre o casi siempre, 78.7% revisa sus cuentas cada semana o cada día. *La administradora no es el estereotipo: es la norma.*"
+"74.2% tiene presupuesto, 74.1% planifica siempre o casi siempre, 78.7% revisa sus cuentas cada semana o cada día. *La administradora es la norma, no la excepción.*"
 
-CARACTERES: 168
+CARACTERES: 163
 
 **PREGUNTAS REFERENCIADAS:** M16, M28, M32, M60 (FW)
 
@@ -484,7 +484,7 @@ CARACTERES: 168
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "no es el estereotipo: es la norma"
 [x] Stats con cifras exactas
 [x] Verbatim seleccionado (descartado verbatim ⚠ de moderadora)
 [x] Atribución: solo tipología
@@ -554,9 +554,9 @@ CARACTERES: 161
 ## HALLAZGO #11 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"La emoción que más siente la mujer al pensar en su dinero es estrés (44.3%). *El orgullo solo llega al 5.5%: el dinero no se vive como logro, se vive como amenaza.*"
+"La emoción que más siente la mujer al pensar en su dinero es estrés (44.3%). *El orgullo solo llega al 5.5%: el dinero se vive como amenaza, no como logro.*"
 
-CARACTERES: 163
+CARACTERES: 156
 
 **PREGUNTAS REFERENCIADAS:** M19, M43, M44 (FW)
 
@@ -592,7 +592,7 @@ CARACTERES: 163
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; reordenada para eliminar "no como logro" como afirmación directa invertida
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología
@@ -607,9 +607,9 @@ CARACTERES: 163
 ## HALLAZGO #12 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"47.9% hizo una compra impulsiva el último mes. El motivo #1 no es la promoción: *es consentirse, porque el rol no deja otro espacio para hacerlo.*"
+"47.9% hizo una compra impulsiva el último mes. *El motivo #1 es consentirse — el único espacio que el rol le deja solo para ella.*"
 
-CARACTERES: 146
+CARACTERES: 130
 
 **PREGUNTAS REFERENCIADAS:** M33, M34, M36, M37 (FW)
 
@@ -623,7 +623,7 @@ CARACTERES: 146
 2. El motivo #1 de las compras no planificadas es "Para consentirme o darme un gusto" (44.2%), por encima de "Porque me pareció una buena oportunidad" (39.2%) o "Porque vi una promoción o descuento" (33.8%); además 25.8% compra "cuando estoy estresada o ansiosa".
    · M36 (P36, multi-respuesta) · Base Mujeres n=240 · Mujer y finanzas.xlsx · FW
 
-3. Las categorías son cotidianas y de bajo monto: "Comidas/Bebidas" 72.6% y "Ropa/Accesorios" 59.8%; "Electrónica" apenas 5.0% — no es derroche aspiracional, es desahogo de día a día.
+3. Las categorías son cotidianas y de bajo monto: "Comidas/Bebidas" 72.6% y "Ropa/Accesorios" 59.8%; "Electrónica" apenas 5.0% — el gasto impulsivo es desahogo de día a día, no derroche aspiracional.
    · M34 (P34, multi-respuesta) · Base Mujeres n=219 que reportaron compra impulsiva · Mujer y finanzas.xlsx · FW
 
 ---
@@ -647,7 +647,7 @@ CARACTERES: 146
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "El motivo #1 no es la promoción: es consentirse"
 [x] Stats con cifras exactas
 [x] Verbatim seleccionado (descartado verbatim de intercambio)
 [x] Atribución: solo tipología
@@ -678,7 +678,7 @@ CARACTERES: 136
 2. 23.8% no destina ningún porcentaje de su dinero mensual al ahorro; otro 28.3% destina menos del 5% — más de la mitad ahorra poco o nada.
    · M40 (P40) · Base Mujeres n=240 · Mujer y finanzas.xlsx · FW
 
-3. "No me alcanza el dinero para ahorrar" es el obstáculo #1 (65.5%), por encima de "Falta de educación financiera" (58.4%) — el problema es estructural, no de conocimiento.
+3. "No me alcanza el dinero para ahorrar" es el obstáculo #1 (65.5%), por encima de "Falta de educación financiera" (58.4%) — la brecha de ahorro es de ingresos, no de conocimiento.
    · M61 (P61, multi-respuesta) · Base Mujeres n=238 válidas · Mujer y finanzas.xlsx · FW
 
 ---
@@ -723,9 +723,9 @@ Este hallazgo opera como cuanti + cuali integrado: los dos verbatims no repiten 
 ## HALLAZGO #14 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"40% de las mujeres es la principal proveedora de su hogar. *El imaginario sigue siendo del hombre: la realidad cambió, el chip no.*"
+"40% de las mujeres es la principal proveedora de su hogar. *40% provee. El rol que se le atribuye al hombre lo ocupa ella.*"
 
-CARACTERES: 131
+CARACTERES: 121
 
 **PREGUNTAS REFERENCIADAS:** M8, M5, M17 (FW)
 
@@ -750,7 +750,7 @@ Este hallazgo es cuanti + cuali integrado: los dos verbatims iluminan el mismo h
 
 1. "No, por tu trabajo tú eres proveedor. Pero se supone que el rol del proveedor siempre ha sido el hombre."
    — Familia Masivo Jefas de Hogar
-   CONTEXTO PUBLICABLE: Una jefa de hogar reconoce que las mujeres del grupo son proveedoras pero el imaginario social aún asigna ese rol al hombre.
+   CONTEXTO PUBLICABLE: Una jefa de hogar reconoce que las mujeres del grupo son proveedoras pero el discurso social aún asigna ese rol al hombre.
 
 2. "Yo no resuelvo de nadie. Mi esposo es la madre." [Modismo: "mi esposo es la madre" = ella ocupa el rol de proveedor que culturalmente se le asigna al hombre.]
    — Familia Masivo Jefas de Hogar
@@ -769,10 +769,10 @@ Este hallazgo es cuanti + cuali integrado: los dos verbatims iluminan el mismo h
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminadas las frases "el imaginario sigue siendo del hombre", "la realidad cambió, el chip no"
 [x] Stats con cifras exactas
 [x] Verbatims sin recortes; modismo glosado
-[x] Atribución: solo tipología
+[x] Atribución: solo tipología; "imaginario" reemplazado por "discurso"
 [x] Sin marcas de IA
 [x] Sin spanglish forzado
 [x] Comillas curvas

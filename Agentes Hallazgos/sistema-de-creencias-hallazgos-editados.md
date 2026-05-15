@@ -1,6 +1,6 @@
 # SISTEMA DE CREENCIAS — HALLAZGOS EDITADOS
 ## Editor-hallazgos-cc · versión cerrada
-## Fecha: 2026-05-14
+## Fecha: 2026-05-14 · Auditoría anti-AI: 2026-05-15
 
 ---
 
@@ -474,9 +474,9 @@ CARACTERES: 161
 ## HALLAZGO #10 — VERSIÓN EDITORIAL
 
 **HEADLINE FINAL (≤190 caracteres):**
-"Cuando el dominicano sí sufre violencia, la más frecuente no es la física: *es económica. 20.2% reporta control financiero — casi el triple que el 7.6% de violencia física.*"
+"La violencia más frecuente en el hogar dominicano es la económica: *20.2% reporta control financiero — casi el triple que el 7.6% de violencia física.*"
 
-CARACTERES: 172
+CARACTERES: 151
 
 **PREGUNTAS REFERENCIADAS:** Q67
 
@@ -511,7 +511,7 @@ CARACTERES: 172
 
 **CHECKLIST DE EDICIÓN:**
 [x] Headline ≤190 chars verificado, paradoja diagnóstica
-[x] Italic solo en la frase del giro
+[x] Italic solo en la frase del giro; eliminada construcción "la más frecuente no es la física: es económica"
 [x] Stats con cifras exactas
 [x] Verbatim sin recortes que rompan el sentido
 [x] Atribución: solo tipología (Familia Extendida)
@@ -644,6 +644,8 @@ Todos los hallazgos son publicables tal como salen de esta edición.
 - **H03 (fusionado):** El headline del cazador (H05) era descriptivo. La versión editada pone el 64% primero y en el giro italic la revelación: que ese 64% no es parejo sino que sube con la vulnerabilidad. El italic marca el giro, no la cifra.
 
 - **H09:** El verbatim del cazador incluía "lamentablemente" — eliminado. La conexión entre los dos tramos del verbatim ("no están en la casa") es directa sin ese adverbio.
+
+- **H10:** Reescrito para eliminar la estructura "la más frecuente no es la física: es económica". La versión publicada abre con el dato directo — violencia económica — y usa el italic para la comparación con la física.
 
 ---
 

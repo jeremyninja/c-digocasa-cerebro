@@ -602,8 +602,8 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="58% DEL DOMINICANO SE DECLARA NADA INTERESADO EN POLÍTICA. EL DESINTERÉS NO ES UNA POSTURA DE MINORÍA — ",
-        headline_italic="ES EL ESTADO DECLARADO DE LA MAYORÍA.",
+        headline_plain="58% DEL DOMINICANO SE DECLARA NADA INTERESADO EN POLÍTICA. ",
+        headline_italic="EL DESINTERÉS NO ES DE UNA MINORÍA — LO DECLARA LA MAYORÍA.",
         stats=[
             {
                 'value': '58%',
@@ -671,7 +671,7 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="77% DEL DOMINICANO VOTÓ EN LAS ÚLTIMAS ELECCIONES. EL MISMO PAÍS DECLARA 58% DE DESINTERÉS TOTAL EN POLÍTICA. ",
-        headline_italic="VOTAR NO REQUIERE CREER — REQUIERE IR.",
+        headline_italic="VOTAR Y CREER SON COSAS DISTINTAS.",
         stats=[
             {
                 'value': '77%',
@@ -708,7 +708,7 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="EL VOTO SUBE CON LA EDAD: 82% DE LOS MAYORES DE 55 VOTÓ, CONTRA 69% DE LOS 18-24. ",
-        headline_italic="EL HÁBITO ELECTORAL NO SE TRANSMITE — SE ACUMULA CON LOS AÑOS.",
+        headline_italic="EL HÁBITO ELECTORAL SE ACUMULA CON LOS AÑOS — NO SE TRANSMITE.",
         stats=[
             {
                 'value': '82%',
@@ -739,7 +739,7 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="4 DE CADA 10 DOMINICANOS CALIFICAN LA GESTIÓN DEL GOBIERNO COMO \"MUY MALA\". ",
-        headline_italic="EL DESCONTENTO NO ES MATIZ — ES EL ESCALÓN MÁS POBLADO DE LA ESCALA.",
+        headline_italic="ES EL ESCALÓN MÁS POBLADO DE LA ESCALA — EL DESCONTENTO DOMINA.",
         stats=[
             {
                 'value': '40%',
@@ -806,8 +806,8 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="VOTAR ES LA ÚNICA FORMA VÁLIDA DE CAMBIO PARA 4 DE CADA 10. EL SEGUNDO LUGAR NO ES PROTESTAR NI ORGANIZARSE — ",
-        headline_italic="ES NO CREER EN NADA DE ESO.",
+        headline_plain="VOTAR ES LA ÚNICA FORMA VÁLIDA DE CAMBIO PARA 4 DE CADA 10. ",
+        headline_italic="EL SEGUNDO LUGAR ES NO CREER EN NADA DE ESO: 21.2% DESCARTA TODAS LAS OPCIONES.",
         stats=[
             {
                 'value': '41%',
@@ -844,7 +844,7 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="LAS PROTESTAS Y LAS PETICIONES DIGITALES NO LLEGAN AL 7% COMO VÍA DE CAMBIO. ",
-        headline_italic="EL DOMINICANO DELEGA LA TRANSFORMACIÓN AL VOTO — Y NO MUEVE EL CUERPO.",
+        headline_italic="EL DOMINICANO DELEGA LA TRANSFORMACIÓN AL VOTO Y QUEDA QUIETO.",
         stats=[
             {
                 'value': '15%',
@@ -873,7 +873,7 @@ def build_deck():
     build_cuali_slide(
         prs,
         headline_plain="CUANDO SE IMAGINA EL CAMBIO, EL DOMINICANO NO NOMBRA IDEOLOGÍA. NOMBRA CORRUPCIÓN, SALUD, EDUCACIÓN Y SEGURIDAD. ",
-        headline_italic="LA POLÍTICA DOMINICANA SE VIVE COMO DÉFICIT DE SERVICIOS, NO DE BANDO.",
+        headline_italic="LA POLÍTICA SE VIVE COMO DÉFICIT DE SERVICIOS.",
         verbatims=[
             {
                 'quote': 'Cada vez que un político de esos se va con 500 millones de pesos, se llevó el puentecito que hace falta en los velaquitos, se llevó la carreterita de 4 kilómetros que tanto necesita, la escuela de los niños, la escuelita. Y se lo lleva a un solo personaje.',
@@ -896,7 +896,7 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="73% DEL DOMINICANO DICE QUE EL SISTEMA POLÍTICO ES NADA O POCO JUSTO. ",
-        headline_italic="LA PERCEPCIÓN DE INJUSTICIA NO ES DE UN SECTOR — ATRAVIESA TODOS LOS ESTRATOS Y TODAS LAS EDADES.",
+        headline_italic="LA PERCEPCIÓN ATRAVIESA TODOS LOS ESTRATOS Y TODAS LAS EDADES.",
         stats=[
             {
                 'value': '73%',
@@ -919,7 +919,7 @@ def build_deck():
                 'desc_runs': [
                     make_run('suma la valoración '),
                     make_run('positiva (4+5)', bold=True),
-                    make_run(': 4.8% "bastante justo" y 3.8% "completamente justo". La injusticia es transversal por NSE: incluso en el segmento AB la respuesta top es "nada justo".')
+                    make_run(': 4.8% "bastante justo" y 3.8% "completamente justo". El techo económico no cambia la lectura del sistema: incluso en el segmento AB la respuesta top es "nada justo".')
                 ]
             }
         ],
@@ -993,7 +993,7 @@ def build_deck():
                 'desc_runs': [
                     make_run('del '),
                     make_run('estrato E', bold=True),
-                    make_run(' está "nada dispuesto" a emigrar — único NSE donde la respuesta top es quedarse. El D es el más dispuesto a irse (52.9%). Emigrar requiere recursos. (E: n≈32, direccional)')
+                    make_run(' está "nada dispuesto" a emigrar — único NSE donde la respuesta top es quedarse. El D es el más dispuesto a irse (52.9% "muy dispuesto"). Emigrar requiere recursos. (E: n≈32, direccional)')
                 ]
             }
         ],
