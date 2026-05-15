@@ -100,7 +100,7 @@ HEADLINE_PT       = 50.0          # Instrument Serif MAYÚSCULAS, fijo (no auto-
 STAT_NUMBER_PT    = pt_from_px(180)  # 135pt – Instrument Serif italic
 STAT_DESC_PT      = 13.0          # v5: era 16, ahora 13pt fijo
 CV_HEADER_PT      = 14.0          # Poppins regular, gris
-CV_VERBATIM_PT    = 60.0          # Instrument Serif regular — Consumer Voice (Layout 4)
+CV_VERBATIM_PT    = 50.0          # v6: Consumer Voice Instrument Serif (era 60, ahora 50)
 CV_ATTRIB_PT      = 20.0          # Poppins italic — Consumer Voice
 CARD_VERBATIM_PT  = 15.0          # Poppins — cards cuali (Layout 5)
 CARD_ATTRIB_PT    = 12.0          # Poppins italic — cards cuali
@@ -112,9 +112,9 @@ STAT_BOX_W_3STATS = 378
 STAT_BOX_H        = 113
 STAT_TOP_PX       = 480   # posición vertical de las cifras grandes
 
-# ── Dimensiones de cards cuali (Layout 5 — 549×221pt side by side) ─────────────
-CARD_W  = 549
-CARD_H  = 221
+# ── Dimensiones de cards cuali (v6: Layout 5 — 567×227pt = 15×6cm side by side) ─
+CARD_W  = 567   # pt = 15 cm
+CARD_H  = 227   # pt = 6 cm
 CARD_GAP_2 = 80   # gap entre 2 cards side by side
 CARD_GAP_3 = 36   # gap entre 3 cards side by side
 CARD_TOP    = 429  # top canónico para cards cuali

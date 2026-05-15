@@ -25,6 +25,7 @@ Convención de unidades:
   Las specs v5 están en pt — se usan directamente como px en este script.
 """
 
+import os
 from pptx import Presentation
 from pptx.util import Emu, Pt
 from pptx.dml.color import RGBColor
@@ -59,7 +60,7 @@ FONT_BODY     = "Poppins"
 HEADLINE_PT     = 50    # headlines — fijo, no auto-size
 STAT_NUMBER_PT  = 180   # cifra dominante Instrument Serif italic
 STAT_DESC_PT    = 13    # descripción stat Poppins (v5: era 16pt, ahora 13pt)
-CV_VERBATIM_PT  = 60    # Consumer Voice verbatim suelto Instrument Serif regular
+CV_VERBATIM_PT  = 50    # v6: Consumer Voice verbatim Instrument Serif (era 60, ahora 50)
 CV_HEADER_PT    = 14    # "CONSUMER VOICE" Poppins regular
 CV_ATTRIBUTION_PT = 20  # atribución Consumer Voice Poppins italic
 CARD_VERBATIM_PT  = 15  # verbatim dentro de card cualitativa Poppins
@@ -69,9 +70,9 @@ CARD_ATTRIBUTION_PT = 12  # atribución card cualitativa Poppins italic
 STAT_BOX_W = 378   # pt = 10 cm
 STAT_BOX_H = 113   # pt = 3 cm
 
-# ── Dimensiones de card cualitativa (549×221pt) ───────────────────────────────
-CARD_W = 549   # pt
-CARD_H = 221   # pt
+# ── Dimensiones de card cualitativa (v6: 567×227pt — 15×6cm) ──────────────────
+CARD_W = 567   # pt = 15 cm
+CARD_H = 227   # pt = 6 cm
 
 # ── Posiciones verticales clave ────────────────────────────────────────────────
 HEADLINE_TOP   = 100   # pt — headline arriba
@@ -1243,7 +1244,7 @@ def build_deck():
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
-    output_path = "/home/user/c-digocasa-cerebro/Agentes Hallazgos/mujer-v2-deck-flat.pptx"
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mujer-v2-deck-flat.pptx")
 
     print("Construyendo deck Mujer v2...")
     prs = build_deck()

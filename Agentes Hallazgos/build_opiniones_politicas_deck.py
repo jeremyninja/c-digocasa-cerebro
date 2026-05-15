@@ -87,7 +87,7 @@ def pt_from_px(px_val):
 STAT_NUMBER_PT  = pt_from_px(180)   # 135.0 pt
 STAT_DESC_PT    = 13                # v5: descripción stat fija 13pt
 HEADLINE_PT     = 50                # v5: headline del hallazgo fijo 50pt
-VERBATIM_PT     = pt_from_px(50)    # 37.5 pt
+VERBATIM_PT     = 50                # v6: Consumer Voice verbatim fijo 50pt (era 37.5)
 ATTRIBUTION_PT  = pt_from_px(22)    # 16.5 pt
 SOURCE_PT       = pt_from_px(16)    # 12.0 pt
 CV_HEADER_PT    = pt_from_px(16)    # 12.0 pt
@@ -98,8 +98,13 @@ STAT_BOX_W_2STATS = 378
 STAT_BOX_W_3STATS = 378
 STAT_BOX_H        = 113
 
+# Consumer Voice — card de fondo (legacy; el verbatim a 50pt sigue siendo lo importante)
 CV_CARD_W = 1637
 CV_CARD_H = 485
+
+# v6: Cards cualitativas side by side a 15×6cm = 567×227pt
+CARD_W = 567   # pt = 15 cm
+CARD_H = 227   # pt = 6 cm
 
 STAT_TOP_PX = 500
 
@@ -446,38 +451,54 @@ def build_consumer_voice_slide(prs, quote, attribution):
 
 
 def build_cuali_slide(prs, headline_plain, headline_italic, verbatims, source_text):
+    """
+    v6: Cards cualitativas side by side 567×227pt (15×6cm), Layout 5.
+    1 verbatim: card centrada. 2: side by side con gap 80. 3: side by side con gap 36.
+    """
     slide = blank_slide(prs)
     add_headline(slide, headline_plain, headline_italic)
 
     n = len(verbatims)
-    card_left = (SLIDE_W_PX - CV_CARD_W) // 2
+    card_top = 429  # pt — Y canónica
 
     if n == 1:
-        card_h   = 485
-        gap      = 0
-        verb_pt  = VERBATIM_PT
-        y_start  = 430
-    elif n == 2:
-        card_h   = 290
-        gap      = 30
-        verb_pt  = pt_from_px(38)
-        y_start  = 380
-    else:
-        card_h   = 200
-        gap      = 25
-        verb_pt  = pt_from_px(32)
-        y_start  = 360
-
-    for i, v in enumerate(verbatims):
-        y_card = y_start + i * (card_h + gap)
+        left = (SLIDE_W_PX - CARD_W) // 2
         add_card(
             slide,
-            quote_text=v['quote'],
-            attribution=v['attribution'],
-            left_px=card_left, top_px=y_card,
-            card_w_px=CV_CARD_W, card_h_px=card_h,
-            verbatim_size_pt=verb_pt
+            quote_text=verbatims[0]['quote'],
+            attribution=verbatims[0]['attribution'],
+            left_px=left, top_px=card_top,
+            card_w_px=CARD_W, card_h_px=CARD_H,
+            verbatim_size_pt=VERBATIM_PT
         )
+    elif n == 2:
+        gap = 80
+        total = CARD_W * 2 + gap
+        start = (SLIDE_W_PX - total) // 2
+        for i, v in enumerate(verbatims):
+            x = start + i * (CARD_W + gap)
+            add_card(
+                slide,
+                quote_text=v['quote'],
+                attribution=v['attribution'],
+                left_px=x, top_px=card_top,
+                card_w_px=CARD_W, card_h_px=CARD_H,
+                verbatim_size_pt=VERBATIM_PT
+            )
+    else:  # 3
+        gap = 36
+        total = CARD_W * 3 + gap * 2
+        start = (SLIDE_W_PX - total) // 2
+        for i, v in enumerate(verbatims):
+            x = start + i * (CARD_W + gap)
+            add_card(
+                slide,
+                quote_text=v['quote'],
+                attribution=v['attribution'],
+                left_px=x, top_px=card_top,
+                card_w_px=CARD_W, card_h_px=CARD_H,
+                verbatim_size_pt=VERBATIM_PT
+            )
 
     if source_text:
         add_source(slide, source_text)

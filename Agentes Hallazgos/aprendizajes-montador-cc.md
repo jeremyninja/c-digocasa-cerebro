@@ -195,6 +195,24 @@ Esto elimina la línea Poppins italic 9pt que aparecía al pie en versiones ante
 >
 > Esta lección nace de que el cazador, en Sistema de Creencias y Opiniones Políticas (re-run 15-may), reusó el script del run anterior y NO aplicó v5. Hubo que patchear post-hoc. **Próxima vez: aplicar v5 al construir el script desde el primer write, sin importar si hay un build_*.py previo en `Agentes Hallazgos/`.**
 
+> ## ⚠ V6 — UPDATE 15-may-2026 (Consumer Voice + Cards cualitativas)
+>
+> **Verbatim Consumer Voice (Layout 4):** de **60pt → 50pt** Instrument Serif. Fijo, no auto-size, no negociable.
+>
+> **Cards cualitativas (Layout 5 y 6):** de 549×221pt → **567×227pt = 15cm × 6cm** fijo (en cm, no pulgadas, no pt arbitrarios).
+> - 1 card centrada: left 676, top 426
+> - 2 cards side by side: gap 80pt, conjunto centrado (start left 353, top 429)
+> - 3 cards side by side: gap 36pt, conjunto centrado (start left 73, top 429)
+>
+> **Las constantes en el build script deben quedar:**
+> ```python
+> CV_VERBATIM_PT  = 50         # v6: era 60
+> CARD_W          = 567        # v6: era 549 — 15 cm @ 96dpi
+> CARD_H          = 227        # v6: era 221 — 6 cm @ 96dpi
+> ```
+>
+> Si encuentras `CV_VERBATIM_PT = 60`, `CARD_W = 549`, `CARD_H = 221`, `pt_from_px(50) = 37.5pt` para verbatim CV, o `CV_CARD_W = 1637` usado como card cuali — todas son variantes prohibidas, regenera o patchea.
+
 **La cifra grande Instrument Serif va aparte (encima de la caja de descripción). La "caja de texto del stat" se refiere a la caja de descripción Poppins debajo de la cifra.**
 
 **Conversión operativa (cm → pt → EMU):**
@@ -288,7 +306,7 @@ shape.line.width = Pt(1)
 ```python
 from pptx.enum.shapes import MSO_SHAPE
 shape = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, left, top, width, height)
-# adjustment ~0.05-0.06 para border-radius ~15pt en cards de 549×221
+# adjustment ~0.05-0.06 para border-radius ~15pt en cards de 567×227 (v6)
 shape.adjustments[0] = 0.06
 ```
 
@@ -299,7 +317,7 @@ shape.adjustments[0] = 0.06
   font-family: 'Instrument Serif';
   font-weight: 400;
   font-style: normal;            /* NO italic */
-  font-size: 60pt;               /* dimensión EXACTA Jeremy */
+  font-size: 50pt;               /* v6 — feedback Jeremy 15-may-2026 (era 60pt) */
   line-height: 1.3;
   color: #FFFFFF;
   text-align: center;
@@ -429,7 +447,7 @@ Líneas separadoras (#2E2E2E 1pt, alto 200pt): left 721 y 1199, top 460.
 |                                              |
 |                                              |
 |                                              |
-|     « Verbatim 60pt Instrument Serif        | <- texto suelto, sin card
+|     « Verbatim 50pt Instrument Serif (v6)  | <- texto suelto, sin card
 |       regular blanco, comillas               |    centrado vertical y horizontal
 |       españolas «...». »                     |    sobre fondo negro del slide
 |                                              |
@@ -442,7 +460,7 @@ Specs del slide Consumer Voice (sin card):
 
 - Fondo: negro plano #000000 (sin masterslide).
 - Header: "CONSUMER VOICE" en Poppins regular 14pt mayúsculas, color gris #9B9B9B, centrado horizontalmente, top ~80pt.
-- Verbatim: Instrument Serif regular 60pt blanco, comillas españolas «...», centrado horizontalmente.
+- Verbatim: Instrument Serif regular **50pt (v6)** blanco, comillas españolas «...», centrado horizontalmente.
   - Texto bloque ocupa ~1637pt de ancho máximo (left 141, ancho 1637, alto auto según longitud).
   - Centrado vertical aproximado: top ~350-400pt según longitud.
   - Multi-línea con line-height 1.3.
@@ -465,53 +483,51 @@ NO se monta:
 |                                              |
 |   ┌─────────────┐    ┌─────────────┐         |
 |   │ Verbatim 1  │    │ Verbatim 2  │         | <- cards side by side
-|   │ Familia A   │    │ Familia B   │         |    549×221 pt cada una
+|   │ Familia A   │    │ Familia B   │         |    v6: 567×227 pt = 15×6 cm cada una
 |   └─────────────┘    └─────────────┘         |
 |                                              |
 +----------------------------------------------+
 
-Card cualitativa — DIMENSIONES CANÓNICAS (medidas por Jeremy en Keynote):
-- width: 549pt
-- height: 221pt
+Card cualitativa — DIMENSIONES CANÓNICAS v6 (15-may-2026 Jeremy):
+- width: 567pt (= 15 cm @ 96 dpi)
+- height: 227pt (= 6 cm @ 96 dpi)
 - border-radius: 15pt
 - fill: rgba(0, 0, 0, 0.45) (negro 45% opacidad)
 - outline: 1pt blanco #FFFFFF
 - padding: 30pt lados, 30pt arriba/abajo
 
+> ⚠ **v6 update — 15-may-2026:** las cards cualitativas pasan de 567×227pt (v6: 15×6cm) (medidas previas) a **567×227pt (15×6cm fijo)**. Ya no se interpreta — la caja se mide en CENTÍMETROS. Aplica a Layouts 5 y 6.
+
 Posiciones canónicas (todas side by side):
 
-1 verbatim — posición canónica en slide cuali+cuanti integrado:
-- 1 card en posición fija: left 748pt, top 403pt, width 549, height 221
-- Esta es la posición exacta medida por Jeremy en Keynote para card a la derecha del stat.
-
 1 verbatim — slide solo-cuali centrado en slide completo:
-- left (1920-549)/2 = 685.5pt, top (1080-221)/2 = 429.5pt
+- left (1920-567)/2 = 676.5pt, top (1080-227)/2 = 426.5pt, width 567, height 227
 
 2 verbatims (side by side):
 - gap entre cards: 80pt
-- Conjunto total: 549*2 + 80 = 1178pt
-- Empieza en left (1920-1178)/2 = 371pt
-- Card 1: left 371, top 429, width 549, height 221
-- Card 2: left 1000, top 429, width 549, height 221
+- Conjunto total: 567*2 + 80 = 1214pt
+- Empieza en left (1920-1214)/2 = 353pt
+- Card 1: left 353, top 429, width 567, height 227
+- Card 2: left 1000, top 429, width 567, height 227
 
 3 verbatims (side by side):
 - gap entre cards: 36pt
-- Conjunto total: 549*3 + 36*2 = 1719pt
-- Empieza en left (1920-1719)/2 = 100pt
-- Card 1: left 100, top 429
-- Card 2: left 685, top 429
-- Card 3: left 1270, top 429
+- Conjunto total: 567*3 + 36*2 = 1773pt
+- Empieza en left (1920-1773)/2 = 73pt
+- Card 1: left 73, top 429
+- Card 2: left 676, top 429
+- Card 3: left 1279, top 429
 
-TEXTO DENTRO de la card cualitativa (canónico Jeremy):
+TEXTO DENTRO de la card cualitativa (canónico v6):
 - Verbatim: Poppins 15pt blanco, comillas españolas «...», centrado vertical y horizontalmente.
 - Atribución: Poppins italic 12-13pt, blanco, centrada debajo del verbatim.
 - Padding: 30pt arriba/abajo, 30pt lados.
-- IMPORTANTE: el texto dentro de cards cualitativas es Poppins, NO Instrument Serif. Esto las diferencia visualmente del slide Consumer Voice (donde el verbatim sí va en Instrument Serif 60pt).
+- **IMPORTANTE:** el texto dentro de cards cualitativas es Poppins, NO Instrument Serif. Esto las diferencia visualmente del slide Consumer Voice (donde el verbatim sí va en Instrument Serif **50pt v6**, era 60pt).
 ```
 
 #### Layout 6 — Slide cuali + cuanti integrado en mismo slide (1-3 stats + cards lado a lado)
 
-**Caso: hallazgo tiene cuanti + cuali y se monta TODO en un mismo slide en lugar de 2 slides separados.** Layout que combina cifras + cajas de descripción 360×75pt + cards cualitativas 549×221pt.
+**Caso: hallazgo tiene cuanti + cuali y se monta TODO en un mismo slide en lugar de 2 slides separados.** Layout que combina cifras + cajas de descripción 360×75pt + cards cualitativas 567×227pt (v6: 15×6cm).
 
 ```
 +----------------------------------------------+
@@ -542,12 +558,12 @@ POSICIONES CANÓNICAS para 1 stat + 1 verbatim (medidas por Jeremy en Keynote):
 
 Para 1 stat + 2 verbatims:
 - Mantén el stat (cifra + caja descripción) a la izquierda
-- Pon 2 cards cualitativas a la derecha, side by side: cada una 549×221pt
+- Pon 2 cards cualitativas a la derecha, side by side: cada una 567×227pt (v6: 15×6cm)
 - Si no caben con respiro, regresa al editor — no comprimas
 
 Para 2 stats + 1 verbatim:
 - 2 stats a la izquierda (cifras y descripciones lado a lado o apiladas)
-- 1 card cualitativa 549×221pt a la derecha
+- 1 card cualitativa 567×227pt (v6: 15×6cm) a la derecha
 - Si queda muy apretado → regresa al editor para repartir en 2 slides
 
 REGLA: si el layout integrado no respira (cajas pegadas, texto solapado), DESCARTA el integrado y monta como 2 slides separados (Hallazgo cuanti + Consumer Voice). No fuerces.
@@ -559,12 +575,12 @@ REGLA: si el layout integrado no respira (cajas pegadas, texto solapado), DESCAR
 2. **Fondo negro plano `#000000`.** Sin masterslide decorativo. Jeremy aplica halos arcoíris, headers, logo, textura después.
 3. **Cards de verbatim (solo en Layouts 5 y 6): `rgba(0, 0, 0, 0.45)` + outline blanco 1pt + border-radius 15pt.** NO `#2E2E2E` sólido. EL SLIDE CONSUMER VOICE (Layout 4) NO LLEVA CARD — verbatim suelto sobre fondo negro.
 4. **Verbatims en Consumer Voice (Layout 4 — slide dedicado, SIN card):** Instrument Serif regular 60pt (NO italic) con comillas españolas `«...»`, suelto sobre fondo negro. Atribución Poppins italic 20pt centrada debajo. Header "CONSUMER VOICE" Poppins 14pt gris #9B9B9B arriba.
-5. **Verbatims en cards cualitativas (Layouts 5 y 6 — con card):** Poppins 15pt con comillas españolas `«...»`. Atribución Poppins italic 12-13pt. Card 549×221pt con fill 45% opacidad + outline blanco 1pt + border-radius 15pt.
+5. **Verbatims en cards cualitativas (Layouts 5 y 6 — con card):** Poppins 15pt con comillas españolas `«...»`. Atribución Poppins italic 12-13pt. Card 567×227pt (v6: 15×6cm) con fill 45% opacidad + outline blanco 1pt + border-radius 15pt.
 6. **Headlines: 50pt fijo Instrument Serif MAYÚSCULAS centralizados.** Sin auto-size. Italic solo en frase del giro.
 7. **Cifras grandes: 180pt Instrument Serif italic blanco.** Redondeo a entero por defecto (47.8 → 48); decimal solo si 1 dígito antes (5.5%, 8.7%) o brecha matemática (15.2 pts).
 8. **Caja de descripción de stat: 360×75pt Poppins 16pt** blanco con bold selectivo.
 9. **Consumer Voice: verbatim suelto centrado en slide, ancho máximo del bloque ~1637pt.** Sin contenedor visual.
-10. **Card cualitativa: 549×221pt side by side** (no apiladas verticalmente). Posición canónica en cuali+cuanti integrado: X 748, Y 403.
+10. **Card cualitativa: 567×227pt (v6: 15×6cm) side by side** (no apiladas verticalmente). Posición canónica en cuali+cuanti integrado: X 748, Y 403.
 11. **Atribuciones: "— Familia [tipología]"** en italic Poppins.
 12. **NO SOURCE en ningún slide.** Pie de página técnico eliminado.
 13. **NO cajas "Pregunta P##. Base. Fuente"** debajo de stats.
@@ -658,7 +674,7 @@ El montador entrega **fondo negro plano** con los elementos de contenido (headli
 
 **Diferencia visual entre Consumer Voice y card cualitativa (importante):**
 - **Consumer Voice (Layout 4):** verbatim SUELTO sobre fondo negro. Header "CONSUMER VOICE" arriba. Sin contenedor visual. El verbatim domina el slide.
-- **Card cualitativa (Layout 5 y 6):** verbatim DENTRO de card 549×221pt con fill `rgba(0,0,0,0.45)` + outline blanco 1pt + border-radius 15pt. Headline arriba (no header "CONSUMER VOICE"). Texto interno en Poppins 15pt (no Instrument Serif).
+- **Card cualitativa (Layout 5 y 6):** verbatim DENTRO de card 567×227pt (v6: 15×6cm) con fill `rgba(0,0,0,0.45)` + outline blanco 1pt + border-radius 15pt. Headline arriba (no header "CONSUMER VOICE"). Texto interno en Poppins 15pt (no Instrument Serif).
 
 Esto separa dos modos visuales: Consumer Voice = pausa tipográfica grande, sola. Card cualitativa = bloque contenido side by side con otros bloques.
 
