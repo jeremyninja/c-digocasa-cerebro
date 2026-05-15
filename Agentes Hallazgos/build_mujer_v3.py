@@ -642,22 +642,14 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="49.5% de las mujeres dice que la madre es la principal responsable de la crianza. ",
-        headline_italic="Solo el hombre distribuye la carga — ella ya la tiene asignada.",
+        headline_italic="Lo que recibió de su mamá lo está pasando a su hija: organizar todo y ganarse lo que se gasta.",
         stats=[
-            {
-                'value': '42%',
-                'desc_runs': [
-                    make_run('del total cree que la mayor responsabilidad de la crianza recae en la '),
-                    make_run('madre', bold=True),
-                    make_run('; 41.2% dice "ambos padres" y solo 15.8% se\xf1ala al padre.')
-                ]
-            },
             {
                 'value': '49.5%',
                 'desc_runs': [
                     make_run('del subset '),
                     make_run('femenino', bold=True),
-                    make_run(' responde "Madre" como principal responsable, frente a 45.6% del masculino que responde "Ambos padres".')
+                    make_run(' responde "Madre" como principal responsable. El masculino responde "Ambos padres" (45.6%).')
                 ]
             },
             {
@@ -667,6 +659,14 @@ def build_deck():
                     make_run('monoparentales', bold=True),
                     make_run(' y 59.4% del estrato E responden "Madre". La carga se concentra donde no hay con qui\xe9n repartirla.')
                 ]
+            },
+            {
+                'value': '60%',
+                'desc_runs': [
+                    make_run('de las mujeres FW aprendi\xf3 finanzas '),
+                    make_run('por su cuenta', bold=True),
+                    make_run('. La l\xednea de transmisi\xf3n es femenina: la madre ense\xf1a a la hija a administrar — y la responsabilidad se hereda con el conocimiento.')
+                ]
             }
         ],
         source_text=SRC_A01
@@ -674,8 +674,8 @@ def build_deck():
 
     build_consumer_voice_slide(
         prs,
-        quote='Yo tengo un pap\xe1 que es el pap\xe1 bueno, el pap\xe1 consentidor, el pap\xe1 que dice vete suave, vete en paz. Pero no es el que est\xe1 con ella todos los d\xedas. No es el que tiene que reg\xe1\xf1arla por las tareas, porque tiene que ir a impulsar los deberes de la casa.',
-        attribution='Familia Monoparental',
+        quote='Mi mam\xe1 me ense\xf1\xf3 desde peque\xf1a c\xf3mo yo ten\xeda que manejarme y guardar mi dinero, pero me ense\xf1\xf3 que primero tengo que gan\xe1rmelo. Me mandaba a vender conconetes para la calle, y yo era chiquita.',
+        attribution='Familia Masivo Emprendedoras',
         source_text=SRC_A01
     )
 
@@ -876,23 +876,15 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="48.5% de las mujeres no hace nada por su salud mental ni f\xedsica. ",
-        headline_italic="El hombre se ejercita. Ella no tiene espacio ni para eso.",
+        headline_plain="48.5% de las mujeres responde que no hace nada por su salud. ",
+        headline_italic="En el cuali el autocuidado existe — pero queda para último, después de los hijos y la casa.",
         stats=[
             {
                 'value': '48.5%',
                 'desc_runs': [
                     make_run('del subset '),
                     make_run('femenino', bold=True),
-                    make_run(' responde "No realizo ninguna actividad para cuidar mi salud mental y f\xedsica" — frente al masculino cuya respuesta top es "Me ejercito" (43.1%).')
-                ]
-            },
-            {
-                'value': '43%',
-                'desc_runs': [
-                    make_run('del '),
-                    make_run('total', bold=True),
-                    make_run(' no hace ninguna actividad de autocuidado; solo 3.0% va a terapia.')
+                    make_run(' responde "No realizo ninguna actividad" — frente al masculino cuya respuesta top es "Me ejercito" (43.1%).')
                 ]
             },
             {
@@ -900,7 +892,15 @@ def build_deck():
                 'desc_runs': [
                     make_run('de las mujeres '),
                     make_run('18-24 a\xf1os', bold=True),
-                    make_run(' no realiza ninguna actividad de autocuidado. El abandono es mayor en las m\xe1s j\xf3venes.')
+                    make_run(' no realiza ninguna actividad declarada de autocuidado. El abandono es mayor entre las m\xe1s j\xf3venes.')
+                ]
+            },
+            {
+                'value': '"Nada"',
+                'desc_runs': [
+                    make_run('es '),
+                    make_run('categor\xeda declarada', bold=True),
+                    make_run(', no pr\xe1ctica real. En cuali aparecen actos m\xednimos: "cogerlo al paso", "comer a mi hora", "estudiar para drenar". Lo que falta es el permiso de llamarlo cuidado propio.')
                 ]
             }
         ],
@@ -909,7 +909,7 @@ def build_deck():
 
     build_consumer_voice_slide(
         prs,
-        quote='Ese tema de que dependa de m\xed 24-7 lo que se vaya a hacer te da un poco de estr\xe9s.',
+        quote='Aunque mis hijos se lleven el 100%, uno siempre se queda como m\xe1s rezagado y se deja para \xfaltimo. La comida saludable de ellos no la hago necesariamente para m\xed.',
         attribution='Familia Mixta',
         source_text=SRC_A06
     )
@@ -1109,8 +1109,8 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="74.2% tiene presupuesto, 74.1% planifica siempre o casi siempre, 78.7% revisa sus cuentas cada semana o cada d\xeda. ",
-        headline_italic="La administradora es la norma, no la excepci\xf3n.",
+        headline_plain="74% tiene presupuesto y 79% revisa sus cuentas cada semana o cada d\xeda. ",
+        headline_italic="La administradora ejemplar planifica todo — y aun as\xed, el 50% no logra ahorrar (ver hallazgo siguiente).",
         stats=[
             {
                 'value': '74%',
@@ -1205,23 +1205,15 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="La emoci\xf3n que m\xe1s siente la mujer al pensar en su dinero es estr\xe9s (44.3%). ",
-        headline_italic="El orgullo solo llega al 5.5%: el dinero se vive como amenaza, no como logro.",
+        headline_plain="Solo 5.5% siente orgullo cuando piensa en su dinero. ",
+        headline_italic="En el cuali el orgullo aparece — pero por independizarse, no por lo que tiene en la cuenta.",
         stats=[
             {
                 'value': '44%',
                 'desc_runs': [
                     make_run('responde "'),
                     make_run('Estr\xe9s', bold=True),
-                    make_run('" como la emoci\xf3n que m\xe1s siente al pensar en sus finanzas; "Tranquilidad" 29.8%, "Miedo" 12.3%, "Culpa" 8.1%, "Orgullo" apenas 5.5%.')
-                ]
-            },
-            {
-                'value': '41%',
-                'desc_runs': [
-                    make_run('siente '),
-                    make_run('ansiedad o estr\xe9s financiero', bold=True),
-                    make_run(' con frecuencia (top-2, 4+5); el promedio en escala 1-5 es 3.48.')
+                    make_run('" como la emoci\xf3n principal al pensar en sus finanzas; "Tranquilidad" 29.8%, "Miedo" 12.3%, "Orgullo" apenas 5.5%.')
                 ]
             },
             {
@@ -1229,7 +1221,15 @@ def build_deck():
                 'desc_runs': [
                     make_run('est\xe1 satisfecha con su '),
                     make_run('situaci\xf3n financiera actual', bold=True),
-                    make_run(' (top-2 22.5%); 30.8% insatisfecha (bottom-2). Promedio 2.75 sobre 5.')
+                    make_run(' (top-2); 30.8% insatisfecha. Promedio 2.75 sobre 5.')
+                ]
+            },
+            {
+                'value': '"Logro"',
+                'desc_runs': [
+                    make_run('como categor\xeda financiera '),
+                    make_run('no aparece en cuali', bold=True),
+                    make_run('. Lo que s\xed aparece: "salir adelante", "mudarme sola", "no deberle a nadie". El orgullo dominicano femenino es de resistencia validada — no de capital acumulado.')
                 ]
             }
         ],
@@ -1238,7 +1238,7 @@ def build_deck():
 
     build_consumer_voice_slide(
         prs,
-        quote='Tengo miedo a no ser lo que yo espero ser, o a que las cosas no se den como yo quiero. Siento que el tiempo est\xe1 pasando muy r\xe1pido, que no tengo una casa m\xeda o no tengo un auto propio.',
+        quote='Me siento orgullosa de haberme mudado sola. Lo fuerte que yo he sido, lo lejos que yo he llegado, lo organizada que est\xe1 mi vida.',
         attribution='Familia Masivo J\xf3venes',
         source_text=SRC_B05
     )
@@ -1299,8 +1299,8 @@ def build_deck():
 
     build_hallazgo_slide(
         prs,
-        headline_plain="50% no logra ahorrar con facilidad. La estrategia que m\xe1s funciona: ",
-        headline_italic="esconderse el dinero de s\xed mismas antes de que llegue a la cuenta.",
+        headline_plain="50% no logra ahorrar con facilidad. ",
+        headline_italic="El 74% planifica y revisa cuentas — la administradora ejemplar no se est\xe1 olvidando: no le queda nada.",
         stats=[
             {
                 'value': '50%',
@@ -1357,30 +1357,30 @@ def build_deck():
     build_hallazgo_slide(
         prs,
         headline_plain="40% de las mujeres del estudio FW es la principal proveedora de su hogar. ",
-        headline_italic="El rol que se le atribuye al hombre lo ocupa ella.",
+        headline_italic="Decide sola (79.6%) y hace las tareas tambi\xe9n (66% cocina, lava, limpia): autonom\xeda y sobrecarga conviven.",
         stats=[
             {
                 'value': '40%',
                 'desc_runs': [
                     make_run('responde que s\xed es la '),
                     make_run('principal proveedora', bold=True),
-                    make_run(' de su hogar. [FW — perfil: j\xf3venes, jefas de hogar, l\xedderes, emprendedoras. No proyectable a poblaci\xf3n general.]')
+                    make_run(' de su hogar. [FW — perfil: j\xf3venes, jefas de hogar, l\xedderes, emprendedoras.]')
                 ]
             },
             {
-                'value': '68%',
+                'value': '80%',
                 'desc_runs': [
-                    make_run('tiene '),
-                    make_run('trabajo formal', bold=True),
-                    make_run('; 13.9% informal o emprendimiento; solo 4.2% se declara ama de casa. La mujer del estudio FW est\xe1 mayoritariamente vinculada al ingreso.')
+                    make_run('rechaza "no las tomo yo, las toma mi esposo" (bottom-2 79.6%). '),
+                    make_run('Decide sola o discute', bold=True),
+                    make_run(' — pero no le entrega la decisi\xf3n al hombre.')
                 ]
             },
             {
-                'value': '43%',
+                'value': '66%',
                 'desc_runs': [
-                    make_run('"'),
-                    make_run('Las tomo yo sola', bold=True),
-                    make_run('" es la frase con mayor acuerdo top-2 en decisiones financieras (42.5%, μ=3.01). "No las tomo yo, lo hace mi esposo" tiene el mayor desacuerdo (bottom-2 79.6%).')
+                    make_run('hace cocina, lavado y limpieza "'),
+                    make_run('m\xe1s la mujer', bold=True),
+                    make_run('" (CC, Q056). La autonom\xeda decisional no liber\xf3 el reparto material — agreg\xf3 la decisi\xf3n al trabajo dom\xe9stico.')
                 ]
             }
         ],
