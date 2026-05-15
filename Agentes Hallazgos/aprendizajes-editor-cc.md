@@ -8,6 +8,85 @@
 
 ---
 
+## 0. PROTOCOLO DE LECTURA EN TENSIÓN — 5 CRUCES (refuerzo crítico 15-may-2026)
+
+> **Aplicar este protocolo en CADA hallazgo antes de redactar.** El cuanti dice qué pasa. El cuali dice cómo se llama. La verdad escondida vive en el espacio entre los dos. Si el editor solo pule la lectura plana del cazador, está dejando 80% del valor analítico sobre la mesa.
+
+**El editor recibe del cazador hallazgos univariados o cruces simples.** Su trabajo NO es solo redactar más bonito — es **interrogar cada hallazgo con estos 5 cruces** antes de cerrar el bloque. Si un cruce revela una tensión, el headline se reescribe para nombrarla. Si ninguno revela nada, el hallazgo se publica plano y se reporta esa transparencia en el cierre.
+
+### Los 5 cruces operativos
+
+#### Cruce 1 — Contradicción interna del cuanti
+
+Buscar dos cifras del mismo set que se contradicen lógicamente. Si **A%** se declara X pero solo **B%** actúa consecuentemente con X (donde B << A), ahí hay una grieta cultural.
+
+- **Ej. Pilar Creencias:** 30.2% se autodeclara "muy practicante y activo" pero solo 2.2% ha dejado productos por su fe → la práctica es rito, no sacrificio.
+- **Ej. Pilar Educación:** alguien declara "la educación es lo más importante" pero el % que paga clase extracurricular es marginal → ideal sin disposición de pago.
+
+**Lo que el editor agrega:** un stat extra que ponga las dos cifras juntas, y un giro italic en el headline que nombre la grieta.
+
+#### Cruce 2 — Brecha semántica cuanti × cuali
+
+Tomar la categoría más fuerte del cuanti (ej. "violencia económica", "discriminación racial", "presupuesto familiar") y buscarla **literal** en los FG. Si la palabra aparece poco o nada, pero el comportamiento descrito sí aparece **con otro nombre**, hay sub-reporte semántico — no de ocultación, de **vocabulario heredado**.
+
+- **Ej. Pilar Sistema de Creencias:** cuanti dice "violencia económica 20.2%", cuali dice "él es el proveedor", "él decide qué se compra", "hay que aguantar".
+- **Operativo:** buscar 5-10 veces la palabra-categoría en los .txt de FG. Si aparece <3 veces y la conducta sí aparece con otro vocabulario, el sub-reporte es semántico.
+
+**Lo que el editor agrega:** una italic que contraste el lenguaje técnico con el lenguaje vivido, y un stat que reframee la cifra cuanti como "techo declarado, no piso real".
+
+#### Cruce 3 — Sospecha del "ninguno / nunca / no"
+
+Cuando una respuesta negativa o de ausencia tiene mayoría (>50%), tratarla como **sospechosa por defecto**. Buscar en cuali si la conducta correspondiente sí aparece pero re-encuadrada.
+
+- **Ej. Pilar Sistema de Creencias:** 75% "mi hijo no sufrió bullying" + cuali habla de "generación de cristal", "sensibilidad excesiva" → 75% incluye padres que minimizan, no padres con hijos sin acoso.
+- **Ej. Pilar Mujer:** 56% "no sufrí violencia" + cuali habla de "aguantar", "amor", "el orden del hogar" → la negativa es vocabulario, no ausencia.
+
+**Lo que el editor agrega:** un reframe explícito de la cifra negativa. La cifra grande del slide deja de ser la mayoría — pasa a ser la minoría que tiene el lenguaje para nombrarlo.
+
+#### Cruce 4 — Efecto sin causa
+
+Buscar en el cuestionario si la gente pide un **efecto deseado** sin pedir la **causa estructural** que lo haría posible. Cuando hay desproporción (60% pide A, <15% pide la condición B necesaria para A), eso revela ideal sin disposición de pago.
+
+- **Ej. Pilar Sistema de Creencias / Roles:** 63% pide "padres más presentes" pero solo 13% pide flexibilidad laboral → efecto sí, causa no.
+- **Ej. Pilar Educación:** % alto pide "mejores escuelas" pero % bajo pide subir impuestos o invertir personalmente → ideal sin costo.
+- **Ej. Pilar Finanzas / Mujer:** % alto pide "ahorrar más" pero % bajo nombra "mejorar salario" o "bajar gastos fijos" → meta sin estructura.
+
+**Lo que el editor agrega:** un stat que ponga las dos cifras juntas (efecto vs causa). La italic carga el diagnóstico: "se pide el resultado, no se toca la estructura que lo impide".
+
+#### Cruce 5 — Transmisión intergeneracional
+
+El cuanti pregunta a la víctima/protagonista actual. El cuali revela cómo se está formando la **próxima generación**. Buscar en los FG verbatims donde el adulto narre **dos cosas a la vez**:
+1. Lo que aprendió de su mamá/papá (lo recibido).
+2. Lo que su hijo/a está aprendiendo de él/ella (lo transmitido).
+
+Esa línea de ensamblaje cultural es el hallazgo más profundo que puede entregar un editor.
+
+- **Ej. Pilar Sistema de Creencias / Mujer:** "mi mamá me decía hay que aguantar" + "mi hija entiende que si me golpea es respuesta al amor" → 3 generaciones de violencia naturalizada en el mismo set.
+- **Ej. Pilar Finanzas:** "mi papá me dijo que ahorrar era para los ricos" + "yo le digo a mi hijo que el dinero hay que respetarlo" → ciclo de creencia financiera.
+
+**Lo que el editor agrega:** un slide cuali de 2 cards side by side con los dos verbatims (lo recibido + lo transmitido). El headline del slide cuanti debe anticipar esa transmisión, no solo describir el dato presente.
+
+### Cuándo NO aplicar el protocolo
+
+- Si el hallazgo es un dato técnico-descriptivo sin carga cultural (ej. % de hogares con internet) — basta lectura plana.
+- Si los 5 cruces se aplican pero ninguno revela tensión real — reportarlo en el cierre del hallazgo y publicar plano. No inventar tensión donde no hay.
+
+### Output del protocolo
+
+Por cada hallazgo, el editor reporta al final del bloque (sección interna, no va al deck):
+
+```
+PROTOCOLO LECTURA EN TENSIÓN aplicado:
+- Cruce 1 (contradicción interna): [hallazgo o N/A]
+- Cruce 2 (brecha semántica): [palabras buscadas + frecuencia en FG, hallazgo o N/A]
+- Cruce 3 (sospecha del "ninguno"): [hallazgo o N/A]
+- Cruce 4 (efecto sin causa): [hallazgo o N/A]
+- Cruce 5 (transmisión intergeneracional): [verbatims encontrados o N/A]
+- Conclusión: hallazgo profundizado / hallazgo plano confirmado / falta data
+```
+
+---
+
 ## 1. Persona narrativa
 
 - Voz **antropológica observador**, no "nosotros".
