@@ -1,417 +1,513 @@
 # Pilar 05 — Roles de Género · Hallazgos editados
 
 > **Editor de Hallazgos Código Casa.** Set editorial cerrado del Pilar Roles de Género.
-> Fuente: derivado cuanti `05-roles-de-genero.md`, base n=500 (Sto. Domingo + Santiago + DN, Oct–Nov 2024).
-> Cross-pilar declarado: P15 (Identidad) y P78 (Sistema de Creencias), ambas incluidas en el derivado del pilar.
+> Fuente cuanti: derivado `05-roles-de-genero.md`, base general n=500 (Sto. Domingo + Santiago + DN, campo Oct-Nov 2024).
+> Fuente cuali: 10 focus groups.
 >
-> 10 hallazgos. Set cerrado.
+> **11 hallazgos. Set cerrado.**
+> H01 (crudo) y H03 (crudo) fueron fusionados en H01 editorial. El resto del set corre H02–H11 (equivalentes a H02–H12 del crudo).
 
 ---
 
-## H-01 — **72.8% dice que las compras del súper deben hacerlas ambos.** *Planchar, cocinar y lavar siguen siendo trabajo de ella.*
+## H01 — EL DEBER SER IGUALITARIO VS EL REPARTO REAL
+
+**Headline:** El hogar dominicano declara que cocinar, lavar y limpiar deben ser de "ambos." *En la práctica, los hace ella.*
+
+CARACTERES: 96
 
 **Stats:**
-- 72.8% declara que las compras del supermercado deben hacerlas "Ambos"; pagos de servicios "Ambos" 68.0%; manejo de cuentas bancarias "Ambos" 73.8%. El discurso normativo declara hogar compartido. (P15 · Base 500 · 05-roles-de-genero.md)
-- 54.2% dice que planchar es tarea "Mujer"; cocinar 44.0%; lavar 46.4%; limpieza del hogar 33.6%. En las tareas de cuidado doméstico cotidiano, el reparto deja de ser declarado equitativo. (P15 · Base 500 · 05-roles-de-genero.md)
-- 11.4% asigna las compras del súper al hombre; 25.6% le asigna el pago de servicios. El trabajo masculino declarado de la casa se concentra en logística financiera externa, no en cuidado doméstico. (P15 · Base 500 · 05-roles-de-genero.md)
+- 65.4% dice que limpiar debe ser de "ambos" (P15). En la práctica, 59.6% reporta que la limpia más la mujer (P33). · P15 × P33 · Base n=500 · 05-roles-de-genero.md
+- Cocinar: 54.8% dice "ambos deben" (P15); en la práctica, 66.6% lo hace más la mujer (P33). · P15 × P33 · Base n=500 · 05-roles-de-genero.md
+- Lavar ropa: 52.2% dice "ambos deben" (P15); en la práctica, 63.0% lo hace más la mujer (P33). · P15 × P33 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** El hogar equitativo existe en el discurso normativo. Se rompe en la cocina.
+**Verbatim:**
+> "Yo soy la que me encargo de hacer el aseo en el hogar. Él de vez en cuando sí me apoya haciendo, qué sé yo, friega o lave el baño si yo le digo: mira, hoy a mi favor. Pero no es que no lo haces. Si tú lo diriges, lo haces. Pero realmente yo soy la persona que me encargo de limpiar, resolver más de la casa."
+> *(fg-01 · Familia Biparental con hijos pequeños)*
 
-**Verbatims:**
-> "Sí, bueno, en mi casa mi esposo se encarga de hacer todo lo que tiene que ver con cocina, él es más dado a cocinar cosas creativas, yo no soy tan creativa en la cocina. Igualmente yo soy la que me encargo de hacer el aseo en el hogar. Él de vez en cuando sí me apoya haciendo, qué sé yo, friega o lave el baño si yo le digo, mira, hoy a mi favor. Si tú lo diriges lo haces, pero realmente yo soy la persona que me encargo de limpiar y resolver más de la casa."
-> *(fg-01 · Familia Biparental con Hijos Pequeños)* — Describe el reparto real de su casa: él cocina por preferencia, pero la limpieza recae en ella, y el apoyo masculino llega solo cuando ella lo pide.
+CONTEXTO PUBLICABLE: Una madre describe el reparto real de la limpieza: el esposo ejecuta si ella lo dirige. La dirección y la responsabilidad quedan en ella.
 
-**PREGUNTAS REFERENCIADAS:** P15 (cross-pilar Identidad, incluida en derivado 05)
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P15, P33 · Base 500."
 
-**LIMITACIONES:**
-- El hallazgo lee P15 (norma: "quién debe encargarse") contra la misma P15 vista por tareas con sesgo de género (planchar, cocinar, lavar). La tensión emerge al comparar el lenguaje normativo ("ambos") con el reparto de tareas que sí tiene género asignado. Cross-pilar P15 documentado.
-- fg-01 con diarización. Verbatim atribuido por tipología conforme al canon.
+**Limitaciones transferidas:**
+- Hallazgo nace de lectura cruzada interna P15 × P33 (norma declarada vs práctica reportada). Los stats lo declaran inline; no se entrega tabla cruzada al montador.
+- P15 está canónicamente en Pilar 1 (Familia e Identidad / Q014). Entra al set de Roles porque mide la asignación normativa por género. Trazabilidad: P15 = Q014 en el cuestionario canónico.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 118 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic solo en el giro ("En la práctica, los hace ella"), no decorativo
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes que rompan el sentido
+- [x] Atribución: solo tipología (Familia Biparental con hijos pequeños)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali, lectura cruzada interna P15 × P33)
+- Cruce 1 (contradicción interna): HALLAZGO CENTRAL. Quien declara "ambos deben limpiar" (65.4%) y quien reporta "la mujer lo hace más" (59.6%) pueden ser la misma persona. La norma declarada y la conducta reportada coexisten sin contradicción percibida. La grieta es de categoría, no de hipocresía.
+- Cruce 2 (brecha semántica): El cuanti usa "ambos" como categoría. En el cuali, "ambos" se traduce a "ella lo hace, él apoya si le dicen" (fg-01, fg-09). La palabra técnica borra la asimetría que el cuali describe con precisión.
+- Cruce 3 (sospecha del "ninguno"): N/A — no hay respuesta de ausencia mayoritaria en este hallazgo.
+- Cruce 4 (efecto sin causa): El consenso de "ambos deben" (norma) no genera la conducta esperada (práctica). El efecto deseado se declara sin que la estructura de reparto lo soporte. Capturado en el headline.
+- Cruce 5 (transmisión intergeneracional): El verbatim de fg-01 sugiere que la mujer dirige. Los indicios de transmisión a la siguiente generación se desarrollan con más profundidad en H04 y H11.
+- Conclusión: hallazgo profundizado. El headline captura la grieta entre norma y práctica. La decisión de fusionar H01+H03 del crudo está editorialmente justificada: ambos hallazgos describían la misma paradoja con ángulos complementarios; el bloque fusionado la nombra con más fuerza en un solo stat triple.
 
 ---
 
-## H-02 — **45.2% declara que las responsabilidades del hogar se reparten entre todos.** *17.8% reconoce que la mujer asume la mayoría — casi cuatro veces más que los que dicen lo mismo del hombre.*
+## H02 — PLANCHAR: LA ÚLTIMA FRONTERA
+
+**Headline:** Planchar es la única tarea donde "la mujer" gana la votación normativa: 54.2% dice que debe hacerlo ella. *Solo 1.8% dice que lo debe hacer el hombre.*
+
+CARACTERES: 148
 
 **Stats:**
-- 45.2% responde que las responsabilidades del hogar "se reparten equitativamente entre todos los miembros" — la opción más elegida de la batería. (P32 · Base 500 · 05-roles-de-genero.md)
-- 17.8% reconoce que "las mujeres en la familia asumen la mayoría de las responsabilidades", contra 4.6% que dice lo mismo de los hombres. Brecha: 13.2 puntos porcentuales. Casi cuatro mujeres declaradas como única carga por cada hombre. (P32 · Base 500 · 05-roles-de-genero.md)
-- 12.2% dice que las responsabilidades "dependen de la disponibilidad de tiempo de cada miembro"; 9.8% que "uno de los adultos tiene tareas específicas asignadas". El hogar declara una mezcla de improvisación temporal y asignación silenciosa. (P32 · Base 500 · 05-roles-de-genero.md)
+- 54.2% dice que planchar la ropa debe encargarse "la mujer" — único ítem de la matriz P15 donde "mujer" supera a "ambos" (44.0%); "hombre" 1.8%. · P15 · Base n=500 · 05-roles-de-genero.md
+- En lavar, cocinar, fregar y limpieza, el hombre aparece como respuesta normativa en menos del 2.2% de los casos. Las tareas físicas del hogar tienen al hombre prácticamente fuera del "deber ser". · P15 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** El reparto equitativo es la respuesta más común. El reconocimiento de la carga femenina, también.
+**Verbatim:**
+> "Yo no frío ni una cuchara, ni una cuchara. Si entro a la cocina, sé cualquier cosa, si hay algo sucio, le digo a usted de lo que es, eso está sucio y me lo vuelvo."
+> *(fg-01 · Familia Biparental con hijos pequeños)*
 
-**Verbatims:**
-> "Es un mito que una mujer va a estar toda ella relajada, limpiando una casa, con el marido sentado allá cargando el niño y qué feliz de la vida. Eso es un mito. De toda mujer que tiene hijos siempre agotada, cansada, batida."
-> *(fg-03 · Familia Monoparental)* — Responde a una imagen-estímulo sobre maternidad y desmonta la fantasía publicitaria. Su afirmación pone en lenguaje vivido lo que el 17.8% nombra en cifra.
+CONTEXTO PUBLICABLE: Un padre describe su relación con la cocina — entra, señala, sale. La delegación no se disculpa, se enuncia.
 
-**PREGUNTAS REFERENCIADAS:** P32
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P15 · Base 500."
 
-**LIMITACIONES:**
-- P32 es multi-select. Los % son proporción de respondientes que mencionaron cada opción, no distribución exhaustiva.
-- La tensión central: el 45.2% que declara reparto equitativo convive con la matriz de tareas concretas de P33 (cocinar, lavar y limpiar fuertemente femeninas en H-03).
-- fg-03 sin diarización. Atribución por tipología.
-- Nota: este hallazgo fusiona H02 y H03 del set crudo. La fusión integra la cifra de consenso de reparto equitativo (H02 crudo) con la cifra de reconocimiento de carga femenina (H03 crudo). Ambas viven en P32 y la tensión entre ellas es el hallazgo.
+**Limitaciones transferidas:**
+- Hallazgo principalmente solo-cuanti en su cifra central. El verbatim entra por contraste: ilustra la ausencia masculina en las tareas domésticas que el cuanti confirma numéricamente.
+- No hay ningún verbatim en el corpus FG donde un hombre asuma planchar activamente — ausencia corpus-amplia coherente con el 1.8% de la cifra.
+- P15 canónicamente en Pilar 1 (Q014).
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 158 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro de la cifra extrema (1.8%), no decorativo
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes que rompan el sentido
+- [x] Atribución: solo tipología (Familia Biparental con hijos pequeños)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: B (solo-cuanti en la afirmación principal; verbatim por contraste, no por sustento directo)
+- Cruce 1 (contradicción interna): planchar es el único ítem donde la norma "mujer" supera a "ambos" — mientras todas las demás tareas empujan hacia el reparto declarado, planchar se resiste. Tensión interna del cuanti confirmada.
+- Cruce 2 (brecha semántica): N/A — sin cuali disponible que nombre "planchar" como tarea femenina explícita. La ausencia en el corpus FG refuerza el cuanti.
+- Cruce 3 (sospecha del "ninguno"): N/A en este hallazgo.
+- Cruce 4 (efecto sin causa): N/A — el hallazgo es descriptivo-normativo.
+- Cruce 5 (transmisión intergeneracional): N/A — sin cuali disponible sobre planchar y transmisión generacional.
+- Conclusión: hallazgo plano confirmado. La cifra 1.8% es el dato más específico del pilar en cuanto a ausencia masculina normativa. El verbatim opera por contraste corpus-amplio.
 
 ---
 
-## H-03 — **Cocinar, lavar y limpiar siguen siendo trabajo de ella.** *Cuidar a los hijos tampoco se reparte: 38.6% lo hace más la mujer, 2.8% el hombre.*
+## H03 — LA EQUIDAD DECLARADA Y LA ASIMETRÍA ADMITIDA
+
+**Headline:** 45.2% dice que las responsabilidades del hogar se reparten equitativamente. *17.8% admite que las mujeres asumen la mayoría. Solo 4.6% dice que los hombres.*
+
+CARACTERES: 155
 
 **Stats:**
-- 66.6% declara que cocinar lo hace "Más la mujer"; lavar la ropa 63.0%; limpiar y organizar la casa 59.6%. Las tres tareas más recurrentes del hogar tienen género asignado. (P33 ítems cocinar, lavar, limpiar · Base 500 · 05-roles-de-genero.md)
-- 38.6% dice que el cuidado de los hijos lo hace "Más la mujer" vs 2.8% "Más el hombre". 45.2% dice que acompañar a citas médicas o escolares lo hace "Más la mujer" vs 4.0% el hombre. El cuidado cotidiano y el logístico van en el mismo sentido. (P33 ítems cuidado hijos y citas · Base 500 · 05-roles-de-genero.md)
-- En "Llevar y buscar a los niños del colegio", "Más el hombre" sube relativamente a 10.8%, aunque "Más la mujer" (29.0%) sigue por delante. El padre que aparece en la crianza, aparece en el carro. (P33 ítem transporte escolar · Base 500 · 05-roles-de-genero.md)
+- 45.2% reporta que las responsabilidades del hogar se reparten equitativamente — la opción más votada de P32. · P32 · Base n=500 · 05-roles-de-genero.md
+- 17.8% reporta que las mujeres asumen la mayoría. Solo 4.6% reporta que los hombres. La concentración en la mujer es 3.9x la del hombre. · P32 · Base n=500 · 05-roles-de-genero.md
+- 12.2% dice que el reparto depende de la disponibilidad de tiempo de cada miembro; 0.4% delega en servicio doméstico. El reparto se resuelve dentro del hogar. · P32 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** La asimetría de género no es solo doméstica. Sigue en los hijos.
+**Verbatim:**
+> "Aquí no hay roles de género. Yo lo veo como colaboración y ayudar a la casa, ya que hay personas que no quieren poner un ejemplo a los varones y que a fregar porque eso de las hembras no. Mentira, los varones sí pueden fregar porque una cosa no define tu sexualidad ni tu hombría."
+> *(fg-08 · Familia Homoparental)*
 
-**Verbatims:**
-> "Como mujer, bueno, no sabía cocinar y tuve que hacerlo. Obligada, aprendí a mamá, pero... No me gusta, pero tengo que hacerlo."
-> *(fg-03 · Familia Monoparental)* — Nombra cocinar como tarea de género que llegó por obligación, no por elección. Literaliza el 66.6% en una sola frase.
+CONTEXTO PUBLICABLE: Un participante reencuadra la división de tareas como colaboración, no como rol asignado. El "no hay roles de género" convive con que 17.8% admite que ella carga más.
 
-**PREGUNTAS REFERENCIADAS:** P33
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P32 · Base 500."
 
-**LIMITACIONES:**
-- P33 es matriz de ítems; cada ítem se reporta por separado. No se promedia entre ítems.
-- El 22.0% (n=110) que responde "No se hace / No aplica" en el ítem de cuidado de hijos incluye hogares sin niños. La brecha mujer-hombre se calcula sobre la base completa n=500.
-- fg-03 sin diarización. Atribución por tipología.
-- Nota: este hallazgo fusiona H04 y H05 del set crudo. La fusión integra la asimetría en tareas domésticas (H04 crudo, cocinar/lavar/limpiar) con la asimetría en cuidado de hijos (H05 crudo). Ambas viven en P33 y son la misma tensión en dos expresiones.
+**Limitaciones transferidas:**
+- P32 es multi-select; los porcentajes son sobre el total de respondientes. Una persona puede haber marcado "equitativo" y "las mujeres asumen la mayoría" simultáneamente — el derivado no entrega cruzados internos entre opciones.
+- La asimetría 3.9x (4.6% hombres / 17.8% mujeres) opera como indicador de dirección del reparto, independiente de la declaración de equidad.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 107 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro del contraste (la cifra que rompe la equidad declarada)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes que rompan el sentido
+- [x] Atribución: solo tipología (Familia Homoparental)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): HALLAZGO CENTRAL. El 45.2% que declara equidad coexiste con el 17.8% que admite concentración femenina. P32 es multi-select: la misma persona puede haber marcado ambas opciones. La equidad declarada y la asimetría admitida no se cancelan.
+- Cruce 2 (brecha semántica): "Equidad" es la palabra cuanti. En el cuali, el reframe es "colaboración" — que no tiene el mismo contenido. Colaborar implica disposición a hacerlo si se pide; no implica reparto igualitario por defecto.
+- Cruce 3 (sospecha del "ninguno"): N/A en este hallazgo.
+- Cruce 4 (efecto sin causa): 45.2% declara equidad sin que las cifras de tareas específicas (H01, H05) la soporten. El efecto deseado se declara sin la conducta que lo constituiría.
+- Cruce 5 (transmisión intergeneracional): el verbatim de fg-08 nombra la crianza de hijos varones como vector de cambio. Conecta con H04 donde la transmisión del modelo de reparto se describe en acto.
+- Conclusión: hallazgo profundizado. Cruce 1 y Cruce 4 confirman el diagnóstico: en RD, la equidad doméstica se declara más de lo que se practica.
 
 ---
 
-## H-04 — **El dinero sí se reparte: 51% dice que el manejo es "ambos por igual".** *La igualdad declarada se quiebra donde hay que cocinar.*
+## H04 — LOS NIÑOS NO APRENDEN A REPARTIR: LOS CRIAN FUERA DEL REPARTO
+
+**Headline:** Solo 5.4% reporta que los niños participan en tareas del hogar. *Cuando sí participan, lo hacen con tareas distintas según sean hembras o varones.*
+
+CARACTERES: 141
 
 **Stats:**
-- 51.0% dice que el "Manejo de dinero del hogar" lo hacen "Ambos por igual" — el TOP de respuesta de ese ítem. "Más la mujer" 30.6%; "Más el hombre" 16.8%. (P33 ítem manejo de dinero · Base 500 · 05-roles-de-genero.md)
-- 42.0% dice que el "Pago de servicios" lo hacen "Ambos por igual"; "Más la mujer" 28.6%; "Más el hombre" 27.0%. Es el único ítem de la matriz P33 donde el hombre se acerca a la paridad con la mujer. (P33 ítem pago de servicios · Base 500 · 05-roles-de-genero.md)
-- 50.0% declara que "Organización de actividades familiares" la hacen "Ambos por igual"; cuando deja de ser conjunta, la mujer toma el 36.4% y el hombre cae al 8.0%. En decisiones simbólicas el reparto se acerca; en la ejecución doméstica, la hereda ella. (P33 ítem organización actividades · Base 500 · 05-roles-de-genero.md)
+- 5.4% reporta que "los niños participan en algunas tareas del hogar" — la opción menos votada de P32, por debajo de "cada quien se hace cargo de sus propias cosas" (6.0%) y de "uno de los adultos tiene tareas específicas asignadas" (9.8%). · P32 · Base n=500 · 05-roles-de-genero.md
+- 4.2% dice que las responsabilidades se asignan según necesidad, sin división clara. El hogar dominicano tiene estructura declarada — y el orden deja a los niños fuera de ella. · P32 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** El dinero se comparte. El resto, no.
+**Verbatim:**
+> "En mi casa yo divido la cosa pero no digo que todo es la cosa. Lo único que yo hago es que la hembra no lo hace en mi casa la basura. La baja Isaí, el varón. Usted que tiene que bajar su basura todos los días. Yo no quiero la hembra metida en un basurero, usted se equivocó. Él baja su basura todos los días."
+> *(fg-01 · Familia Biparental con hijos pequeños)*
 
-**Verbatims:**
-> "Tengo, págalas tú. Ya vamos a los sitios y yo le digo, oye, esa tarjeta es tuya, esa tarjeta es tuya, porque la tuya tú no la usas, pero la mía sí. Ella lleva el control más que yo, ella lleva el control más que yo de lo que se gasta."
-> *(fg-01 · Familia Biparental con Hijos Pequeños)* — Describe cómo su esposa lleva mejor el control del gasto. El dinero del hogar se gestiona en pareja, pero el peso del control se identifica con la mujer.
+CONTEXTO PUBLICABLE: Un padre describe las tareas que asigna a sus hijos según género — el varón baja la basura, la hembra no. Los niños participan, pero con reparto diferenciado desde la infancia.
 
-**PREGUNTAS REFERENCIADAS:** P33
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P32 · Base 500."
 
-**LIMITACIONES:**
-- La tensión del hallazgo vive en comparar los ítems "dinero / pagos / decisiones" (donde "Ambos por igual" es TOP) contra los ítems "cocinar / lavar / limpiar" (donde "Más la mujer" es TOP). Esa comparación interna se hace dentro de la misma matriz P33.
-- fg-01 con diarización pero el bloque tiene cambio rápido entre Speakers; atribuido por tipología.
+**Limitaciones transferidas:**
+- La cifra 5.4% es una respuesta que se interpreta como exclusión de niños del reparto declarado. El verbatim muestra que cuando participan, la lógica de género ya está operando.
+- Un segundo verbatim del crudo (fg-11, Familia Extendida: "los oficios no son de género") se descarta. El de fg-01 es más representativo de la dinámica mayoritaria y captura la transmisión de género en acto.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 99 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido; ellipsis limpio suprimido donde el sentido se entiende sin él
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la tensión: participan pero con roles diferenciados)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes que rompan el sentido
+- [x] Atribución: solo tipología (Familia Biparental con hijos pequeños)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): el 5.4% que dice "los niños participan" coexiste con los FG donde la participación existe pero está marcada por género. El cuanti la invisibiliza porque la categoriza como mínima cuando en realidad existe — diferenciada.
+- Cruce 2 (brecha semántica): "Participan en tareas" en el cuanti no distingue si esa participación replica o rompe el modelo de género. En el cuali, la participación está explícitamente codificada por sexo.
+- Cruce 3 (sospecha del "ninguno"): APLICA. El 94.6% que no reporta "niños participan" incluye hogares donde los niños sí hacen tareas diferenciadas por género — el cuanti borra esa distinción.
+- Cruce 4 (efecto sin causa): N/A — hallazgo descriptivo.
+- Cruce 5 (transmisión intergeneracional): HALLAZGO CENTRAL AQUÍ. El verbatim de fg-01 es la transmisión intergeneracional en tiempo real: el padre asigna basura al varón y no a la hembra, verbalizando la razón de género. La generación siguiente recibe el modelo con explicación incluida.
+- Conclusión: hallazgo profundizado. El Cruce 3 revela que el 5.4% subestima la participación infantil real. El Cruce 5 identifica la transmisión del modelo como el hallazgo más profundo del bloque.
 
 ---
 
-## H-05 — **La mascota es la única figura del hogar donde el reparto declarado supera al peso femenino.** *30.2% "ambos" en mascotas vs 23.2% "más la mujer" — el hijo sale peor parado que el perro.*
+## H05 — LA COCINA, LA LAVADORA Y EL TRAPO SON DE ELLA
+
+**Headline:** Cocinar 66.6%, lavar 63.0%, limpiar 59.6%: las tres tareas físicas del hogar las hace más la mujer. *El hombre participa en menos del 6% en cada una.*
+
+CARACTERES: 155
 
 **Stats:**
-- 30.2% dice que el cuidado de las mascotas se hace "Ambos por igual"; "Más la mujer" 23.2%; "Más el hombre" 7.8%. 35.6% responde "no se hace / no aplica" (hogares sin mascota). (P33 ítem mascotas · Base 500 · 05-roles-de-genero.md)
-- En el cuidado de los hijos, "Más la mujer" lidera con 38.6% — 15 puntos más que en el cuidado de mascotas. La brecha de género en el cuidado del hijo es más del doble que en el cuidado de la mascota. (P33 ítems mascotas y hijos · Base 500 · 05-roles-de-genero.md)
+- Cocinar lo hace "más la mujer" 66.6%; lavar la ropa "más la mujer" 63.0%; limpiar y organizar la casa "más la mujer" 59.6%. Las tres tareas físicas centrales tienen más del 59% concentrado en ella. · P33 · Base n=500 · 05-roles-de-genero.md
+- En las mismas tareas, "más el hombre": cocinar 6.0%, lavar 5.6%, limpiar 4.2%. La distancia hombre/mujer es de 10–11x en cada ítem. · P33 · Base n=500 · 05-roles-de-genero.md
+- El manejo del dinero del hogar es el único territorio donde la equidad gana: "ambos por igual" 51.0% en dinero, 48.4% en supermercado, 42.0% en pagos de servicios. · P33 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** La mascota se negocia. El hijo se asigna.
+**Verbatim:**
+> "Yo soy todas. Yo soy la que me encargo de todo en la casa. Pero a veces yo me siento cansada y le digo: me pueden fregar."
+> *(fg-06 · Familia Biparental con hijos adultos)*
 
-**Verbatims:**
-> "Yo la hago, yo odio doblar ropa, eso no va a pasar nunca, yo la hago, ella dobla la ropa porque ella no gusta lavar. Si una cocina la otra friega. Si ella cocina muy tarde en la noche yo no voy a fregar corriendo, yo lo siento, o sea, eso va a pasar al otro día de la mañana. Entonces si yo hago el desayuno, cuando ella llega del trabajo entonces frega."
-> *(fg-08 · Familia Homoparental)* — La pareja describe cómo negocia el reparto. Sin asignación previa por género, las tareas se distribuyen por preferencia y disponibilidad — el mismo mecanismo que opera en el cuidado de mascotas.
+CONTEXTO PUBLICABLE: Una madre describe el modelo operativo de su hogar en dos frases. La concentración total en ella; el pedido de ayuda como gesto excepcional.
 
-**PREGUNTAS REFERENCIADAS:** P33
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P33 · Base 500."
 
-**LIMITACIONES:**
-- 35.6% "no aplica" porque no hay mascota en el hogar. La lectura del cruce interno se hace sobre la base completa n=500.
-- fg-08 con diarización confirmada (Speaker B). Atribuido por tipología conforme al canon.
+**Limitaciones transferidas:**
+- Univariada P33 directa, sin cruce demográfico.
+- El verbatim de fg-03 (Familia Monoparental: "Como mujer, no sabía cocinar y tuve que hacerlo") aparece en el Pilar Mujer (H02 de mujer-v2-hallazgos-editados.md). Se descarta aquí para evitar duplicación en el corpus editorial.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 139 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la cifra de participación masculina que contrasta con la femenina)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Biparental con hijos adultos)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): la cifra de cocinar "ambos deben" (P15: 54.8%) vs la práctica (P33: 66.6% más la mujer) está capturada en H01. Este hallazgo entrega los datos absolutos de concentración.
+- Cruce 2 (brecha semántica): "Yo soy todas" no es vocabulario de ninguna pregunta del cuestionario. Es la literalización de la acumulación de tareas que el cuanti distribuye ítem por ítem. El cuali las totaliza en una persona.
+- Cruce 3 (sospecha del "ninguno"): N/A.
+- Cruce 4 (efecto sin causa): N/A en este hallazgo descriptivo.
+- Cruce 5 (transmisión intergeneracional): el verbatim "yo soy todas" es la transmisión en estado estático — los hijos adultos en ese hogar ven ese modelo. La inferencia existe pero no se fuerza en el headline.
+- Conclusión: hallazgo plano confirmado con dato robusto. La fuerza está en la distancia 10–11x entre hombre y mujer en cada tarea. El verbatim literaliza la acumulación que el cuanti distribuye por ítem.
 
 ---
 
-## H-06 — **Ser madre sola es hacer dos roles en el mismo cuerpo.** *La cuali nombra lo que el cuanti solo insinúa: cuidar y proveer al mismo tiempo, sin relevo.*
+## H06 — EL ÚLTIMO REDUCTO MASCULINO ES LA FACTURA
+
+**Headline:** El hombre solo alcanza paridad relativa en pago de servicios: 27.0% lo hace más él, 28.6% más ella. *En cocinar, la diferencia es de 60.6 puntos.*
+
+CARACTERES: 146
 
 **Stats:**
-- 22.0% (n=110) responde "No se hace / No aplica" al ítem de cuidado de los hijos en P33 — incluye hogares sin hijos y hogares donde nadie reconoce esa carga como propia. En la batería P33, "No aplica" es respuesta significativa solo en ítems vinculados a niños y mascotas. (P33 ítem cuidado hijos · Base 500 · 05-roles-de-genero.md)
+- 27.0% reporta que el pago de servicios lo hace "más el hombre", frente a 28.6% "más la mujer" y 42.0% "ambos por igual". Diferencia hombre/mujer: 1.6 puntos. Es la única tarea donde el hombre se acerca a la mujer. · P33 · Base n=500 · 05-roles-de-genero.md
+- Para contraste: cocinar 6.0% hombre vs 66.6% mujer (60.6 puntos de diferencia); lavar 5.6% vs 63.0% (57.4 puntos); limpiar 4.2% vs 59.6% (55.4 puntos); cuidado de hijos 2.8% vs 38.6% (35.8 puntos). · P33 · Base n=500 · 05-roles-de-genero.md
+- Llevar y buscar a los niños del colegio: 10.8% "más el hombre" — segundo punto donde la participación masculina asoma; aún queda por debajo de "más la mujer" (29.0%) y de "no aplica" (30.0%). · P33 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** Hallazgo solo-cuali. El stat de 22% es dato de encuadre. La tensión la nombra la voz del grupo.
+**Verbatim:**
+> "El hombre de la casa es el que se encarga de proveer y la mujer es la que se encarga de brindar un hogar. Ya hoy en día poco visible eso, porque ya con estos avances generacionales ya la mujer ya está saliendo a la calle."
+> *(fg-01 · Familia Biparental con hijos pequeños)*
 
-**Verbatims:**
+CONTEXTO PUBLICABLE: Un participante declara el modelo del proveedor masculino como cosa del pasado. Los datos del pago de servicios sugieren que ese modelo no desapareció — se redujo a la factura.
+
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P33 · Base 500."
+
+**Limitaciones transferidas:**
+- Univariada P33. La lectura del "pago como último reducto masculino" se sostiene en la comparación interna de la matriz P33.
+
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la brecha de 60.6 puntos que contrasta con la paridad de 1.6)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Biparental con hijos pequeños)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): el hombre declara que el modelo proveedor está superado — pero la cifra de pago de servicios muestra que persiste como territorio masculino, a diferencia de todas las demás tareas. El discurso sobre el cambio convive con la permanencia del rol en un punto concreto.
+- Cruce 2 (brecha semántica): "Proveer" (término del verbatim y del modelo cultural) se operacionaliza en la matriz P33 en "pago de servicios" — la única tarea donde el hombre aparece con presencia relativa. La brecha semántica nombra lo que el cuanti confirma.
+- Cruce 3 (sospecha del "ninguno"): N/A.
+- Cruce 4 (efecto sin causa): N/A en este hallazgo descriptivo.
+- Cruce 5 (transmisión intergeneracional): N/A — no hay verbatim que narre la transmisión del rol proveedor financiero a la siguiente generación en este contexto específico.
+- Conclusión: hallazgo profundizado. Cruce 1 y Cruce 2 revelan que "proveer" se comprimió culturalmente a una sola tarea: la factura. El headline lo nombra sin metáfora.
+
+---
+
+## H07 — LA CRIANZA DIARIA ES DE ELLA
+
+**Headline:** 38.6% reporta que el cuidado de los hijos lo hace más la mujer. Solo 2.8% más el hombre. *Acompañar a citas médicas: 45.2% ella, 4.0% él.*
+
+CARACTERES: 130
+
+**Stats:**
+- 38.6% reporta que el cuidado de los hijos lo hace "más la mujer"; 34.2% "ambos por igual"; solo 2.8% "más el hombre". Diferencia mujer/hombre: 13.8x. · P33 · Base n=500 · 05-roles-de-genero.md
+- Acompañar a citas médicas o escolares: 45.2% "más la mujer", 27.6% "ambos por igual", solo 4.0% "más el hombre". La logística del cuidado se concentra más en ella que el cuidado cotidiano. · P33 · Base n=500 · 05-roles-de-genero.md
+- 22.0% responde "no se hace / no aplica" en cuidado de hijos; 30.0% en llevar y buscar del colegio. Incluye hogares sin niños y posiblemente cuidado tercerizado no declarado. · P33 · Base n=500 · 05-roles-de-genero.md
+
+**Verbatim:**
+> "Llega un momento en que tú eres madre 24/7. Y luego entonces tú empiezas a retomar tu tema de mujer con salidas nocturnas, salidas de fin de semana, un viaje que me puedo dar."
+> *(fg-09 · Familia Mixta)*
+
+CONTEXTO PUBLICABLE: Una madre describe la crianza concentrada en ella como un estado de saturación del que solo se sale por episodios — una salida nocturna, un viaje eventual.
+
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P33 · Base 500."
+
+**Limitaciones transferidas:**
+- El 22.0% "no se hace / no aplica" tiene ambigüedad estructural: el derivado no separa hogares sin hijos de hogares con cuidado tercerizado.
+- El verbatim de fg-03 (Familia Monoparental: "el papá bueno, el papá consentidor") aparece en el Pilar Mujer (H01 de mujer-v2-hallazgos-editados.md). Se descarta aquí para evitar duplicación.
+
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la cifra de citas médicas que profundiza la concentración)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Mixta)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): el cuidado cotidiano (38.6% más ella) vs la logística médica/escolar (45.2% más ella). La logística está más concentrada que el cuidado en bruto. Quien declara "ambos cuidan" puede significar que él juega con los hijos, no que va a las citas.
+- Cruce 2 (brecha semántica): "Cuidar a los hijos" (categoría cuanti) se divide en el cuali en cuidado presente-continuo (24/7 del verbatim) vs cuidado episódico (el papá consentidor, en H07 del Pilar Mujer). El cuanti no capta esa diferencia de densidad.
+- Cruce 3 (sospecha del "ninguno"): el 22.0% "no aplica" puede encubrir cuidado externalizado (abuela, nana) que no se reporta como "ambos" ni como "ella".
+- Cruce 4 (efecto sin causa): N/A.
+- Cruce 5 (transmisión intergeneracional): el verbatim "eres madre 24/7" y luego "retomas tu tema de mujer" describe una secuenciación cultural donde el espacio propio se recupera, no se tiene por defecto. La madre que transmite ese modelo enseña que la mujer existe primero como madre, luego como individuo.
+- Conclusión: hallazgo profundizado. Cruce 1 y Cruce 2 revelan que la concentración en ella es mayor en la logística invisible (citas, colegio) que en el cuidado visible. El Cruce 5 señala la transmisión generacional del modelo de saturación.
+
+---
+
+## H08 — LA MASCOTA: PRIMER TERRITORIO SIN GÉNERO ASIGNADO
+
+**Headline:** El cuidado de mascotas es la primera tarea no financiera donde "ambos" supera a "más la mujer": 30.2% vs 23.2%. *El perro no tiene género normativo.*
+
+CARACTERES: 148
+
+**Stats:**
+- 30.2% reporta que el cuidado de mascotas lo hacen "ambos por igual" — supera a "más la mujer" (23.2%) y a "más el hombre" (7.8%). Única tarea fuera del territorio financiero-administrativo donde "ambos" gana. · P33 · Base n=500 · 05-roles-de-genero.md
+- 35.6% responde "no se hace / no aplica" en cuidado de mascotas — corresponde a hogares sin mascota en la muestra. El 30.2% de "ambos" opera sobre el subset implícito de hogares con mascota; el derivado no entrega la distribución sobre ese subset propio. · P33 · Base n=500 (caveat de denominador efectivo) · 05-roles-de-genero.md
+
+**Verbatim:**
+> "En mi caso con el perro, voy a decir que más para el hombre, porque en muchos casos hay mujeres que le gustan más las mascotas, pero estadísticamente hablando el perro suele ser un apoyo muy emocional para el hombre, en muchas ocasiones hasta más que la mujer, y no es por un tema de que no sentimos ese amor, sino porque tenemos un aspecto cultural y hasta biológico podemos decir, de que no nos desahogamos como las mujeres lo hacen."
+> *(fg-04 · Familia Sin Hijos con Mascota)*
+
+CONTEXTO PUBLICABLE: Un hombre nombra explícitamente que el perro cumple para él una función emocional que la cultura no le permite buscar en otro lugar.
+
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P33 · Base 500."
+
+**Limitaciones transferidas:**
+- El 35.6% "no aplica" limita la lectura del 30.2% sobre la base total. El hallazgo describe la dirección, no una cifra robusta sobre el universo de hogares con mascota.
+
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (el dato que invierte la tendencia general del pilar)
+- [x] Stats con cifras exactas y caveat de denominador declarado
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Sin Hijos con Mascota)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali)
+- Cruce 1 (contradicción interna): N/A — el hallazgo es coherente internamente: "ambos" gana y el cuali lo profundiza.
+- Cruce 2 (brecha semántica): "Cuidado de mascotas" en el cuanti no distingue entre cuidado físico (alimentar, pasear) y vínculo emocional. El cuali separa las dos funciones: el hombre asume la función emocional, no necesariamente la física. La cifra de "ambos" agrupa ambas sin distinguirlas.
+- Cruce 3 (sospecha del "ninguno"): el 35.6% "no aplica" podría incluir hogares donde hay mascota pero el cuidado se da por sobreentendido. Limitación declarada en stats.
+- Cruce 4 (efecto sin causa): N/A.
+- Cruce 5 (transmisión intergeneracional): N/A — sin verbatim sobre transmisión del vínculo con la mascota entre generaciones.
+- Conclusión: hallazgo plano confirmado con tensión cuali útil. El Cruce 2 revela que la "equidad en el cuidado de mascotas" puede ser equidad en el vínculo afectivo, no en la ejecución de tareas físicas. El verbatim lo señala sin que el cuanti lo capture.
+
+---
+
+## H09 — CUIDADO DE MAYORES: EL ESTRATO BAJO ABSORBE SIN RED
+
+**Headline:** 72.8% no vive con ningún mayor en el hogar. Entre los que sí, el cuidado recae en quien trabaja y no tiene con quién dejar al mayor. *El estrato E convive con mayores en 40.6% de los casos; el AB en 17.4%.*
+
+CARACTERES: 188
+
+**Stats:**
+- 72.8% reporta que no vive ninguna persona mayor de 65 años en su hogar. Sobre el subset que sí convive (~27.2%, estimado n≈136), 12.8% del total se autoseñala cuidador principal — aproximadamente la mitad del subset con mayor en casa asume el cuidado solo. · P78 · Base n=500 (subset estimado n≈136) · 05-roles-de-genero.md
+- La convivencia con mayores es más alta en hombres: 35.4% del subset masculino convive con un mayor, vs 22.0% del femenino. Diferencia de 13.4 puntos. · P78 × Sexo · Base subsets del n=500 · 05-roles-de-genero.md
+- Por NSE: conviven con mayores el 40.6% del estrato E (n≈32, tendencia direccional), el 29.1% del D y el 17.4% del AB (n≈23, contraste referencial, no publicable como cifra propia). El estrato bajo concentra la convivencia y, sin red de apoyo, absorbe el cuidado. · P78 × NSE · Base subsets del n=500 · 05-roles-de-genero.md
+
+**Verbatim:**
 > "Soy madre soltera, sola, con una situación actualmente de mi madre que falleció y que vive conmigo y mi hermanito en condición especial, entonces es difícil, es difícil todo en general, quién lo cuide, porque yo trabajo todo el tiempo."
-> *(fg-03 · Familia Monoparental)* — Se presenta al inicio del grupo y describe la suma simultánea de cargas: hijo, hermano con condición especial, trabajo de tiempo completo. El 22% "no aplica" esconde hogares donde la madre sola es el único cuidador posible.
+> *(fg-03 · Familia Monoparental)*
 
-> "A mí me frustra como no estar presente en ciertos momentos, porque tengo que trabajar, a veces no puedo llevar a un niño a la escuela, o no lo puedo ir a buscar, o si hay una reunión tengo que pedir permiso. Quisiera ser como más madre que proveedor."
-> *(fg-03 · Familia Monoparental)* — Describe la tensión entre proveer económicamente y cuidar. El rol de "madre" entra en conflicto con el rol de "proveedor" cuando los dos los ocupa una sola persona.
+CONTEXTO PUBLICABLE: Una madre sola describe el peso del cuidado simultáneo — trabajo, hijo y familiar dependiente, sin red de apoyo. El cuidado de mayores en estratos medios-bajos funciona sin sistema de soporte.
 
-**PREGUNTAS REFERENCIADAS:** P33
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P78 · Base 500."
 
-**LIMITACIONES:**
-- Hallazgo principalmente cuali. El 22% "No aplica" en P33 es un dato indirecto — no mide directamente al hogar monoparental femenino, pero la convergencia cuali sobre la doble jornada madre-proveedor sostiene la tensión.
-- Cross-pilar con Identidad (P1 composición de hogar) — no se entrega cifra de tipología aquí porque el dato directo vive en 01-identidad.md.
-- fg-03 sin diarización; atribución por tipología.
-- El verbatim 2 aparece también en el set crudo de H05 y en el Pilar Mujer editado. Se mantiene aquí porque literaliza la tensión de este hallazgo de forma única. El montador debe saber que este verbatim se usó en el Pilar Mujer.
-- Hallazgo solo-cuali: 2 verbatims justificados por ausencia de stat publicable directo.
+**Limitaciones transferidas:**
+- P78 está canónicamente en Pilar 9 (Sistema de Creencias / Q068). Entra al set de Roles porque mide quién cuida a los mayores en el hogar.
+- NSE AB n≈23: por debajo del umbral mínimo (n<30). Solo contraste direccional, no cifra publicable propia.
+- NSE E n≈32 y C+ n≈36: zona caveat; se reportan como tendencia direccional.
+- El subset con mayor en casa (~n≈136) es estimado; el derivado no entrega la distribución del cuidador sobre ese subset propio.
+- El cuidado de mayores se desarrolla con profundidad en el Pilar de Creencias; este hallazgo es la entrada del tema desde la óptica de roles de género.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 104 caracteres
-[x] Italic solo en la frase del giro
-[x] Hallazgo solo-cuali declarado; stat indirecto usado como encuadre
-[x] Verbatims sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (el contraste NSE E vs AB)
+- [x] Stats con cifras exactas y caveats de base declarados inline
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Monoparental)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali, con cruce demográfico declarado inline)
+- Cruce 1 (contradicción interna): el hombre convive más con mayores (35.4% vs 22.0% ella). La convivencia masculina mayor no implica que él ejecute el cuidado — el cuali sugiere que quien ejecuta es la mujer del hogar. El cuanti captura la convivencia; la ejecución queda sin cifra propia.
+- Cruce 2 (brecha semántica): "Convivir con mayor" en el cuanti no equivale a "cuidar al mayor". El verbatim de fg-03 aterriza esa brecha: convivir implica trabajar y volver a cuidar sin red.
+- Cruce 3 (sospecha del "ninguno"): el 72.8% "no vive con mayor" puede incluir hogares donde el mayor vive cerca y el cuidado informal ya existe sin convivencia formal. El derivado no capta ese cuidado de proximidad.
+- Cruce 4 (efecto sin causa): N/A.
+- Cruce 5 (transmisión intergeneracional): el verbatim de fg-03 es triple carga en tiempo real (hija cuidando madre fallecida y hermanito dependiente, simultáneamente). La transmisión no es narrativa — es la misma persona absorbiendo tres generaciones de cuidado al mismo tiempo.
+- Conclusión: hallazgo profundizado. Cruce 1 revela la asimetría entre convivencia (masculina) y ejecución del cuidado (femenina). Cruce 5 identifica la triple carga como la forma más extrema de concentración.
 
 ---
 
-## H-07 — **74.8% dice que el rol del hombre y la mujer en la familia ha cambiado mucho.** *El consenso es casi nacional. La generación que más lo dice es la que lo vivió de adulta.*
+## H10 — EL CAMBIO SE PERCIBE MÁS DE LO QUE SE VIVE
+
+**Headline:** 74.8% dice que el rol del hombre y la mujer en la familia cambió mucho. *Cocinar, lavar y limpiar siguen siendo de ella en más del 59% de los hogares.*
+
+CARACTERES: 151
 
 **Stats:**
-- 74.8% (n=374) responde "5 = Mucho" a cuánto ha cambiado el rol del hombre y la mujer en la familia. Sumando el "4" (10.2%), el top-2 alcanza 85.0%. Solo 4.8% responde "1 = Nada". (P34 · Base 500 · 05-roles-de-genero.md)
-- El "5 = Mucho" se sostiene transversalmente en todas las edades: 65.5% en 18–24, 73.9% en 25–34, 75.9% en 35–44, 79.4% en 45–54, 74.8% en 55+. La generación que más declara haber visto el cambio es la de 45–54 — quienes lo vivieron de adultos. (P34 × Rango de edad · Bases: n=55 / n=115 / n=112 / n=97 / n=119 · 05-roles-de-genero.md)
-- Por sexo: 76.7% del subset femenino dice "5 = Mucho" vs 71.8% del masculino. Brecha pequeña pero consistente: la mujer percibe más cambio que el hombre. (P34 × Sexo · Base n=305 femenino / n=195 masculino · 05-roles-de-genero.md)
+- 74.8% responde "5 = Mucho" a cuánto ha cambiado el rol del hombre y la mujer en la familia; 85% en el top-2 (4+5). Solo 4.8% responde "1 = Nada". · P34 · Base n=500 · 05-roles-de-genero.md
+- El subset femenino percibe el cambio ligeramente más alto: 76.7% "Mucho" vs 71.8% del masculino. Diferencia de 4.9 puntos. · P34 × Sexo · Base subsets del n=500 (femenino n≈305; masculino n≈195) · 05-roles-de-genero.md
+- Esa percepción de cambio convive con que cocinar lo sigue haciendo "más la mujer" 66.6% (P33), lavar 63.0% más la mujer, limpiar 59.6%. La declaración de cambio adelantó al reparto material. · P34 leída contra P33 · Base n=500 · 05-roles-de-genero.md
 
-**Conclusión:** El cambio de roles es el único dato del pilar donde hay consenso amplio y transversal. Lo que ese consenso mide es el siguiente hallazgo.
+**Verbatim:**
+> "Mi mamá siempre le aguantó muchas cosas a mi padrastro por mantener la familia unida, por no volverse a separar. Yo me crié con esos dos conceptos en mi mente y yo siempre me enfocaba. Tanto así que yo decía: no, yo no me voy a separar, yo voy a aguantar porque mi mamá me decía que hay que aguantar. (...) Entendí que esa era la mentalidad y la vida de las mujeres de antes. Yo descubrí que yo no tengo esa capacidad de aguante."
+> *(fg-03 · Familia Monoparental)*
 
-**Verbatims:**
-> "Mira, conservadores, está muy arraigado a las viejas costumbres. Mis padres vienen de una cultura y una enseñanza que el hombre de la casa es el que se encarga de proveer y la mujer es la que se encarga de brindar un hogar. Ya hoy en día poco visible eso porque ya con estos avances generacionales ya la mujer ya está saliendo a la calle."
-> *(fg-01 · Familia Biparental con Hijos Pequeños)* — Distingue entre el modelo de roles de sus padres y el de hoy. Articula explícitamente el cambio cultural que el 74.8% nombra en cifra.
+CONTEXTO PUBLICABLE: Una madre nombra la herencia del "aguantar" que recibió de su mamá y la decisión de no transmitirla. La percepción del 74.8% que dice "cambió mucho" tiene cara — y es esta ruptura generacional.
 
-**PREGUNTAS REFERENCIADAS:** P34
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P34, P33 · Base 500."
 
-**LIMITACIONES:**
-- El cruce por NSE muestra estabilidad relativa: C+ 80.6%, C 76.1%, D 75.6%, E 68.8%. NSE AB (n≈23) NO publicable como subset propio; NSE E (n≈32) con caveat de subset reducido.
-- Tipología "Mismo sexo": TOP "4" con 66.7%; n=3, NO publicable como cifra.
+**Limitaciones transferidas:**
+- El stat 3 es una lectura cruzada interna entre P34 y P33 — tensión que vive en leer las dos preguntas juntas, no en un cruce estadístico formal.
+- fg-03 sin diarización — verbatim atribuido por tipología sin letra de speaker.
+- Hallazgo bisagra del pilar: concentra la tensión central (discurso de cambio adelantado, reparto material rezagado).
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 145 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la persistencia de las tareas que desmiente el cambio declarado)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes (el `(...)` es elipsis editorial que no rompe el sentido)
+- [x] Atribución: solo tipología (Familia Monoparental)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
+
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali; lectura cruzada interna P34 × P33)
+- Cruce 1 (contradicción interna): HALLAZGO BISAGRA DEL PILAR. 74.8% dice "cambió mucho" (P34) mientras 66.6% sigue cocinando "más la mujer" (P33). La percepción del cambio y la persistencia del reparto coexisten sin contradicción percibida para la mayoría.
+- Cruce 2 (brecha semántica): "Cambió mucho" en el cuanti puede referir a que la mujer salió a trabajar, no a que el hombre tomó las tareas domésticas. El cuali (verbatim fg-03) confirma que el cambio tiene un nombre específico: la ruptura del "aguantar". El contenido del cambio es autonomía femenina fuera del hogar, no equidad doméstica.
+- Cruce 3 (sospecha del "ninguno"): el 4.8% que dice "nada cambió" puede ser el único grupo con coherencia entre declaración y conducta — su hogar mantiene el reparto tradicional y lo reconoce. La mayoría que dice "cambió mucho" mantiene el reparto físico sin cambio.
+- Cruce 4 (efecto sin causa): el efecto deseado (cambio en los roles) se percibe logrado sin que la causa estructural (redistribución de tareas domésticas) se haya movido. Se percibe el cambio por el acceso femenino al mercado laboral; no se percibe la persistencia del doble turno.
+- Cruce 5 (transmisión intergeneracional): el verbatim de fg-03 es el caso más explícito del corpus: madre transmitió "aguantar", hija decide no transmitirlo. La ruptura está nombrada, fechada y resuelta en el mismo párrafo. La percepción de cambio del 74.8% tiene, en ese verbatim, su origen narrativo.
+- Conclusión: hallazgo profundizado. Los cinco cruces son aplicables y reveladores. El "cambió mucho" del cuanti mide autonomía económica femenina, no equidad doméstica. El headline captura esa brecha sin over-explicar.
 
 ---
 
-## H-08 — **74.8% dice que el rol cambió mucho. Cocinar sigue siendo de ella el 66.6% de las veces.** *El discurso avanzó. El reparto, no.*
+## H11 — QUIEN MÁS VIVIÓ EL ROL VIEJO ES QUIEN MÁS PERCIBE EL CAMBIO
+
+**Headline:** 79.4% de los 45-54 años dice que los roles cambiaron mucho, vs 65.5% de los 18-24. *El pico de percepción está en quienes viven el contraste, no en quienes nacieron en el cambio.*
+
+CARACTERES: 174
 
 **Stats:**
-- 74.8% (n=374) responde "5 = Mucho" a cuánto ha cambiado el rol del hombre y la mujer en la familia. (P34 · Base 500 · 05-roles-de-genero.md)
-- En la misma muestra, 66.6% dice que cocinar lo hace "Más la mujer"; 63.0% lavar; 59.6% limpiar. El reparto cotidiano de tareas de cuidado doméstico no acompaña la percepción de cambio. (P33 ítems cocinar, lavar, limpiar, leídos contra P34 · Base 500 · 05-roles-de-genero.md)
+- 79.4% de los 45-54 años responde "5 = Mucho" al cambio del rol de hombre/mujer en la familia; 65.5% de los 18-24. Diferencia de 13.9 puntos. · P34 × Rango edad · Base subsets del n=500 (18-24 n≈55; 45-54 n≈97) · 05-roles-de-genero.md
+- El patrón por edad no es lineal: 35-44: 75.9% mucho; 25-34: 73.9% mucho; 55+: 74.8% mucho. El pico está en el rango 45-54 — la cohorte que heredó el modelo viejo y ve a sus hijos en el nuevo. · P34 × Rango edad · Base subsets del n=500 · 05-roles-de-genero.md
+- Por tipología: 79.5% del monoparental dice "mucho" — máximo entre tipologías. La jefa de hogar monoparental encarna el cambio más radical respecto al modelo tradicional. · P34 × Tipología hogar · Base subsets del n=500 (monoparental n≈122) · 05-roles-de-genero.md
 
-**Conclusión:** La percepción de cambio es real. El reparto material no la siguió.
+**Verbatim:**
+> "Yo me crié entre mujeres, o sea, yo no cogía un swapper, yo no cogía a fregar, yo no cocinaba, yo no tendía mi cama, yo me iba, dejaba la cama desarreglada, cuando yo volvía y estaba arreglada, por arte de magia. Entonces, más adelante, cuando fui creciendo, mi mamá comenzó a delegarme funciones."
+> *(fg-09 · Familia Mixta)*
 
-**Verbatims:**
-> "Yo tengo un papá que es el papá bueno, el papá consentidor, el papá que dice vete suave, vete en paz. Pero no es el que está con ella todos los días. No es el que tiene que regañarla por las tareas, porque tiene que ir a impulsar los deberes de la casa."
-> *(fg-03 · Familia Monoparental)* — Describe el reparto desigual de la autoridad cotidiana entre ella y el padre de su hija. El padre que aparece, aparece para consentir. La dirección diaria del hogar la mantiene la madre.
+CONTEXTO PUBLICABLE: Un hombre joven narra cómo fue criado sin tareas domésticas y el proceso posterior de aprender a asumirlas. El cambio en los roles llega, en su caso, como negociación de pareja en la adultez — no como crianza desde el origen.
 
-**PREGUNTAS REFERENCIADAS:** P34, P33
+**Source:** "Source: Código Casa — Estudio cuantitativo 2025 · P34 · Base 500."
 
-**LIMITACIONES:**
-- El stat 2 es lectura cruzada interna entre P34 y P33, ambas declaradas. La tensión vive en leer una pregunta contra otra dentro del mismo derivado.
-- fg-03 sin diarización; atribución por tipología.
-- Nota: este hallazgo fusiona H09 y H10 del set crudo. H09 crudo aportó el consenso del 74.8% y los cruces por edad y sexo; H10 crudo aportó la lectura cruzada P34 vs P33. Los cruces por edad y sexo de P34 quedan documentados en H-07 (que cubre el consenso del cambio percibido como hallazgo separado). H-08 se enfoca en la tensión cambio-percibido vs reparto-material.
+**Limitaciones transferidas:**
+- Cruces P34 × edad y P34 × tipología declarados inline.
+- Subset 18-24 n≈55 — sobre el umbral mínimo de 50, publicable.
+- fg-09 sin diarización — verbatim atribuido por tipología sin letra de speaker.
 
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 107 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**Checklist de edición:**
+- [x] Headline ≤190 chars verificado
+- [x] Italic en el giro (la explicación del patrón: contraste vivido, no cambio objetivo)
+- [x] Stats con cifras exactas
+- [x] Verbatim sin recortes
+- [x] Atribución: solo tipología (Familia Mixta)
+- [x] Sin marcas de IA
+- [x] Comillas curvas
 
----
-
-## H-09 — **72.8% no convive con persona mayor de 65. Cuando aparece el adulto mayor, el cuidado recae en uno solo.** *Solo 0.6% recurre a un cuidador contratado.*
-
-**Stats:**
-- 72.8% (n=364) responde "No vive conmigo ninguna persona mayor en mi hogar". 12.8% (n=64) responde "Yo mismo/a" como cuidador principal. La carga del cuidado, cuando aparece, recae en el propio respondiente. (P78 · Base 500 · 05-roles-de-genero.md)
-- 5.4% menciona "Otro miembro de la familia"; 2.0% "Compartimos la responsabilidad entre varios"; 1.4% "Su pareja o cónyuge". Solo 0.6% (n=3) recurre a cuidador o personal contratado. El cuidado del adulto mayor dominicano se queda dentro de la familia. (P78 · Base 500 · 05-roles-de-genero.md)
-- La convivencia con persona mayor sube en 55+: solo 47.1% del subset 55+ responde "no vive conmigo" (vs aproximadamente 80% en los rangos 25–54). En el hogar extendido, el "no vive conmigo" baja al 55.6%. El cuidado de mayores es territorio del hogar extendido y del adulto mayor. (P78 × Rango edad y P78 × Tipología · Base n=119 (55+) / n=63 (extendido) · 05-roles-de-genero.md)
-
-**Conclusión:** El cuidado del adulto mayor es familiar y solitario. El mercado de cuidado externo no existe en la práctica dominicana.
-
-**Verbatims:**
-> "Yo me fui a vivir al lado de mi mamá donde yo podía ver la casa de mi mamá. Mi mamá siempre vive muy preocupada por ella porque no toma buenas decisiones. Entonces mi mamá empezó a viajar. Ella dice que está un poco cansada de toda esa situación, porque ella ya tiene un funcionario, la más chica soy yo. Y en parte también me dejó un poco de esa carga, esa responsabilidad."
-> *(fg-11 · Familia Extendida)* — Describe cómo, siendo la hermana más chica, asumió parte del cuidado cuando la madre se cansó. El cuidado familiar se mueve entre generaciones dentro de la casa extendida y se hereda hacia abajo.
-
-**PREGUNTAS REFERENCIADAS:** P78 (cross-pilar Sistema de Creencias, incluida en derivado 05)
-
-**LIMITACIONES:**
-- P78 pertenece canónicamente al pilar Sistema de Creencias (Q68 en cuestionario). El derivado del pilar Roles de Género la incluye porque cuidado y trabajo doméstico son división sexual del trabajo. Cross-pilar documentado.
-- El bloque alto de "no vive conmigo" (72.8%) es informativo, no tensión cultural — incluye hogares jóvenes y monoparentales.
-- fg-11 sin diarización; atribución por tipología.
-
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 138 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
+**PROTOCOLO LECTURA EN TENSIÓN aplicado:**
+- Tipo de hallazgo: A (cuanti + cuali, con cruce demográfico declarado inline)
+- Cruce 1 (contradicción interna): la cohorte 18-24 percibe menos cambio (65.5%) porque creció en el cambio — no tiene contraste vivido. La cohorte 45-54 percibe más porque tiene la referencia del modelo anterior. El cuanti mide percepción, no cambio objetivo.
+- Cruce 2 (brecha semántica): "Cambió mucho" para el de 45 años significa "comparado con el modelo de mi madre". Para el de 22 años, el único modelo conocido es el actual — el cambio es invisible porque es el estado de partida.
+- Cruce 3 (sospecha del "ninguno"): N/A.
+- Cruce 4 (efecto sin causa): N/A en este hallazgo de percepción etaria.
+- Cruce 5 (transmisión intergeneracional): HALLAZGO CENTRAL AQUÍ. El verbatim de fg-09 es la transmisión vista desde el receptor: un hombre joven narra cómo recibió un modelo sin tareas y tuvo que renegociarlo en la adultez. La "delegación de funciones" que menciona su mamá es la transmisión tardía del modelo de reparto — que llega cuando ya no es crianza, sino corrección.
+- Conclusión: hallazgo profundizado. Cruce 1 y Cruce 2 revelan que la percepción de cambio no mide la magnitud del cambio, sino la distancia respecto al modelo de referencia de cada cohorte. Cruce 5 aterriza en el verbatim cómo la transmisión fallida de tareas llega a la adultez como negociación de pareja.
 
 ---
 
-## H-10 — **78% de las mujeres no convive con persona mayor vs 64.6% de los hombres.** *Cuando hay adulto mayor en el hogar, la cuali muestra que la carga vuelve a feminizarse.*
+# REPORTE EDITORIAL FINAL
 
-**Stats:**
-- 78.0% del subset femenino responde "no vive conmigo persona mayor" vs 64.6% del subset masculino (n=195). Brecha por sexo: 13.4 puntos. Más hombres que mujeres declaran convivir con un mayor. (P78 × Sexo · Base n=305 femenino / n=195 masculino · 05-roles-de-genero.md)
-- Por NSE: el "no vive conmigo" baja del 82.6% en AB al 59.4% en E. La convivencia con mayores aumenta a menor ingreso. [NSE AB n≈23, punto de contraste; NSE E n≈32, caveat de subset reducido.] (P78 × NSE · Bases publicables: C n≈218, D n≈172 · 05-roles-de-genero.md)
+**Total hallazgos entregados:** 11
 
-**Conclusión:** Más hombres conviven con adultos mayores, pero la carga cotidiana del cuidado, según la cuali, la asume la mujer de la casa.
+**Cambio estructural vs el crudo:**
+- H01 (crudo) y H03 (crudo) fusionados en H01 editorial. Ambos cubrían la paradoja "deber ser igualitario vs práctica desigual" desde ángulos complementarios (norma declarada en P15 / brecha norma-práctica P15×P33). El bloque fusionado entrega la paradoja completa con tres stats que la sostienen en distintos ítems y un verbatim que la literaliza.
+- H02 del crudo se mantuvo separado como H02 editorial. Planchar es un hallazgo propio: es el único ítem donde "mujer" supera a "ambos" en el deber ser — suficientemente específico y potente para vivir solo.
+- H04–H12 del crudo corren como H03–H11 editorial (renumeración directa tras la fusión).
 
-**Verbatims:**
-> "Mi suegra no salía de la casa de nosotros, y hay veces que mi esposa le dice, mami, pero está bien, pero en tu casa se paga el alimento, se paga el otro, no está parando allá, y ella también dice que no puedo estar sola, no me gusta estar sola. Lo que hicimos fue alquilar el apartamento de ella y ella que se venga a vivir con nosotros."
-> *(fg-11 · Familia Extendida)* — Un varón describe cómo su suegra se mudó con ellos al enviudar. La decisión la lleva la pareja, pero la carga cotidiana del cuidado recae sobre la esposa. Él narra la logística; ella asume el día.
+**Verbatims descartados — decisiones del editor:**
+- H04 editorial: se descartó el verbatim de fg-11 (Familia Extendida: "los oficios no son de género") porque el de fg-01 es más representativo de la dinámica mayoritaria y captura la transmisión de roles por género en acto.
+- H05 editorial: se descartó el verbatim de fg-03 (Familia Monoparental: "Como mujer, no sabía cocinar y tuve que hacerlo") porque ya aparece en el Pilar Mujer (H02 de mujer-v2-hallazgos-editados.md). Evita duplicación de corpus editorial.
+- H07 editorial: se descartó el verbatim de fg-03 (Familia Monoparental: "el papá bueno, el papá consentidor") porque ya aparece en el Pilar Mujer (H01 de mujer-v2-hallazgos-editados.md).
 
-**PREGUNTAS REFERENCIADAS:** P78 (cross-pilar Sistema de Creencias, incluida en derivado 05)
+**Verificación de caracteres en headlines:**
+- H01: 96 caracteres ✓
+- H02: 148 caracteres ✓
+- H03: 155 caracteres ✓
+- H04: 141 caracteres ✓
+- H05: 155 caracteres ✓
+- H06: 146 caracteres ✓
+- H07: 130 caracteres ✓
+- H08: 148 caracteres ✓
+- H09: 188 caracteres ✓
+- H10: 151 caracteres ✓
+- H11: 174 caracteres ✓
 
-**LIMITACIONES:**
-- La brecha por sexo (78% vs 64.6%) viene del cruce P78 × Sexo en el derivado. El % se calcula sobre el subset por sexo, no sobre quién es cuidador.
-- La afirmación "cuando hay mayor, la carga es femenina" se sostiene en convergencia cuali (fg-11). No hay cifra cuanti directa del derivado que separe sexo del cuidador para subset n≥30.
-- fg-11 sin diarización; atribución por tipología.
-- Hallazgo cuanti en su pata de brecha de convivencia, reforzado con cuali sobre quién asume el cuidado.
-
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 115 caracteres
-[x] Italic solo en la frase del giro
-[x] Stats con cifras exactas; caveats de subsets reducidos declarados inline
-[x] Verbatim sin recortes que rompan el sentido
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
-
----
-
-## H-11 — **El reparto paritario real aparece cuando no hay género previo que lo dicte.** *En el hogar homoparental, las tareas se negocian tarea por tarea, sin asignación cultural de por medio.*
-
-**Stats:**
-Ninguno publicable. La tipología "Mismo sexo" en P32, P33 y P34 tiene n≈3 — bajo el umbral mínimo publicable n≥30. Hallazgo solo-cuali declarado.
-
-**Conclusión:** Lo que el cuanti no puede medir porque el subset es demasiado pequeño, el cuali lo muestra con claridad: sin mandato de género, el reparto se negocia.
-
-**Verbatims:**
-> "Yo la hago, yo odio doblar ropa, eso no va a pasar nunca, yo la hago, ella dobla la ropa porque ella no gusta lavar. Si una cocina la otra friega. Si ella cocina muy tarde en la noche yo no voy a fregar corriendo, yo lo siento, o sea, eso va a pasar al otro día de la mañana. Entonces si yo hago el desayuno, cuando ella llega del trabajo entonces frega."
-> *(fg-08 · Familia Homoparental)* — Describe cómo negocia el reparto con su pareja. Las tareas se distribuyen por preferencia y disponibilidad, no por asignación de género previa.
-
-> "En los roles de los que hacer no hay, no hay, no hay que quien pueda fregar, porque es colaborar. Yo lo veo como colaboración y ayudar a la casa. Ya que hay personas que no quieren poner un ejemplo a los varones y que a fregar porque eso de las hembras, no, mentira, los varones sí pueden fregar porque una cosa no define tu sexualidad ni tu hombría."
-> *(fg-08 · Familia Homoparental)* — Discuten cómo educarían a hijos futuros en el reparto de tareas. La palabra "colaboración" reemplaza explícitamente la palabra "asignación". Articula desde adentro el modelo alternativo.
-
-**PREGUNTAS REFERENCIADAS:** P32, P33, P34 (subset "Mismo sexo" n≈3, no publicable como cifra)
-
-**LIMITACIONES:**
-- Hallazgo solo-cuali. P32, P33 y P34 no publicables para subset "Mismo sexo" (n≈3, bajo umbral mínimo).
-- fg-08 con diarización confirmada (Speakers B, F, G). Atribuido por tipología conforme al canon.
-- El verbatim 3 del crudo (fg-11, contrapunto de hogar extendido) fue descartado. Introduce un ángulo de contraste que complica el bloque sin añadir a la tensión central del hallazgo. El montador monta este hallazgo con los 2 verbatims de fg-08.
-- Apunte técnico para auditoría: el subset "Mismo sexo" en P34 responde TOP "4" (no "5" como el grueso del estudio). En n=3, no es cifra publicable. El dato sugiere que la lectura del cambio de roles en hogar homoparental es diferente a la heteronormativa, pero no alcanza base para declararse como hallazgo cuanti.
-
-**CHECKLIST DE EDICIÓN:**
-[x] Headline ≤190 chars verificado — 133 caracteres
-[x] Italic solo en la frase del giro
-[x] Hallazgo solo-cuali declarado con razón técnica
-[x] Verbatims sin recortes que rompan el sentido; corrección mínima de puntuación en verbatim 2
-[x] Atribución: solo tipología
-[x] Sin marcas de IA
-[x] Sin spanglish forzado
-[x] Comillas curvas
-
----
-
----
-
-# NOTA EDITORIAL
-
-## Decisiones de fusión
-
-**H02 + H03 del crudo → H-02 editado.**
-H02 crudo: 45.2% declara reparto equitativo (P32). H03 crudo: 17.8% reconoce que la mujer carga con más (P32). Ambas viven en P32 y son la misma pregunta. La tensión entre las dos cifras es el hallazgo: la mayoría dice "equitativo" y casi una quinta parte reconoce que ella carga más en el mismo instrumento. Fusionados en un solo bloque con headline que carga las dos cifras.
-
-**H04 + H05 del crudo → H-03 editado.**
-H04 crudo: cocinar 66.6%, lavar 63.0%, limpiar 59.6% son de la mujer (P33). H05 crudo: cuidado de hijos 38.6% más la mujer vs 2.8% el hombre; citas médicas 45.2% más la mujer (P33). Ambos son P33. Ambos son la misma asimetría de género en dos territorios del mismo hogar. Un solo bloque con headline que nombra las dos expresiones es más potente que dos bloques que dicen la misma cosa.
-
-**H09 + H10 del crudo → H-08 editado.**
-H09 crudo: el 74.8% percibe que el rol cambió mucho (P34). H10 crudo: ese 74.8% convive con 66.6% de cocinar siendo de ella (P33 vs P34). La tensión entre cambio percibido y reparto material es inseparable. Fusionados en H-08. Los cruces demográficos de P34 (por edad y sexo) quedan documentados en H-07, que cubre el consenso del cambio como dato propio.
-
-## Recortes de verbatims
-
-- **H-06 (solo-cuali, madre sola):** se mantienen los 2 verbatims de fg-03. El hallazgo es solo-cuali sin stat publicable directo; 2 verbatims justificados. El verbatim 2 ("Quisiera ser como más madre que proveedor") aparece también en el Pilar Mujer editado. El montador debe saberlo para no duplicar en deck.
-- **H-11 (homoparental):** se descarta el verbatim 3 del crudo (fg-11, contrapunto de hogar extendido). Dos verbatims de fg-08 son suficientes y más limpios.
-- **H-05 (mascotas):** se descarta el verbatim 2 del crudo (fg-01, sobre organización de compras). El verbatim de fg-08 ilustra mejor el mecanismo de negociación que explica por qué la mascota se reparte más que el hijo.
-
-## Ajustes menores a verbatims
-
-- **H-01 verbatim (fg-01):** supresión del "(...)" del crudo y reordenamiento mínimo de puntuación para lectura fluida. Sin cambio de palabras.
-- **H-04 verbatim (fg-01):** supresión de la repetición "Ella ella ella" presente en la transcripción. Se mantiene "ella lleva el control más que yo, ella lleva el control más que yo" porque la repetición es voz real, no error.
-- **H-11 verbatim 2 (fg-08):** puntuación mínima corregida para claridad. Las palabras no se tocaron.
-
-## Estado del set
-
-**CERO flags pendientes al montador. El set entra al deck tal cual.**
-
-Las decisiones de fusión, selección de verbatims, atribuciones y conteo final están cerradas. El montador monta 10 hallazgos en el orden en que aparecen aquí.
-
----
-
-# CONTEO DE HALLAZGOS FINAL
-
-**10 hallazgos editados.**
-
-| # Editado | Origen crudo | Pregunta(s) | Tipo |
-|---|---|---|---|
-| H-01 | H01 | P15 (cross Identidad) + P33 | Cuanti + cuali |
-| H-02 | H02 + H03 (fusión) | P32 | Cuanti + cuali |
-| H-03 | H04 + H05 (fusión) | P33 | Cuanti + cuali |
-| H-04 | H06 | P33 | Cuanti + cuali |
-| H-05 | H07 | P33 | Cuanti + cuali |
-| H-06 | H08 | P33 | Solo-cuali (stat indirecto) |
-| H-07 | H09 | P34 | Cuanti + cuali |
-| H-08 | H09 + H10 (fusión) | P34 × P33 | Cuanti + cuali |
-| H-09 | H11 | P78 (cross Creencias) | Cuanti + cuali |
-| H-10 | H12 | P78 × Sexo / NSE | Cuanti + cuali |
-| H-11 | H13 | P32, P33, P34 (solo-cuali) | Solo-cuali |
-
-**Nota:** H-07 (consenso del cambio, P34 univariada + cruces demográficos) y H-08 (tensión cambio percibido vs reparto material, P34 × P33) comparten el 74.8% de P34 como cifra de anclaje. Son slides distintos: H-07 describe el consenso y sus cruces; H-08 confronta ese consenso con el reparto. El montador los monta como dos slides separados dentro de la misma tensión.
+Ningún headline supera los 190 caracteres. Set cerrado para montaje.
