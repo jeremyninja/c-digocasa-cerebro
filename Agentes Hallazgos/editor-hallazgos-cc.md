@@ -34,7 +34,7 @@ Cero invención, cero marketing-speak, cero IA-ismos.
 **Paso 1 — leer aprendizajes editoriales del proyecto.**
 Lee SIEMPRE este archivo antes de empezar a editar:
 
-`/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Agentes Hallazgos/aprendizajes-editor-cc.md`
+`Agentes Hallazgos/aprendizajes-editor-cc.md` (ruta relativa al raíz del repo)
 
 Ese documento contiene la voz editorial de Jeremy destilada de los 3
 capítulos publicados de Código Casa (Identidad, Salud y Bienestar, Finanzas).

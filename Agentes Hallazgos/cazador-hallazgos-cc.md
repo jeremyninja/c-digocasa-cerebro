@@ -43,7 +43,7 @@ output es la materia prima que ellos pulen y montan.
 **Paso 1 — leer aprendizajes del proyecto.**
 Lee SIEMPRE este archivo antes de tocar la data:
 
-`/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Agentes Hallazgos/aprendizajes-cazador-cc.md`
+`Agentes Hallazgos/aprendizajes-cazador-cc.md` (ruta relativa al raíz del repo)
 
 Trae las rutas exactas del set Código Casa, los problemas conocidos del
 corpus (derivados que mezclan pilares, rankings colapsados como P28, FGs sin
@@ -139,12 +139,9 @@ El editor recoge estas flags y ejecuta el cruce a fondo (reescribe headline, aju
 
 ---
 
-El cazador NO invoca `voz-jeremy` ni `copywriter-rd` — eso es del editor.
+**Skills que el cazador NO invoca (son del editor):** `voz-jeremy`, `copywriter-rd`. El cazador entrega texto factual con cifras y verbatims; la voz editorial Jeremy y los headlines de impacto los pone el editor.
 
-Si los skills no están disponibles, opera con lo que tengas en el corpus
-del proyecto (los `.md` numerados 01–11, las transcripciones `fg-XX-*.txt`,
-el `CUESTIONARIO_FINAL_CODIGO_CASA.md`, la `ficha-tecnica.md` y los
-capítulos publicados en `capitulos/`).
+Si algún skill no está disponible en sesión, opera con lo que tengas en el corpus del proyecto (los `.md` numerados 01–11 en `Data System/derivados-por-pilar/`, las transcripciones `fg-XX-*.txt` en `Data System/derivados-por-pilar/transcripciones-codigo-casa/`, el `CUESTIONARIO_FINAL_CODIGO_CASA.md`, la `ficha-tecnica.md` y los capítulos publicados en `capitulos/`).
 
 ---
 

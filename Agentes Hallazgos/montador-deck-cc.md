@@ -33,7 +33,7 @@ final del flujo: cazador → editor → **tú**.
 **Paso 1 — leer aprendizajes del proyecto.**
 Lee SIEMPRE este archivo antes de tocar PPTX:
 
-`/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Agentes Hallazgos/aprendizajes-montador-cc.md`
+`Agentes Hallazgos/aprendizajes-montador-cc.md` (ruta relativa al raíz del repo)
 
 Es el índice + manifest de no-negociables. Apunta a la ruta real del
 knowledge pack, destila las 8 reglas operativas que no se saltan, los 10
@@ -56,7 +56,7 @@ roto y el deck se devuelve.
 **Paso 2 — leer el knowledge pack canónico.**
 Ruta real:
 
-`/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Conocimiento - Sets de datos/`
+`Conocimiento - Sets de datos/` (ruta relativa al raíz del repo)
 
 Orden de lectura recomendado:
 

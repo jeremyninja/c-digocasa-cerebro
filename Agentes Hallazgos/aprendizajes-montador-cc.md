@@ -528,9 +528,9 @@ TEXTO DENTRO de la card cualitativa (canónico v6):
 - **IMPORTANTE:** el texto dentro de cards cualitativas es Poppins, NO Instrument Serif. Esto las diferencia visualmente del slide Consumer Voice (donde el verbatim sí va en Instrument Serif **50pt v6**, era 60pt).
 ```
 
-#### Layout 6 — Slide cuali + cuanti integrado en mismo slide (1-3 stats + cards lado a lado)
+#### Layout 6 — Slide cuali + cuanti integrado en mismo slide (1-3 stats + cards lado a lado) — v6
 
-**Caso: hallazgo tiene cuanti + cuali y se monta TODO en un mismo slide en lugar de 2 slides separados.** Layout que combina cifras + cajas de descripción 360×75pt + cards cualitativas 567×227pt (v6: 15×6cm).
+**Caso: hallazgo tiene cuanti + cuali y se monta TODO en un mismo slide en lugar de 2 slides separados.** Layout que combina cifras + cajas de descripción 378×113pt (10×3cm) + cards cualitativas 567×227pt (15×6cm).
 
 ```
 +----------------------------------------------+
@@ -540,19 +540,19 @@ TEXTO DENTRO de la card cualitativa (canónico v6):
 |   180pt       │ « Verbatim »│                |
 |               │ Familia X   │                |
 |   [DESC       └─────────────┘                |
-|   360×75pt]                                  |
+|   378×113pt]                                 |
 |                                              |
 +----------------------------------------------+
 
-POSICIONES CANÓNICAS para 1 stat + 1 verbatim (medidas por Jeremy en Keynote):
+POSICIONES CANÓNICAS para 1 stat + 1 verbatim (v6):
 - Headline: left 100, top 100, width 1720, font-size 50pt
 - Cifra grande: posición a la izquierda del slide, font-size 180pt
-- Caja descripción: 360×75pt centrada debajo de la cifra, Poppins 16pt
+- Caja descripción: 378×113pt (10×3cm) centrada debajo de la cifra, Poppins 13pt
 - Card cualitativa a la derecha:
-  · left: 748pt
-  · top: 403pt
-  · width: 549pt
-  · height: 221pt
+  · left: 1000pt aprox (centrada a la derecha del stat)
+  · top: 429pt
+  · width: 567pt (15 cm)
+  · height: 227pt (6 cm)
   · fill rgba(0,0,0,0.45)
   · outline blanco 1pt
   · border-radius 15pt
@@ -581,7 +581,7 @@ REGLA: si el layout integrado no respira (cajas pegadas, texto solapado), DESCAR
 5. **Verbatims en cards cualitativas (Layouts 5 y 6 — con card):** Poppins 15pt con comillas españolas `«...»`. Atribución Poppins italic 12-13pt. Card 567×227pt (v6: 15×6cm) con fill 45% opacidad + outline blanco 1pt + border-radius 15pt.
 6. **Headlines: 50pt fijo Instrument Serif MAYÚSCULAS centralizados.** Sin auto-size. Italic solo en frase del giro.
 7. **Cifras grandes: 180pt Instrument Serif italic blanco.** Redondeo a entero por defecto (47.8 → 48); decimal solo si 1 dígito antes (5.5%, 8.7%) o brecha matemática (15.2 pts).
-8. **Caja de descripción de stat: 360×75pt Poppins 16pt** blanco con bold selectivo.
+8. **Caja de descripción de stat: 378×113pt (10×3cm) Poppins 13pt** blanco con bold selectivo. (v6 — v5 era 360×75pt + 16pt).
 9. **Consumer Voice: verbatim suelto centrado en slide, ancho máximo del bloque ~1637pt.** Sin contenedor visual.
 10. **Card cualitativa: 567×227pt (v6: 15×6cm) side by side** (no apiladas verticalmente). Posición canónica en cuali+cuanti integrado: X 748, Y 403.
 11. **Atribuciones: "— Familia [tipología]"** en italic Poppins.
@@ -589,7 +589,7 @@ REGLA: si el layout integrado no respira (cajas pegadas, texto solapado), DESCAR
 13. **NO cajas "Pregunta P##. Base. Fuente"** debajo de stats.
 14. **Kerning 0** en TODO el deck (`letter-spacing: 0`).
 15. **Sin elementos decorativos.** Solo líneas verticales `#2E2E2E` 1pt entre stats grandes cuando hay 2-3.
-16. **Respiración: 120pt mínimo entre 2 stats, 80pt entre 3 stats.** Si chocan, reduce ancho del contenido antes de comprimir gaps; si aún no respira, regresa al editor.
+16. **Respiración entre stats (v6, con stats 378pt fijo):** 200pt entre 2 stats, 100pt entre 3 stats. Si chocan, **NO** comprimas las cajas (10×3cm es fijo) — regresa al editor.
 17. **Si algo no cabe en las dimensiones literales, regresar al editor.** NO improvisar tamaños.
 
 ### Lo que el montador NO pone en el slide (el masterslide lo agrega después)
