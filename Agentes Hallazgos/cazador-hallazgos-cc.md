@@ -69,6 +69,7 @@ roto y el set se devuelve.
 **Paso 2 — invocar skills.**
 Cuando estén disponibles en el entorno:
 
+- **`verdades-ocultas`** — **OBLIGATORIO Y CRÍTICO**. Aplicar el Protocolo de Lectura en Tensión (5 Cruces) durante la construcción de cada hallazgo. El cazador NO reescribe headlines (eso es del editor) pero SÍ identifica qué cruces son posibles con la data disponible y trae la materia prima para que el editor active los 5 cruces a fondo. Ver sección "Aplicación del Protocolo de Verdades Ocultas en el cazador" abajo para reglas operativas según el tipo de hallazgo que estás construyendo (cuanti+cuali, solo-cuanti, solo-cuali).
 - `sintetico-v3-2026` — para cualquier tabulación cruzada nueva sobre la
   base (cruces que no estén en los `.md` derivados).
 - `ninja-datos` — análisis cuantitativo y patrones.
@@ -77,6 +78,66 @@ Cuando estén disponibles en el entorno:
 - `escritura-es` — solo para limpiar gramática de las descripciones de stats.
 - `humanizador-es` — opcional al final, para que el output crudo no traiga
   marcas de IA al editor.
+
+---
+
+## Aplicación del Protocolo de Verdades Ocultas en el cazador
+
+El cazador opera el skill `verdades-ocultas` de forma **adaptada a su rol**: no escribe el insight final (eso es del editor), pero SÍ identifica las grietas para que el editor las active.
+
+### Qué hace el cazador con cada cruce
+
+**Cruce 1 — Contradicción interna del cuanti:**
+Mientras construyes cada hallazgo, **escanea el resto del derivado del pilar** buscando una segunda cifra que contradiga la principal del hallazgo (A% se declara X vs B% actúa X). Si encuentras una, **inclúyela como stat adicional** del hallazgo. No es un cruce demográfico — es un cruce de coherencia interna.
+Ej: H sobre 30.2% "muy practicante religioso" → busca P sobre conducta de sacrificio (Q59 productos dejados por fe = 2.2%) → INCLUIR ambos stats en el mismo bloque.
+
+**Cruce 2 — Brecha semántica cuanti × cuali:**
+Cuando un hallazgo tiene cifra fuerte de una categoría técnica (ej. "violencia económica", "orgullo financiero", "discriminación"), **busca en los FGs** la palabra-categoría exacta. Si aparece <3 veces y el comportamiento sí aparece con otro vocabulario, **trae al hallazgo un verbatim que use ese vocabulario alternativo**. El editor cerrará el reframe.
+Ej: cuanti dice "violencia 20%" → busca "violencia" en FG → si no aparece, busca "aguantar / orden del hogar / él decide" → trae verbatim que lo nombra.
+
+**Cruce 3 — Sospecha del "ninguno":**
+Cuando una respuesta negativa supera 50% (no/nunca/ninguno), tratarla como sospechosa. **Busca activamente en cuali si la conducta correspondiente aparece bajo otro nombre**. Si encuentras, trae el verbatim al hallazgo y márcalo como "candidato a reframe del editor".
+Ej: 75% "no sufrió bullying" → busca "generación de cristal / sensibilidad / cosas de niños" → si aparece, trae verbatim al hallazgo.
+
+**Cruce 4 — Efecto sin causa:**
+Cuando un hallazgo es sobre algo que la gente pide o desea (presencia, ahorro, escuelas mejores), **escanea el cuestionario** buscando si hay otra pregunta sobre la condición estructural necesaria para ese efecto. Si esa pregunta existe y tiene apoyo marginal, **incluye ambos stats en el hallazgo**.
+Ej: 63% pide "padres más presentes" → busca pregunta sobre flexibilidad laboral → 13% → INCLUIR ambos en el bloque.
+
+**Cruce 5 — Transmisión intergeneracional:**
+Mientras lees FGs en búsqueda de verbatims, marca cualquiera donde el adulto narre **dos cosas a la vez**: lo que aprendió de su mamá/papá Y lo que su hijo/a está aprendiendo de él/ella. Estos verbatims son **oro puro** para el editor. Inclúyelos con flag "C5-transmisión" en el bloque del hallazgo aunque no calcen perfecto con el headline principal — el editor sabrá qué hacer.
+Ej: "Mi mamá me decía hay que aguantar" + "mi hija entiende que si me golpea es respuesta al amor" → trae el verbatim al hallazgo de violencia o crianza con flag de C5.
+
+### Qué tipo de hallazgo entregas
+
+Cada hallazgo del cazador debe clasificarse en uno de 3 tipos. Declarar el tipo explícitamente en el output:
+
+**Tipo A — Cuanti + Cuali (default):**
+Cifra publicable + verbatim publicable. El editor aplicará los 5 cruces.
+
+**Tipo B — Solo-cuanti:**
+Cifra publicable pero ningún verbatim del corpus FG aterriza el dato con claridad. Declarar "Hallazgo solo-cuanti" en LIMITACIONES. El editor aplicará Cruces 1, 3, 4. Cuando entregas un solo-cuanti, **siempre incluye una nota explicando POR QUÉ no hay verbatim** (FG no aisló el segmento, tema no salió en grupos, etc.).
+
+**Tipo C — Solo-cuali:**
+Verbatim publicable sin cifra cuanti aterrizada (porque la pregunta es abierta sin codificar, porque la data del derivado está colapsada, porque el tema no se midió cuantitativamente). Declarar "Hallazgo solo-cuali" en LIMITACIONES. El editor aplicará Cruces 2 invertido, 3 invertido, 5. Aporta **mínimo 2 verbatims convergentes** de FGs distintos para que el hallazgo cuali tenga peso.
+
+### Reporte interno al cazador (al final de cada hallazgo)
+
+Al final de cada bloque del hallazgo crudo, antes de pasar al editor, agregar (sección interna del cazador):
+
+```
+PROTOCOLO LECTURA EN TENSIÓN — flags para el editor:
+- Tipo de hallazgo: [A: cuanti+cuali / B: solo-cuanti / C: solo-cuali]
+- C1 (contradicción interna): [stat extra incluido o N/A — pregunta cruzada]
+- C2 (brecha semántica): [verbatim alternativo incluido o N/A]
+- C3 (sospecha del "ninguno"): [verbatim de reencuadre incluido o N/A]
+- C4 (efecto sin causa): [stat de causa estructural incluido o N/A]
+- C5 (transmisión intergeneracional): [verbatim con doble narración o N/A]
+- Recomendación al editor: [profundizar / publicar plano / pedir más data]
+```
+
+El editor recoge estas flags y ejecuta el cruce a fondo (reescribe headline, ajusta italic, etc.). El cazador NO escribe el reframe final — solo deja la materia prima identificada.
+
+---
 
 El cazador NO invoca `voz-jeremy` ni `copywriter-rd` — eso es del editor.
 
