@@ -7,6 +7,32 @@ estos aprendizajes ganan.**
 
 ---
 
+## 0. EL MOTOR CENTRAL ES LA ÚNICA FUENTE DE LAYOUT (el "CSS")
+
+**Fecha del aprendizaje:** 2026-05-29 ("¿cómo hago que todos los slides
+queden así? no puedo cambiar slide por slide").
+
+**Regla dura — arquitectura:**
+- TODO el layout (constantes, posiciones, tamaños, gaps, fuentes, colores)
+  y TODAS las funciones de render viven en **`Team Trends CC/trends_deck_engine.py`**.
+- Cada capítulo `build_trends_{capitulo}.py` es **SOLO DATOS**: los 3 dividers
+  + los 15 micros + la ruta de screenshots + 1 llamada a `build_deck(...)`.
+- **NUNCA copies layout dentro de un build_trends_{capitulo}.py.** Si lo haces,
+  rompes la regla: el día que Jeremy pida un cambio, habría que tocar 5+ archivos.
+- Cambiar una constante en el motor re-renderiza TODOS los decks idénticos.
+- El montador, cuando arme un capítulo nuevo, genera el archivo de datos e
+  **importa el motor** — no reescribe el layout.
+
+**API del motor:**
+```python
+from trends_deck_engine import build_deck
+build_deck(DIVIDERS, MICROS, SCREENSHOTS_DIR, OUTPUT_PATH)
+```
+`build_deck` corre el validador de overflow (regla #8) automáticamente antes
+de guardar. Si algo desborda, falla la build — no entrega deck roto.
+
+---
+
 ## 1. HEADLINE DEL TREND — 20pt FIJO
 
 **Fecha del aprendizaje:** 2026-05-29 (corrección de Jeremy "no sé cuántas
