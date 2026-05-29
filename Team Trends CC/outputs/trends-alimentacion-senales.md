@@ -2,8 +2,8 @@
 
 **Slug:** trends-alimentacion
 **Hunter brief:** [trends-alimentacion-hunter.md](./trends-alimentacion-hunter.md)
-**Fecha de scrapeo:** 2026-05-29
-**Total señales verificadas:** 29 de ~54 en bundle hunter
+**Fecha de scrapeo:** 2026-05-29 (actualizado con señales faltantes 2026-05-29)
+**Total señales verificadas:** 38 de ~54 en bundle hunter
 **TikToks de Jeremy capturados:** 8/8 (100%)
 
 ---
@@ -152,6 +152,14 @@
 - **Caption sugerido:** Mockup de teléfono con la UI de MyFitnessPal mostrando 976 cal, macro breakdown del día — "Nutrition tracking for real life".
 - **Fuente para footer inline:** MyFitnessPal · 2026
 
+#### Señal M2-1b — Flinders University / Fitness Apps Eating Disorder
+- **Tipo:** noticia · ciencia
+- **Plataforma / medio:** Flinders University News
+- **Link:** https://news.flinders.edu.au/blog/2025/02/22/fitness-apps-fuelling-disordered-eating/
+- **Screenshot:** `screenshots/trends-alimentacion/macro-2-1-flinders-fitnessapp-disorder.png`
+- **Caption sugerido:** Foto editorial Getty: mujer con teléfono revisando app de tracking — "Fitness apps fuelling disordered eating" — Flinders University 2025.
+- **Fuente para footer inline:** Flinders University · Feb 2025
+
 ---
 
 #### Señal M2-2a — TikTok Shop Food GMV (doble uso)
@@ -170,16 +178,39 @@
 - **Caption sugerido:** Ad creative de Modern Retail con ícono TikTok Shop y "Save 35%" — ventas de marcas grandes casi duplicaron en 2025.
 - **Fuente para footer inline:** Modern Retail · 2025
 
+#### Señal M2-2c — Cropink Restaurant Social Media Stats 2026
+- **Tipo:** dato · infografía
+- **Plataforma / medio:** Cropink
+- **Link:** https://cropink.com/restaurant-social-media-statistics
+- **Screenshot:** `screenshots/trends-alimentacion/macro-2-2-cropink-social-food-stats.png`
+- **Caption sugerido:** Thumbnail infografía Cropink: 74% de personas usa redes sociales para decidir qué y dónde comer — TikTok como recetario y tienda al mismo tiempo.
+- **Fuente para footer inline:** Cropink · 2026
+
 ---
 
-#### Señal M2-3a — GLP-1 / News Medical (proxy iPad kid)
+#### Señal M2-3a — TikTok iPad Kid Debate (@sextedmyboss)
+- **Tipo:** plataforma · TikTok debate
+- **Plataforma / medio:** TikTok
+- **Link:** https://www.tiktok.com/@sextedmyboss/video/7475054384771075350
+- **Screenshot:** `screenshots/trends-alimentacion/macro-2-3-tiktok-ipadkid-debate.png`
+- **Caption sugerido:** TikTok "Kids and iPads at the table… yes or no?" — debate viral sobre pantallas en la mesa familiar con Jordan North y William Hanson.
+- **Fuente para footer inline:** TikTok @sextedmyboss · 2025
+
+#### Señal M2-3b — K12 Dive / Common Sense Media 2025 — Niños y Tablets
+- **Tipo:** noticia · estudio
+- **Plataforma / medio:** K12 Dive (cobertura del Census 2025 de Common Sense Media)
+- **Link:** https://www.k12dive.com/news/half-of-young-children-own-a-cell-phone-or-tablet/741318/
+- **Screenshot:** `screenshots/trends-alimentacion/macro-2-3-k12dive-csm-screentimekids.png`
+- **Caption sugerido:** Foto editorial Getty: niño pequeño con tablet — "Half of young children own a cell phone or tablet" — Common Sense Media Census 2025: 40% tiene iPad a los 2 años.
+- **Fuente para footer inline:** K12 Dive / Common Sense Media · 2025
+
+#### Señal M2-3c — News Medical GLP-1 (proxy iPad kid)
 - **Tipo:** noticia · reporte
 - **Plataforma / medio:** News Medical
 - **Link:** https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx
 - **Screenshot:** `screenshots/trends-alimentacion/macro-2-3-newsmedical-screentime-proxy.png`
 - **Caption sugerido:** Foto editorial: inyección de semaglutide + headline sobre cómo GLP-1 altera apetito y comportamiento — señal de medicalización de la comida.
 - **Fuente para footer inline:** News Medical · 2026
-- **NOTA:** SIN VISUAL primario ipad-kid directo. Business Standard bloqueado, CNN 404. Usar esta imagen como proxy de "tech que interviene en cómo comemos". Recomiendo que Jeremy busque screenshot manual de un niño con iPad comiendo en pantalla de redes sociales.
 
 ---
 
@@ -233,13 +264,29 @@
 
 ---
 
-#### Señal M3-1a — VegNews Food Trend Hero (WIEIAD)
+#### Señal M3-1a — TikTok WIEIAD @hanfoodfit — What I Eat in a Day
+- **Tipo:** plataforma · TikTok
+- **Plataforma / medio:** TikTok
+- **Link:** https://www.tiktok.com/@hanfoodfit/video/7493474947029880086
+- **Screenshot:** `screenshots/trends-alimentacion/macro-3-1-tiktok-wieiad-hanfoodfit.png`
+- **Caption sugerido:** @han | macro friendly food — "What I eat in a day, healthy and balanced" — WIEIAD aspiracional con hashtags #wieiad #8020rule; el formato que el algoritmo distribuye y el plato replica.
+- **Fuente para footer inline:** TikTok @hanfoodfit · 2025
+
+#### Señal M3-1b — VegNews Food Trend Hero (WIEIAD)
 - **Tipo:** noticia · tendencia alimentaria
 - **Plataforma / medio:** VegNews
 - **Link:** https://vegnews.com/fiber-whole-foods-2026-top-trend
 - **Screenshot:** `screenshots/trends-alimentacion/macro-3-1-vegnews-food-trend-hero.png`
 - **Caption sugerido:** Bowl de proteína + grains + vegetales coloridos — imagen del "comer bien aspiracional 2026" que WIEIAD replica y el algoritmo distribuye.
 - **Fuente para footer inline:** VegNews · 2025
+
+#### Señal M3-1c — Cropink Social Media Food Decisions
+- **Tipo:** dato · infografía
+- **Plataforma / medio:** Cropink
+- **Link:** https://cropink.com/restaurant-social-media-statistics
+- **Screenshot:** `screenshots/trends-alimentacion/macro-3-1-cropink-social-food-decisions.png`
+- **Caption sugerido:** Infografía Cropink: 74% usa redes para decidir qué/dónde comer; 50% reporta influencia directa en decisiones alimentarias — el feed como nutricionista.
+- **Fuente para footer inline:** Cropink · 2026
 
 ---
 
@@ -253,18 +300,33 @@
 
 ---
 
-#### Señal M3-3a — News Medical GLP-1 (proxy cocina como escape)
+#### Señal M3-3a — TikTok @chef_natalie_ Stress Baking Therapy
+- **Tipo:** plataforma · TikTok
+- **Plataforma / medio:** TikTok
+- **Link:** https://www.tiktok.com/@chef_natalie_/video/7569545767090703647
+- **Screenshot:** `screenshots/trends-alimentacion/macro-3-3-tiktok-natalie-stressbaking.png`
+- **Caption sugerido:** @chef_natalie_ — "stress baking is my form of therapy" #bakingtiktok #bakingtherapy — cocina como ritual anti-ansiedad documentado en video.
+- **Fuente para footer inline:** TikTok @chef_natalie_ · 2025
+
+#### Señal M3-3b — News Medical GLP-1 (proxy cocina como escape)
 - **Tipo:** noticia · salud
 - **Plataforma / medio:** News Medical
 - **Link:** https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx
 - **Screenshot:** `screenshots/trends-alimentacion/macro-3-3-newsmedical-cooking-proxy.png`
 - **Caption sugerido:** Imagen editorial con jeringa de medicamento + headline sobre cómo los fármacos alteran el apetito — la cocina como contrapunto analógico a la medicalización del hambre.
 - **Fuente para footer inline:** News Medical · 2026
-- **NOTA:** SIN VISUAL primario cocina-terapia. Good Housekeeping y Taste of Home 404. Recomiendo búsqueda manual en Instagram #cookingastherapy o #baking.
 
 ---
 
-#### Señal M3-4a — VegNews Fiber vs Carnivore (contraste)
+#### Señal M3-4a — TikTok @steakandbuttergal Carnivore Diet
+- **Tipo:** plataforma · TikTok
+- **Plataforma / medio:** TikTok
+- **Link:** https://www.tiktok.com/@steakandbuttergal/video/7577437952679087374
+- **Screenshot:** `screenshots/trends-alimentacion/macro-3-4-tiktok-carnivore-steakbuttergal.png`
+- **Caption sugerido:** @Steakandbuttergal | Carnivore — thumbnail de contenido #carnivorediet; la creadora más viral de la dieta carnívora mostrando solo carne + mantequilla + huevos.
+- **Fuente para footer inline:** TikTok @steakandbuttergal · 2025
+
+#### Señal M3-4b — VegNews Fibra vs Carnivore (contraste)
 - **Tipo:** noticia · tendencia
 - **Plataforma / medio:** VegNews
 - **Link:** https://vegnews.com/fiber-whole-foods-2026-top-trend
@@ -290,6 +352,14 @@
 - **Caption sugerido:** Foto editorial con jeringa de semaglutide — GLP-1 afecta apetito, estado de ánimo y comportamiento; 58% siente menos hambre según EASD 2025.
 - **Fuente para footer inline:** News Medical · 2026
 
+#### Señal M3-5c — TikTok @janellerohner GLP-1 Food Noise Community
+- **Tipo:** plataforma · TikTok
+- **Plataforma / medio:** TikTok
+- **Link:** https://www.tiktok.com/@janellerohner/video/7564545141835418911
+- **Screenshot:** `screenshots/trends-alimentacion/macro-3-5-tiktok-glp1-foodnoise.png`
+- **Caption sugerido:** @JanelleRohner — responde a usuaria de GLP-1 sobre food noise y dosis; #glp1community — decenas de millones de views en el hashtag en 2025.
+- **Fuente para footer inline:** TikTok @janellerohner · 2025
+
 ---
 
 ## Señales descartadas
@@ -302,12 +372,12 @@
 | 4 | TikTok hashtag #mealprep (tiktok.com/tag) | JS no renderiza en headless; grid vacío |
 | 5 | Nickocado Avocado YouTube (@NickoAvocado / @NickAvocadoOfficial) | Canal sin contenido visible en headless ("Este canal no tiene contenido") |
 | 6 | ANAD eating disorders stats | Solo texto, sin visual primario |
-| 7 | Common Sense Media census 2023/2024 | 404 en ambas URLs |
-| 8 | Business Standard / CNN — iPad kid eating | Access denied / 404 |
-| 9 | EatingWell carnivore article | Bloqueo IP (Meredith / People.inc) |
-| 10 | Good Housekeeping baking therapy | 404 |
+| 7 | Common Sense Media census — URL directa al PDF | PDF de 9MB; extraído cobertura editorial equivalente vía K12 Dive con la misma foto Getty |
+| 8 | Business Standard / CNN — iPad kid eating | Access denied / 404; sustituido por TikTok debate @sextedmyboss + K12 Dive foto editorial |
+| 9 | EatingWell carnivore article | Bloqueo IP (Meredith / People.inc); sustituido por @steakandbuttergal oembed thumbnail |
+| 10 | Good Housekeeping baking therapy | 404; sustituido por @chef_natalie_ TikTok oembed |
 | 11 | Taste of Home baking therapy | 404 |
-| 12 | Delish WIEIAD article | 404 |
+| 12 | Delish WIEIAD article | 404; sustituido por @hanfoodfit TikTok oembed |
 | 13 | Axios Whole Foods 2026 | Cloudflare bot challenge |
 | 14 | The Guardian carnivore 2024 | 404 |
 | 15 | Sensor Tower PedidosYa URL directa | URL con espacios (encoded) no resolvió bien; sustituida por el blog post equivalente que sí cargó |
@@ -316,16 +386,20 @@
 
 ## Notas para el editor cultural
 
-1. **8/8 TikToks de Jeremy capturados OK** via oembed thumbnail — todos verificados el 2026-05-29. Los thumbnails son imágenes reales de los videos, no placeholders.
+1. **8/8 TikToks de Jeremy capturados OK** via oembed thumbnail — todos verificados el 2026-05-29.
 
-2. **Micro 2.3 iPad Kid es el más débil** — ninguna fuente visual primaria del tema cargó (Business Standard bloqueado, CNN 404). El proxy que dejé (News Medical GLP-1) no es ideal. Recomiendo que Jeremy capture manualmente un screenshot de un TikTok específico de "niño comiendo con iPad" o que el hunter sugiera una URL alternativa.
+2. **9 nuevas señales añadidas (segunda pasada 2026-05-29):** M2-1b, M2-2c, M2-3a, M2-3b, M3-1a, M3-1c, M3-3a, M3-4a, M3-5c. Todos los slots sin PNG que el montador marcó como pendientes ahora tienen visual real.
 
-3. **Micro 3.3 Cocina como terapia** — mismo problema. Good Housekeeping, Taste of Home y Delish todos 404. Alternativas: buscar en Instagram #cookingastherapy top posts o usar una imagen de Pinterest boards "baking therapy".
+3. **Micro 2.1** tiene ahora DOS visuales: `macro-2-1-myfitnesspal-app-ui.png` (producto) + `macro-2-1-flinders-fitnessapp-disorder.png` (foto editorial persona con teléfono, Flinders University 2025). El montador puede usar el de la persona para la slide emocional.
 
-4. **Carnivore (3.4)** — Healthline tiene el artículo pero el hero image no renderiza en headless (solo texto). La mejor opción es captura manual de Instagram #carnivore top posts o una búsqueda en YouTube "carnivore diet" con el grid de thumbnails visible.
+4. **Micro 2.3 iPad Kid** resuelto con tres capas: (a) TikTok debate viral con thumbnail visible `macro-2-3-tiktok-ipadkid-debate.png`, (b) foto editorial K12 Dive / Getty de niño con tablet `macro-2-3-k12dive-csm-screentimekids.png`, (c) proxy GLP-1 original. El montador tiene opciones reales.
 
-5. **Whole Foods Trend Report** — el sitio hace geo-redirect constante. El artículo de VegNews cubre la misma información con una foto de comida de mejor calidad para slide. Si Jeremy necesita el branding de Whole Foods específicamente, requiere captura manual o abrir desde Chrome con VPN US.
+5. **Micro 3.3 Cocina como terapia** resuelto con @chef_natalie_ TikTok — thumbnail de pastel con "stress baking is my form of therapy #bakingtherapy". Visual real, no proxy.
 
-6. **Scientific American ozempic** (M3-5a) es el screenshot más potente del capítulo — ilustración editorial surrealista de una cabeza con comida flotando. Funciona perfectamente como visual de apertura para el bloque GLP-1.
+6. **Micro 3.4 Carnivore** resuelto con @steakandbuttergal TikTok — thumbnail vertical real de la creadora carnívora más viral (720×1280 px nativo, recortado a 596×880).
 
-7. **Señales reutilizadas** — TikTok Shop stats (Resourcera) y VegNews se usan en más de un micro porque son los visuales más limpios disponibles. El editor puede diferenciarlos por caption.
+7. **Micro 3.5 Food Noise** resuelto con @janellerohner TikTok GLP-1 community — thumbnail vertical 1080×1920, visual real de la conversación #glp1community.
+
+8. **Scientific American ozempic** (M3-5a) sigue siendo el screenshot más potente del capítulo — ilustración editorial surrealista. Funciona como visual de apertura del bloque GLP-1.
+
+9. **Total: 38 PNGs, todos 596×880 px, cero placeholders.**

@@ -9,7 +9,7 @@ description: >
   con divisorias 1px 6% opacidad, tab MACRO N + nombre macro arriba de
   col-left, labels DEFINICIÓN/TRIGGERS/SEÑALES sobre línea horizontal.
   **Triggers: cifra ARRIBA del texto descriptivo (stack vertical, NO
-  side-by-side).** **Señales: 3 fotos 110×162pt verticales con caja
+  side-by-side).** **Señales: 3 fotos 95×140pt verticales con caja
   caption W170pt × H35pt al lado**, hyperlink + badge "Click me" rojo.
   **Slides macro NO llevan información — solo son dividers con nombre
   de macro grande**, luego 5 slides de micros por macro. Triggers —
@@ -100,9 +100,9 @@ slide de contenido.
 
 | Columna | Ancho | Contenido |
 |---------|-------|-----------|
-| col-left (33%) | DEFINICIÓN | tab MACRO + headline + fenómeno + hashtags + 3 needs |
+| col-left (33%) | DEFINICIÓN | tab MACRO + headline + fenómeno + hashtags (SIN needs) |
 | col-center (34%) | TRIGGERS | **3 triggers verticales: cifra ARRIBA + caja descripción ABAJO** |
-| col-right (33%) | SEÑALES | **3 fotos verticales 110×162pt + caja caption al lado** |
+| col-right (33%) | SEÑALES | **3 fotos verticales 95×140pt + caja caption al lado** |
 
 Separadores: 2 líneas verticales entre columnas + 1 línea horizontal
 bajo los labels, todas 1px blanco al 6% opacidad.
@@ -148,7 +148,7 @@ descriptiva **ABAJO**.
 
 ## SEÑALES — layout vertical (col-right) [REGLA ACTUALIZADA]
 
-**3 fotos una bajo de otra, cada una 110×162pt EXACTO (NO 149×220).**
+**3 fotos una bajo de otra, cada una 95×140pt EXACTO (NO 149×220).**
 Caja caption al lado derecho.
 
 Por cada señal:
@@ -164,7 +164,7 @@ Por cada señal:
 └────────────────────────────────────────────┘
 ```
 
-**3 fotos 110×162pt verticales reales** (ratio portrait 1:1.47 preservado),
+**3 fotos 95×140pt verticales reales** (ratio portrait 1:1.47 preservado),
 cada una con badge "Click me" rojo en esquina superior derecha + hyperlink
 al URL verificado del señales.md. Caja caption al lado derecho.
 
@@ -190,8 +190,8 @@ una, queda holgado.
 | **Body fenómeno** | **Poppins Regular** | **10pt** | **`#FFFFFF`, line-spacing 1.0** |
 | **Descripción trigger (caja 170×35pt)** | **Poppins Regular** | **10pt** | **`#FFFFFF`, line-spacing 1.0, VA ABAJO de la cifra** |
 | **Caption señal (caja 170×35pt)** | **Poppins Regular** | **10pt** | **`#FFFFFF`, line-spacing 1.0** |
-| **Hashtags** | **Instrument Serif Regular** | **23pt** | **`#FFFFFF`, tracking 0** |
-| 3 Needs | Instrument Serif Regular | 28-32pt | UPPERCASE, separados por · |
+| **Hashtags** | **Instrument Serif Regular** | **16pt** | **`#FFFFFF`, tracking 0, line-spacing 1.0** |
+| ~~3 Needs~~ | ~~ELIMINADAS~~ | — | **NO van en el slide.** Solo en el `.md` editorial. |
 | Fuente inline | Poppins Regular | 6.5–7pt | UPPERCASE, `#666666`, tracking ≤150 |
 | Badge "Click me" | Poppins Bold | 7–10pt | UPPERCASE, blanco sobre `#FF2D2D` |
 
@@ -210,22 +210,24 @@ body fenómeno.
 ├─ LABELS DE COLUMNA (sobre línea horizontal 1px) ─────────────────┤
 │ DEFINICIÓN ▸      │  TRIGGERS ▸          │  SEÑALES ▸            │
 ├───────────────────┼──────────────────────┼───────────────────────┤
-│ [HEADLINE ÚNICO   │ [STAT 1 grande]      │ [foto 110×162]        │
-│  INSTRUMENT       │ [caja desc 170×35]   │ [caja capt 170×35]    │
-│  SERIF 20pt FIJO  │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
-│  UPPERCASE]       │                      │                       │
-│                   │ [STAT 2]             │ [foto 110×162]        │
-│ EL FENÓMENO       │ [caja desc 170×35]   │ [caja capt 170×35]    │
-│ [body Poppins     │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
-│  10pt blanco]     │                      │                       │
-│                   │ [STAT 3]             │ [foto 110×162]        │
-│ HASHTAGS          │ [caja desc 170×35]   │ [caja capt 170×35]    │
-│ [#hashtags        │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
-│  Instrument 23pt] │                      │                       │
+│ [HEADLINE ÚNICO   │ [STAT 1 grande]      │ [foto 95×140]         │
+│  INSTRUMENT       │ [gap 10pt]           │ [gap 8pt — capt al    │
+│  SERIF 20pt FIJO  │ [caja desc 170×35]   │  lado, no abajo]      │
+│  UPPERCASE]       │ [gap 6pt]            │ [caja capt 170×35]    │
+│                   │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
+│ [gap 24pt]        │                      │                       │
+│                   │ [gap 24pt]           │ [gap 24pt]            │
+│ EL FENÓMENO       │ [STAT 2]             │ [foto 95×140]         │
+│ [body Poppins     │ [caja desc 170×35]   │ [caja capt 170×35]    │
+│  10pt blanco]     │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
+│ [gap 24pt]        │                      │                       │
+│                   │ [gap 24pt]           │ [gap 24pt]            │
+│ HASHTAGS          │ [STAT 3]             │ [foto 95×140]         │
+│ [#hashtags        │ [caja desc 170×35]   │ [caja capt 170×35]    │
+│  Instrument 16pt] │ [FUENTE 7pt]         │ [FUENTE 7pt]          │
 │                   │                      │                       │
-│ 3 NEEDS           │                      │                       │
-│ [NEED1·NEED2·…    │                      │                       │
-│  Instrument 28pt] │                      │                       │
+│ (SIN 3 needs —    │                      │                       │
+│  eliminadas)      │                      │                       │
 └───────────────────┴──────────────────────┴───────────────────────┘
 ```
 
@@ -237,7 +239,7 @@ body fenómeno.
 - Editorial completo (15 micros + 3 macros) en `.md`
 - Mapa señales con links + paths PNGs
 - Todos los PNGs en 596×880px verificados (el scrapper los genera así
-  y luego el montador los redimensiona al insertarlos a 110×162pt)
+  y luego el montador los redimensiona al insertarlos a 95×140pt)
 - Macros file leído para nombres canónicos
 - **Aprendizajes leídos.**
 
@@ -266,9 +268,10 @@ prs.slide_height = Inches(7.5)
 #   - tab MACRO + nombre macro arriba col-left
 #   - labels columna + línea horizontal
 #   - 2 líneas verticales entre columnas
-#   - col-left: HEADLINE 20pt FIJO + fenómeno 10pt + hashtags 23pt + 3 needs 28pt
-#   - col-center: 3 triggers verticales con CIFRA ARRIBA + caja desc 170×35pt ABAJO
-#   - col-right: 3 fotos 110×162pt + caja caption 170×35pt al lado + badges + hyperlinks
+#   - col-left: HEADLINE 20pt FIJO + fenómeno 10pt + hashtags 16pt (SIN needs)
+#   - col-center: 3 triggers verticales con CIFRA ARRIBA + caja desc 170×35pt ABAJO, gap 24pt
+#   - col-right: 3 fotos 95×140pt + caja caption 170×35pt al lado + badges + hyperlinks, gap 24pt
+#   - PADDING MÍNIMO entre todos los bloques (ver aprendizajes #6)
 ```
 
 ### Paso 3 — Ejecutar build y QA
@@ -297,13 +300,17 @@ Slides micro (15 slides):
       (un solo headline ≤190 chars del editor, sin tagline separada,
       sin auto-fit, sin excepciones)
 - [ ] **Body fenómeno Poppins Regular 10pt `#FFFFFF`** line-spacing 1.0
-- [ ] **Hashtags Instrument Serif Regular 23pt** tracking 0 (NUNCA Poppins)
-- [ ] **3 Needs Instrument Serif 28–32pt UPPERCASE** separados por ·
-- [ ] **TRIGGERS layout vertical:** 3 cifras stat 72–96pt ARRIBA + caja
-      descriptiva 170×35pt ABAJO en Poppins 10pt blanco (NUNCA side-by-side)
-- [ ] **SEÑALES layout vertical:** 3 fotos **110×162pt EXACTO** verticales
-      con caja caption **W170pt × H35pt** al lado en Poppins 10pt blanco
-- [ ] Las 3 fotos + sus gaps caben dentro del slide (height total ≤ 510pt)
+- [ ] **Hashtags Instrument Serif Regular 16pt** tracking 0 (NUNCA Poppins, NUNCA 23pt)
+- [ ] **3 Needs NO van en el slide** (eliminadas; viven solo en el `.md`)
+- [ ] **TRIGGERS layout vertical:** 3 cifras stat 64–72pt ARRIBA + caja
+      descriptiva 170×35pt ABAJO en Poppins 10pt blanco (NUNCA side-by-side),
+      gap 24pt entre triggers, gap 10pt cifra→caja, gap 6pt caja→fuente
+- [ ] **SEÑALES layout vertical:** 3 fotos **95×140pt EXACTO** verticales
+      con caja caption **W170pt × H35pt** al lado en Poppins 10pt blanco,
+      gap 24pt entre fotos
+- [ ] Las 3 fotos + sus gaps caben dentro del slide (3×140 + 2×24 = 468pt)
+- [ ] **PADDING entre bloques en col-left**: 24pt entre headline/fenómeno/hashtags
+- [ ] **CERO placeholders "CAPTURA MANUAL"** — si falta PNG, el flow vuelve al scrapper
 - [ ] Badge "Click me" rojo `#FF2D2D` en esquina superior derecha de
       cada foto
 - [ ] Hyperlink aplicado a cada foto apuntando al URL del señales.md
@@ -311,24 +318,32 @@ Slides micro (15 slides):
 
 ---
 
-## SCREENSHOT PENDIENTE (LOGIN-REQUIRED)
-Para señales que el editor marcó como pendientes:
-- Placeholder negro `#0D0D0D` outline 1px blanco 6%
-- Dimensiones 110×162pt iguales a las demás
-- Texto centrado "CAPTURA MANUAL — JEREMY" Poppins Bold 8pt `#666666`
-- Hyperlink al URL sí va igual
+## SCREENSHOTS FALTANTES — DEPRECADO
+
+El placeholder "CAPTURA MANUAL — JEREMY" **ya no existe**. Si una señal
+no tiene PNG, el montador **detiene la build** y devuelve el caso al
+scrapper para que use sus fallbacks (og:image / hero de marca / TikTok
+alternativo / Wikimedia / Google Images headless). Cero placeholders
+manuales en el slide.
 
 ---
 
-## Reglas innegociables (las 3 duras de Jeremy)
+## Reglas innegociables (las 7 duras de Jeremy)
 
 1. **Headline 20pt FIJO.** NO 42–50pt. NO auto-fit. NO "si headline es
    corto subimos". 20pt punto. Si el headline no entra, lo manda al
-   editor a recortar — NO sube el tamaño.
+   editor a recortar.
 2. **Triggers vertical: cifra ARRIBA, texto descriptivo ABAJO.** Nunca
    side-by-side. Stack vertical por trigger.
-3. **Fotos señales 110×162pt EXACTO.** NO 149×220pt. Más pequeñas para
-   que las 3 entren en el slide sin desbordar.
+3. **Fotos señales 95×140pt EXACTO.** NO 149×220, NO 110×162. Más
+   pequeñas para que respiren.
+4. **3 Needs ELIMINADAS del slide.** Solo viven en el `.md` editorial.
+5. **Hashtags 16pt** (NO 23pt). Instrument Serif Regular.
+6. **Padding mínimo entre todos los bloques** (24pt en col-left entre
+   bloques mayores, 24pt entre triggers, 24pt entre fotos). Nada se pega
+   a nada.
+7. **CERO placeholders "CAPTURA MANUAL".** Si falta PNG, vuelve al
+   scrapper.
 
 Y las generales:
 - **Cero invención de contenido.** Si caja queda vacía, devuelve al editor
@@ -350,6 +365,9 @@ Y las generales:
 - No cambia tesis ni headline del trend — eso lo decide el editor
 - No mete información en las macro divider slides
 - No usa Poppins para hashtags (siempre Instrument Serif 23pt)
-- No estira imágenes para llenar espacio — siempre 110×162pt
+- No estira imágenes para llenar espacio — siempre 95×140pt
 - **No sube el headline de 20pt — nunca, por ninguna razón**
 - **No pone la cifra del trigger al lado del texto — siempre arriba**
+- **No mete 3 needs en el slide** (eliminadas)
+- **No usa hashtags 23pt** (siempre 16pt)
+- **No pone placeholder "CAPTURA MANUAL"** — vuelve al scrapper
