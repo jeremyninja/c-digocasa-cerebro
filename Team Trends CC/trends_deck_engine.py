@@ -19,6 +19,7 @@ hashtags 16pt, padding mínimo, sin placeholders, validador de overflow).
 ═══════════════════════════════════════════════════════════════════════════════
 """
 
+import math
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
 from pptx.dml.color import RGBColor
@@ -55,19 +56,26 @@ LABELS_Y  = 50.0; LABELS_H = 14.0     # = TAB_Y + TAB_H + 18 (TAB_TO_LABELS)
 HLINE_Y   = 68.0                      # = LABELS_Y + LABELS_H + 6
 CONTENT_Y = 84.0                      # = HLINE_Y + 10 (LABELS_TO_CONTENT)
 
-# ─── Col-left (DEFINICIÓN) ──────────────────────────────────────────────────────
+# ─── Col-left (DEFINICIÓN) — FLOW DINÁMICO (REGLA #9) ───────────────────────────
+# El headline varía de largo. La columna FLUYE: cada bloque se posiciona debajo
+# del anterior según su altura REAL estimada. Nunca se desborda la caja sobre el
+# bloque de abajo. Las cajas se dimensionan al texto, no a una altura fija.
 HEADLINE_PT      = 20.0   # REGLA #1 — FIJO, sin auto-fit
-HEADLINE_H       = 48.0
-PHENOM_LABEL_Y   = CONTENT_Y + HEADLINE_H + 20.0
+HEADLINE_LH      = 1.15   # factor line-height para estimar altura
 PHENOM_LABEL_H   = 14.0
-PHENOM_BODY_Y    = PHENOM_LABEL_Y + PHENOM_LABEL_H + 6.0
-PHENOM_BODY_H    = 84.0
-HASH_LABEL_Y     = PHENOM_BODY_Y + PHENOM_BODY_H + 18.0
+PHENOM_PT        = 10.0
+PHENOM_LH        = 1.30
 HASH_LABEL_H     = 14.0
-HASH_BODY_Y      = HASH_LABEL_Y + HASH_LABEL_H + 6.0
-HASH_BODY_H      = 52.0
-PHENOM_PT        = 10.0   # body fenómeno
 HASHTAG_PT       = 16.0   # REGLA #5 — NO 23pt
+HASHTAG_LH       = 1.25
+GAP_HL_TO_LABEL  = 20.0   # headline → EL FENÓMENO
+GAP_LABEL_BODY   = 6.0    # label → body
+GAP_BODY_TO_HASH = 18.0   # body fenómeno → HASHTAGS
+# Anchos de glifo aproximados (fracción del tamaño de fuente) para estimar líneas.
+# Instrument Serif UPPERCASE es ANCHO → factor alto para no subestimar líneas.
+CW_SERIF_UPPER   = 0.62
+CW_SANS          = 0.52
+CW_SERIF         = 0.50
 # (SIN 3 needs — REGLA #4)
 
 # ─── Col-center (TRIGGERS) — REGLA #2 ───────────────────────────────────────────
@@ -108,6 +116,23 @@ SAFE_MARGIN = 4.0
 # HELPERS
 # ══════════════════════════════════════════════════════════════════════════════
 def emupt(v): return int(v * 12700)
+
+def est_text_height(text, font_pt, box_w_pt, char_w_frac, line_h):
+    """Estima la altura renderizada de un texto con word-wrap.
+    Conservador (tiende a sobrestimar levemente) para que el bloque de abajo
+    nunca se monte sobre el texto que se desborda de su caja."""
+    chars_per_line = max(1, box_w_pt / (font_pt * char_w_frac))
+    # contar líneas por palabras para respetar saltos de palabra (más realista
+    # que dividir por caracteres a secas)
+    lines, cur = 0, 0
+    for word in str(text).split():
+        wl = len(word) + 1
+        if cur + wl > chars_per_line and cur > 0:
+            lines += 1; cur = wl
+        else:
+            cur += wl
+    lines = max(1, lines + (1 if cur > 0 else 0))
+    return lines * font_pt * line_h
 
 def add_bg(slide):
     sp = slide.shapes.add_shape(1, emupt(0), emupt(0), emupt(SLIDE_W), emupt(SLIDE_H))
@@ -198,18 +223,37 @@ def add_seps(slide):
     add_line_connector(slide, COL_LEFT_X,    HLINE_Y,  SLIDE_W-20,    HLINE_Y)
 
 def add_col_left(slide, headline, fenomeno, hashtags):
-    # HEADLINE — 20pt FIJO (REGLA #1)
-    _, tf = _tb(slide, COL_LEFT_X, CONTENT_Y, COL_LEFT_W, HEADLINE_H)
-    _run(tf, headline.upper(), F_SERIF, HEADLINE_PT, color=C_WHITE, sp_pct=110, tracking=0)
-    # EL FENÓMENO
-    _, tf2 = _tb(slide, COL_LEFT_X, PHENOM_LABEL_Y, COL_LEFT_W, PHENOM_LABEL_H)
+    """Col-left con FLOW dinámico (REGLA #9): cada bloque se posiciona debajo
+    del anterior según su altura REAL estimada. El headline 20pt puede ocupar
+    1-7 líneas; EL FENÓMENO siempre cae debajo del headline, nunca encima."""
+    y = CONTENT_Y
+
+    # HEADLINE — 20pt FIJO (REGLA #1), caja dimensionada al texto
+    hl = headline.upper()
+    hl_h = est_text_height(hl, HEADLINE_PT, COL_LEFT_W, CW_SERIF_UPPER, HEADLINE_LH)
+    _, tf = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, hl_h)
+    _run(tf, hl, F_SERIF, HEADLINE_PT, color=C_WHITE, sp_pct=int(HEADLINE_LH*100), tracking=0)
+    y += hl_h + GAP_HL_TO_LABEL
+
+    # EL FENÓMENO label
+    _, tf2 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, PHENOM_LABEL_H)
     _run(tf2, "EL FENÓMENO", F_SANS, 8, bold=True, color=C_GREY)
-    _, tf3 = _tb(slide, COL_LEFT_X, PHENOM_BODY_Y, COL_LEFT_W, PHENOM_BODY_H)
+    y += PHENOM_LABEL_H + GAP_LABEL_BODY
+
+    # body fenómeno — caja dimensionada al texto
+    body_h = est_text_height(fenomeno, PHENOM_PT, COL_LEFT_W, CW_SANS, PHENOM_LH)
+    _, tf3 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, body_h)
     _run(tf3, fenomeno, F_SANS, PHENOM_PT, color=C_WHITE, sp_pct=100)
-    # HASHTAGS — 16pt (REGLA #5)
-    _, tf4 = _tb(slide, COL_LEFT_X, HASH_LABEL_Y, COL_LEFT_W, HASH_LABEL_H)
+    y += body_h + GAP_BODY_TO_HASH
+
+    # HASHTAGS label
+    _, tf4 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, HASH_LABEL_H)
     _run(tf4, "HASHTAGS", F_SANS, 8, bold=True, color=C_GREY)
-    _, tf5 = _tb(slide, COL_LEFT_X, HASH_BODY_Y, COL_LEFT_W, HASH_BODY_H)
+    y += HASH_LABEL_H + GAP_LABEL_BODY
+
+    # hashtags — 16pt (REGLA #5), caja dimensionada al texto
+    hash_h = est_text_height(hashtags, HASHTAG_PT, COL_LEFT_W, CW_SERIF, HASHTAG_LH)
+    _, tf5 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, hash_h)
     _run(tf5, hashtags, F_SERIF, HASHTAG_PT, color=C_WHITE, sp_pct=100, tracking=0)
     # (SIN 3 needs — REGLA #4)
 
@@ -307,6 +351,7 @@ def add_micro(prs, micro, screenshots_dir):
 def audit_overflow(prs):
     issues = []
     for idx, slide in enumerate(prs.slides, 1):
+        col_left_boxes = []   # (y, h, text) para chequear solapamiento vertical
         for sh in slide.shapes:
             if sh.left is None or sh.top is None:
                 continue
@@ -317,6 +362,23 @@ def audit_overflow(prs):
                 issues.append(f"  OVERFLOW BOTTOM slide {idx}: y={y:.1f} h={h:.1f} bottom={y+h:.1f} > {SLIDE_H}")
             if x + w > SLIDE_W + SAFE_MARGIN:
                 issues.append(f"  OVERFLOW RIGHT slide {idx}: x={x:.1f} w={w:.1f} right={x+w:.1f} > {SLIDE_W}")
+            # recolectar text boxes de col-left por DEBAJO de la línea de contenido
+            # (REGLA #9 — flow sin solape). Excluye tabs (y=13) y labels (y=50)
+            # que viven en la cabecera y van lado a lado, no apilados.
+            if (sh.has_text_frame and COL_LEFT_X - 5 <= x < (COL_MID_X - 10)
+                    and w < 320 and 5 < h < 300 and y >= CONTENT_Y - 5):
+                txt = " ".join(p.text for p in sh.text_frame.paragraphs if p.text)[:30]
+                if txt:
+                    col_left_boxes.append((y, h, txt))
+        # chequear solapamiento vertical en col-left
+        col_left_boxes.sort()
+        for a in range(len(col_left_boxes) - 1):
+            y1, h1, t1 = col_left_boxes[a]
+            y2, h2, t2 = col_left_boxes[a + 1]
+            if y1 + h1 > y2 + SAFE_MARGIN:
+                issues.append(
+                    f"  COLISIÓN col-left slide {idx}: '{t1}' (bottom={y1+h1:.1f}) "
+                    f"se monta sobre '{t2}' (top={y2:.1f})")
     return issues
 
 

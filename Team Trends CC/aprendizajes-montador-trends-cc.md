@@ -229,6 +229,33 @@ falla, ajusta dimensiones y reintenta — NO entrega un deck con clipping.
 
 ---
 
+## 9. COL-LEFT CON FLOW DINÁMICO — el headline no se desborda sobre EL FENÓMENO
+
+**Fecha del aprendizaje:** 2026-05-29 ("todo se está chocando" — el headline
+de 20pt ocupaba 5-6 líneas pero su caja medía 48pt fija; el texto se
+desbordaba HACIA ABAJO sobre EL FENÓMENO y el body).
+
+**El bug oculto:** el validador de overflow medía COORDENADAS DE CAJA. La caja
+del headline (48pt) no solapaba la de EL FENÓMENO. Pero el TEXTO renderizado
+(110pt en 5 líneas) sí se salía de su caja y se montaba sobre lo de abajo.
+Box-coords decían OK; el render decía choque.
+
+**Regla dura:**
+- Col-left FLUYE: cada bloque (headline → EL FENÓMENO → body → HASHTAGS label →
+  hashtags) se posiciona debajo del anterior según su altura REAL estimada
+  (`est_text_height`), no en una `y` fija.
+- La caja del headline se dimensiona a las líneas que ocupa (estimación
+  conservadora con `CW_SERIF_UPPER=0.62`). EL FENÓMENO siempre cae debajo.
+- El validador ahora también detecta **solapamiento vertical en col-left**
+  (no solo overflow de slide): si `bottom` de un bloque > `top` del siguiente,
+  falla la build. El chequeo excluye la fila de tabs/labels (y < CONTENT_Y).
+
+**Por qué importa:** medir solo cajas no basta. Hay que estimar el texto
+renderizado y dejar que la columna fluya. Headlines largos (hasta ~6 líneas
+a 20pt) ahora caben sin tocar nada.
+
+---
+
 ## Cómo aplica el montador estos aprendizajes en el script
 
 ```python
