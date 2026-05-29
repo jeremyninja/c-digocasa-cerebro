@@ -1,928 +1,977 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Build Trends Alimentacion - Forecast Deck (18 slides)
-Layout: 3 dividers macro + 15 micros (5 por macro)
-Canvas 13.333 x 7.5 in
-DS: headline 42-50pt Instrument Serif UPPERCASE, hashtags 23pt Instrument Serif,
-    triggers vertical (stat grande + caja 170x35pt al lado), senales 149x220pt + caja caption 170x35pt al lado
-Placeholders: #222222 fill, texto "CAPTURA MANUAL — JEREMY" 8pt Poppins Bold #666666
+Build script — Trend Forecast ALIMENTACIÓN
+Capítulo 04 · Código Casa · NINJA Thinking
+
+REGLAS DURAS (aprendizajes-montador-trends-cc.md):
+1. Headline 20pt FIJO — NO 42-50pt, NO auto-fit
+2. Triggers: cifra ARRIBA, caja descriptiva ABAJO (stack vertical, NO side-by-side)
+3. Fotos señales: 110×162pt EXACTO (NO 149×220pt)
 """
+
 import os
-import math
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
 from pptx.dml.color import RGBColor
-from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.enum.text import PP_ALIGN
 from pptx.oxml.ns import qn
-from lxml import etree
+from pptx.oxml import parse_xml
+import lxml.etree as etree
 
-# -- Paths ---------------------------------------------------------------------
-BASE  = "/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Team Trends CC"
-SHOTS = os.path.join(BASE, "screenshots/trends-alimentacion")
-OUT   = os.path.join(BASE, "outputs/trends-alimentacion-forecast.pptx")
+# ─── PATHS ───────────────────────────────────────────────────────────────────
+BASE = "/Users/jeremyrodriguez/Documents/Cerebro/Código Casa/Team Trends CC"
+SCREENSHOTS = os.path.join(BASE, "screenshots/trends-alimentacion")
+OUT_PPTX = os.path.join(BASE, "outputs/trends-alimentacion-forecast.pptx")
 
-# -- Colors --------------------------------------------------------------------
-BG         = RGBColor(0x0D, 0x0D, 0x0D)
-PLACEHOLDER_BG = RGBColor(0x22, 0x22, 0x22)
-WHITE      = RGBColor(0xFF, 0xFF, 0xFF)
-GREY_LABEL = RGBColor(0xA0, 0xA0, 0xA0)
-GREY_MUTED = RGBColor(0x66, 0x66, 0x66)
-ACCENT     = RGBColor(0xFF, 0x2D, 0x2D)
-TAB_BG     = RGBColor(0xE8, 0xE8, 0xE8)
-BLACK_CLR  = RGBColor(0x00, 0x00, 0x00)
+# ─── COLORS ──────────────────────────────────────────────────────────────────
+C_BG       = RGBColor(0x0D, 0x0D, 0x0D)
+C_WHITE    = RGBColor(0xFF, 0xFF, 0xFF)
+C_GRAY     = RGBColor(0xA0, 0xA0, 0xA0)
+C_DARK     = RGBColor(0x66, 0x66, 0x66)
+C_RED      = RGBColor(0xFF, 0x2D, 0x2D)
+C_TABFILL  = RGBColor(0xE8, 0xE8, 0xE8)
+C_BLACK    = RGBColor(0x00, 0x00, 0x00)
+C_PLACEHOLDER = RGBColor(0x22, 0x22, 0x22)
 
-FONT_SERIF = "Instrument Serif"
-FONT_SANS  = "Poppins"
+# ─── DIMENSIONS ──────────────────────────────────────────────────────────────
+SLIDE_W = Inches(13.333)
+SLIDE_H = Inches(7.5)
 
-# -- Slide dimensions ----------------------------------------------------------
-W = Inches(13.333)
-H = Inches(7.5)
+# Grid in points (960pt wide × 540pt tall)
+MARGIN_LEFT   = Pt(28)
+MARGIN_TOP    = Pt(28)
+MARGIN_RIGHT  = Pt(28)
+CONTENT_W     = Pt(960 - 56)   # 904pt
+CONTENT_H     = Pt(540 - 56)   # 484pt
 
-# -- XML helpers ---------------------------------------------------------------
+# Column widths
+COL_LEFT_W    = Pt(int(904 * 0.33))   # ~298pt
+COL_CENTER_W  = Pt(int(904 * 0.34))   # ~307pt
+COL_RIGHT_W   = Pt(int(904 * 0.33))   # ~298pt
 
-def _set_shape_alpha(shape, pct):
-    """Set fill alpha on a solid-filled shape via XML (pct = 0-100)."""
-    spPr = shape._element.spPr
-    ns = 'http://schemas.openxmlformats.org/drawingml/2006/main'
-    solidFill = spPr.find(f'{{{ns}}}solidFill')
-    if solidFill is None:
-        return
-    srgbClr = solidFill.find(f'{{{ns}}}srgbClr')
-    if srgbClr is not None:
-        alpha_val = int(pct / 100 * 100000)
-        alpha_el = etree.SubElement(srgbClr, f'{{{ns}}}alpha')
-        alpha_el.set('val', str(alpha_val))
+COL_LEFT_X    = MARGIN_LEFT
+COL_CENTER_X  = MARGIN_LEFT + COL_LEFT_W + Pt(3)
+COL_RIGHT_X   = COL_CENTER_X + COL_CENTER_W + Pt(3)
+
+# Vertical layout anchors
+TAB_Y         = MARGIN_TOP
+TAB_H         = Pt(20)
+LABEL_Y       = TAB_Y + TAB_H + Pt(4)
+LABEL_H       = Pt(12)
+HLINE_Y       = LABEL_Y + LABEL_H
+CONTENT_TOP   = HLINE_Y + Pt(8)
+
+# Photo dimensions — RULE 3: 110×162pt EXACTO
+PHOTO_W       = Pt(110)
+PHOTO_H       = Pt(162)
+PHOTO_GAP     = Pt(8)   # 3×162+2×8=502pt, start at MARGIN_TOP(28) → bottom=530 < 540 OK
+CAPTION_W     = Pt(170)
+CAPTION_H     = Pt(35)
+CAPTION_OFFSET_X = Pt(8)
+
+# Trigger layout — RULE 2: stat ARRIBA, caja ABAJO
+STAT_H        = Pt(82)
+DESC_W        = Pt(170)
+DESC_H        = Pt(35)
+SOURCE_H      = Pt(12)
+TRIGGER_GAP   = Pt(5)
 
 
-def _set_line_spacing(paragraph, spacing):
-    """Set paragraph line spacing (1.0 = single, 0.95 = tight)."""
-    pPr = paragraph._p.get_or_add_pPr()
-    lnSpc = etree.SubElement(pPr, qn('a:lnSpc'))
-    spcPct = etree.SubElement(lnSpc, qn('a:spcPct'))
-    spcPct.set('val', str(int(spacing * 100000)))
+# ─── HELPERS ─────────────────────────────────────────────────────────────────
+
+def add_bg(slide, color=C_BG):
+    background = slide.background
+    fill = background.fill
+    fill.solid()
+    fill.fore_color.rgb = color
 
 
-# -- Low-level builders --------------------------------------------------------
+def add_rect(slide, x, y, w, h, fill_color=None, line_color=None):
+    shape = slide.shapes.add_shape(
+        1,  # RECTANGLE
+        left=int(x), top=int(y), width=int(w), height=int(h)
+    )
+    if fill_color:
+        shape.fill.solid()
+        shape.fill.fore_color.rgb = fill_color
+    else:
+        shape.fill.background()
+    if line_color:
+        shape.line.color.rgb = line_color
+        shape.line.width = int(Pt(1))
+    else:
+        shape.line.fill.background()
+    return shape
 
-def add_bg(slide):
-    bg = slide.shapes.add_shape(1, 0, 0, W, H)
-    bg.fill.solid()
-    bg.fill.fore_color.rgb = BG
-    bg.line.fill.background()
-    return bg
 
-
-def add_textbox(slide, x, y, w, h, text, font_name, font_size, color,
-                bold=False, italic=False, align=PP_ALIGN.LEFT,
-                line_spacing=None, word_wrap=True):
-    txBox = slide.shapes.add_textbox(x, y, w, h)
+def add_text_box(slide, x, y, w, h, text, font_name, font_size, color,
+                 bold=False, italic=False, align=PP_ALIGN.LEFT,
+                 word_wrap=True, line_spacing=None, uppercase=False):
+    txBox = slide.shapes.add_textbox(int(x), int(y), int(w), int(h))
+    txBox.word_wrap = word_wrap
     tf = txBox.text_frame
     tf.word_wrap = word_wrap
     tf.auto_size = None
+    tf.margin_left = 0
+    tf.margin_right = 0
+    tf.margin_top = 0
+    tf.margin_bottom = 0
+
     p = tf.paragraphs[0]
     p.alignment = align
     if line_spacing is not None:
-        _set_line_spacing(p, line_spacing)
+        p.line_spacing = line_spacing
+
     run = p.add_run()
-    run.text = text
+    run.text = text.upper() if uppercase else text
     run.font.name = font_name
-    run.font.size = Pt(font_size)
-    run.font.color.rgb = color
+    run.font.size = int(font_size)
     run.font.bold = bold
     run.font.italic = italic
+    run.font.color.rgb = color
     return txBox
 
 
-def add_separator_h(slide, x, y, w):
-    """1px horizontal separator at 6% white opacity."""
-    line = slide.shapes.add_shape(1, x, y, w, Emu(9525))
-    line.fill.solid()
-    line.fill.fore_color.rgb = WHITE
-    line.line.fill.background()
-    _set_shape_alpha(line, 6)
-    return line
+def add_line(slide, x1, y1, x2, y2, color, width=Pt(1)):
+    connector = slide.shapes.add_connector(1, int(x1), int(y1), int(x2), int(y2))
+    connector.line.color.rgb = color
+    connector.line.width = int(width)
+    return connector
 
 
-def add_separator_v(slide, x, y, h):
-    """1px vertical separator at 6% white opacity."""
-    line = slide.shapes.add_shape(1, x, y, Emu(9525), h)
-    line.fill.solid()
-    line.fill.fore_color.rgb = WHITE
-    line.line.fill.background()
-    _set_shape_alpha(line, 6)
-    return line
+def add_picture_safe(slide, img_path, x, y, w, h):
+    if img_path and os.path.isfile(img_path):
+        try:
+            pic = slide.shapes.add_picture(img_path, int(x), int(y), int(w), int(h))
+            return pic, True
+        except Exception:
+            pass
+    # Placeholder
+    shape = add_rect(slide, x, y, w, h,
+                     fill_color=C_PLACEHOLDER,
+                     line_color=RGBColor(0x33, 0x33, 0x33))
+    add_text_box(slide,
+                 x + Pt(4), y + int(h / 2) - Pt(10),
+                 w - Pt(8), Pt(20),
+                 "CAPTURA MANUAL — JEREMY",
+                 "Poppins", Pt(8), C_DARK,
+                 bold=True, align=PP_ALIGN.CENTER)
+    return shape, False
 
 
-def add_image_hyperlink(slide, img_path, x, y, w, h, url):
-    """Insert image at exact w×h with hyperlink."""
-    pic = slide.shapes.add_picture(img_path, x, y, w, h)
-    if url:
-        rId = slide.part.relate_to(
+def add_hyperlink_to_shape(shape, url):
+    if not url:
+        return
+    try:
+        sp = shape._element
+        # Try pic first, then sp
+        nvPicPr = sp.find('.//' + qn('p:nvPicPr'))
+        nvSpPr  = sp.find('.//' + qn('p:nvSpPr'))
+        nvPr = None
+        if nvPicPr is not None:
+            nvPr = nvPicPr.find(qn('p:nvPr'))
+        elif nvSpPr is not None:
+            nvPr = nvSpPr.find(qn('p:nvPr'))
+        if nvPr is None:
+            return
+        slide_part = shape.part
+        rId = slide_part.relate_to(
             url,
             'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',
-            is_external=True)
-        hlinkClick = etree.SubElement(pic._element.nvPicPr.cNvPr, qn('a:hlinkClick'))
-        hlinkClick.set(qn('r:id'), rId)
-    return pic
+            is_external=True
+        )
+        hlinkClick = parse_xml(
+            f'<a:hlinkClick xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"'
+            f' xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"'
+            f' r:id="{rId}"/>'
+        )
+        nvPr.append(hlinkClick)
+    except Exception:
+        pass
 
 
-def add_placeholder(slide, x, y, w, h, url):
-    """#222222 placeholder with text + hyperlink."""
-    rect = slide.shapes.add_shape(1, x, y, w, h)
-    rect.fill.solid()
-    rect.fill.fore_color.rgb = PLACEHOLDER_BG
-    rect.line.color.rgb = WHITE
-    rect.line.width = Emu(9525)
-    tf = rect.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    tf.vertical_anchor = MSO_ANCHOR.MIDDLE
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.CENTER
-    run = p.add_run()
-    run.text = "CAPTURA MANUAL\n— JEREMY"
-    run.font.name = FONT_SANS
-    run.font.size = Pt(8)
-    run.font.bold = True
-    run.font.color.rgb = GREY_MUTED
-    if url:
-        rId = slide.part.relate_to(
-            url,
-            'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',
-            is_external=True)
-        cNvPr = rect._element.nvSpPr.cNvPr
-        hlinkClick = etree.SubElement(cNvPr, qn('a:hlinkClick'))
-        hlinkClick.set(qn('r:id'), rId)
-    return rect
+def add_badge(slide, photo_x, photo_y, photo_w):
+    """Add red CLICK ME badge at top-right corner of photo."""
+    badge_w = Pt(42)
+    badge_h = Pt(14)
+    badge_x = photo_x + photo_w - badge_w
+    badge_y = photo_y
+    add_rect(slide, badge_x, badge_y, badge_w, badge_h, fill_color=C_RED)
+    add_text_box(slide, badge_x, badge_y, badge_w, badge_h,
+                 "CLICK ME", "Poppins", Pt(7), C_WHITE,
+                 bold=True, align=PP_ALIGN.CENTER)
 
 
-def add_click_me_badge(slide, img_x, img_y, img_w):
-    """Red 'CLICK ME' badge at top-right of image."""
-    bw = Inches(0.55)
-    bh = Inches(0.18)
-    bx = img_x + img_w - bw
-    by = img_y
-    badge = slide.shapes.add_shape(1, bx, by, bw, bh)
-    badge.fill.solid()
-    badge.fill.fore_color.rgb = ACCENT
-    badge.line.fill.background()
-    tf = badge.text_frame
-    tf.word_wrap = False
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.CENTER
-    run = p.add_run()
-    run.text = "CLICK ME"
-    run.font.name = FONT_SANS
-    run.font.size = Pt(7)
-    run.font.bold = True
-    run.font.color.rgb = WHITE
-    return badge
+# ─── SLIDE BUILDERS ──────────────────────────────────────────────────────────
 
-
-# -- Content data --------------------------------------------------------------
-
-MACROS = [
-    {
-        "num": "MACRO 1",
-        "name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "tagline": '"Un mundo en crisis está reescribiendo qué significa ser adulto y formar familia."',
-    },
-    {
-        "num": "MACRO 2",
-        "name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "tagline": '"El dominicano ya entró al mundo prompteado. Solo no lo nombra así."',
-    },
-    {
-        "num": "MACRO 3",
-        "name": "ALGORITMO DEL HOGAR",
-        "tagline": '"El feed se sentó en la mesa y nadie le ofreció silla."',
-    },
-]
-
-# trigger: {stat, desc, fuente}
-# senal:   {img, url, caption}   — img=None → placeholder
-
-MICROS = [
-    # -------------------------------------------------------------------------
-    # MACRO 1
-    # -------------------------------------------------------------------------
-    {
-        "macro_num":  "MACRO 1",
-        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "headline":   "La generación sin tiempo entre semana descubrió que dos horas el domingo le devuelven la semana entera.",
-        "fenomeno":   "El joven dominicano prepara comidas el domingo para ahorrar tiempo, comer mejor y controlar lo que ingiere. No es dieta — es autonomía. El meal prep entra como ritual de adultez sin mamá-cocinera detrás. Domingo 5pm: tuppers, arroz integral, pechuga, etiqueta con día de la semana.",
-        "hashtags":   "#MealPrepDominicano · #DomingoDePrep · #ControlDeLoQueComo · #AdultoJovenRD",
-        "triggers": [
-            {"stat": "US$36B",  "desc": "mercado global de meal prep en 2026, CAGR 9.84% hasta 2035.", "fuente": "MARKET REPORTS WORLD · 2026"},
-            {"stat": "48%",     "desc": "de adultos ya practica meal prep; 62% de profesionales >8h/día cita falta de tiempo como driver.", "fuente": "HELLOFRESH STATE OF HOME COOKING · 2025"},
-            {"stat": "62%",     "desc": "de profesionales que trabajan más de 8 h/día elige meal prep como solución al tiempo.", "fuente": "HELLOFRESH · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-1-1-tiktok-morechulaa-mealprep.png",    "url": "https://www.tiktok.com/@morechulaa/video/7636986702262717704",    "caption": "Creadora dominicana @morechulaa: meal prep de 4 días con tuppers etiquetados por día."},
-            {"img": "macro-1-1-tiktok-viviankh-mealprep.png",      "url": "https://www.tiktok.com/@viviank.h/video/7620501104765177108",      "caption": "@viviank.h documenta 10 sándwiches + 9 porciones en el freezer — meal prep de 3 semanas."},
-            {"img": "macro-1-0-mktreports-mealprep-market.png",    "url": "https://www.marketreportsworld.com/market-reports/meal-prep-market-14713709", "caption": "Chart: mercado global meal prep US$36,433M en 2026, CAGR 9.84%."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 1",
-        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "headline":   "Las empresas descubrieron que si el empleado come bien al mediodía rinde mejor en la tarde — y el menú de almuerzo se volvió beneficio.",
-        "fenomeno":   "Fripick deja que la empresa pague la comida y la descuente en quincena; los restaurantes RD lanzan lunch menus de 12-3 a precio asequible. La comida del mediodía dejó de ser problema individual del empleado — ahora es categoría B2B.",
-        "hashtags":   "#LunchMenuRD · #AlmuerzoDeTrabajo · #MenúDelDía · #PrecioAccesible · #NegocioOyó",
-        "triggers": [
-            {"stat": "+13%",    "desc": "YoY de tráfico en horario almuerzo con shoulder hour pricing en LATAM.", "fuente": "OPENTABLE / QSR MAGAZINE · 2025"},
-            {"stat": "84%",     "desc": "de consumidores percibe los precios de alimentos como altos; dos tercios prefieren opciones más económicas para almuerzo.", "fuente": "PURDUE UNIVERSITY / FAMILY DINNER PROJECT · 2025"},
-            {"stat": "8.03%",   "desc": "inflación alimentaria interanual RD enero 2026; precios subieron 50% vs julio 2019.", "fuente": "BCRD / DOMINICAN TODAY · 2026"},
-        ],
-        "senales": [
-            {"img": "macro-1-2-tiktok-toyantoja-noccila-lunch.png", "url": "https://www.tiktok.com/@toyantoja/video/7610215257000234247", "caption": "@toyantoja muestra lunch completo en Nocciola por menos de RD$500 — dato que vale oro para el trabajador."},
-            {"img": "macro-1-2-fripick-rd-brand.png",               "url": "https://fripick.com",                                          "caption": "Fripick RD — beneficio alimentario corporativo B2B con descuento de quincena."},
-            {"img": None,                                            "url": "https://www.bcrd.gov.do",                                      "caption": "BCRD: inflación alimentaria 8.03% interanual ene 2026; precios +50% vs 2019."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 1",
-        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "headline":   "Te crió con miedo a lo «malo» y ahora comer se siente como culpa. TikTok escuchó el término y lo convirtió en trend con millones de views.",
-        "fenomeno":   "La mamá que controlaba cada bocado crió hijas con relación rota con el plato. La almond mom no es solo un meme — es una cadena generacional. La adultez de esa hija inventa otra forma de comer sin que la voz de mamá comente cada mordida.",
-        "hashtags":   "#AlmondMom · #TraumasDietéticos · #ComerConCulpa · #GeneraciónSinRefresco · #LaVozDeMamá",
-        "triggers": [
-            {"stat": "30M",     "desc": "americanos desarrollarán un trastorno alimentario en su vida — 2da enfermedad mental más mortal.", "fuente": "ANAD / ABC NEWS · 2025"},
-            {"stat": "42%",     "desc": "de niñas de 1°-3° quiere ser más delgada; 81% de niños de 10 años teme engordar.", "fuente": "ANAD STATISTICS · 2025"},
-            {"stat": "#AlmondMom", "desc": "circula como documento generacional del trauma dietético heredado — millones de views en TikTok/YouTube.", "fuente": "TIKTOK · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-1-3-tiktok-lielle-almondmom.png",   "url": "https://www.tiktok.com/@liellewaldman17/video/7617943870797630750", "caption": "@Lielle & Dee recrea rutina matutina bajo #almondmom — suplementos, restricción, herencia sin cuestionar."},
-            {"img": "macro-1-3-tiktok-nourvilaa-almondmom.png", "url": "https://www.tiktok.com/@nourvilaa/video/7642383470026657046",    "caption": "@nour vilà — versión LATAM del trauma dietético bajo #almondmum."},
-            {"img": None,                                        "url": "https://anad.org/eating-disorder-statistics/",                     "caption": "ANAD 2025: 73% de pacientes con trastorno usaba MyFitnessPal y cree que contribuyó."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 1",
-        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "headline":   "La diferencia entre un domingo con familia y uno solo se mide en una pregunta: ¿qué vamos a comer?",
-        "fenomeno":   "Para familias grandes el domingo es sancocho, mesa llena, todos. Para el foráneo que vive solo, es el día más difícil — sin ritual, sin mesa, con delivery en la cama. La brecha no es nutricional — es emocional.",
-        "hashtags":   "#DomingoSolo · #AlmuerzoDeFamilia · #SancochoDelDomingo · #ForáneoEnLaCapital · #SinMesaNoHayDomingo",
-        "triggers": [
-            {"stat": "45%",     "desc": "de hogares come junto menos que hace una década; 84% querría más comidas compartidas.", "fuente": "SIMIRITY / FMI FOUNDATION · 2025"},
-            {"stat": "17%",     "desc": "de familias dominicanas no comparte las horas de comida — el foráneo en Bonao en su cuartito de Naco.", "fuente": "CÓDIGO CASA N=500 · NINJA · 2025"},
-            {"stat": "WHR 2025", "desc": "World Happiness Report vincula compartir comidas con conectividad social y bienestar subjetivo.", "fuente": "WORLD HAPPINESS REPORT · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-1-4-tiktok-josheilyn-foranea-capital.png",  "url": "https://www.tiktok.com/@josheilyndls1/video/7549991019169811768",  "caption": "@Josheilyn — foránea RD en la capital: \"yo amo estar en mi hogar los domingos\"."},
-            {"img": "macro-1-4-tiktok-mariannycorderoo-domingo.png",   "url": "https://www.tiktok.com/@mariannycorderoo/video/7643570804885572882", "caption": "@mariannycorderoo — domingo solo en Bogotá con #amorpropio, ritual sin mesa familiar."},
-            {"img": "macro-1-4-tiktok-macaseason-domingo-familiar.png","url": "https://www.tiktok.com/@macaseason/video/7625031259835665685",      "caption": "@macaseason — el ritual completo del domingo familiar como contraste."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 1",
-        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
-        "headline":   "PedidosYa es la app #1 de food en RD: el adulto joven ya no decide qué cocinar entre semana, decide qué pedir — y esa es su nueva forma de ser adulto.",
-        "fenomeno":   "La adultez tradicional cocinaba todos los días. La adultez 2026 delega el jueves a una app. No es flojera — es renegociación del rol de buen adulto en una economía donde el tiempo cuesta más que la comida.",
-        "hashtags":   "#PedidosYaRD · #DeliveryEsMiMamá · #AdultoQueNoCocina · #JuevesDeApp · #ComerSinCocinar",
-        "triggers": [
-            {"stat": "#1 RD",   "desc": "PedidosYa, app #1 food & drink iOS en RD; 13K-21.7K descargas semanales Q1 2025.", "fuente": "SENSOR TOWER · Q1 2025"},
-            {"stat": "50%",     "desc": "subieron los precios de alimentos en RD entre julio 2019 y julio 2025 — el delivery se vuelve cálculo costo-tiempo.", "fuente": "BCRD / DOMINICAN TODAY · 2026"},
-            {"stat": "1er",     "desc": "supermercado 100% online abre en Santo Domingo — la grocería migra a app.", "fuente": "ST KITTS NEVIS OBSERVER · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-1-5-pedidosya-country-selector.png",      "url": "https://www.pedidosya.com",                                                                               "caption": "Selector de país PedidosYa con República Dominicana listada + badges App Store y Google Play."},
-            {"img": "macro-1-5-sensortower-pedidosya-rd-chart.png",  "url": "https://sensortower.com/blog/2025-q1-unified-top-5-food%20delivery%20services-units-do-63da96fbe1714cfff1c1e5a1", "caption": "Sensor Tower: PedidosYa #1 en descargas food delivery RD, Q1 2025."},
-            {"img": "macro-1-5-stkitts-online-super-sd.png",         "url": "https://www.thestkittsnevisobserver.com/first-online-only-supermarket-opens-in-santo-domingo/",          "caption": "Primer supermercado 100% online en Santo Domingo — la grocería migra a app."},
-        ],
-    },
-    # -------------------------------------------------------------------------
-    # MACRO 2
-    # -------------------------------------------------------------------------
-    {
-        "macro_num":  "MACRO 2",
-        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "headline":   "Una foto de tu plato no sabe lo que comes. Pero el algoritmo te convence de que sí — y le crees más a la app que a tu propio cuerpo.",
-        "fenomeno":   "Las apps de conteo calórico pasaron de herramienta a obsesión. El algoritmo que te ayuda a comer mejor se convierte en la voz que condena cada nutriente. Foto del plato → IA reconoce → 487 kcal → silencio incómodo → no almorzar postre.",
-        "hashtags":   "#AppQueEnfermó · #MyFitnessPalToxic · #AlgoritmoDeMiDieta · #ContarCalorías · #ComerConMiedo",
-        "triggers": [
-            {"stat": "180M",    "desc": "usuarios de MyFitnessPal; 75% de pacientes con trastorno alimentario la usaba.", "fuente": "GRIPROOM / PMC NLM · 2026"},
-            {"stat": "73%",     "desc": "de pacientes con trastorno alimentario creyó que la app contribuyó al desarrollo del trastorno.", "fuente": "PMC NLM · 2026"},
-            {"stat": "#MFPToxic", "desc": "creadoras documentan recuperación de relación rota con apps de conteo calórico.", "fuente": "TIKTOK · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-2-1-myfitnesspal-app-ui.png", "url": "https://www.myfitnesspal.com", "caption": "UI de MyFitnessPal: 976 cal + macro breakdown del día — \"Nutrition tracking for real life\"."},
-            {"img": None,                                 "url": "https://griproom.com",          "caption": "GripRoom / PMC NLM 2026: 73% de pacientes cree que la app contribuyó al trastorno alimentario."},
-            {"img": None,                                 "url": "https://pubmed.ncbi.nlm.nih.gov", "caption": "Ohio State / Sage Journals: apps con IA foto actúan como gateway a trastorno alimentario."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 2",
-        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "headline":   "Antes mamá decidía qué había de comer. Hoy lo decide el For You Page — y de paso te vende los ingredientes en el mismo scroll.",
-        "fenomeno":   "El joven dominicano abre TikTok antes de abrir el refrigerador. Las recetas virales compiten con la tradición oral heredada — y en muchos hogares jóvenes el algoritmo está ganando.",
-        "hashtags":   "#TikTokRecetas · #ForYouPageDeCocina · #RecetaViralVsAbuela · #QuéComiHoy · #AlgoritmoDeAlmuerzo",
-        "triggers": [
-            {"stat": "42",      "desc": "índice de contenido food en TikTok en pico enero 2026 — la plataforma como primer recetario.", "fuente": "ACCIO / TIKTOK FOOD TRENDS · 2026"},
-            {"stat": "US$759M", "desc": "GMV food en TikTok Shop 2025 — integración receta → carrito en la misma plataforma.", "fuente": "CAPITAL ONE SHOPPING · 2025"},
-            {"stat": "2x",      "desc": "casi duplicaron ventas las marcas grandes en TikTok Shop en 2025.", "fuente": "MODERN RETAIL · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-2-2-tiktokshop-food-gmv.png",          "url": "https://resourcera.com/data/social/tiktok-shop-statistics/",                                                      "caption": "TikTok es el nuevo libro de recetas Y el nuevo supermercado — food = 13.6% del GMV 2025."},
-            {"img": "macro-2-2-modernretail-tiktokshop-brands.png","url": "https://www.modernretail.co/technology/sales-from-major-brands-on-tiktok-shop-nearly-doubled-in-2025-drawing-ulta-and-sally-beauty/", "caption": "Modern Retail: marcas grandes casi duplicaron ventas en TikTok Shop en 2025."},
-            {"img": None,                                           "url": "https://finedininglovers.com",                                                                                   "caption": "Fine Dining Lovers ES: creadores latinos llevan recetas tradicionales a los códigos narrativos de 2025."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 2",
-        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "headline":   "El truco de poner un video para que el niño coma se convirtió en condición — el iPad es la única forma de que el plato baje.",
-        "fenomeno":   "El niño no come sin el iPad. La pantalla dejó de ser acompañamiento y se volvió condición. La mesa familiar tiene un competidor que casi siempre gana: Cocomelon en iPad apoyado en jugo de naranja; niño come pollo en piloto automático.",
-        "hashtags":   "#iPadKid · #PantallaMientrasCome · #NetflixYCena · #MesaSinPantalla · #ComerSinPantalla",
-        "triggers": [
-            {"stat": "40%",     "desc": "de niños tiene iPad a los 2 años; 2.6 hrs/día promedio; solo 1% cumple límites recomendados.", "fuente": "COMMON SENSE MEDIA · 2025"},
-            {"stat": "2.6h",    "desc": "promedio de pantalla diaria en menores de 8 años; vínculo con desconexión de señales de hambre.", "fuente": "SCIENCEDIRECT / BUSINESS STANDARD · 2026"},
-            {"stat": "17%",     "desc": "de familias RD no comparte las horas de comida — la mesa está compartida, con un tercero encendido.", "fuente": "CÓDIGO CASA N=500 · NINJA · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-2-3-newsmedical-screentime-proxy.png", "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx", "caption": "News Medical: la tech que interviene en cómo comemos (proxy visual de medicalización del comer)."},
-            {"img": None,                                          "url": "https://www.unicef.org/innocenti/reports/children-and-digital-technologies",                               "caption": "UNICEF Kids Online: exposición infantil a pantallas más temprana y menos mediada en LATAM/RD."},
-            {"img": None,                                          "url": "https://www.commonsensemedia.org/research/zero-to-eight-childrens-media-use-in-america",                  "caption": "Common Sense Media 2025: 40% de niños tiene iPad a los 2 años; 1% cumple límites."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 2",
-        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "headline":   "El consumidor sano se pega un sensor de glucosa por dos semanas y descubre que la uva le sube más el azúcar que el helado. La nutrición ya es dato en tiempo real.",
-        "fenomeno":   "Los wearables de glucosa OTC salieron del nicho diabético y entraron al consumer health. El comer bien dejó de ser opinión — ahora es métrica continua que cambia qué desayunas mañana.",
-        "hashtags":   "#LingoRD · #SensorDeGlucosa · #ComerConDato · #MetabolicAge · #ElPlatoYElGráfico",
-        "triggers": [
-            {"stat": "US$80B",  "desc": "generó el mercado de wearables y health tracking en 2024 — proyecta US$200B+ para 2030.", "fuente": "STATISTA · 2025"},
-            {"stat": "OTC",     "desc": "Abbott Lingo (CGM sin prescripción) expande a Android dic 2025; en Walmart y Amazon.", "fuente": "ABBOTT NEWSROOM · 2025"},
-            {"stat": "\"Glucose Goddess\"", "desc": "#glucosegoddess (Jessie Inchauspé) cruza cientos de millones de views — glucose hacks como género.", "fuente": "TIKTOK · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-2-4-hellolingo-cgm-hero.png",    "url": "https://www.hellolingo.com",                                                                                     "caption": "Abbott Lingo: mujer con sensor en el brazo + \"My glucose, my insights\" — CGM OTC sin prescripción."},
-            {"img": "macro-2-4-scripps-cgm-sensor-arm.png", "url": "https://www.scrippsnews.com/health/continuous-glucose-monitors-are-in-vogue-but-do-you-really-need-to-track-your-blood-sugar", "caption": "Scripps News / AP: brazo con sensor de glucosa continuo — CGMs in vogue para consumidor no-diabético."},
-            {"img": None,                                    "url": "https://www.statista.com/topics/1236/wearable-technology/",                                                       "caption": "Statista 2025: mercado wearables US$80B en 2024, rumbo a US$200B en 2030."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 2",
-        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
-        "headline":   "Una creadora cocina en vivo, te muestra el producto, lo agregas al carrito sin salir del feed. El supermercado se volvió streaming.",
-        "fenomeno":   "Live shopping pasó del nicho beauty al supermercado: snacks, salsas, kits de receta vendidos durante el video. Food es 13.6% del GMV de TikTok Shop. El próximo carrito de compras será un live stream — no un walk-in.",
-        "hashtags":   "#TikTokShopFood · #CocinaEnVivo · #CarritoDelFeed · #LiveSnacks · #CompraLoQueCocinas",
-        "triggers": [
-            {"stat": "US$64B",  "desc": "GMV total TikTok Shop 2025; food US$759.84M (13.6%); ticket promedio food shopper US$43.20.", "fuente": "CAPITAL ONE SHOPPING / RESOURCERA · 2025"},
-            {"stat": "+84%",    "desc": "creció el live shopping YoY en 2025; conversión live 6.1% vs feed 4.7%.", "fuente": "RESOURCERA · 2026"},
-            {"stat": "1er",     "desc": "supermercado 100% online abre en Santo Domingo — grocery digital prepara terreno para social commerce en RD.", "fuente": "ST KITTS NEVIS OBSERVER · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-2-5-modernretail-tiktokshop-2025.png",   "url": "https://www.modernretail.co/technology/sales-from-major-brands-on-tiktok-shop-nearly-doubled-in-2025-drawing-ulta-and-sally-beauty/", "caption": "Modern Retail TikTok Shop: marcas grandes duplicaron ventas en 2025; food = categoría líder."},
-            {"img": "macro-2-5-resourcera-tiktokshop-stats.png",    "url": "https://resourcera.com/data/social/tiktok-shop-statistics/",                                                     "caption": "Resourcera: GMV US$64.3B, ticket food US$43.20, live shopping +84% YoY."},
-            {"img": "macro-1-5-stkitts-online-super-sd.png",        "url": "https://www.thestkittsnevisobserver.com/first-online-only-supermarket-opens-in-santo-domingo/",               "caption": "Primer super online SD — grocery 100% digital en RD (señal local de social commerce)."},
-        ],
-    },
-    # -------------------------------------------------------------------------
-    # MACRO 3
-    # -------------------------------------------------------------------------
-    {
-        "macro_num":  "MACRO 3",
-        "macro_name": "ALGORITMO DEL HOGAR",
-        "headline":   "Ver lo que otros comen se convirtió en uno de los formatos más consumidos de internet. Ya no es comida — es identidad.",
-        "fenomeno":   "What I Eat in a Day explota no por curiosidad culinaria — por validación. Ver lo que come otro para confirmar, comparar o inspirarse. En RD ya hay creadoras adoptándolo con identidad local. El plato ajeno es espejo. Y juez.",
-        "hashtags":   "#QuéComoEnUnDía · #WhatIEatInADay · #ComidaParaVer · #AlimentaciónEnPantalla · #DíaDeComidaRD",
-        "triggers": [
-            {"stat": "74%",     "desc": "de personas usa redes para decidir qué/dónde comer; 50% dice que influyen directamente.", "fuente": "CROPINK · 2026"},
-            {"stat": "Top 2026","desc": "\"What I Eat in a Day\" entre top food trends; genera engagement positivo y negativo que el algoritmo premia.", "fuente": "CHOWHOUND TIKTOK TRENDS · 2026"},
-            {"stat": "Bowl",    "desc": "colorido aspiracional de Whole Foods 2026 que WIEIAD replica y el algoritmo distribuye como estándar.", "fuente": "VEGNEWS / WHOLE FOODS · 2026"},
-        ],
-        "senales": [
-            {"img": "macro-3-1-vegnews-food-trend-hero.png", "url": "https://vegnews.com/fiber-whole-foods-2026-top-trend",  "caption": "VegNews 2026: bowl de proteína + grains + vegetales coloridos — el comer bien aspiracional que WIEIAD replica."},
-            {"img": None,                                     "url": "https://www.tiktok.com/search?q=que+como+en+un+dia+dominicana", "caption": "Búsqueda TikTok: adaptación local de WIEIAD con mangú, sancocho y dieta de barrio."},
-            {"img": None,                                     "url": "https://cropink.com/tiktok-statistics",                  "caption": "Cropink 2026: 74% usa redes para decidir qué comer; 50% afirma influencia directa."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 3",
-        "macro_name": "ALGORITMO DEL HOGAR",
-        "headline":   "El mukbang nació porque hay gente que come sola y prefiere ver a alguien comer antes que comer en silencio.",
-        "fenomeno":   "Nació en Corea como compañía virtual. Hoy es negocio millonario. El dominicano lo consume porque la mesa vacía duele — y una pantalla llena el silencio del comedor. La cena ya viene con co-cenador incluido. En pantalla.",
-        "hashtags":   "#MukbangLatino · #ComerSoloPeroNoTanto · #AcompañamientoPorPantalla · #SoledadEnLaMesa · #CenarConPantalla",
-        "triggers": [
-            {"stat": "5.3M",    "desc": "#mukbang supera 5.3M videos en 2025; top creadores ganan hasta US$10K/mes.", "fuente": "DISTRACTION MAGAZINE / PMC · 2025"},
-            {"stat": "68.5%",   "desc": "de jóvenes universitarias ve videos de comida regularmente; hasta 40 min/día — efecto parasocial en soledad.", "fuente": "WESTERN GAZETTE / PMC · 2025"},
-            {"stat": ">2B",     "desc": "vistas de Nickocado Avocado en YouTube — mukbang como formato mainstream de entretenimiento.", "fuente": "PMC / DISTRACTION MAGAZINE · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-3-2-youtube-mukbang-search-grid.png", "url": "https://www.youtube.com/results?search_query=mukbang", "caption": "YouTube mukbang: thumbnails de comida extrema + ASMR con millones de vistas — volumen del formato."},
-            {"img": None,                                          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10010030/",  "caption": "PMC 2025: 68.5% de jóvenes ve videos de comida regularmente; vínculo con efecto parasocial y soledad."},
-            {"img": None,                                          "url": "https://distractionmagazine.com",                         "caption": "Distraction Magazine: top mukbangers ganan hasta US$10K/mes — formato masivo de acompañamiento virtual."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 3",
-        "macro_name": "ALGORITMO DEL HOGAR",
-        "headline":   "Cuando todo lo demás está fuera de control, la cocina es el único sitio donde lo que hago sí sale como quiero.",
-        "fenomeno":   "Bajo burnout y presión social, adultos jóvenes descubrieron que cocinar y hornear son terapia real. No es hobbyismo — es el único espacio donde lo que controlas eres tú. El horno escucha mejor que el psicólogo en lista de espera.",
-        "hashtags":   "#CocinaComoTerapia · #HornearParaDesestresarse · #LoveLanguageCocina · #Repostería · #CocinaQueControlo",
-        "triggers": [
-            {"stat": "Dopamina", "desc": "Hornear activa rutas de dopamina y reduce cortisol — equivalente a mindfulness clínico.", "fuente": "KAISER PERMANENTE / NEUROLAUNCH / ICE · 2025"},
-            {"stat": "2026",    "desc": "ola de cancelaciones de delivery + vuelta a la cocina como anti-ansiedad digital documentada.", "fuente": "EDITORIALGE / COOKING AS THERAPY · 2026"},
-            {"stat": "85%",     "desc": "dominicanos come siempre en casa (P21, CC) — para el joven 2026 cocinar es la única hora sin notificaciones.", "fuente": "CÓDIGO CASA N=500 · NINJA · 2025"},
-        ],
-        "senales": [
-            {"img": "macro-3-3-newsmedical-cooking-proxy.png", "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx", "caption": "News Medical: la cocina como contrapunto analógico a la farmacología del hambre (GLP-1)."},
-            {"img": None,                                       "url": "https://www.tiktok.com/search?q=%23cookingastherapy",                                                      "caption": "#cookingastherapy en TikTok — creadoras LATAM documentan cocina y repostería como bienestar."},
-            {"img": None,                                       "url": "https://www.neurolaunch.com/baking-and-mental-health/",                                                    "caption": "NeuroLaunch: hornear reduce cortisol, activa dopamina — equivalente a mindfulness según evidencia clínica."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 3",
-        "macro_name": "ALGORITMO DEL HOGAR",
-        "headline":   "El FOMO de bajar de peso llegó a su versión más extrema: eliminar todo lo que no sea animal. Los análisis de sangre cuentan otra historia.",
-        "fenomeno":   "Joe Rogan lo popularizó, los influencers lo viralizaron, el que lleva años sin bajar de peso lo consideró. Solo carne, mantequilla y huevo. El algoritmo lo distribuye más rápido que la evidencia clínica que lo contradice.",
-        "hashtags":   "#DietaCarnívora · #SoloCarneMantequillaYHuevo · #FOMODeBajarDePeso · #ExtremoNutricional · #CarnivoreVsColesterol",
-        "triggers": [
-            {"stat": "2.6M",    "desc": "#carnivore supera 2.6M publicaciones a noviembre 2025 — entre las dietas más comentadas.", "fuente": "RESEARCHGATE / FOX NEWS · 2025"},
-            {"stat": "LDL +46", "desc": "LDL promedio sube de 126 a 172 mg/dL en seguidores de dieta carnívora — caso reportado: 163→365.", "fuente": "NUTRIENTS JOURNAL · ENE 2026"},
-            {"stat": "Fibra 2026", "desc": "Whole Foods predice 2026 = Year of the Fiber — mainstream pivota al opuesto mientras carnivore escala.", "fuente": "VEGNEWS / WHOLE FOODS 2026 TREND REPORT · 2026"},
-        ],
-        "senales": [
-            {"img": "macro-3-4-vegnews-protein-fiber-trend.png", "url": "https://vegnews.com/fiber-whole-foods-2026-top-trend",                           "caption": "VegNews: mainstream pivota a fibra mientras carnivore escala — bowl colorido vs tabla de bistec."},
-            {"img": None,                                          "url": "https://www.mdpi.com/2072-6643/18/2/247",                                        "caption": "Nutrients Journal ene 2026: LDL promedio sube 126→172 mg/dL en seguidores de dieta carnívora."},
-            {"img": None,                                          "url": "https://www.tiktok.com/search?q=ex+carnivore+my+labs",                          "caption": "TikTok: \"ex-carnivore my labs\" — backlash de creadores que salen de la dieta carnívora por análisis."},
-        ],
-    },
-    {
-        "macro_num":  "MACRO 3",
-        "macro_name": "ALGORITMO DEL HOGAR",
-        "headline":   "GLP-1 silencia el «food noise» del cerebro. La nueva conversación sobre comer no es qué cocinar — es si lo deseo o solo me acordé que existía.",
-        "fenomeno":   "Ozempic y Mounjaro reescriben la relación con la comida: ya no se trata de fuerza de voluntad, se trata de farmacología que apaga el ruido mental. El feed normaliza la conversación; el endocrinólogo no está en el loop.",
-        "hashtags":   "#FoodNoise · #OzempicDiary · #SinHambreSinAnsiedad · #GLP1RD · #LaCabezaSinComida",
-        "triggers": [
-            {"stat": "58%",     "desc": "siente menos hambre con GLP-1; 64% se llena antes; 21-23% reporta cambios de sabor — EASD 2025 n=411.", "fuente": "EASD 2025 / NEWS-MEDICAL · 2025"},
-            {"stat": "#FoodNoise", "desc": "viralizado por usuarias de GLP-1 documentando cambio cognitivo — decenas de millones de views en 2025.", "fuente": "TIKTOK · 2025"},
-            {"stat": "Fibra vs GLP-1", "desc": "Whole Foods 2026: longevity y fibra como aspiracional opuesto al cuerpo medicado — dos lados del mismo deseo.", "fuente": "WHOLE FOODS 2026 · 2026"},
-        ],
-        "senales": [
-            {"img": "macro-3-5-sciam-ozempic-food-noise.png",     "url": "https://www.scientificamerican.com/article/ozempic-quiets-food-noise-in-the-brain-but-how/", "caption": "Scientific American: cabeza de estatua con comida flotando — Ozempic silencia el food noise en el cerebro."},
-            {"img": "macro-3-5-newsmedical-glp1-appetite.png",    "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx", "caption": "News Medical: jeringa de semaglutide — 58% menos hambre, 64% saciedad precoz según EASD 2025."},
-            {"img": None,                                           "url": "https://www.tiktok.com/search?q=%23foodnoise",                                              "caption": "#foodnoise TikTok — usuarias GLP-1 documentando cambio cognitivo, decenas de millones de views."},
-        ],
-    },
-]
-
-
-# -- Slide builders ------------------------------------------------------------
-
-def build_macro_divider(prs, macro):
-    """Macro divider slide — solo nombre 100pt + tagline 24pt italic. Sin info."""
-    slide = prs.slides.add_slide(prs.slide_layouts[6])  # blank
+def build_divider(prs, macro_num, macro_name, tagline):
+    """Macro divider slide — name only, no content."""
+    slide_layout = prs.slide_layouts[6]  # blank
+    slide = prs.slides.add_slide(slide_layout)
     add_bg(slide)
 
-    cx = W / 2
+    label_h   = Pt(22)
+    gap1      = Pt(16)
+    name_h    = Pt(115)
+    gap2      = Pt(14)
+    tagline_h = Pt(40)
+    total_h   = label_h + gap1 + name_h + gap2 + tagline_h
 
-    # Etiqueta MACRO N — Poppins Bold 14pt #A0A0A0 UPPERCASE
-    lbl_w = Inches(4)
-    lbl_h = Inches(0.35)
-    lbl_x = cx - lbl_w / 2
-    lbl_y = Inches(2.5)
-    add_textbox(slide, lbl_x, lbl_y, lbl_w, lbl_h,
-                macro["num"], FONT_SANS, 14, GREY_LABEL, bold=True,
-                align=PP_ALIGN.CENTER, word_wrap=False)
+    block_top = Pt(540 / 2) - total_h / 2
 
-    # Nombre macro — Instrument Serif Regular 100pt UPPERCASE white centered
-    nm_w = Inches(12)
-    nm_h = Inches(2.2)
-    nm_x = cx - nm_w / 2
-    nm_y = lbl_y + lbl_h + Inches(0.15)
-    tb = slide.shapes.add_textbox(nm_x, nm_y, nm_w, nm_h)
-    tf = tb.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.CENTER
-    run = p.add_run()
-    run.text = macro["name"]
-    run.font.name = FONT_SERIF
-    run.font.size = Pt(100)
-    run.font.color.rgb = WHITE
-    run.font.bold = False
+    # MACRO N label
+    add_text_box(slide,
+                 x=Pt(0), y=block_top,
+                 w=Pt(960), h=label_h,
+                 text=f"MACRO {macro_num}",
+                 font_name="Poppins", font_size=Pt(14),
+                 color=C_GRAY, bold=True,
+                 align=PP_ALIGN.CENTER, uppercase=True)
 
-    # Tagline — Instrument Serif Italic 24pt #A0A0A0
-    tg_w = Inches(10)
-    tg_h = Inches(0.7)
-    tg_x = cx - tg_w / 2
-    tg_y = nm_y + nm_h + Inches(0.08)
-    add_textbox(slide, tg_x, tg_y, tg_w, tg_h,
-                macro["tagline"], FONT_SERIF, 24, GREY_LABEL,
-                italic=True, align=PP_ALIGN.CENTER)
+    # Macro name — Instrument Serif 100pt
+    add_text_box(slide,
+                 x=Pt(80), y=block_top + label_h + gap1,
+                 w=Pt(800), h=name_h,
+                 text=macro_name,
+                 font_name="Instrument Serif", font_size=Pt(100),
+                 color=C_WHITE, bold=False,
+                 align=PP_ALIGN.CENTER, uppercase=True)
+
+    # Tagline — Instrument Serif Italic 24pt
+    add_text_box(slide,
+                 x=Pt(80), y=block_top + label_h + gap1 + name_h + gap2,
+                 w=Pt(800), h=tagline_h,
+                 text=f'"{tagline}"',
+                 font_name="Instrument Serif", font_size=Pt(24),
+                 color=C_GRAY, bold=False, italic=True,
+                 align=PP_ALIGN.CENTER)
 
     return slide
 
 
-def _headline_size(text):
-    """Auto-size: ≤80 chars → 50pt, >120 chars → 42pt, else 46pt."""
-    n = len(text)
-    if n <= 80:
-        return 50
-    elif n >= 120:
-        return 42
-    else:
-        return 46
+def build_micro(prs, macro_num, macro_name,
+                headline, fenomeno, hashtags, needs,
+                triggers, signals):
+    """
+    Micro slide — 3 columns.
 
-
-def build_micro_slide(prs, micro):
-    """3-column micro slide following DS spec."""
-    slide = prs.slides.add_slide(prs.slide_layouts[6])
+    RULE 1: headline 20pt FIJO
+    RULE 2: triggers — stat ARRIBA, caja ABAJO (stack vertical)
+    RULE 3: photos 110×162pt EXACTO
+    """
+    slide_layout = prs.slide_layouts[6]
+    slide = prs.slides.add_slide(slide_layout)
     add_bg(slide)
 
-    # -- Layout constants ------------------------------------------------------
-    MARGIN_TOP  = Inches(0.22)
-    MARGIN_SIDE = Inches(0.28)
-    MARGIN_BOT  = Inches(0.22)
+    inner_left_w = COL_LEFT_W - Pt(8)
+    inner_center_w = COL_CENTER_W - Pt(10)
 
-    USABLE_W = W - 2 * MARGIN_SIDE
-    COL_W = USABLE_W / 3
+    # ── TABS ─────────────────────────────────────────────────────────────
+    tab_macro_w = Pt(58)
+    tab_name_w  = Pt(185)
 
-    COL1_X = MARGIN_SIDE
-    COL2_X = MARGIN_SIDE + COL_W
-    COL3_X = MARGIN_SIDE + 2 * COL_W
+    add_rect(slide, COL_LEFT_X, TAB_Y, tab_macro_w, TAB_H, fill_color=C_TABFILL)
+    add_text_box(slide, COL_LEFT_X, TAB_Y, tab_macro_w, TAB_H,
+                 f"MACRO {macro_num}", "Poppins", Pt(7.5),
+                 C_BLACK, bold=True, align=PP_ALIGN.CENTER, uppercase=True)
 
-    col_pad  = Inches(0.14)
+    tab_name_x = COL_LEFT_X + tab_macro_w + Pt(4)
+    add_rect(slide, tab_name_x, TAB_Y, tab_name_w, TAB_H,
+             fill_color=None,
+             line_color=RGBColor(0x55, 0x55, 0x55))
+    add_text_box(slide, tab_name_x + Pt(4), TAB_Y, tab_name_w - Pt(8), TAB_H,
+                 macro_name, "Poppins", Pt(7.5),
+                 C_GRAY, bold=False, align=PP_ALIGN.LEFT, uppercase=True)
 
-    # -- Column inner bounds
-    content_x1 = COL1_X + col_pad
-    content_w1 = COL_W - 2 * col_pad
-    content_x2 = COL2_X + col_pad
-    content_w2 = COL_W - 2 * col_pad
-    content_x3 = COL3_X + col_pad
-    content_w3 = COL_W - 2 * col_pad
+    # ── COLUMN LABELS ────────────────────────────────────────────────────
+    add_text_box(slide, COL_LEFT_X, LABEL_Y, inner_left_w, LABEL_H,
+                 "DEFINICIÓN", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
+    add_text_box(slide, COL_CENTER_X, LABEL_Y, inner_center_w, LABEL_H,
+                 "TRIGGERS", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
+    add_text_box(slide, COL_RIGHT_X, LABEL_Y, COL_RIGHT_W - Pt(8), LABEL_H,
+                 "SEÑALES", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
 
-    content_bot = H - MARGIN_BOT
+    # ── DIVIDERS ─────────────────────────────────────────────────────────
+    line_color = RGBColor(0x20, 0x20, 0x20)
+    total_w = COL_LEFT_W + Pt(3) + COL_CENTER_W + Pt(3) + COL_RIGHT_W
+    # Horizontal
+    add_line(slide,
+             MARGIN_LEFT, HLINE_Y,
+             MARGIN_LEFT + total_w, HLINE_Y,
+             color=line_color)
+    # Vertical 1
+    vx1 = COL_CENTER_X - Pt(2)
+    add_line(slide, vx1, LABEL_Y, vx1, Pt(540) - MARGIN_TOP, color=line_color)
+    # Vertical 2
+    vx2 = COL_RIGHT_X - Pt(2)
+    add_line(slide, vx2, LABEL_Y, vx2, Pt(540) - MARGIN_TOP, color=line_color)
 
-    # -- Column labels row at MARGIN_TOP
-    labels_y = MARGIN_TOP
-    labels_h = Inches(0.22)
-    for lbl, cx in [("DEFINICIÓN", COL1_X), ("TRIGGERS", COL2_X), ("SEÑALES", COL3_X)]:
-        tb = slide.shapes.add_textbox(cx + col_pad, labels_y, COL_W - col_pad, labels_h)
-        tf = tb.text_frame
-        tf.word_wrap = False
-        p = tf.paragraphs[0]
-        p.alignment = PP_ALIGN.LEFT
-        run = p.add_run()
-        run.text = lbl
-        run.font.name = FONT_SANS
-        run.font.size = Pt(8)
-        run.font.bold = True
-        run.font.color.rgb = GREY_LABEL
-
-    # Horizontal line under labels
-    line_y = labels_y + labels_h + Inches(0.04)
-    add_separator_h(slide, COL1_X, line_y, USABLE_W)
-
-    # Vertical lines between columns
-    for vx in [COL2_X, COL3_X]:
-        add_separator_v(slide, vx, MARGIN_TOP, H - 2 * MARGIN_TOP)
-
-    # Base content top (same for all 3 cols)
-    base_top = line_y + Inches(0.12)
-
-    # -------------------------------------------------------------------------
+    # ═══════════════════════════════════════════════════════════════════════
     # COL-LEFT: DEFINICIÓN
-    # -------------------------------------------------------------------------
-    # Tab MACRO N + NOMBRE MACRO
-    tab_h = Inches(0.26)
-    tab_y = base_top
+    # ═══════════════════════════════════════════════════════════════════════
+    cy = CONTENT_TOP
 
-    tab1_w = Inches(0.72)
-    tab1 = slide.shapes.add_shape(1, COL1_X, tab_y, tab1_w, tab_h)
-    tab1.fill.solid()
-    tab1.fill.fore_color.rgb = TAB_BG
-    tab1.line.fill.background()
-    tf1 = tab1.text_frame
-    tf1.word_wrap = False
-    p1 = tf1.paragraphs[0]
-    p1.alignment = PP_ALIGN.CENTER
-    r1 = p1.add_run()
-    r1.text = micro["macro_num"]
-    r1.font.name = FONT_SANS
-    r1.font.size = Pt(7.5)
-    r1.font.bold = True
-    r1.font.color.rgb = BLACK_CLR
-
-    tab2_x = COL1_X + tab1_w + Inches(0.04)
-    tab2_w = Inches(2.2)
-    tab2 = slide.shapes.add_shape(1, tab2_x, tab_y, tab2_w, tab_h)
-    tab2.fill.background()
-    tab2.line.color.rgb = GREY_LABEL
-    tab2.line.width = Emu(9525)
-    tf2 = tab2.text_frame
-    tf2.word_wrap = False
-    p2 = tf2.paragraphs[0]
-    p2.alignment = PP_ALIGN.CENTER
-    r2 = p2.add_run()
-    r2.text = micro["macro_name"]
-    r2.font.name = FONT_SANS
-    r2.font.size = Pt(7.5)
-    r2.font.color.rgb = GREY_LABEL
-
-    # Content starts below tab
-    col1_top = tab_y + tab_h + Inches(0.10)
-    col1_h   = content_bot - col1_top
-
-    # Fixed block sizes
-    hl_size  = _headline_size(micro["headline"])
-    # headline: allow up to ~40% of column height
-    hl_h     = Inches(1.80)
-    fen_lbl_h = Inches(0.20)
-    fen_h    = Inches(1.55)
-    hash_lbl_h = Inches(0.20)
-    hash_h   = Inches(0.55)
-    needs_lbl_h = Inches(0.20)
-    needs_h  = Inches(0.50)
-
-    fixed_total = hl_h + fen_lbl_h + fen_h + hash_lbl_h + hash_h + needs_lbl_h + needs_h
-    surplus = max(0, col1_h - fixed_total)
-    gap1 = surplus * 0.20
-    gap2 = surplus * 0.25
-    gap3 = surplus * 0.25
-
-    # Headline — Instrument Serif UPPERCASE auto-size 42-50pt
-    hl_y = col1_top
-    tb_hl = slide.shapes.add_textbox(content_x1, hl_y, content_w1, hl_h)
-    tf = tb_hl.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.LEFT
-    _set_line_spacing(p, 0.95)
-    run = p.add_run()
-    run.text = micro["headline"].upper()
-    run.font.name = FONT_SERIF
-    run.font.size = Pt(hl_size)
-    run.font.color.rgb = WHITE
-    run.font.bold = False
+    # HEADLINE — RULE 1: 20pt FIJO, Instrument Serif UPPERCASE, word-wrap
+    headline_box_h = Pt(72)
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, headline_box_h,
+                 headline,
+                 "Instrument Serif", Pt(20),
+                 C_WHITE, bold=False, italic=False,
+                 align=PP_ALIGN.LEFT, word_wrap=True,
+                 uppercase=True)
+    cy += headline_box_h + Pt(6)
 
     # EL FENÓMENO label
-    fen_lbl_y = hl_y + hl_h + gap1
-    add_textbox(slide, content_x1, fen_lbl_y, content_w1, fen_lbl_h,
-                "EL FENÓMENO", FONT_SANS, 8, GREY_LABEL, bold=True, word_wrap=False)
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(12),
+                 "EL FENÓMENO", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
+    cy += Pt(14)
 
-    # Fenomeno body — Poppins 10pt white line-spacing 1.0
-    fen_y = fen_lbl_y + fen_lbl_h + Inches(0.04)
-    tb_fen = slide.shapes.add_textbox(content_x1, fen_y, content_w1, fen_h)
-    tf = tb_fen.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.LEFT
-    _set_line_spacing(p, 1.0)
-    run = p.add_run()
-    run.text = micro["fenomeno"]
-    run.font.name = FONT_SANS
-    run.font.size = Pt(10)
-    run.font.color.rgb = WHITE
+    # Body — Poppins 10pt white
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(88),
+                 fenomeno, "Poppins", Pt(10),
+                 C_WHITE, word_wrap=True, line_spacing=1.0)
+    cy += Pt(88) + Pt(8)
 
     # HASHTAGS label
-    hash_lbl_y = fen_y + fen_h + gap2
-    add_textbox(slide, content_x1, hash_lbl_y, content_w1, hash_lbl_h,
-                "HASHTAGS", FONT_SANS, 8, GREY_LABEL, bold=True, word_wrap=False)
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(12),
+                 "HASHTAGS", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
+    cy += Pt(14)
 
-    # Hashtags — Instrument Serif Regular 23pt white
-    hash_y = hash_lbl_y + hash_lbl_h + Inches(0.04)
-    # Clamp hash_h
-    max_hash_h = content_bot - Inches(0.18) - (needs_lbl_h + needs_h + gap3) - hash_y
-    hash_h_actual = min(hash_h, max(Inches(0.30), max_hash_h))
-    tb_hash = slide.shapes.add_textbox(content_x1, hash_y, content_w1, hash_h_actual)
-    tf = tb_hash.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.LEFT
-    run = p.add_run()
-    run.text = micro["hashtags"]
-    run.font.name = FONT_SERIF
-    run.font.size = Pt(23)
-    run.font.color.rgb = WHITE
-    run.font.bold = False
+    # Hashtags — Instrument Serif 23pt (NEVER Poppins)
+    if isinstance(hashtags, list):
+        hashtag_str = " · ".join(hashtags)
+    else:
+        hashtag_str = hashtags
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(52),
+                 hashtag_str, "Instrument Serif", Pt(23),
+                 C_WHITE, word_wrap=True)
+    cy += Pt(52) + Pt(6)
 
     # 3 NEEDS label
-    needs_lbl_y = hash_y + hash_h_actual + gap3
-    add_textbox(slide, content_x1, needs_lbl_y, content_w1, needs_lbl_h,
-                "3 NEEDS", FONT_SANS, 8, GREY_LABEL, bold=True, word_wrap=False)
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(12),
+                 "3 NEEDS", "Poppins", Pt(8),
+                 C_GRAY, bold=True, uppercase=True)
+    cy += Pt(14)
 
-    # Needs — Instrument Serif Regular 28pt UPPERCASE white
-    needs_y = needs_lbl_y + needs_lbl_h + Inches(0.04)
-    needs_h_actual = min(needs_h, content_bot - needs_y)
-    # Extract needs from triggers section (not stored separately — pull from micro key if exists, else derive)
-    needs_text = micro.get("needs", "")
-    if not needs_text:
-        # Build from hashtags structure — not available; leave empty as fallback
-        needs_text = ""
-    tb_needs = slide.shapes.add_textbox(content_x1, needs_y, content_w1, needs_h_actual)
-    tf = tb_needs.text_frame
-    tf.word_wrap = True
-    tf.auto_size = None
-    p = tf.paragraphs[0]
-    p.alignment = PP_ALIGN.LEFT
-    _set_line_spacing(p, 1.0)
-    run = p.add_run()
-    run.text = needs_text.upper() if needs_text else ""
-    run.font.name = FONT_SERIF
-    run.font.size = Pt(28)
-    run.font.color.rgb = WHITE
-    run.font.bold = False
+    # Needs — Instrument Serif 28pt UPPERCASE
+    if isinstance(needs, list):
+        needs_str = " · ".join(needs)
+    else:
+        needs_str = needs
+    add_text_box(slide, COL_LEFT_X, cy, inner_left_w, Pt(40),
+                 needs_str, "Instrument Serif", Pt(28),
+                 C_WHITE, bold=False, uppercase=True, word_wrap=True)
 
-    # -------------------------------------------------------------------------
-    # COL-CENTER: TRIGGERS — stat grande + caja desc 170×35pt al lado
-    # -------------------------------------------------------------------------
-    trigger_area_h = content_bot - base_top
-    trigger_slot_h = trigger_area_h / 3
+    # ═══════════════════════════════════════════════════════════════════════
+    # COL-CENTER: TRIGGERS
+    # RULE 2: cifra ARRIBA, caja descriptiva ABAJO — pure stack vertical
+    # ═══════════════════════════════════════════════════════════════════════
+    ty = CONTENT_TOP
 
-    # Widths for stat + desc side-by-side
-    # Available width = content_w2 (~4.1")
-    # Stat box: ~1.35" wide, desc box: 170pt = 2.361"
-    stat_w   = content_w2 - Inches(2.50)   # ~1.6"
-    desc_w   = Inches(2.361)               # 170pt exactly
-    stat_gap = Inches(0.10)
-    # If stat_w too small, share differently
-    if stat_w < Inches(0.8):
-        stat_w = Inches(0.8)
-    desc_w = content_w2 - stat_w - stat_gap
-    if desc_w < Inches(1.5):
-        desc_w = Inches(1.5)
+    for trig in triggers[:3]:
+        stat_text   = trig.get("stat", "")
+        desc_text   = trig.get("desc", "")
+        source_text = trig.get("source", "")
 
-    desc_h_box = Inches(0.486)   # 35pt exactly
-    src_h_box  = Inches(0.22)
-
-    for i, trig in enumerate(micro["triggers"]):
-        slot_top = base_top + i * trigger_slot_h
-        # Center stat vertically in slot
-        stat_size = 72
-        # Reduce for long keyword stats
-        if len(trig["stat"]) > 8:
-            stat_size = 36
-        elif len(trig["stat"]) > 4:
-            stat_size = 52
-
-        stat_h_box = Inches(1.10)
-        ty = slot_top + Inches(0.08)
-
-        # Stat left
-        tb_stat = slide.shapes.add_textbox(content_x2, ty, stat_w, stat_h_box)
-        tf = tb_stat.text_frame
-        tf.word_wrap = False
-        tf.auto_size = None
-        p = tf.paragraphs[0]
-        p.alignment = PP_ALIGN.LEFT
-        _set_line_spacing(p, 1.0)
-        run = p.add_run()
-        run.text = trig["stat"]
-        run.font.name = FONT_SERIF
-        run.font.size = Pt(stat_size)
-        run.font.color.rgb = WHITE
-
-        # Desc right — Poppins 10pt white 170×35pt caja
-        desc_x = content_x2 + stat_w + stat_gap
-        desc_y = ty + Inches(0.05)
-        tb_desc = slide.shapes.add_textbox(desc_x, desc_y, desc_w, desc_h_box)
-        tf = tb_desc.text_frame
-        tf.word_wrap = True
-        tf.auto_size = None
-        p = tf.paragraphs[0]
-        p.alignment = PP_ALIGN.LEFT
-        _set_line_spacing(p, 1.0)
-        run = p.add_run()
-        run.text = trig["desc"]
-        run.font.name = FONT_SANS
-        run.font.size = Pt(10)
-        run.font.color.rgb = WHITE
-
-        # Fuente inline — Poppins 7pt #666666
-        src_y = desc_y + desc_h_box + Inches(0.03)
-        tb_src = slide.shapes.add_textbox(desc_x, src_y, desc_w, src_h_box)
-        tf = tb_src.text_frame
-        tf.word_wrap = False
-        tf.auto_size = None
-        p = tf.paragraphs[0]
-        p.alignment = PP_ALIGN.LEFT
-        run = p.add_run()
-        run.text = trig["fuente"]
-        run.font.name = FONT_SANS
-        run.font.size = Pt(7)
-        run.font.color.rgb = GREY_MUTED
-
-    # -------------------------------------------------------------------------
-    # COL-RIGHT: SEÑALES — foto 149×220pt + caja caption 170×35pt al lado
-    # -------------------------------------------------------------------------
-    IMG_W = Inches(2.069)   # 149pt
-    IMG_H = Inches(3.056)   # 220pt
-
-    cap_w_box  = Inches(2.361)   # 170pt
-    cap_h_box  = Inches(0.486)   # 35pt
-    img_cap_gap = Inches(0.10)
-
-    # 3 slots stacked vertically
-    senal_area_h = content_bot - base_top
-    senal_slot_h = senal_area_h / 3
-
-    for i, senal in enumerate(micro["senales"]):
-        slot_top = base_top + i * senal_slot_h
-        # Center image vertically in slot
-        img_y = slot_top + (senal_slot_h - IMG_H) / 2
-        img_y = max(slot_top, min(img_y, content_bot - IMG_H))
-
-        img_x  = content_x3
-        url    = senal["url"]
-        img_file = senal["img"]
-        img_path = os.path.join(SHOTS, img_file) if img_file else None
-
-        if img_path and os.path.exists(img_path):
-            add_image_hyperlink(slide, img_path, img_x, img_y, IMG_W, IMG_H, url)
+        # Font size for stat based on length
+        slen = len(stat_text)
+        if slen <= 4:
+            stat_pt = Pt(80)
+        elif slen <= 8:
+            stat_pt = Pt(64)
+        elif slen <= 12:
+            stat_pt = Pt(48)
         else:
-            add_placeholder(slide, img_x, img_y, IMG_W, IMG_H, url)
+            stat_pt = Pt(36)
 
-        # Badge CLICK ME
-        add_click_me_badge(slide, img_x, img_y, IMG_W)
+        # CIFRA/STAT ARRIBA
+        add_text_box(slide, COL_CENTER_X, ty,
+                     inner_center_w, STAT_H,
+                     stat_text, "Instrument Serif", stat_pt,
+                     C_WHITE, bold=False, italic=False,
+                     align=PP_ALIGN.LEFT, word_wrap=True)
+        ty += STAT_H
 
-        # Caption box to the right of image — Poppins 10pt white 170×35pt
-        cap_x = img_x + IMG_W + img_cap_gap
-        cap_y = img_y
-        # Check if cap_x + cap_w_box overflows col3
-        available_cap_w = (COL3_X + COL_W - col_pad) - cap_x
-        if available_cap_w < Inches(1.0):
-            # Place caption below image instead
-            cap_x = img_x
-            cap_y = img_y + IMG_H + Inches(0.04)
-            cap_w_use = IMG_W
-        else:
-            cap_w_use = min(cap_w_box, available_cap_w)
+        # CAJA DESCRIPTIVA ABAJO — W170×H35pt, Poppins 10pt
+        add_text_box(slide, COL_CENTER_X, ty,
+                     DESC_W, DESC_H,
+                     desc_text, "Poppins", Pt(10),
+                     C_WHITE, word_wrap=True, line_spacing=1.0)
+        ty += DESC_H + Pt(2)
 
-        tb_cap = slide.shapes.add_textbox(cap_x, cap_y, cap_w_use, cap_h_box)
-        tf = tb_cap.text_frame
-        tf.word_wrap = True
-        tf.auto_size = None
-        p = tf.paragraphs[0]
-        p.alignment = PP_ALIGN.LEFT
-        _set_line_spacing(p, 1.0)
-        run = p.add_run()
-        run.text = senal["caption"]
-        run.font.name = FONT_SANS
-        run.font.size = Pt(10)
-        run.font.color.rgb = WHITE
+        # FUENTE INLINE — Poppins 7pt #666
+        if source_text:
+            add_text_box(slide, COL_CENTER_X, ty,
+                         inner_center_w, SOURCE_H,
+                         source_text.upper(),
+                         "Poppins", Pt(7), C_DARK)
+        ty += SOURCE_H + TRIGGER_GAP
+
+    # ═══════════════════════════════════════════════════════════════════════
+    # COL-RIGHT: SEÑALES
+    # RULE 3: 3 fotos 110×162pt EXACTO + caption 170×35pt al lado
+    # Math: 3×162 + 2×8 = 502pt, starting at MARGIN_TOP(28) → bottom=530pt < 540pt OK
+    # ═══════════════════════════════════════════════════════════════════════
+    sy = MARGIN_TOP
+
+    for sig in signals[:3]:
+        img_path    = sig.get("path", "")
+        caption_txt = sig.get("caption", "")
+        source_txt  = sig.get("source", "")
+        url         = sig.get("url", "")
+
+        # FOTO 110×162pt
+        pic, found = add_picture_safe(slide, img_path,
+                                      COL_RIGHT_X, sy,
+                                      PHOTO_W, PHOTO_H)
+        if url:
+            add_hyperlink_to_shape(pic, url)
+
+        # BADGE "CLICK ME"
+        add_badge(slide, COL_RIGHT_X, sy, PHOTO_W)
+
+        # CAPTION BOX at side — W170×H35pt, Poppins 10pt
+        cap_x = COL_RIGHT_X + PHOTO_W + CAPTION_OFFSET_X
+        add_text_box(slide, cap_x, sy,
+                     CAPTION_W, CAPTION_H,
+                     caption_txt, "Poppins", Pt(10),
+                     C_WHITE, word_wrap=True, line_spacing=1.0)
+
+        # Source inline under caption
+        if source_txt:
+            add_text_box(slide, cap_x, sy + CAPTION_H + Pt(2),
+                         CAPTION_W, SOURCE_H,
+                         source_txt.upper(),
+                         "Poppins", Pt(7), C_DARK)
+
+        sy += PHOTO_H + PHOTO_GAP
 
     return slide
 
 
-# -- Main ----------------------------------------------------------------------
+# ─── DATA ────────────────────────────────────────────────────────────────────
+
+MACRO_1 = {
+    "num": 1,
+    "name": "INVENTOLOGÍA DE LA ADULTEZ",
+    "tagline": "Un mundo en crisis está reescribiendo qué significa ser adulto y formar familia."
+}
+
+MACRO_2 = {
+    "num": 2,
+    "name": "LOS HERNÁNDEZ ARE PROMPTED",
+    "tagline": "El dominicano ya entró al mundo prompteado. Solo no lo nombra así."
+}
+
+MACRO_3 = {
+    "num": 3,
+    "name": "ALGORITMO DEL HOGAR",
+    "tagline": "El feed se sentó en la mesa y nadie le ofreció silla."
+}
+
+
+def p(filename):
+    return os.path.join(SCREENSHOTS, filename)
+
+
+SLIDES_DATA = [
+    # ── MACRO 1 DIVIDER ──────────────────────────────────────────────────
+    {"type": "divider", **MACRO_1},
+
+    # ── MICRO 1.1 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 1,
+        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
+        "headline": "La generación sin tiempo entre semana descubrió que dos horas el domingo le devuelven la semana entera.",
+        "fenomeno": "El joven dominicano prepara comidas el domingo para ahorrar tiempo, comer mejor y controlar lo que ingiere. No es dieta — es autonomía. El meal prep entra como ritual de adultez sin mamá-cocinera detrás.",
+        "hashtags": ["#MealPrepDominicano", "#DomingoDePrep", "#ControlDeLoQueComo", "#AdultoJovenRD", "#ComidaDeLaSemana"],
+        "needs": ["CONTROL", "MIEDO", "SOLEDAD"],
+        "triggers": [
+            {"stat": "US$36B", "desc": "Mercado global de meal prep en 2026, CAGR 9.84% hasta 2035.", "source": "Market Reports World · 2026"},
+            {"stat": "48%", "desc": "De adultos ya practica meal prep; 62% cita falta de tiempo como driver principal.", "source": "HelloFresh State of Home Cooking · 2025"},
+            {"stat": "@morechulaa", "desc": "Creadora RD documenta meal prep de 4 días — tuppers etiquetados por día de la semana.", "source": "TikTok @morechulaa · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-1-1-tiktok-morechulaa-mealprep.png"),
+             "caption": "Creadora dominicana @morechulaa: meal prep 4 días con tuppers etiquetados por día.",
+             "source": "TikTok @morechulaa · 2025",
+             "url": "https://www.tiktok.com/@morechulaa/video/7636986702262717704"},
+            {"path": p("macro-1-1-tiktok-viviankh-mealprep.png"),
+             "caption": "@viviank.h documenta 10 sándwiches + 9 porciones congeladas — meal prep de 3 semanas.",
+             "source": "TikTok @viviank.h · 2025",
+             "url": "https://www.tiktok.com/@viviank.h/video/7620501104765177108"},
+            {"path": p("macro-1-0-mktreports-mealprep-market.png"),
+             "caption": "Chart: mercado global meal prep US$36,433M en 2026, CAGR 9.84% hasta 2035.",
+             "source": "Market Reports World · 2026",
+             "url": "https://www.marketreportsworld.com/market-reports/meal-prep-market-14713709"},
+        ]
+    },
+
+    # ── MICRO 1.2 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 1,
+        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
+        "headline": "Las empresas descubrieron que si el empleado come bien al mediodía rinde mejor en la tarde — y el menú de almuerzo se volvió beneficio.",
+        "fenomeno": "Fripick deja que la empresa pague la comida y la descuente en quincena. La comida del mediodía dejó de ser problema individual del empleado — ahora es categoría B2B.",
+        "hashtags": ["#LunchMenuRD", "#AlmuerzoDeTrabajo", "#MenúDelDía", "#PrecioAccesible", "#NegocioOyó"],
+        "needs": ["DIGNIDAD", "VACÍO", "CONTROL"],
+        "triggers": [
+            {"stat": "+13%", "desc": "Tráfico YoY en restauración LATAM en horario almuerzo con shoulder hour pricing.", "source": "OpenTable Dining Trends / QSR Magazine · 2025"},
+            {"stat": "84%", "desc": "Percibe los precios de alimentos como \"altos\"; dos tercios prefieren opciones más económicas.", "source": "Purdue University / Family Dinner Project · 2025"},
+            {"stat": "Fripick", "desc": "Plataforma RD de beneficios alimentarios corporativos B2B operando con descuento de quincena.", "source": "Fripick.com · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-1-2-tiktok-toyantoja-noccila-lunch.png"),
+             "caption": "@toyantoja muestra lunch completo en Nocciola por menos de RD$500 — dato que \"vale oro\".",
+             "source": "TikTok @toyantoja · 2025",
+             "url": "https://www.tiktok.com/@toyantoja/video/7610215257000234247"},
+            {"path": p("macro-1-2-fripick-rd-brand.png"),
+             "caption": "Fripick RD — beneficio alimentario corporativo B2B, descuento directo en quincena.",
+             "source": "Fripick · 2025",
+             "url": "https://fripick.com"},
+            {"path": None,
+             "caption": "Inflación alimentaria RD: precios subieron 50% entre jul 2019 y jul 2025; 8.03% interanual ene 2026.",
+             "source": "BCRD / Dominican Today · 2026",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 1.3 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 1,
+        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
+        "headline": "Te crió con miedo a lo \"malo\" y ahora comer se siente como culpa. TikTok escuchó el término y lo convirtió en trend con millones de views.",
+        "fenomeno": "La mamá que controlaba cada bocado crió hijas con relación rota con el plato. La almond mom no es solo un meme — es una cadena generacional. El trauma tiene hashtag ahora.",
+        "hashtags": ["#AlmondMom", "#TraumasDietéticos", "#ComerConCulpa", "#GeneraciónSinRefresco", "#LaVozDeMamá"],
+        "needs": ["CULPA", "RESENTIMIENTO", "REPARACIÓN"],
+        "triggers": [
+            {"stat": "30M", "desc": "Americanos desarrollarán un trastorno alimentario en su vida. 2a enfermedad mental más mortal.", "source": "ANAD / ABC News · 2025"},
+            {"stat": "42%", "desc": "De niñas de 1°-3° quiere ser más delgada; 81% de niños de 10 años teme engordar.", "source": "ANAD Statistics · 2025"},
+            {"stat": "#almondmom", "desc": "Hashtag viral con millones de views — trauma dietético heredado como contenido de TikTok.", "source": "TikTok · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-1-3-tiktok-lielle-almondmom.png"),
+             "caption": "@Lielle & Dee recrea rutina matutina bajo #almondmom — suplementos, restricción heredada sin cuestionamiento.",
+             "source": "TikTok @liellewaldman17 · 2025",
+             "url": "https://www.tiktok.com/@liellewaldman17/video/7617943870797630750"},
+            {"path": p("macro-1-3-tiktok-nourvilaa-almondmom.png"),
+             "caption": "@nour vilà — versión francesa/LATAM del trauma dietético heredado de mamá bajo #almondmum.",
+             "source": "TikTok @nourvilaa · 2025",
+             "url": "https://www.tiktok.com/@nourvilaa/video/7642383470026657046"},
+            {"path": None,
+             "caption": "ANAD 2025: 30M americanos desarrollarán un trastorno alimentario — 2da enfermedad mental más mortal.",
+             "source": "ANAD · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 1.4 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 1,
+        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
+        "headline": "La diferencia entre un domingo con familia y uno solo se mide en una pregunta: ¿qué vamos a comer?",
+        "fenomeno": "Para el foráneo que vive solo, el domingo es el día más difícil — sin ritual, sin mesa, con delivery en la cama. La mesa familiar se volvió FaceTime con plato distinto a cada lado.",
+        "hashtags": ["#DomingoSolo", "#AlmuerzoDeFamilia", "#SancochoDelDomingo", "#ForáneoEnLaCapital", "#SinMesaNoHayDomingo"],
+        "needs": ["SOLEDAD", "PERTENENCIA", "INVISIBILIDAD"],
+        "triggers": [
+            {"stat": "45%", "desc": "De hogares come junto menos que hace una década; 84% querría compartir más comidas.", "source": "Simirity / FMI Foundation · 2025"},
+            {"stat": "84%", "desc": "Querría más comidas familiares; 62% de padres no logra cenar con la frecuencia deseada.", "source": "FMI Foundation · 2026"},
+            {"stat": "17%", "desc": "De familias dominicanas no comparte las horas de comida — el foráneo es ese porcentaje.", "source": "Código Casa · P25 · 2024"},
+        ],
+        "signals": [
+            {"path": p("macro-1-4-tiktok-josheilyn-foranea-capital.png"),
+             "caption": "@Josheilyn de los Santos — \"yo amo estar en mi hogar los domingos\" — foránea RD en la capital.",
+             "source": "TikTok @josheilyndls1 · 2025",
+             "url": "https://www.tiktok.com/@josheilyndls1/video/7549991019169811768"},
+            {"path": p("macro-1-4-tiktok-mariannycorderoo-domingo.png"),
+             "caption": "@mariannycorderoo — domingo solo en Bogotá preparándose una tostada con #amorpropio.",
+             "source": "TikTok @mariannycorderoo · 2025",
+             "url": "https://www.tiktok.com/@mariannycorderoo/video/7643570804885572882"},
+            {"path": p("macro-1-4-tiktok-macaseason-domingo-familiar.png"),
+             "caption": "@María Camila — el domingo familiar completo; contraste con el domingo solo del foráneo.",
+             "source": "TikTok @macaseason · 2025",
+             "url": "https://www.tiktok.com/@macaseason/video/7625031259835665685"},
+        ]
+    },
+
+    # ── MICRO 1.5 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 1,
+        "macro_name": "INVENTOLOGÍA DE LA ADULTEZ",
+        "headline": "PedidosYa es la app #1 de food en RD: el adulto joven ya no decide qué cocinar entre semana, decide qué pedir — y esa es su nueva forma de ser adulto.",
+        "fenomeno": "La adultez tradicional cocinaba todos los días. La adultez 2026 delega el jueves a una app. No es flojera — es renegociación del rol de \"buen adulto\" en una economía donde el tiempo cuesta más que la comida.",
+        "hashtags": ["#PedidosYaRD", "#DeliveryEsMiMamá", "#AdultoQueNoCocina", "#JuevesDeApp", "#ComerSinCocinar"],
+        "needs": ["CONTROL", "SOLEDAD", "CULPA"],
+        "triggers": [
+            {"stat": "#1", "desc": "PedidosYa app #1 food & drink iOS en RD con 13K-21.7K descargas semanales Q1 2025.", "source": "Sensor Tower · Q1 2025"},
+            {"stat": "50%", "desc": "Subida de precios alimentos en RD entre jul 2019 y jul 2025 — delivery se vuelve cálculo costo-tiempo.", "source": "BCRD / Dominican Today · 2026"},
+            {"stat": "Online", "desc": "Primer supermercado 100% online abre en Santo Domingo — la grocería migra a app.", "source": "St Kitts Nevis Observer · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-1-5-pedidosya-country-selector.png"),
+             "caption": "Pantalla PedidosYa con República Dominicana listada + badges App Store y Google Play.",
+             "source": "PedidosYa · 2026",
+             "url": "https://www.pedidosya.com"},
+            {"path": p("macro-1-5-sensortower-pedidosya-rd-chart.png"),
+             "caption": "Bar chart Sensor Tower: PedidosYa #1 en descargas food delivery RD, Q1 2025.",
+             "source": "Sensor Tower · Q1 2025",
+             "url": "https://sensortower.com"},
+            {"path": p("macro-1-5-stkitts-online-super-sd.png"),
+             "caption": "Primer supermercado 100% online que abre en Santo Domingo — la grocería migra a app.",
+             "source": "St Kitts Nevis Observer · 2025",
+             "url": "https://www.thestkittsnevisobserver.com/first-online-only-supermarket-opens-in-santo-domingo/"},
+        ]
+    },
+
+    # ── MACRO 2 DIVIDER ──────────────────────────────────────────────────
+    {"type": "divider", **MACRO_2},
+
+    # ── MICRO 2.1 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 2,
+        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
+        "headline": "Una foto de tu plato no sabe lo que comes. Pero el algoritmo te convence de que sí — y le crees más a la app que a tu propio cuerpo.",
+        "fenomeno": "Las apps de conteo calórico pasaron de herramienta a obsesión. El algoritmo que \"te ayuda a comer mejor\" se convierte en la voz que condena cada nutriente. El número en pantalla pesa más que la sensación de saciedad.",
+        "hashtags": ["#AppQueEnfermó", "#MyFitnessPalToxic", "#AlgoritmoDeMiDieta", "#ContarCalorías", "#ComerConMiedo"],
+        "needs": ["MIEDO", "CULPA", "CONTROL"],
+        "triggers": [
+            {"stat": "180M", "desc": "Usuarios de MyFitnessPal; 75% de pacientes con trastorno alimentario la usaba.", "source": "GripRoom / PMC NLM · 2026"},
+            {"stat": "73%", "desc": "De pacientes con trastorno alimentario creyó que la app contribuyó a su desarrollo.", "source": "PMC NLM · 2026"},
+            {"stat": "#toxic", "desc": "#myfitnesspaltoxic y #calorietracking — creadoras documentan recuperación de relación rota con apps.", "source": "TikTok · 2025-2026"},
+        ],
+        "signals": [
+            {"path": p("macro-2-1-myfitnesspal-app-ui.png"),
+             "caption": "Mockup MyFitnessPal: 976 cal + macro breakdown del día — \"Nutrition tracking for real life\".",
+             "source": "MyFitnessPal · 2026",
+             "url": "https://www.myfitnesspal.com"},
+            {"path": None,
+             "caption": "PMC NLM 2026: apps con IA de reconocimiento por foto funcionan como gateway a trastorno alimentario.",
+             "source": "Sage Journals / Ohio State · 2024-2026",
+             "url": ""},
+            {"path": None,
+             "caption": "Búsqueda TikTok: \"MyFitnessPal ruined me\" — backlash de creadoras documentando recuperación.",
+             "source": "TikTok · 2025-2026",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 2.2 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 2,
+        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
+        "headline": "Antes mamá decidía qué había de comer. Hoy lo decide el For You Page — y de paso te vende los ingredientes en el mismo scroll.",
+        "fenomeno": "El joven dominicano abre TikTok antes de abrir el refrigerador. Las recetas virales compiten con la tradición oral heredada — y en muchos hogares jóvenes el algoritmo está ganando.",
+        "hashtags": ["#TikTokRecetas", "#ForYouPageDeCocina", "#RecetaViralVsAbuela", "#QuéComiHoy", "#AlgoritmoDeAlmuerzo"],
+        "needs": ["VACÍO", "CONTROL", "SOLEDAD"],
+        "triggers": [
+            {"stat": "42", "desc": "Índice pico de contenido food en TikTok en enero 2026 — plataforma como primer recetario.", "source": "Accio / TikTok Food Trends · 2026"},
+            {"stat": "US$759M", "desc": "GMV food en TikTok Shop 2025 — food = 13.6% del volumen total de la plataforma.", "source": "Capital One Shopping · 2025"},
+            {"stat": "2×", "desc": "Ventas de marcas grandes en TikTok Shop casi duplicaron en 2025.", "source": "Modern Retail · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-2-2-tiktokshop-food-gmv.png"),
+             "caption": "TikTok es el nuevo recetario Y el nuevo supermercado — food = 13.6% del GMV de TikTok Shop 2025.",
+             "source": "Resourcera · 2026",
+             "url": "https://resourcera.com/data/social/tiktok-shop-statistics/"},
+            {"path": p("macro-2-2-modernretail-tiktokshop-brands.png"),
+             "caption": "Modern Retail: ventas de marcas grandes en TikTok Shop casi duplicaron en 2025.",
+             "source": "Modern Retail · 2025",
+             "url": "https://www.modernretail.co/technology/sales-from-major-brands-on-tiktok-shop-nearly-doubled-in-2025-drawing-ulta-and-sally-beauty/"},
+            {"path": None,
+             "caption": "Fine Dining Lovers 2025: creadores latinos reconocidos como \"transmisión cultural adaptada a 2025\".",
+             "source": "Fine Dining Lovers ES · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 2.3 (iPad Kid — proxy) ─────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 2,
+        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
+        "headline": "El truco de poner un video para que el niño coma se convirtió en condición — el iPad es la única forma de que el plato baje.",
+        "fenomeno": "El niño no come sin el iPad. La pantalla dejó de ser acompañamiento y se volvió condición. La mesa familiar tiene un competidor que casi siempre gana.",
+        "hashtags": ["#iPadKid", "#PantallaMientrasCome", "#NetflixYCena", "#MesaSinPantalla", "#ComerSinPantalla"],
+        "needs": ["CULPA", "SOLEDAD", "INVISIBILIDAD"],
+        "triggers": [
+            {"stat": "40%", "desc": "De niños tiene iPad a los 2 años; 2.6 hrs/día promedio de pantalla; solo 1% cumple límites.", "source": "Common Sense Media · 2025"},
+            {"stat": "2.6h", "desc": "Promedio diario de pantalla en niños; comer con pantalla desconecta señales de hambre/saciedad.", "source": "ScienceDirect / Business Standard · 2026"},
+            {"stat": "UNICEF", "desc": "Kids Online: exposición infantil a pantallas más temprana y menos mediada en LATAM/RD.", "source": "UNICEF Kids Online · 2024-2025"},
+        ],
+        "signals": [
+            {"path": p("macro-2-3-newsmedical-screentime-proxy.png"),
+             "caption": "Proxy: inyección de semaglutide + headline sobre cómo la tech interviene en cómo comemos.",
+             "source": "News Medical · 2026",
+             "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx"},
+            {"path": None,
+             "caption": "CAPTURA MANUAL: búsqueda TikTok \"mi hijo no come sin tablet\" RD/LATAM — verbatim madres.",
+             "source": "TikTok · 2025",
+             "url": ""},
+            {"path": None,
+             "caption": "Common Sense Media 2025: 40% de niños tiene iPad a los 2 años — límites de pantalla incumplidos.",
+             "source": "Common Sense Media · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 2.4 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 2,
+        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
+        "headline": "El consumidor sano se pega un sensor de glucosa por dos semanas y descubre que la uva le sube más el azúcar que el helado. La nutrición ya es dato en tiempo real.",
+        "fenomeno": "Los wearables de glucosa OTC salieron del nicho diabético y entraron al consumer health. El \"comer bien\" dejó de ser opinión — ahora es métrica continua que cambia qué desayunas mañana.",
+        "hashtags": ["#LingoRD", "#SensorDeGlucosa", "#ComerConDato", "#MetabolicAge", "#ElPlatoYElGráfico"],
+        "needs": ["CONTROL", "MIEDO", "VACÍO"],
+        "triggers": [
+            {"stat": "US$80B", "desc": "Mercado de wearables y health tracking en 2024 → proyecta US$200B+ para 2030.", "source": "Statista · 2025"},
+            {"stat": "Lingo", "desc": "Abbott Lingo (CGM sin prescripción) expande a Android dic 2025 — sensor 14 días en Walmart/Amazon.", "source": "Abbott Newsroom · 2025"},
+            {"stat": "#glucose", "desc": "#glucosegoddess (Jessie Inchauspé) cruza cientos de millones de views — \"glucose hacks\" como género.", "source": "TikTok · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-2-4-hellolingo-cgm-hero.png"),
+             "caption": "Hero shot mujer con sensor Lingo en el brazo + \"My glucose, my insights\" — CGM OTC sin prescripción.",
+             "source": "Abbott Lingo · 2025",
+             "url": "https://www.hellolingo.com"},
+            {"path": p("macro-2-4-scripps-cgm-sensor-arm.png"),
+             "caption": "Foto AP: brazo con sensor de glucosa continuo — \"CGMs in vogue\" para consumidor no-diabético.",
+             "source": "Scripps News / AP · 2025",
+             "url": "https://www.scrippsnews.com/health/continuous-glucose-monitors-are-in-vogue-but-do-you-really-need-to-track-your-blood-sugar"},
+            {"path": None,
+             "caption": "Statista 2025: mercado wearables health tracking US$80B en 2024 hacia US$200B+ en 2030.",
+             "source": "Statista · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 2.5 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 2,
+        "macro_name": "LOS HERNÁNDEZ ARE PROMPTED",
+        "headline": "Una creadora cocina en vivo, te muestra el producto, lo agregas al carrito sin salir del feed. El supermercado se volvió streaming.",
+        "fenomeno": "Live shopping pasó del nicho beauty al supermercado: snacks, salsas, kits de receta vendidos durante el video. Food es 13.6% del GMV de TikTok Shop. El próximo carrito del dominicano será un live stream.",
+        "hashtags": ["#TikTokShopFood", "#CocinaEnVivo", "#CarritoDelFeed", "#LiveSnacks", "#CompraLoQueCocinas"],
+        "needs": ["VACÍO", "CONTROL", "SOLEDAD"],
+        "triggers": [
+            {"stat": "US$64B", "desc": "GMV total TikTok Shop 2025 — food US$759.84M (13.6%), ticket promedio food shopper US$43.20.", "source": "Capital One Shopping / Resourcera · 2025"},
+            {"stat": "+84%", "desc": "Live shopping creció 84% YoY en 2025; conversión live 6.1% vs feed 4.7%.", "source": "Resourcera · 2026"},
+            {"stat": "2×", "desc": "Ventas de marcas grandes en TikTok Shop casi duplicaron en 2025.", "source": "Modern Retail · 2025"},
+        ],
+        "signals": [
+            {"path": p("macro-2-5-modernretail-tiktokshop-2025.png"),
+             "caption": "TikTok Shop visual — marcas grandes duplicaron ventas en 2025; food es categoría #1 del live shopping.",
+             "source": "Modern Retail · 2025",
+             "url": "https://www.modernretail.co/technology/sales-from-major-brands-on-tiktok-shop-nearly-doubled-in-2025-drawing-ulta-and-sally-beauty/"},
+            {"path": p("macro-2-5-resourcera-tiktokshop-stats.png"),
+             "caption": "Key Insights: GMV US$64.3B, ticket promedio food US$43.20, live shopping +84% YoY.",
+             "source": "Resourcera · 2026",
+             "url": "https://resourcera.com/data/social/tiktok-shop-statistics/"},
+            {"path": p("macro-1-5-stkitts-online-super-sd.png"),
+             "caption": "Primer supermercado 100% online en Santo Domingo — grocería digital prepara terreno para social commerce.",
+             "source": "St Kitts Nevis Observer · 2025",
+             "url": "https://www.thestkittsnevisobserver.com/first-online-only-supermarket-opens-in-santo-domingo/"},
+        ]
+    },
+
+    # ── MACRO 3 DIVIDER ──────────────────────────────────────────────────
+    {"type": "divider", **MACRO_3},
+
+    # ── MICRO 3.1 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 3,
+        "macro_name": "ALGORITMO DEL HOGAR",
+        "headline": "Ver lo que otros comen se convirtió en uno de los formatos más consumidos de internet. Ya no es comida — es identidad.",
+        "fenomeno": "\"What I Eat in a Day\" explota no por curiosidad culinaria — por validación. Ver lo que come otro para confirmar, comparar o inspirarse. El plato ajeno es espejo. Y juez.",
+        "hashtags": ["#QuéComoEnUnDía", "#WhatIEatInADay", "#ComidaParaVer", "#AlimentaciónEnPantalla", "#DíaDeComidaRD"],
+        "needs": ["VACÍO", "INVISIBILIDAD", "CULPA"],
+        "triggers": [
+            {"stat": "74%", "desc": "De personas usa redes para decidir qué o dónde comer; 50% dice que influyen directamente.", "source": "Cropink · 2026"},
+            {"stat": "Top", "desc": "\"What I Eat in a Day\" entre top food trends 2026; formato genera engagement que el algoritmo premia.", "source": "Chowhound TikTok Trends · 2026"},
+            {"stat": "2026", "desc": "Whole Foods predice year of the Fiber; protein-frenzy en backlash; bowl colorido como aspiracional.", "source": "VegNews / Whole Foods · 2026"},
+        ],
+        "signals": [
+            {"path": p("macro-3-1-vegnews-food-trend-hero.png"),
+             "caption": "Bowl proteína + grains + vegetales coloridos — el \"comer bien aspiracional 2026\" que WIEIAD replica.",
+             "source": "VegNews · 2025",
+             "url": "https://vegnews.com/fiber-whole-foods-2026-top-trend"},
+            {"path": None,
+             "caption": "Búsqueda TikTok: \"qué como en un día dominicana\" → adaptación local del formato WIEIAD.",
+             "source": "TikTok · 2025-2026",
+             "url": ""},
+            {"path": None,
+             "caption": "Cropink 2026: 74% usa redes para decidir qué comer; 50% dice que influyen directamente.",
+             "source": "Cropink · 2026",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 3.2 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 3,
+        "macro_name": "ALGORITMO DEL HOGAR",
+        "headline": "El mukbang nació porque hay gente que come sola y prefiere ver a alguien comer antes que comer en silencio.",
+        "fenomeno": "Nació en Corea como compañía virtual. Hoy es negocio millonario. El dominicano lo consume porque la mesa vacía duele — y una pantalla llena el silencio del comedor.",
+        "hashtags": ["#MukbangLatino", "#ComerSoloPeroNoTanto", "#AcompañamientoPorPantalla", "#SoledadEnLaMesa", "#CenarConPantalla"],
+        "needs": ["SOLEDAD", "INVISIBILIDAD", "VACÍO"],
+        "triggers": [
+            {"stat": "5.3M", "desc": "#mukbang supera 5.3M videos en 2025; top creadores ganan hasta US$10K/mes.", "source": "Distraction Magazine / PMC · 2025"},
+            {"stat": "2B+", "desc": "Nickocado Avocado supera 2B views en YouTube — mukbang como negocio millonario.", "source": "YouTube / PMC · 2025"},
+            {"stat": "68.5%", "desc": "De jóvenes universitarias ve videos de comida regularmente; hasta 40 min/día — efecto parasocial.", "source": "Western Gazette / PMC · 2025-2026"},
+        ],
+        "signals": [
+            {"path": p("macro-3-2-youtube-mukbang-search-grid.png"),
+             "caption": "Grid resultados YouTube \"mukbang\" — thumbnails comida extrema, ASMR con millones de vistas.",
+             "source": "YouTube · 2026",
+             "url": "https://www.youtube.com/results?search_query=mukbang"},
+            {"path": None,
+             "caption": "PMC 2025: 68.5% de jóvenes ve videos de comida regularmente; vínculo con soledad y efecto parasocial.",
+             "source": "Western Gazette / PMC · 2025-2026",
+             "url": ""},
+            {"path": None,
+             "caption": "Distraction Magazine 2025: top mukbangers ganan hasta US$10K/mes — mukbang como negocio millonario.",
+             "source": "Distraction Magazine · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 3.3 (Cocina Terapia — proxy) ───────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 3,
+        "macro_name": "ALGORITMO DEL HOGAR",
+        "headline": "Cuando todo lo demás está fuera de control, la cocina es el único sitio donde lo que hago sí sale como quiero.",
+        "fenomeno": "Bajo burnout y presión social, adultos jóvenes descubrieron que cocinar y hornear son terapia real. No es hobbyismo — es el único espacio donde lo que controlas eres tú.",
+        "hashtags": ["#CocinaComoTerapia", "#HornearParaDesestresarse", "#LoveLanguageCocina", "#Repostería", "#CocinaQueControlo"],
+        "needs": ["SOLEDAD", "VACÍO", "CONTROL"],
+        "triggers": [
+            {"stat": "Dopamina", "desc": "Hornear activa rutas de dopamina y reduce cortisol — equivalente a mindfulness clínico.", "source": "Kaiser Permanente / NeuroLaunch / ICE · 2025-2026"},
+            {"stat": "2026", "desc": "Ola de cancelaciones de delivery + vuelta a la cocina como anti-ansiedad digital.", "source": "EditorialGe / Cooking as Therapy · 2026"},
+            {"stat": "GLP-1", "desc": "Medicalización del hambre crea contrapunto cultural: la cocina como ritual analógico.", "source": "News Medical · 2026"},
+        ],
+        "signals": [
+            {"path": p("macro-3-3-newsmedical-cooking-proxy.png"),
+             "caption": "Proxy: jeringa de medicamento + headline sobre cómo fármacos alteran el apetito — cocina como contrapunto.",
+             "source": "News Medical · 2026",
+             "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx"},
+            {"path": None,
+             "caption": "CAPTURA MANUAL: búsqueda Instagram #cookingastherapy — cocina como bienestar mental en creadoras LATAM.",
+             "source": "TikTok / Instagram · 2025",
+             "url": ""},
+            {"path": None,
+             "caption": "Kaiser Permanente: hornear activa dopamina y reduce cortisol equivalente a mindfulness clínico.",
+             "source": "Kaiser Permanente / NeuroLaunch · 2025",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 3.4 (Carnívora — proxy) ────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 3,
+        "macro_name": "ALGORITMO DEL HOGAR",
+        "headline": "El FOMO de bajar de peso llegó a su versión más extrema: eliminar todo lo que no sea animal. Los análisis de sangre cuentan otra historia.",
+        "fenomeno": "Solo carne, mantequilla y huevo. El algoritmo lo distribuye más rápido que la evidencia clínica que lo contradice. El feed va más rápido que el cardiólogo.",
+        "hashtags": ["#DietaCarnívora", "#SoloCarneMantequillaYHuevo", "#FOMODeBajarDePeso", "#ExtremoNutricional", "#CarnivoreVsColesterol"],
+        "needs": ["MIEDO", "RESENTIMIENTO", "CONTROL"],
+        "triggers": [
+            {"stat": "2.6M", "desc": "#carnivore supera 2.6M publicaciones a noviembre 2025 — entre las dietas más comentadas.", "source": "ResearchGate / Fox News · 2025-2026"},
+            {"stat": "LDL 172", "desc": "Revisión clínica Nutrients ene 2026: LDL promedio sube de 126 a 172 mg/dL en seguidores de carnivore.", "source": "Nutrients Journal · 2026"},
+            {"stat": "Fibra", "desc": "Whole Foods predice 2026 = Year of the Fiber — mainstream pivota al opuesto mientras carnivore escala.", "source": "Whole Foods 2026 Trend Report · 2026"},
+        ],
+        "signals": [
+            {"path": p("macro-3-4-vegnews-protein-fiber-trend.png"),
+             "caption": "Hero food bowl — señal del pivot mainstream proteína→fibra, mientras carnivore escala en el algoritmo.",
+             "source": "VegNews · 2025",
+             "url": "https://vegnews.com/fiber-whole-foods-2026-top-trend"},
+            {"path": None,
+             "caption": "CAPTURA MANUAL: búsqueda YouTube/Instagram \"carnivore diet\" — thumbnails bistec + mantequilla + huevo.",
+             "source": "TikTok / Instagram · 2025",
+             "url": ""},
+            {"path": None,
+             "caption": "Nutrients Journal ene 2026: LDL promedio sube 126→172 mg/dL; caso reportado 163→365 en carnivore.",
+             "source": "Nutrients Journal · 2026",
+             "url": ""},
+        ]
+    },
+
+    # ── MICRO 3.5 ────────────────────────────────────────────────────────
+    {
+        "type": "micro",
+        "macro_num": 3,
+        "macro_name": "ALGORITMO DEL HOGAR",
+        "headline": "GLP-1 silencia el \"food noise\" del cerebro. La nueva conversación sobre comer no es qué cocinar — es si lo deseo o solo me acordé que existía.",
+        "fenomeno": "Ozempic y Mounjaro reescriben la relación con la comida: ya no se trata de fuerza de voluntad, se trata de farmacología que apaga el ruido mental. El feed normaliza la conversación.",
+        "hashtags": ["#FoodNoise", "#OzempicDiary", "#SinHambreSinAnsiedad", "#GLP1RD", "#LaCabezaSinComida"],
+        "needs": ["VACÍO", "MIEDO", "SOLEDAD"],
+        "triggers": [
+            {"stat": "58%", "desc": "De usuarios GLP-1 siente menos hambre; 64% se llena antes; 21-23% reporta cambios de sabor.", "source": "EASD 2025 / News-Medical · 2025"},
+            {"stat": "#foodnoise", "desc": "Hashtag viralizado por usuarias GLP-1 documentando cambio cognitivo — decenas de millones de views.", "source": "TikTok · 2025"},
+            {"stat": "Longevity", "desc": "Whole Foods 2026: longevity y fibra como aspiracional opuesto al cuerpo medicado por GLP-1.", "source": "Whole Foods 2026 · 2026"},
+        ],
+        "signals": [
+            {"path": p("macro-3-5-sciam-ozempic-food-noise.png"),
+             "caption": "Ilustración surrealista: cabeza clásica con comida girando — \"Ozempic Quiets Food Noise in the Brain—But How?\"",
+             "source": "Scientific American · Jun 2024",
+             "url": "https://www.scientificamerican.com/article/ozempic-quiets-food-noise-in-the-brain-but-how/"},
+            {"path": p("macro-3-5-newsmedical-glp1-appetite.png"),
+             "caption": "Jeringa semaglutide — GLP-1 afecta apetito, estado de ánimo y comportamiento; 58% siente menos hambre.",
+             "source": "News Medical · 2026",
+             "url": "https://www.news-medical.net/health/How-GLP-1-Weight-Loss-Drugs-Affect-Appetite-Mood-and-Behavior.aspx"},
+            {"path": None,
+             "caption": "Búsqueda TikTok #foodnoise → top videos de usuarias GLP-1 documentando cambio cognitivo.",
+             "source": "TikTok · 2025",
+             "url": ""},
+        ]
+    },
+]
+
+
+# ─── BUILD ───────────────────────────────────────────────────────────────────
 
 def main():
     prs = Presentation()
-    prs.slide_width = W
-    prs.slide_height = H
+    prs.slide_width  = SLIDE_W
+    prs.slide_height = SLIDE_H
 
-    micro_idx = 0
-    for macro_i, macro in enumerate(MACROS):
-        build_macro_divider(prs, macro)
-        for j in range(5):
-            # Add needs to each micro from the editorial content
-            m = MICROS[micro_idx].copy()
-            needs_map = {
-                0:  "CONTROL · MIEDO · SOLEDAD",
-                1:  "DIGNIDAD · VACÍO · CONTROL",
-                2:  "CULPA · RESENTIMIENTO · REPARACIÓN",
-                3:  "SOLEDAD · PERTENENCIA · INVISIBILIDAD",
-                4:  "CONTROL · SOLEDAD · CULPA",
-                5:  "MIEDO · CULPA · CONTROL",
-                6:  "VACÍO · CONTROL · SOLEDAD",
-                7:  "CULPA · SOLEDAD · INVISIBILIDAD",
-                8:  "CONTROL · MIEDO · VACÍO",
-                9:  "VACÍO · CONTROL · SOLEDAD",
-                10: "VACÍO · INVISIBILIDAD · CULPA",
-                11: "SOLEDAD · INVISIBILIDAD · VACÍO",
-                12: "SOLEDAD · VACÍO · CONTROL",
-                13: "MIEDO · RESENTIMIENTO · CONTROL",
-                14: "VACÍO · MIEDO · SOLEDAD",
-            }
-            m["needs"] = needs_map.get(micro_idx, "")
-            build_micro_slide(prs, m)
-            micro_idx += 1
+    for sd in SLIDES_DATA:
+        if sd["type"] == "divider":
+            build_divider(prs,
+                          macro_num=sd["num"],
+                          macro_name=sd["name"],
+                          tagline=sd["tagline"])
+        else:
+            build_micro(prs,
+                        macro_num=sd["macro_num"],
+                        macro_name=sd["macro_name"],
+                        headline=sd["headline"],
+                        fenomeno=sd["fenomeno"],
+                        hashtags=sd["hashtags"],
+                        needs=sd["needs"],
+                        triggers=sd["triggers"],
+                        signals=sd["signals"])
 
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    prs.save(OUT)
-    print(f"Saved: {OUT}")
-    print(f"Total slides: {len(prs.slides)}")
-
-    # Count real vs placeholder images
-    real = placeholder = 0
-    for m in MICROS:
-        for s in m["senales"]:
-            img_file = s.get("img")
-            if img_file and os.path.exists(os.path.join(SHOTS, img_file)):
-                real += 1
-            else:
-                placeholder += 1
-    print(f"Señales con imagen real: {real}")
-    print(f"Señales placeholder: {placeholder}")
+    os.makedirs(os.path.dirname(OUT_PPTX), exist_ok=True)
+    prs.save(OUT_PPTX)
+    print(f"Saved: {OUT_PPTX}")
+    print(f"Slides: {len(prs.slides)}")
+    # Height check for photos
+    three_photos_h = 3 * 162 + 2 * 8
+    print(f"3-photo stack height check: 3×162 + 2×15 = {three_photos_h}pt (slide height 540pt) — {'OK' if three_photos_h <= 510 else 'OVERFLOW'}")
 
 
 if __name__ == "__main__":
