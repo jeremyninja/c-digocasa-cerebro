@@ -256,6 +256,29 @@ a 20pt) ahora caben sin tocar nada.
 
 ---
 
+## 10. TAB [MACRO N][NOMBRE] VA ARRIBA DEL HEADLINE (dentro del flow de col-left)
+
+**Fecha del aprendizaje:** 2026-05-29 ("baja el macrotrend y tipo de trend,
+mueve toda la caja y ponla arriba del headline").
+
+**Regla dura:**
+- La tab [MACRO N][NOMBRE MACRO] ya NO vive en la cabecera del slide (y=10).
+  Ahora es el PRIMER elemento del flow de col-left, justo ARRIBA del headline.
+- Orden col-left: DEFINICIÓN (label de columna) + línea → tab [MACRO N][NOMBRE]
+  → headline → EL FENÓMENO → body → HASHTAGS → hashtags.
+- Gap tab → headline: `GAP_TAB_TO_HL = 10pt`.
+- La función es `_draw_tab(slide, y, macro_n, macro_name)` llamada dentro de
+  `add_col_left`; `add_micro` ya NO llama un `add_tabs` separado.
+
+**Ajuste de gaps que vino con esto:** bajar la tab empuja col-left ~32pt. Para
+que los slides de headline largo (ej. Tecnología 3.2, ~10 líneas estimadas) no
+desborden, se apretaron gaps: GAP_HL_TO_LABEL 20→14, GAP_BODY_TO_HASH 18→14.
+
+**El validador ahora usa solape 2D (x Y y):** dos cajas lado a lado (las dos
+mitades de la tab) NO cuentan como choque; solo si se solapan en ambos ejes.
+
+---
+
 ## Cómo aplica el montador estos aprendizajes en el script
 
 ```python

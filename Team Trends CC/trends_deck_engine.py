@@ -68,9 +68,10 @@ PHENOM_LH        = 1.30
 HASH_LABEL_H     = 14.0
 HASHTAG_PT       = 16.0   # REGLA #5 — NO 23pt
 HASHTAG_LH       = 1.25
-GAP_HL_TO_LABEL  = 20.0   # headline → EL FENÓMENO
+GAP_TAB_TO_HL    = 10.0   # tab [MACRO N][NOMBRE] → headline (la tab va ARRIBA del headline)
+GAP_HL_TO_LABEL  = 14.0   # headline → EL FENÓMENO
 GAP_LABEL_BODY   = 6.0    # label → body
-GAP_BODY_TO_HASH = 18.0   # body fenómeno → HASHTAGS
+GAP_BODY_TO_HASH = 14.0   # body fenómeno → HASHTAGS
 # Anchos de glifo aproximados (fracción del tamaño de fuente) para estimar líneas.
 # Instrument Serif UPPERCASE es ANCHO → factor alto para no subestimar líneas.
 CW_SERIF_UPPER   = 0.62
@@ -202,12 +203,14 @@ def add_line_connector(slide, x1, y1, x2, y2, alpha_pct=15):
 # ══════════════════════════════════════════════════════════════════════════════
 # COMPONENTES DEL SLIDE MICRO
 # ══════════════════════════════════════════════════════════════════════════════
-def add_tabs(slide, macro_n, macro_name):
-    add_rect(slide, COL_LEFT_X, TAB_Y, 58, TAB_H, fill=C_TAB_BG)
-    _, tf = _tb(slide, COL_LEFT_X+4, TAB_Y+3, 52, TAB_H-4)
+def _draw_tab(slide, y, macro_n, macro_name):
+    """Tab [MACRO N][NOMBRE MACRO] a una altura y dada. Va ARRIBA del headline
+    dentro del flow de col-left (no en la cabecera del slide)."""
+    add_rect(slide, COL_LEFT_X, y, 58, TAB_H, fill=C_TAB_BG)
+    _, tf = _tb(slide, COL_LEFT_X+4, y+3, 52, TAB_H-4)
     _run(tf, macro_n, F_SANS, 7.5, bold=True, color=RGBColor(0,0,0))
-    add_rect(slide, COL_LEFT_X+62, TAB_Y, 220, TAB_H, line_rgb=C_DARK_GREY)
-    _, tf2 = _tb(slide, COL_LEFT_X+66, TAB_Y+3, 214, TAB_H-4)
+    add_rect(slide, COL_LEFT_X+62, y, 220, TAB_H, line_rgb=C_DARK_GREY)
+    _, tf2 = _tb(slide, COL_LEFT_X+66, y+3, 214, TAB_H-4)
     _run(tf2, macro_name.upper(), F_SANS, 7.5, color=C_GREY)
 
 def add_col_labels(slide):
@@ -222,11 +225,16 @@ def add_seps(slide):
     add_line_connector(slide, COL_RIGHT_X-6, LABELS_Y, COL_RIGHT_X-6, SLIDE_H-10)
     add_line_connector(slide, COL_LEFT_X,    HLINE_Y,  SLIDE_W-20,    HLINE_Y)
 
-def add_col_left(slide, headline, fenomeno, hashtags):
+def add_col_left(slide, macro_n, macro_name, headline, fenomeno, hashtags):
     """Col-left con FLOW dinámico (REGLA #9): cada bloque se posiciona debajo
-    del anterior según su altura REAL estimada. El headline 20pt puede ocupar
-    1-7 líneas; EL FENÓMENO siempre cae debajo del headline, nunca encima."""
+    del anterior según su altura REAL estimada. La tab [MACRO N][NOMBRE] va
+    ARRIBA del headline (REGLA #10). El headline 20pt puede ocupar 1-7 líneas;
+    EL FENÓMENO siempre cae debajo del headline, nunca encima."""
     y = CONTENT_Y
+
+    # TAB [MACRO N][NOMBRE MACRO] — REGLA #10: arriba del headline
+    _draw_tab(slide, y, macro_n, macro_name)
+    y += TAB_H + GAP_TAB_TO_HL
 
     # HEADLINE — 20pt FIJO (REGLA #1), caja dimensionada al texto
     hl = headline.upper()
@@ -336,10 +344,10 @@ def add_macro_divider(prs, num, name, tagline):
 def add_micro(prs, micro, screenshots_dir):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     add_bg(slide)
-    add_tabs(slide, micro['macro_n'], micro['macro_name'])
     add_col_labels(slide)
     add_seps(slide)
-    add_col_left(slide, micro['headline'], micro['fenomeno'], micro['hashtags'])
+    add_col_left(slide, micro['macro_n'], micro['macro_name'],
+                 micro['headline'], micro['fenomeno'], micro['hashtags'])
     add_col_center(slide, micro['triggers'])
     add_col_right(slide, micro['signals'], screenshots_dir)
     return slide
@@ -363,22 +371,23 @@ def audit_overflow(prs):
             if x + w > SLIDE_W + SAFE_MARGIN:
                 issues.append(f"  OVERFLOW RIGHT slide {idx}: x={x:.1f} w={w:.1f} right={x+w:.1f} > {SLIDE_W}")
             # recolectar text boxes de col-left por DEBAJO de la línea de contenido
-            # (REGLA #9 — flow sin solape). Excluye tabs (y=13) y labels (y=50)
-            # que viven en la cabecera y van lado a lado, no apilados.
+            # (REGLA #9 — flow sin solape). Guarda x,w también para solape 2D.
             if (sh.has_text_frame and COL_LEFT_X - 5 <= x < (COL_MID_X - 10)
                     and w < 320 and 5 < h < 300 and y >= CONTENT_Y - 5):
                 txt = " ".join(p.text for p in sh.text_frame.paragraphs if p.text)[:30]
                 if txt:
-                    col_left_boxes.append((y, h, txt))
-        # chequear solapamiento vertical en col-left
-        col_left_boxes.sort()
-        for a in range(len(col_left_boxes) - 1):
-            y1, h1, t1 = col_left_boxes[a]
-            y2, h2, t2 = col_left_boxes[a + 1]
-            if y1 + h1 > y2 + SAFE_MARGIN:
-                issues.append(
-                    f"  COLISIÓN col-left slide {idx}: '{t1}' (bottom={y1+h1:.1f}) "
-                    f"se monta sobre '{t2}' (top={y2:.1f})")
+                    col_left_boxes.append((y, h, x, w, txt))
+        # chequear solape 2D (x Y y) — dos cajas lado a lado NO es choque
+        for a in range(len(col_left_boxes)):
+            for b in range(a + 1, len(col_left_boxes)):
+                y1, h1, x1, w1, t1 = col_left_boxes[a]
+                y2, h2, x2, w2, t2 = col_left_boxes[b]
+                x_ov = x1 < x2 + w2 and x2 < x1 + w1
+                y_ov = y1 < y2 + h2 - SAFE_MARGIN and y2 < y1 + h1 - SAFE_MARGIN
+                if x_ov and y_ov:
+                    issues.append(
+                        f"  COLISIÓN col-left slide {idx}: '{t1}' "
+                        f"(y={y1:.0f},h={h1:.0f}) se monta sobre '{t2}' (y={y2:.0f})")
     return issues
 
 
