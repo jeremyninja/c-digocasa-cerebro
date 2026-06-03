@@ -80,17 +80,17 @@ CW_SERIF         = 0.50
 # (SIN 3 needs — REGLA #4)
 
 # ─── Col-center (TRIGGERS) — REGLA #2 ───────────────────────────────────────────
-STAT_PT          = 56.0   # cifra (NO 72pt)
-STAT_W           = 170.0  # = ancho de la caja desc (NO ancho completo de columna)
-STAT_H           = 56.0
-STAT_TO_DESC_GAP = 18.0   # (NO 10pt)
+STAT_PT          = 40.0   # cifra (REGLA #11 — NO 56, NO 72)
+STAT_W           = 170.0  # = ancho de la caja desc
+STAT_H           = 46.0   # caja de la cifra (40pt * ~1.15)
+STAT_TO_DESC_GAP = 12.0   # cifra → caja descripción
 DESC_W           = 170.0
-DESC_H           = 35.0
 DESC_PT          = 10.0
-DESC_TO_SRC_GAP  = 6.0
+DESC_LH          = 1.25   # line-height para estimar altura de la descripción
+DESC_TO_SRC_GAP  = 12.0   # caja descripción → fuente (REGLA #11 — sube de 6 a 12)
 SRC_PT           = 6.5
 SRC_H            = 12.0
-TRIGGER_GAP      = 28.0   # (NO 24pt)
+TRIGGER_GAP      = 22.0   # entre triggers
 # Block = 56+18+35+6+12 = 127pt; 3×127 + 2×28 = 437 → 84+437=521 < 540 ✓
 
 # ─── Col-right (SEÑALES) — REGLA #3 ─────────────────────────────────────────────
@@ -266,15 +266,21 @@ def add_col_left(slide, macro_n, macro_name, headline, fenomeno, hashtags):
     # (SIN 3 needs — REGLA #4)
 
 def add_col_center(slide, triggers):
-    """3 triggers vertical: cifra ARRIBA, caja desc ABAJO (REGLA #2)."""
+    """3 triggers vertical: cifra 40pt ARRIBA, caja desc ABAJO, fuente debajo del
+    texto real (REGLA #2 + #11). La caja desc se dimensiona al texto (flow) para
+    que la fuente nunca choque con la descripción."""
     y = CONTENT_Y
     for trig in triggers:
+        # CIFRA — 40pt
         _, tf_s = _tb(slide, COL_MID_X, y, STAT_W, STAT_H)
         _run(tf_s, trig['stat'], F_SERIF, STAT_PT, color=C_WHITE, sp_pct=100, tracking=0)
+        # DESCRIPCIÓN — caja dimensionada al texto
         y_d = y + STAT_H + STAT_TO_DESC_GAP
-        _, tf_d = _tb(slide, COL_MID_X, y_d, DESC_W, DESC_H)
+        desc_h = est_text_height(trig['desc'], DESC_PT, DESC_W, CW_SANS, DESC_LH)
+        _, tf_d = _tb(slide, COL_MID_X, y_d, DESC_W, desc_h)
         _run(tf_d, trig['desc'], F_SANS, DESC_PT, color=C_WHITE, sp_pct=100)
-        y_src = y_d + DESC_H + DESC_TO_SRC_GAP
+        # FUENTE — debajo del texto real de la descripción
+        y_src = y_d + desc_h + DESC_TO_SRC_GAP
         _, tf_src = _tb(slide, COL_MID_X, y_src, DESC_W, SRC_H)
         _run(tf_src, trig['source'].upper(), F_SANS, SRC_PT, color=C_DARK_GREY, sp_pct=100)
         y = y_src + SRC_H + TRIGGER_GAP
@@ -359,7 +365,7 @@ def add_micro(prs, micro, screenshots_dir):
 def audit_overflow(prs):
     issues = []
     for idx, slide in enumerate(prs.slides, 1):
-        col_left_boxes = []   # (y, h, text) para chequear solapamiento vertical
+        content_boxes = []   # text boxes de col-left + col-center (x < COL_RIGHT_X)
         for sh in slide.shapes:
             if sh.left is None or sh.top is None:
                 continue
@@ -370,23 +376,25 @@ def audit_overflow(prs):
                 issues.append(f"  OVERFLOW BOTTOM slide {idx}: y={y:.1f} h={h:.1f} bottom={y+h:.1f} > {SLIDE_H}")
             if x + w > SLIDE_W + SAFE_MARGIN:
                 issues.append(f"  OVERFLOW RIGHT slide {idx}: x={x:.1f} w={w:.1f} right={x+w:.1f} > {SLIDE_W}")
-            # recolectar text boxes de col-left por DEBAJO de la línea de contenido
-            # (REGLA #9 — flow sin solape). Guarda x,w también para solape 2D.
-            if (sh.has_text_frame and COL_LEFT_X - 5 <= x < (COL_MID_X - 10)
+            # recolectar text boxes de col-left + col-center por debajo de la línea
+            # (REGLAS #9, #11 — flow sin solape). Col-right (fotos+badges) se excluye.
+            if (sh.has_text_frame and COL_LEFT_X - 5 <= x < (COL_RIGHT_X - 10)
                     and w < 320 and 5 < h < 300 and y >= CONTENT_Y - 5):
                 txt = " ".join(p.text for p in sh.text_frame.paragraphs if p.text)[:30]
                 if txt:
-                    col_left_boxes.append((y, h, x, w, txt))
-        # chequear solape 2D (x Y y) — dos cajas lado a lado NO es choque
-        for a in range(len(col_left_boxes)):
-            for b in range(a + 1, len(col_left_boxes)):
-                y1, h1, x1, w1, t1 = col_left_boxes[a]
-                y2, h2, x2, w2, t2 = col_left_boxes[b]
+                    content_boxes.append((y, h, x, w, txt))
+        # chequear solape 2D (x Y y) — dos cajas lado a lado NO es choque;
+        # solo cuenta si se solapan en AMBOS ejes (col-left y col-center separadas en x)
+        for a in range(len(content_boxes)):
+            for b in range(a + 1, len(content_boxes)):
+                y1, h1, x1, w1, t1 = content_boxes[a]
+                y2, h2, x2, w2, t2 = content_boxes[b]
                 x_ov = x1 < x2 + w2 and x2 < x1 + w1
                 y_ov = y1 < y2 + h2 - SAFE_MARGIN and y2 < y1 + h1 - SAFE_MARGIN
                 if x_ov and y_ov:
+                    col = "col-center" if x1 >= COL_MID_X - 10 else "col-left"
                     issues.append(
-                        f"  COLISIÓN col-left slide {idx}: '{t1}' "
+                        f"  COLISIÓN {col} slide {idx}: '{t1}' "
                         f"(y={y1:.0f},h={h1:.0f}) se monta sobre '{t2}' (y={y2:.0f})")
     return issues
 

@@ -279,6 +279,25 @@ mitades de la tab) NO cuentan como choque; solo si se solapan en ambos ejes.
 
 ---
 
+## 11. CIFRAS 40pt + CAJA DE DESCRIPCIÓN DINÁMICA (fuente no choca)
+
+**Fecha del aprendizaje:** 2026-05-29 ("cifras a 40pt; la caja de fuente de la
+cifra ponla más abajo de la caja de explicación, que chocan").
+
+**Regla dura:**
+- Cifra del trigger: **40pt** Instrument Serif (NO 56, NO 72). `STAT_PT=40, STAT_H=46`.
+- La caja de descripción se dimensiona al texto real (`est_text_height`), igual
+  que el headline. La fuente cae SIEMPRE debajo del texto de la descripción,
+  no de una caja fija de 35pt que el texto desbordaba.
+- `STAT_TO_DESC_GAP=12`, `DESC_TO_SRC_GAP=12` (subió de 6), `TRIGGER_GAP=22`.
+- El validador ahora cubre col-left **y col-center** (solape 2D x+y).
+
+**Por qué chocaba:** la caja desc era fija (35pt) pero las descripciones de 3-4
+líneas a 10pt medían ~50pt → el texto se salía y la fuente se le montaba encima.
+Mismo patrón que el headline: medir el texto, no la caja.
+
+---
+
 ## Cómo aplica el montador estos aprendizajes en el script
 
 ```python
