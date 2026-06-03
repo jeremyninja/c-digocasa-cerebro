@@ -24,6 +24,7 @@ from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
 from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN
+from pptx.enum.shapes import MSO_SHAPE
 from pathlib import Path
 from lxml import etree
 from pptx.oxml.ns import qn
@@ -97,14 +98,15 @@ TRIGGER_GAP      = 22.0   # entre triggers
 PHOTO_W   = 88.0          # (NO 95, NO 110, NO 149)
 PHOTO_H   = 130.0
 PHOTO_GAP = 24.0
-CAP_OFFSET_X = PHOTO_W + 8.0
-CAP_W        = 162.0
-CAP_H        = 35.0
-CAP_PT       = 10.0
+CAP_OFFSET_X   = PHOTO_W + 8.0
+CAP_W          = 162.0
+CAP_PT         = 10.0
+CAP_LH         = 1.20   # line-height para estimar altura del caption
+CAP_TO_SRC_GAP = 10.0   # caption → fuente (REGLA #12 — la fuente baja, no choca)
 # 3×130 + 2×24 = 438 → 84+438=522 < 540 ✓
 
-# ─── Badge ──────────────────────────────────────────────────────────────────────
-BADGE_W = 38.0; BADGE_H = 11.0; BADGE_PT = 5.5
+# ─── Badge "CLICK ME" — pill redondeado (REGLA #12) ─────────────────────────────
+BADGE_W = 46.0; BADGE_H = 15.0; BADGE_PT = 7.0
 
 # ─── Divider macro ──────────────────────────────────────────────────────────────
 DIV_LABEL_PT = 14.0; DIV_NAME_PT = 100.0; DIV_TAG_PT = 24.0
@@ -296,8 +298,19 @@ def _hyperlink_picture(slide, pic, url):
             hl = etree.SubElement(cNvPr, qn('a:hlinkClick'))
             hl.set('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id', rId)
 
+def _badge_clickme(slide, x, y):
+    """Pill redondeado rojo 'CLICK ME' (REGLA #12 — legible, esquina inf-der)."""
+    sp = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE,
+                                emupt(x), emupt(y), emupt(BADGE_W), emupt(BADGE_H))
+    sp.fill.solid(); sp.fill.fore_color.rgb = C_RED
+    sp.line.fill.background()
+    tf = sp.text_frame
+    tf.word_wrap = False
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    _run(tf, "CLICK ME ▸", F_SANS, BADGE_PT, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
+
 def add_col_right(slide, signals, screenshots_dir):
-    """3 fotos 88×130pt + badge + caption (REGLA #3, #7)."""
+    """3 fotos 88×130pt + badge pill + caption dinámico (REGLA #3, #7, #12)."""
     y = CONTENT_Y
     for sig in signals:
         png_path = Path(screenshots_dir) / sig['png']
@@ -312,17 +325,17 @@ def add_col_right(slide, signals, screenshots_dir):
                 f"Falta screenshot: {png_path}\n"
                 f"Devuelve al scrapper (no se permite placeholder manual)."
             )
-        # Badge CLICK ME
-        bx = COL_RIGHT_X + PHOTO_W - BADGE_W - 2
-        by = y + 2
-        add_rect(slide, bx, by, BADGE_W, BADGE_H, fill=C_RED)
-        _, tb = _tb(slide, bx+2, by+1, BADGE_W-4, BADGE_H-2)
-        _run(tb, "CLICK ME", F_SANS, BADGE_PT, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
-        # Caption al lado
+        # Badge CLICK ME — pill redondeado en la esquina INFERIOR derecha de la foto
+        bx = COL_RIGHT_X + PHOTO_W - BADGE_W - 4
+        by = y + PHOTO_H - BADGE_H - 4
+        _badge_clickme(slide, bx, by)
+        # Caption al lado — caja dimensionada al texto (dinámica)
         cx = COL_RIGHT_X + CAP_OFFSET_X
-        _, tf_c = _tb(slide, cx, y, CAP_W, CAP_H)
+        cap_h = est_text_height(sig['caption'], CAP_PT, CAP_W, CW_SANS, CAP_LH)
+        _, tf_c = _tb(slide, cx, y, CAP_W, cap_h)
         _run(tf_c, sig['caption'], F_SANS, CAP_PT, color=C_WHITE, sp_pct=100)
-        sy = y + CAP_H + 6
+        # Fuente — debajo del texto REAL del caption (REGLA #12 — baja, no choca)
+        sy = y + cap_h + CAP_TO_SRC_GAP
         if sy + SRC_H <= SLIDE_H:
             _, tf_s = _tb(slide, cx, sy, CAP_W, SRC_H)
             _run(tf_s, sig['source'].upper(), F_SANS, SRC_PT, color=C_DARK_GREY, sp_pct=100)
