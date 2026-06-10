@@ -1,0 +1,456 @@
+"""
+trends_deck_engine.py — MOTOR CENTRAL DE LAYOUT del Team Trends CC.
+
+═══════════════════════════════════════════════════════════════════════════════
+ESTE ES EL "CSS" DEL TEAM TRENDS CC.
+═══════════════════════════════════════════════════════════════════════════════
+Todas las constantes de layout (posiciones, tamaños, gaps, colores, fuentes) y
+todas las funciones de render viven AQUÍ y SOLO aquí. Cada capítulo
+(build_trends_{capitulo}.py) importa este motor y le pasa únicamente DATOS:
+los 3 dividers macro + los 15 micros + la carpeta de screenshots.
+
+Cambiar una constante en este archivo re-renderiza TODOS los decks idénticos:
+Educación, Consumos, Tecnología, Política, Alimentación y los que vengan.
+NUNCA copies layout dentro de un build_trends_{capitulo}.py — solo datos.
+
+Reglas duras de diseño: Team Trends CC/aprendizajes-montador-trends-cc.md
+(headline 20pt fijo, triggers cifra-arriba, fotos 88×130pt, sin needs,
+hashtags 16pt, padding mínimo, sin placeholders, validador de overflow).
+═══════════════════════════════════════════════════════════════════════════════
+"""
+
+import math
+from pptx import Presentation
+from pptx.util import Inches, Pt, Emu
+from pptx.dml.color import RGBColor
+from pptx.enum.text import PP_ALIGN
+from pptx.enum.shapes import MSO_SHAPE
+from pathlib import Path
+from lxml import etree
+from pptx.oxml.ns import qn
+
+# ─── Colours ──────────────────────────────────────────────────────────────────
+C_BG        = RGBColor(0x0D, 0x0D, 0x0D)
+C_WHITE     = RGBColor(0xFF, 0xFF, 0xFF)
+C_GREY      = RGBColor(0xA0, 0xA0, 0xA0)
+C_DARK_GREY = RGBColor(0x66, 0x66, 0x66)
+C_TAB_BG    = RGBColor(0xE8, 0xE8, 0xE8)
+C_RED       = RGBColor(0xFF, 0x2D, 0x2D)
+C_PLACEHLD  = RGBColor(0x1A, 0x1A, 0x1A)
+
+# ─── Fuentes ────────────────────────────────────────────────────────────────────
+F_SERIF   = "Instrument Serif"
+F_SANS    = "Poppins"
+
+# ─── Canvas (pt) ────────────────────────────────────────────────────────────────
+SLIDE_W = 960.0   # 13.333 in
+SLIDE_H = 540.0   # 7.5 in
+
+# ─── Columnas ─────────────────────────────────────────────────────────────────
+COL_LEFT_X  = 20.0;  COL_LEFT_W  = 290.0
+COL_MID_X   = 330.0; COL_MID_W   = 290.0
+COL_RIGHT_X = 640.0; COL_RIGHT_W = 300.0
+
+# ─── Cabecera del slide micro ───────────────────────────────────────────────────
+TAB_Y     = 10.0; TAB_H    = 22.0
+LABELS_Y  = 50.0; LABELS_H = 14.0     # = TAB_Y + TAB_H + 18 (TAB_TO_LABELS)
+HLINE_Y   = 68.0                      # = LABELS_Y + LABELS_H + 6
+CONTENT_Y = 84.0                      # = HLINE_Y + 10 (LABELS_TO_CONTENT)
+
+# ─── Col-left (DEFINICIÓN) — FLOW DINÁMICO (REGLA #9) ───────────────────────────
+# El headline varía de largo. La columna FLUYE: cada bloque se posiciona debajo
+# del anterior según su altura REAL estimada. Nunca se desborda la caja sobre el
+# bloque de abajo. Las cajas se dimensionan al texto, no a una altura fija.
+HEADLINE_PT      = 20.0   # REGLA #1 — FIJO, sin auto-fit
+HEADLINE_LH      = 1.15   # factor line-height para estimar altura
+PHENOM_LABEL_H   = 14.0
+PHENOM_PT        = 10.0
+PHENOM_LH        = 1.30
+HASH_LABEL_H     = 14.0
+HASHTAG_PT       = 16.0   # REGLA #5 — NO 23pt
+HASHTAG_LH       = 1.25
+GAP_TAB_TO_HL    = 10.0   # tab [MACRO N][NOMBRE] → headline (la tab va ARRIBA del headline)
+GAP_HL_TO_LABEL  = 14.0   # headline → EL FENÓMENO
+GAP_LABEL_BODY   = 6.0    # label → body
+GAP_BODY_TO_HASH = 14.0   # body fenómeno → HASHTAGS
+# Anchos de glifo aproximados (fracción del tamaño de fuente) para estimar líneas.
+# Instrument Serif UPPERCASE es ANCHO → factor alto para no subestimar líneas.
+CW_SERIF_UPPER   = 0.62
+CW_SANS          = 0.52
+CW_SERIF         = 0.50
+# (SIN 3 needs — REGLA #4)
+
+# ─── Col-center (TRIGGERS) — REGLA #2 ───────────────────────────────────────────
+STAT_PT          = 40.0   # cifra (REGLA #11 — NO 56, NO 72)
+STAT_W           = 170.0  # = ancho de la caja desc
+STAT_H           = 46.0   # caja de la cifra (40pt * ~1.15)
+STAT_TO_DESC_GAP = 12.0   # cifra → caja descripción
+DESC_W           = 170.0
+DESC_PT          = 10.0
+DESC_LH          = 1.25   # line-height para estimar altura de la descripción
+DESC_TO_SRC_GAP  = 12.0   # caja descripción → fuente (REGLA #11 — sube de 6 a 12)
+SRC_PT           = 6.5
+SRC_H            = 12.0
+TRIGGER_GAP      = 22.0   # entre triggers
+# Block = 56+18+35+6+12 = 127pt; 3×127 + 2×28 = 437 → 84+437=521 < 540 ✓
+
+# ─── Col-right (SEÑALES) — REGLA #3 ─────────────────────────────────────────────
+PHOTO_W   = 88.0          # (NO 95, NO 110, NO 149)
+PHOTO_H   = 130.0
+PHOTO_GAP = 24.0
+CAP_OFFSET_X   = PHOTO_W + 8.0
+CAP_W          = 162.0
+CAP_PT         = 10.0
+CAP_LH         = 1.20   # line-height para estimar altura del caption
+CAP_TO_SRC_GAP = 10.0   # caption → fuente (REGLA #12 — la fuente baja, no choca)
+# 3×130 + 2×24 = 438 → 84+438=522 < 540 ✓
+
+# ─── Badge "CLICK ME" — pill redondeado (REGLA #12) ─────────────────────────────
+BADGE_W = 46.0; BADGE_H = 15.0; BADGE_PT = 7.0
+
+# ─── Divider macro ──────────────────────────────────────────────────────────────
+DIV_LABEL_PT = 14.0; DIV_NAME_PT = 100.0; DIV_TAG_PT = 24.0
+
+# ─── Validador de overflow — REGLA #8 ───────────────────────────────────────────
+SAFE_MARGIN = 4.0
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# HELPERS
+# ══════════════════════════════════════════════════════════════════════════════
+def emupt(v): return int(v * 12700)
+
+def est_text_height(text, font_pt, box_w_pt, char_w_frac, line_h):
+    """Estima la altura renderizada de un texto con word-wrap.
+    Conservador (tiende a sobrestimar levemente) para que el bloque de abajo
+    nunca se monte sobre el texto que se desborda de su caja."""
+    chars_per_line = max(1, box_w_pt / (font_pt * char_w_frac))
+    # contar líneas por palabras para respetar saltos de palabra (más realista
+    # que dividir por caracteres a secas)
+    lines, cur = 0, 0
+    for word in str(text).split():
+        wl = len(word) + 1
+        if cur + wl > chars_per_line and cur > 0:
+            lines += 1; cur = wl
+        else:
+            cur += wl
+    lines = max(1, lines + (1 if cur > 0 else 0))
+    return lines * font_pt * line_h
+
+def add_bg(slide):
+    sp = slide.shapes.add_shape(1, emupt(0), emupt(0), emupt(SLIDE_W), emupt(SLIDE_H))
+    sp.fill.solid(); sp.fill.fore_color.rgb = C_BG
+    sp.line.fill.background()
+
+def add_rect(slide, x, y, w, h, fill=None, line_rgb=None, line_pt=0.75):
+    sp = slide.shapes.add_shape(1, emupt(x), emupt(y), emupt(w), emupt(h))
+    if fill:
+        sp.fill.solid(); sp.fill.fore_color.rgb = fill
+    else:
+        sp.fill.background()
+    if line_rgb:
+        sp.line.color.rgb = line_rgb
+        sp.line.width = Pt(line_pt)
+    else:
+        sp.line.fill.background()
+    return sp
+
+def _tb(slide, x, y, w, h):
+    box = slide.shapes.add_textbox(emupt(x), emupt(y), emupt(w), emupt(h))
+    box.word_wrap = True
+    tf = box.text_frame
+    tf.word_wrap = True
+    tf.auto_size = None
+    return box, tf
+
+def _run(tf, text, fname, fsize, bold=False, italic=False, color=C_WHITE,
+         align=PP_ALIGN.LEFT, sp_pct=100, tracking=0):
+    para = tf.paragraphs[0]
+    para.alignment = align
+    pPr = para._p.get_or_add_pPr()
+    lnSpc = pPr.find(qn('a:lnSpc'))
+    if lnSpc is None:
+        lnSpc = etree.SubElement(pPr, qn('a:lnSpc'))
+    spcPct = lnSpc.find(qn('a:spcPct'))
+    if spcPct is None:
+        spcPct = etree.SubElement(lnSpc, qn('a:spcPct'))
+    spcPct.set('val', str(int(sp_pct * 1000)))
+
+    run = para.add_run()
+    run.text = text
+    run.font.name = fname
+    run.font.size = Pt(fsize)
+    run.font.bold = bold
+    run.font.italic = italic
+    run.font.color.rgb = color
+    if tracking != 0:
+        run._r.get_or_add_rPr().set('spc', str(tracking))
+    return run
+
+def add_line_connector(slide, x1, y1, x2, y2, alpha_pct=15):
+    cx = max(abs(x2-x1), 1); cy = max(abs(y2-y1), 1)
+    lx = min(x1, x2);        ly = min(y1, y2)
+    conn = slide.shapes.add_connector(1, emupt(lx), emupt(ly),
+                                      emupt(lx+cx), emupt(ly+cy))
+    conn.line.color.rgb = C_WHITE
+    conn.line.width = Pt(1)
+    solidFill = conn._element.find('.//' + qn('a:solidFill'))
+    if solidFill is not None:
+        srgb = solidFill.find(qn('a:srgbClr'))
+        if srgb is not None:
+            a_el = etree.SubElement(srgb, qn('a:alpha'))
+            a_el.set('val', str(alpha_pct * 1000))
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# COMPONENTES DEL SLIDE MICRO
+# ══════════════════════════════════════════════════════════════════════════════
+def _draw_tab(slide, y, macro_n, macro_name):
+    """Tab [MACRO N][NOMBRE MACRO] a una altura y dada. Va ARRIBA del headline
+    dentro del flow de col-left (no en la cabecera del slide)."""
+    add_rect(slide, COL_LEFT_X, y, 58, TAB_H, fill=C_TAB_BG)
+    _, tf = _tb(slide, COL_LEFT_X+4, y+3, 52, TAB_H-4)
+    _run(tf, macro_n, F_SANS, 7.5, bold=True, color=RGBColor(0,0,0))
+    add_rect(slide, COL_LEFT_X+62, y, 220, TAB_H, line_rgb=C_DARK_GREY)
+    _, tf2 = _tb(slide, COL_LEFT_X+66, y+3, 214, TAB_H-4)
+    _run(tf2, macro_name.upper(), F_SANS, 7.5, color=C_GREY)
+
+def add_col_labels(slide):
+    for x, lbl in [(COL_LEFT_X, "DEFINICIÓN"),
+                   (COL_MID_X,  "TRIGGERS"),
+                   (COL_RIGHT_X,"SEÑALES")]:
+        _, tf = _tb(slide, x, LABELS_Y, 200, LABELS_H)
+        _run(tf, lbl, F_SANS, 8, bold=True, color=C_GREY)
+
+def add_seps(slide):
+    add_line_connector(slide, COL_MID_X-6,   LABELS_Y, COL_MID_X-6,   SLIDE_H-10)
+    add_line_connector(slide, COL_RIGHT_X-6, LABELS_Y, COL_RIGHT_X-6, SLIDE_H-10)
+    add_line_connector(slide, COL_LEFT_X,    HLINE_Y,  SLIDE_W-20,    HLINE_Y)
+
+def add_col_left(slide, macro_n, macro_name, headline, fenomeno, hashtags):
+    """Col-left con FLOW dinámico (REGLA #9): cada bloque se posiciona debajo
+    del anterior según su altura REAL estimada. La tab [MACRO N][NOMBRE] va
+    ARRIBA del headline (REGLA #10). El headline 20pt puede ocupar 1-7 líneas;
+    EL FENÓMENO siempre cae debajo del headline, nunca encima."""
+    y = CONTENT_Y
+
+    # TAB [MACRO N][NOMBRE MACRO] — REGLA #10: arriba del headline
+    _draw_tab(slide, y, macro_n, macro_name)
+    y += TAB_H + GAP_TAB_TO_HL
+
+    # HEADLINE — 20pt FIJO (REGLA #1), caja dimensionada al texto
+    hl = headline.upper()
+    hl_h = est_text_height(hl, HEADLINE_PT, COL_LEFT_W, CW_SERIF_UPPER, HEADLINE_LH)
+    _, tf = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, hl_h)
+    _run(tf, hl, F_SERIF, HEADLINE_PT, color=C_WHITE, sp_pct=int(HEADLINE_LH*100), tracking=0)
+    y += hl_h + GAP_HL_TO_LABEL
+
+    # EL FENÓMENO label
+    _, tf2 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, PHENOM_LABEL_H)
+    _run(tf2, "EL FENÓMENO", F_SANS, 8, bold=True, color=C_GREY)
+    y += PHENOM_LABEL_H + GAP_LABEL_BODY
+
+    # body fenómeno — caja dimensionada al texto
+    body_h = est_text_height(fenomeno, PHENOM_PT, COL_LEFT_W, CW_SANS, PHENOM_LH)
+    _, tf3 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, body_h)
+    _run(tf3, fenomeno, F_SANS, PHENOM_PT, color=C_WHITE, sp_pct=100)
+    y += body_h + GAP_BODY_TO_HASH
+
+    # HASHTAGS label
+    _, tf4 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, HASH_LABEL_H)
+    _run(tf4, "HASHTAGS", F_SANS, 8, bold=True, color=C_GREY)
+    y += HASH_LABEL_H + GAP_LABEL_BODY
+
+    # hashtags — 16pt (REGLA #5), caja dimensionada al texto
+    hash_h = est_text_height(hashtags, HASHTAG_PT, COL_LEFT_W, CW_SERIF, HASHTAG_LH)
+    _, tf5 = _tb(slide, COL_LEFT_X, y, COL_LEFT_W, hash_h)
+    _run(tf5, hashtags, F_SERIF, HASHTAG_PT, color=C_WHITE, sp_pct=100, tracking=0)
+    # (SIN 3 needs — REGLA #4)
+
+def add_col_center(slide, triggers):
+    """3 triggers vertical: cifra 40pt ARRIBA, caja desc ABAJO, fuente debajo del
+    texto real (REGLA #2 + #11). La caja desc se dimensiona al texto (flow) para
+    que la fuente nunca choque con la descripción."""
+    y = CONTENT_Y
+    for trig in triggers:
+        # CIFRA — 40pt
+        _, tf_s = _tb(slide, COL_MID_X, y, STAT_W, STAT_H)
+        _run(tf_s, trig['stat'], F_SERIF, STAT_PT, color=C_WHITE, sp_pct=100, tracking=0)
+        # DESCRIPCIÓN — caja dimensionada al texto
+        y_d = y + STAT_H + STAT_TO_DESC_GAP
+        desc_h = est_text_height(trig['desc'], DESC_PT, DESC_W, CW_SANS, DESC_LH)
+        _, tf_d = _tb(slide, COL_MID_X, y_d, DESC_W, desc_h)
+        _run(tf_d, trig['desc'], F_SANS, DESC_PT, color=C_WHITE, sp_pct=100)
+        # FUENTE — debajo del texto real de la descripción
+        y_src = y_d + desc_h + DESC_TO_SRC_GAP
+        _, tf_src = _tb(slide, COL_MID_X, y_src, DESC_W, SRC_H)
+        _run(tf_src, trig['source'].upper(), F_SANS, SRC_PT, color=C_DARK_GREY, sp_pct=100)
+        y = y_src + SRC_H + TRIGGER_GAP
+
+def _hyperlink_picture(slide, pic, url):
+    rId = slide.part.relate_to(
+        url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',
+        is_external=True)
+    nvPicPr = pic._element.find('.//' + qn('p:nvPicPr'))
+    if nvPicPr is not None:
+        cNvPr = nvPicPr.find(qn('p:cNvPr'))
+        if cNvPr is not None:
+            hl = etree.SubElement(cNvPr, qn('a:hlinkClick'))
+            hl.set('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id', rId)
+
+def _badge_clickme(slide, x, y):
+    """Pill redondeado rojo 'CLICK ME' (REGLA #12 — legible, esquina inf-der)."""
+    sp = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE,
+                                emupt(x), emupt(y), emupt(BADGE_W), emupt(BADGE_H))
+    sp.fill.solid(); sp.fill.fore_color.rgb = C_RED
+    sp.line.fill.background()
+    tf = sp.text_frame
+    tf.word_wrap = False
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+    _run(tf, "CLICK ME ▸", F_SANS, BADGE_PT, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
+
+def add_col_right(slide, signals, screenshots_dir):
+    """3 fotos 88×130pt + badge pill + caption dinámico (REGLA #3, #7, #12)."""
+    y = CONTENT_Y
+    for sig in signals:
+        png_path = Path(screenshots_dir) / sig['png']
+        if png_path.exists():
+            pic = slide.shapes.add_picture(str(png_path), emupt(COL_RIGHT_X), emupt(y),
+                                           emupt(PHOTO_W), emupt(PHOTO_H))
+            if sig.get('url'):
+                _hyperlink_picture(slide, pic, sig['url'])
+        else:
+            # REGLA #7: cero placeholder "manual"; si falta PNG es un fallo de flujo
+            raise FileNotFoundError(
+                f"Falta screenshot: {png_path}\n"
+                f"Devuelve al scrapper (no se permite placeholder manual)."
+            )
+        # Badge CLICK ME — pill redondeado en la esquina INFERIOR derecha de la foto
+        bx = COL_RIGHT_X + PHOTO_W - BADGE_W - 4
+        by = y + PHOTO_H - BADGE_H - 4
+        _badge_clickme(slide, bx, by)
+        # Caption al lado — caja dimensionada al texto (dinámica)
+        cx = COL_RIGHT_X + CAP_OFFSET_X
+        cap_h = est_text_height(sig['caption'], CAP_PT, CAP_W, CW_SANS, CAP_LH)
+        _, tf_c = _tb(slide, cx, y, CAP_W, cap_h)
+        _run(tf_c, sig['caption'], F_SANS, CAP_PT, color=C_WHITE, sp_pct=100)
+        # Fuente — debajo del texto REAL del caption (REGLA #12 — baja, no choca)
+        sy = y + cap_h + CAP_TO_SRC_GAP
+        if sy + SRC_H <= SLIDE_H:
+            _, tf_s = _tb(slide, cx, sy, CAP_W, SRC_H)
+            _run(tf_s, sig['source'].upper(), F_SANS, SRC_PT, color=C_DARK_GREY, sp_pct=100)
+        y += PHOTO_H + PHOTO_GAP
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SLIDES COMPLETOS
+# ══════════════════════════════════════════════════════════════════════════════
+def add_macro_divider(prs, num, name, tagline):
+    slide = prs.slides.add_slide(prs.slide_layouts[6])
+    add_bg(slide)
+    cy = SLIDE_H / 2
+    lbl_h = 20.0; lbl_y = cy - 90.0
+    _, tf_l = _tb(slide, 0, lbl_y, SLIDE_W, lbl_h)
+    _run(tf_l, f"MACRO {num}", F_SANS, DIV_LABEL_PT, bold=True, color=C_GREY, align=PP_ALIGN.CENTER)
+    name_h = 130.0; name_y = lbl_y + lbl_h + 24.0
+    _, tf_n = _tb(slide, 20, name_y, SLIDE_W-40, name_h)
+    _run(tf_n, name.upper(), F_SERIF, DIV_NAME_PT, color=C_WHITE, align=PP_ALIGN.CENTER, sp_pct=95, tracking=0)
+    tag_h = 36.0; tag_y = name_y + name_h
+    _, tf_t = _tb(slide, 20, tag_y, SLIDE_W-40, tag_h)
+    _run(tf_t, f'"{tagline}"', F_SERIF, DIV_TAG_PT, italic=True, color=C_GREY, align=PP_ALIGN.CENTER)
+    return slide
+
+def add_micro(prs, micro, screenshots_dir):
+    slide = prs.slides.add_slide(prs.slide_layouts[6])
+    add_bg(slide)
+    add_col_labels(slide)
+    add_seps(slide)
+    add_col_left(slide, micro['macro_n'], micro['macro_name'],
+                 micro['headline'], micro['fenomeno'], micro['hashtags'])
+    add_col_center(slide, micro['triggers'])
+    add_col_right(slide, micro['signals'], screenshots_dir)
+    return slide
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# VALIDADOR DE OVERFLOW — REGLA #8 (OBLIGATORIO)
+# ══════════════════════════════════════════════════════════════════════════════
+def audit_overflow(prs):
+    issues = []
+    for idx, slide in enumerate(prs.slides, 1):
+        content_boxes = []   # text boxes de col-left + col-center (x < COL_RIGHT_X)
+        for sh in slide.shapes:
+            if sh.left is None or sh.top is None:
+                continue
+            x = Emu(sh.left).pt; y = Emu(sh.top).pt
+            w = Emu(sh.width).pt  if sh.width  else 0
+            h = Emu(sh.height).pt if sh.height else 0
+            if y + h > SLIDE_H + SAFE_MARGIN:
+                issues.append(f"  OVERFLOW BOTTOM slide {idx}: y={y:.1f} h={h:.1f} bottom={y+h:.1f} > {SLIDE_H}")
+            if x + w > SLIDE_W + SAFE_MARGIN:
+                issues.append(f"  OVERFLOW RIGHT slide {idx}: x={x:.1f} w={w:.1f} right={x+w:.1f} > {SLIDE_W}")
+            # recolectar text boxes de col-left + col-center por debajo de la línea
+            # (REGLAS #9, #11 — flow sin solape). Col-right (fotos+badges) se excluye.
+            if (sh.has_text_frame and COL_LEFT_X - 5 <= x < (COL_RIGHT_X - 10)
+                    and w < 320 and 5 < h < 300 and y >= CONTENT_Y - 5):
+                txt = " ".join(p.text for p in sh.text_frame.paragraphs if p.text)[:30]
+                if txt:
+                    content_boxes.append((y, h, x, w, txt))
+        # chequear solape 2D (x Y y) — dos cajas lado a lado NO es choque;
+        # solo cuenta si se solapan en AMBOS ejes (col-left y col-center separadas en x)
+        for a in range(len(content_boxes)):
+            for b in range(a + 1, len(content_boxes)):
+                y1, h1, x1, w1, t1 = content_boxes[a]
+                y2, h2, x2, w2, t2 = content_boxes[b]
+                x_ov = x1 < x2 + w2 and x2 < x1 + w1
+                y_ov = y1 < y2 + h2 - SAFE_MARGIN and y2 < y1 + h1 - SAFE_MARGIN
+                if x_ov and y_ov:
+                    col = "col-center" if x1 >= COL_MID_X - 10 else "col-left"
+                    issues.append(
+                        f"  COLISIÓN {col} slide {idx}: '{t1}' "
+                        f"(y={y1:.0f},h={h1:.0f}) se monta sobre '{t2}' (y={y2:.0f})")
+    return issues
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# API PRINCIPAL — lo único que llama cada build_trends_{capitulo}.py
+# ══════════════════════════════════════════════════════════════════════════════
+def build_deck(dividers, micros, screenshots_dir, output_path):
+    """
+    Construye el deck completo de 18 slides (3 dividers + 15 micros) aplicando
+    el layout central. Corre el validador de overflow ANTES de guardar.
+
+    dividers        : lista de 3 tuplas (num, NAME, tagline)
+    micros          : lista de 15 dicts {macro_n, macro_name, headline, fenomeno,
+                      hashtags, triggers[3], signals[3]}
+    screenshots_dir : carpeta con los PNGs de las señales
+    output_path     : ruta del .pptx de salida
+    """
+    assert len(dividers) == 3, f"Se esperan 3 dividers, llegaron {len(dividers)}"
+    assert len(micros) == 15, f"Se esperan 15 micros, llegaron {len(micros)}"
+
+    prs = Presentation()
+    prs.slide_width  = Inches(13.333)
+    prs.slide_height = Inches(7.5)
+
+    # Orden: divider M1, 5 micros, divider M2, 5 micros, divider M3, 5 micros
+    for macro_idx in range(3):
+        d_num, d_name, d_tag = dividers[macro_idx]
+        add_macro_divider(prs, d_num, d_name, d_tag)
+        for micro in micros[macro_idx*5 : macro_idx*5 + 5]:
+            add_micro(prs, micro, screenshots_dir)
+
+    # REGLA #8 — validar overflow antes de guardar
+    issues = audit_overflow(prs)
+    if issues:
+        print("FAIL — overflow detectado:")
+        for it in issues:
+            print(it)
+        raise SystemExit("BUILD FALLIDO. Ajusta dims en el motor antes de entregar.")
+    print(f"OK — {len(prs.slides)} slides sin overflow.")
+
+    out = Path(output_path)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    prs.save(str(out))
+    print(f"Guardado: {out}")
+    return out
