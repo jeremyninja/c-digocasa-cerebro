@@ -18,12 +18,12 @@ El guion viejo decía: secundaria, título, empleo, estabilidad. En ese orden, s
 *"Un mundo en crisis está reescribiendo qué significa ser adulto y formar familia."*
 
 ### El comportamiento (en Educación)
-El camino lineal a la adultez productiva se rompió. En 2025, 53% de los empleadores eliminó el requisito de título — 30 puntos más que el año anterior. Y 71% rankea la inteligencia emocional por encima de la habilidad técnica. La adultez dejó de certificarse con un diploma y empezó a armarse con un stack de microcredenciales que no termina nunca. La universidad pasó de meta obligada a opción entre varias. Aprender dejó de ser una etapa de la vida para volverse un estado permanente.
+El camino lineal a la adultez productiva se rompió. En 2025, 53% de los empleadores eliminó el requisito de título — subió desde 30% el año anterior. Y 71% rankea la inteligencia emocional por encima de la habilidad técnica. La adultez dejó de certificarse con un diploma y empezó a armarse con un stack de microcredenciales que no termina nunca. La universidad pasó de meta obligada a opción entre varias. Aprender dejó de ser una etapa de la vida para volverse un estado permanente.
 
 ### Triggers
-- `[GLOBAL] [ESTUDIO]` 53% de empleadores eliminó el requisito de título en 2025, +30% vs 2024. — *TestGorilla / Accelerec · 2025*
+- `[GLOBAL] [ESTUDIO]` 53% de empleadores eliminó el requisito de título en 2025, subió desde 30% el año anterior. — *TestGorilla / Accelerec · 2025*
 - `[GLOBAL] [NOTICIA]` "Getting hired in 2026 is all about your microcredentials" — el CEO de Coursera se lo dice a Gen Z. — *Fortune · Dic 2025*
-- `[GLOBAL] [INDUSTRIA]` 71% de empleadores rankea la inteligencia emocional sobre la habilidad técnica. — *SHRM / WEF Future of Jobs · 2025*
+- `[GLOBAL] [INDUSTRIA]` 71% de empleadores rankea la inteligencia emocional sobre la habilidad técnica. — *SHRM · 2025*
 
 ### The contrast
 El espejo Código Casa muestra un país calibrando la versión vieja del juego. 34.4% considera la universidad "muy accesible" y el debate gira sobre la calidad de la educación formal pública [P44: 30.2% la califica 3/5, 26% "muy mala"]. Mientras RD discute si la universidad es buena, el mundo discute si todavía hace falta. Y hay un puente incómodo: 64.8% del país cree que el dominicano es poco o medianamente competitivo [P47]. Esa desconfianza en el sistema formal es justo lo que, afuera, empuja a la gente hacia los paths alternativos.
@@ -47,10 +47,10 @@ En 3-5 años el currículum dominicano va a competir con stacks de microcredenci
 ## 1.1 — El diploma dejó de ser el ticket: 53% de empleadores ya contrata por skills demostrados, y la generación que entra al mercado lo sabe antes de matricularse.
 
 ### El fenómeno
-Por décadas el título universitario fue la prueba de que servías para el trabajo. Eso se aflojó. En 2025, 53% de empleadores dejó de pedir título y empezó a contratar por habilidad demostrada. Pero ojo — el discurso va más rápido que la práctica: 85% dice contratar por skills, y en los números reales apenas 1 de cada 700 contrataciones ocurre sin título. La paradoja es el trend: el ticket viejo perdió su monopolio simbólico aunque todavía pese en la mesa de decisión.
+Por décadas el título universitario fue la prueba de que servías para el trabajo. Eso se aflojó. En 2025, 53% de empleadores dejó de pedir título y empezó a contratar por habilidad demostrada — subió desde 30% el año anterior. Pero ojo — el discurso va más rápido que la práctica: 85% dice contratar por skills, y en los números reales apenas 1 de cada 700 contrataciones ocurre sin título. La paradoja es el trend: el ticket viejo perdió su monopolio simbólico aunque todavía pese en la mesa de decisión.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` 53% de empleadores eliminó el requisito de título en 2025. — *TestGorilla · 2025*
+- `[GLOBAL] [ESTUDIO]` 53% de empleadores eliminó el requisito de título en 2025 (subió desde 30% el año anterior). — *TestGorilla · 2025*
 - `[GLOBAL] [TIKTOK]` #skillsoverdegrees y testimonios de college dropout acumulan decenas de millones de views. — *TikTok Discover · 2025*
 - `[GLOBAL] [NOTICIA]` La paradoja: 85% dice contratar por skills, solo 1 de cada 700 contrataciones reales es sin título. — *Harvard / Burning Glass · The Interview Guys · 2025*
 
@@ -75,10 +75,10 @@ Aquí el espejo pega duro. 64.8% del país cree que el dominicano es poco o medi
 ## 1.2 — Ya nadie "terminó de estudiar": el adulto LATAM se re-skillea cada 2-3 años porque 39% de las habilidades laborales cambia para 2030.
 
 ### El fenómeno
-Antes te graduabas y cerrabas el capítulo de estudiar. Ese capítulo no cierra ya. 70% de profesionales dice que el upskilling es clave para su seguridad laboral, y 72% de los managers ya está en eso. No buscan otro título — buscan cursos cortos, certificados, skills sueltos que apilan mientras trabajan. El driver es claro: 39% de las habilidades del trabajo van a cambiar para 2030 [WEF lo llama el "Great Skills Reset"]. Quedarte quieto es quedarte atrás.
+Antes te graduabas y cerrabas el capítulo de estudiar. Ese capítulo no cierra ya. 70% de profesionales dice que el upskilling es clave para su seguridad laboral, y 72% de los managers ya está haciendo upskilling. No buscan otro título — buscan cursos cortos, certificados, skills sueltos que apilan mientras trabajan. El driver es claro: 39% de las habilidades del trabajo van a cambiar para 2030 [WEF lo llama el "Great Skills Reset"]. Quedarte quieto es quedarte atrás.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` 70% dice que el upskilling es clave para su seguridad laboral; 72% de managers ya se re-skillea. — *edX Spring · 2025*
+- `[GLOBAL] [ESTUDIO]` 70% dice que el upskilling es clave para su seguridad laboral; 72% de managers ya hace upskilling. — *edX Spring · 2025*
 - `[LATAM] [INDUSTRIA]` Las inscripciones de aprendices LATAM en ciberseguridad crecieron 129% interanual en Coursera. — *Coursera Global Skills Report · 2025*
 - `[GLOBAL] [NOTICIA]` 39% de las habilidades laborales cambiarán para 2030 — el "Great Skills Reset". — *WEF Future of Jobs · 2025*
 
@@ -136,7 +136,7 @@ Terminabas el bachillerato y entrabas a la universidad. Punto. Eso ya no es el d
 ### Data y señales
 - `[GLOBAL] [ESTUDIO]` Solo 18% de Gen Z global ve subir la escalera corporativa como inteligente. — *Fiverr · Oct 2025* `[VERIFICAR ACTUALIZACIÓN]`
 - `[GLOBAL] [TIKTOK]` #gapyear y los formatos "alternatives to college" crecen como género propio de contenido. — *TikTok Discover · 2025*
-- `[GLOBAL] [NOTICIA]` Big Tech (Google, IBM, Tesla) eliminó el título para muchos roles, validando los paths no-universitarios. — *OneCodeSoft · 2025*
+- `[GLOBAL] [NOTICIA]` Big Tech (Google, IBM, Tesla) eliminó el título para muchos roles, validando los paths no-universitarios. — *Computerworld / CNBC · 2025*
 
 **Hashtags:** `#gapyear · #alternativestocollege · #teenentrepreneur · #nocollege · #emprendimientojoven`
 
@@ -146,10 +146,10 @@ Código Casa muestra un país donde 34.4% ve la universidad "muy accesible" y el
 ### Pruebas
 - **TikTok:** [link](https://www.tiktok.com/tag/gapyear) → grid #gapyear, jóvenes mostrando el path alternativo
   - `screenshots/trends-educacion/macro-1-4-tiktok-gapyear.png`
-- **Trend:** [link](https://onecodesoft.com/blogs/degree-vs-skills-big-techs-2025-micro-credential-pivot) → Big Tech quita el título, "Degree vs Skills"
-  - `screenshots/trends-educacion/macro-1-4-onecodesoft-bigtech-skills.png`
-- **Innovación:** [link](https://onecodesoft.com/blogs/degree-vs-skills-big-techs-2025-micro-credential-pivot) → el micro-credential pivot corporativo
-  - `screenshots/trends-educacion/macro-1-4-onecodesoft-bigtech-skills.png`
+- **Trend:** [link](https://www.computerworld.com/article/1614212/it-jobs-where-a-degree-is-no-longer-required.html) → Big Tech quita el título para roles tech
+  - `screenshots/trends-educacion/macro-1-4-computerworld-bigtech-skills.png`
+- **Innovación:** [link](https://www.cnbc.com/2024/04/09/google-apple-and-other-companies-that-no-longer-require-a-college-degree.html) → CNBC, las empresas que ya no piden título
+  - `screenshots/trends-educacion/macro-1-4-cnbc-bigtech-skills.png`
 
 ### 3 Needs
 `AUTONOMÍA` · `EMPLEABILIDAD` · `MIEDO`
@@ -159,12 +159,12 @@ Código Casa muestra un país donde 34.4% ve la universidad "muy accesible" y el
 ## 1.5 — La familia compensa lo que la escuela dejó de garantizar: 70% de niños en países de ingreso medio-bajo no lee bien a los 10, y el mercado de tutoría AI ya vale US$3.55B.
 
 ### El fenómeno
-La pandemia dejó un hueco que el sistema formal no recuperó. La pobreza de aprendizaje subió a cerca de 70% en países de ingreso medio-bajo, y LATAM perdió en promedio 225 días de clase presencial. NAEP reportó las mayores caídas en lectura y matemática en 35 años. ¿La respuesta de la familia? Pagar el refuerzo por fuera. El mercado de tutoría AI llegó a US$3.55B en 2025. La casa empezó a suplir lo que el aula dejó de asegurar.
+La pandemia dejó un hueco que el sistema formal no recuperó. La pobreza de aprendizaje subió a cerca de 70% en países de ingreso medio-bajo, y LATAM perdió en promedio 225 días de clase presencial. NAEP reportó mínimos históricos en lectura y matemática (la serie corre desde 1992). ¿La respuesta de la familia? Pagar el refuerzo por fuera. El mercado de tutoría AI llegó a US$3.55B en 2025. La casa empezó a suplir lo que el aula dejó de asegurar.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` La pobreza de aprendizaje subió a ~70% post-pandemia; LATAM perdió en promedio 225 días de clase presencial. — *Banco Mundial / UNESCO · 2024*
-- `[GLOBAL] [NOTICIA]` NAEP reportó las mayores caídas en lectura y matemática en 35 años de evaluación. — *NAEP / UNA-USA · 2024*
-- `[GLOBAL] [INDUSTRIA]` El mercado de tutoría AI llegó a US$3.55B en 2025. — *Future Market Insights · 2025*
+- `[GLOBAL] [ESTUDIO]` La pobreza de aprendizaje subió a ~70% post-pandemia; LATAM perdió en promedio 225 días de clase presencial. — *Banco Mundial / UNESCO · 2022*
+- `[GLOBAL] [NOTICIA]` NAEP reportó mínimos históricos en lectura y matemática (serie de evaluación desde 1992). — *NAEP / UNA-USA · 2024*
+- `[GLOBAL] [INDUSTRIA]` El mercado de tutoría AI llegó a US$3.55B en 2025. — *Mordor Intelligence · 2025*
 
 **Hashtags:** `#learningloss · #tutoring · #refuerzoescolar · #educationcrisis · #apoyoescolar`
 
@@ -174,7 +174,7 @@ RD califica la educación pública con dureza — 26% la llama "muy mala" [P46].
 ### Pruebas
 - **TikTok:** [link](https://www.worldbank.org/en/topic/education/publication/state-of-global-learning-poverty) → mapa de learning poverty global
   - `screenshots/trends-educacion/macro-1-5-worldbank-learning-poverty.png`
-- **Trend:** [link](https://unausa.org/gga-blog-post-1/) → NAEP, mayores caídas en 35 años
+- **Trend:** [link](https://unausa.org/gga-blog-post-1/) → NAEP, mínimos históricos en lectura y matemática
   - `screenshots/trends-educacion/macro-1-5-unausa-naep-scores.png`
 - **Innovación:** [link](https://www.worldbank.org/en/topic/education/publication/state-of-global-learning-poverty) → World Bank, la pobreza de aprendizaje como dato global
   - `screenshots/trends-educacion/macro-1-5-worldbank-learning-poverty.png`
@@ -189,15 +189,15 @@ RD califica la educación pública con dureza — 26% la llama "muy mala" [P46].
 *"El dominicano ya entró al mundo prompteado. Solo no lo nombra así."*
 
 ### El comportamiento (en Educación)
-La tecnología se sentó como el tercer maestro del hogar, entre el profesor y el padre. Y no es solo ChatGPT haciendo tareas. Es el tutor AI personalizado [Khanmigo], la app gamificada que crea hábito [Duolingo], las credenciales digitales verificables, y la automatización del trabajo docente. 84% de los estudiantes de secundaria usa IA generativa para tareas. El uso de IA en educación superior saltó de 66% en 2024 a 92% en 2025. El aula se volvió infraestructura digital donde el software no asiste el aprendizaje — lo dirige.
+La tecnología se sentó como el tercer maestro del hogar, entre el profesor y el padre. Y no es solo ChatGPT haciendo tareas. Es el tutor AI personalizado [Khanmigo], la app gamificada que crea hábito [Duolingo], las credenciales digitales verificables, y la automatización del trabajo docente. 84% de los estudiantes de secundaria usa IA generativa para tareas. El uso de IA entre estudiantes universitarios en el Reino Unido saltó de 66% en 2024 a 92% en 2025. El aula se volvió infraestructura digital donde el software no asiste el aprendizaje — lo dirige. Y un detalle del lado dominicano: la facultad va detrás — más del 90% de los docentes RD todavía no usa IA en su labor.
 
 ### Triggers
-- `[GLOBAL] [ESTUDIO]` 84% de estudiantes de secundaria usa IA generativa para tareas (mayo 2025, sube de 79% en enero). — *Nerdynav · 2025*
-- `[GLOBAL] [INDUSTRIA]` Mercado de IA en educación: US$5.88B (2024) → proyección US$32.27B (2030). — *Demandsage · 2026*
-- `[LOCAL · DOMINICAN PROOF] [NOTICIA]` 98% de los docentes universitarios RD conoce conceptos de IA y el país lidera el uso de ChatGPT entre la facultad encuestada. — *HMTV / INTEC-PUCMM · 2025*
+- `[GLOBAL] [ESTUDIO]` 84% de estudiantes de secundaria usa IA generativa para tareas. — *College Board · 2025*
+- `[GLOBAL] [INDUSTRIA]` Mercado de IA en educación: US$5.88B (2024) → proyección US$32.27B (2030). — *Grand View Research · 2025*
+- `[LOCAL] [NOTICIA]` Más del 90% de los docentes dominicanos aún no usa IA en su labor educativa. — *EDUCA · El Nacional · 2025*
 
 ### The contrast
-Código Casa muestra que el dominicano todavía pone "uso de tecnología" como una de las seis cosas a mejorar en educación [P46] — la evalúa como carencia del sistema formal. El detalle: mientras el ciudadano pide más tecnología en el aula pública, la tecnología ya entró a la casa por la puerta de atrás, vía el celular del estudiante. El sistema formal va detrás del estudiante prompteado.
+Código Casa muestra que el dominicano todavía pone "uso de tecnología" como una de las seis cosas a mejorar en educación [P46] — la evalúa como carencia del sistema formal. El detalle: mientras el ciudadano pide más tecnología en el aula pública, la tecnología ya entró a la casa por la puerta de atrás, vía el celular del estudiante. El sistema formal va detrás del estudiante prompteado — y la facultad va aún más atrás, con más del 90% de los docentes RD sin usar IA todavía.
 
 ### The transformation
 En 3-5 años cada estudiante dominicano va a tener un tutor AI 24/7 en el bolsillo, y la pregunta no va a ser si usa IA — va a ser si la escuela sabe enseñar con ella.
@@ -208,21 +208,21 @@ En 3-5 años cada estudiante dominicano va a tener un tutor AI 24/7 en el bolsil
 ### Pruebas
 - **Prueba TikTok:** [link](https://www.tiktok.com/tag/studytok) → grid de StudyTok con IA
   - `screenshots/trends-educacion/macro-3-0-tiktok-studytok-tag.png`
-- **Trend:** [link](https://www.demandsage.com/ai-in-education-statistics/) → mercado IA educación US$5.88B → US$32.27B, 92% en superior
-  - `screenshots/trends-educacion/macro-2-0-demandsage-ai-education-stats.png`
+- **Trend:** [link](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-education-market-report) → mercado IA educación US$5.88B → US$32.27B
+  - `screenshots/trends-educacion/macro-2-0-grandview-ai-education-stats.png`
 - **Innovación:** [link](https://khanmigo.ai/) → Khanmigo, el tutor AI siempre disponible
   - `screenshots/trends-educacion/macro-2-1-khanmigo-hero-landing.png`
 
 ---
 
-## 2.1 — El tutor 1-a-1 dejó de ser privilegio de élite: Khanmigo pasó de 68k a 1.4M usuarios y la familia accede a tutoría con IA por una fracción del costo del profesor particular.
+## 2.1 — El tutor 1-a-1 dejó de ser privilegio de élite: Khanmigo pasó de 68k a 700k usuarios y la familia accede a tutoría con IA por una fracción del costo del profesor particular.
 
 ### El fenómeno
-La tutoría privada siempre fue cosa de quien podía pagarla. Eso se está moviendo. Khanmigo pasó de 68k usuarios en 2023-24 a 1.4M a mediados de 2025 — y de 40k a 700k estudiantes K-12 en un ciclo. El mercado de tutores AI va de US$3.55B (2025) a US$6.45B (2030). El comportamiento observable: el estudiante resuelve dudas a cualquier hora, con un tutor que no se cansa ni cobra por sesión. El acceso a la tutoría 1-a-1 se está abaratando rápido.
+La tutoría privada siempre fue cosa de quien podía pagarla. Eso se está moviendo. Khanmigo pasó de 68k a 700k estudiantes en un ciclo, y Sal Khan citó 1.4M acumulado a mediados de 2025. El mercado de tutores AI va de US$3.55B (2025) a US$6.45B (2030). El comportamiento observable: el estudiante resuelve dudas a cualquier hora, con un tutor que no se cansa ni cobra por sesión. El acceso a la tutoría 1-a-1 se está abaratando rápido.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` Khanmigo creció de 68k usuarios (2023-24) a 1.4M (mediados 2025); 40k → 700k estudiantes K-12 en un ciclo. — *Khan Academy / GlobalSociety · 2025*
-- `[GLOBAL] [INDUSTRIA]` Mercado de tutores AI: US$3.55B (2025) → US$6.45B (2030). — *Future Market Insights · 2025*
+- `[GLOBAL] [ESTUDIO]` Khanmigo creció de 68k a 700k estudiantes en un ciclo; Sal Khan citó 1.4M acumulado a mediados de 2025. — *Khan Academy / GlobalSociety · 2025*
+- `[GLOBAL] [INDUSTRIA]` Mercado de tutores AI: US$3.55B (2025) → US$6.45B (2030). — *Mordor Intelligence · 2025*
 - `[GLOBAL] [TIKTOK]` Demos de "AI tutor" y "how I use AI to study" virales en StudyTok. — *TikTok Discover · 2025*
 
 **Hashtags:** `#aitutor · #khanmigo · #studywithai · #tutoriaIA · #aprenderconIA`
@@ -246,10 +246,10 @@ RD califica la educación pública con dureza [P46] y al mismo tiempo desconfía
 ## 2.2 — Aprender se gamificó y compite con TikTok usando las mismas mecánicas: Duolingo sostiene 50.5M usuarios diarios con rachas, ligas y la culpa del búho.
 
 ### El fenómeno
-El estudio nunca tuvo dopamina. Duolingo se la puso. Superó 50.5M usuarios diarios en Q3 2025 [+36% interanual], y el churn bajó de 47% a 28% gracias a la gamificación. Rachas, ligas, notificaciones — las mismas mecánicas de enganche que usa TikTok, aplicadas a aprender un idioma. El revenue del trimestre fue US$271.7M, +41%, con 11.5M suscriptores pagos. La gente mantiene rachas de cientos de días no por disciplina — por el miedo a romper la racha. El búho Duo ya es un meme propio.
+El estudio nunca tuvo dopamina. Duolingo se la puso. Superó 50.5M usuarios diarios en Q3 2025 [+36% interanual]. Rachas, ligas, notificaciones — las mismas mecánicas de enganche que usa TikTok, aplicadas a aprender un idioma. El revenue del trimestre fue US$271.7M, +41%, con 11.5M suscriptores pagos. La gente mantiene rachas de cientos de días no por disciplina — por el miedo a romper la racha. El búho Duo ya es un meme propio.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` Duolingo superó 50.5M usuarios diarios en Q3 2025 (+36%); el churn bajó de 47% a 28% por gamificación. — *Duolingo 8-K SEC / StriveCloud · 2025*
+- `[GLOBAL] [ESTUDIO]` Duolingo superó 50.5M usuarios diarios en Q3 2025 (+36% interanual). — *Duolingo 8-K SEC · 2025*
 - `[GLOBAL] [INDUSTRIA]` Revenue Q3 2025 de US$271.7M (+41%); 11.5M suscriptores pagos. — *Duolingo SEC Filing FY2025*
 - `[GLOBAL] [TIKTOK]` El búho Duo y la "Duolingo guilt" son un género viral con cientos de millones de views. — *TikTok · 2025*
 
@@ -261,7 +261,7 @@ En el espejo, el país discute infraestructura y calidad docente [P46]. Mientras
 ### Pruebas
 - **TikTok:** [link](https://www.duolingo.com/) → el búho Duo, aprender 5 minutos al día
   - `screenshots/trends-educacion/macro-2-2-duolingo-landing.png`
-- **Trend:** [link](https://www.strivecloud.io/blog/gamification-examples-boost-user-retention-duolingo) → mecánica de rachas, retención +36%
+- **Trend:** [link](https://www.strivecloud.io/blog/gamification-examples-boost-user-retention-duolingo) → mecánica de rachas y retención
   - `screenshots/trends-educacion/macro-2-2-duolingo-streaks-gamification.png`
 - **Innovación:** [link](https://www.strivecloud.io/blog/gamification-examples-boost-user-retention-duolingo) → análisis de la gamificación de Duolingo
   - `screenshots/trends-educacion/macro-2-2-strivecloud-duolingo-hero.png`
@@ -271,15 +271,15 @@ En el espejo, el país discute infraestructura y calidad docente [P46]. Mientras
 
 ---
 
-## 2.3 — La IA generativa automatizó la tarea escolar: 84% de secundaria la usa, 53% para ensayos, y la pregunta dejó de ser si copian — es si el aprendizaje sobrevive.
+## 2.3 — La IA generativa automatizó la tarea escolar: 84% de secundaria la usa y entre universitarios 89% la usa para tareas; la pregunta dejó de ser si copian — es si el aprendizaje sobrevive.
 
 ### El fenómeno
-La tarea escolar se automatizó. 84% de los estudiantes de secundaria usa IA generativa para schoolwork, 89% para tareas, 53% para ensayos. El uso en educación superior global saltó de 66% (2024) a 92% (2025). Y el sistema no sabe qué hacer: 44% de los docentes detecta tarea sospechosa de IA cada semana, pero menos del 15% actúa por falta de prueba. El comportamiento visible: el estudiante genera el ensayo con ChatGPT y luego lo "humaniza" para esquivar los detectores. La pregunta ya no es si copian — es qué queda del aprendizaje cuando el output se resuelve en minutos.
+La tarea escolar se automatizó. 84% de los estudiantes de secundaria usa IA generativa para schoolwork. Entre los universitarios que ya usan IA, 89% la usa para tareas y 53% para ensayos. El uso de IA entre estudiantes universitarios en el Reino Unido saltó de 66% (2024) a 92% (2025). El comportamiento visible: el estudiante genera el ensayo con ChatGPT y luego lo "humaniza" para esquivar los detectores. La pregunta ya no es si copian — es qué queda del aprendizaje cuando el output se resuelve en minutos.
 
 ### Data y señales
-- `[GLOBAL] [ESTUDIO]` 84% de estudiantes de secundaria usa IA generativa para schoolwork; 89% para tareas. — *Nerdynav · 2025*
-- `[GLOBAL] [NOTICIA]` 44% de docentes detecta tarea sospechosa de IA semanalmente, pero <15% actúa por falta de prueba. — *EdWeek · 2025*
-- `[GLOBAL] [INDUSTRIA]` El uso de IA en educación superior global saltó de 66% (2024) a 92% (2025). — *Demandsage · 2026*
+- `[GLOBAL] [ESTUDIO]` 84% de estudiantes de secundaria usa IA generativa para schoolwork. — *College Board · 2025*
+- `[GLOBAL] [ESTUDIO]` Entre universitarios que usan IA: 89% la usa para tareas, 53% para ensayos. — *Nerdynav · 2025*
+- `[GLOBAL] [ESTUDIO]` El uso de IA entre universitarios UK saltó de 66% (2024) a 92% (2025). — *HEPI · 2025*
 
 **Hashtags:** `#chatgptforschool · #aihomework · #studyhack · #aidetector · #tareaconIA`
 
@@ -289,8 +289,8 @@ RD pide más tecnología en el aula formal [P46]. Pero la tecnología que más u
 ### Pruebas
 - **TikTok:** [link](https://nerdynav.com/chatgpt-cheating-statistics/) → "humanize AI text", el tutorial para esquivar detectores
   - `screenshots/trends-educacion/macro-2-3-nerdynav-chatgpt-cheating-infographic.png`
-- **Trend:** [link](https://www.edweek.org/technology/new-data-reveal-how-many-students-are-using-ai-to-cheat/2024/04) → EdWeek, 44% detecta pero <15% actúa
-  - `screenshots/trends-educacion/macro-2-3-edweek-ai-cheating.png`
+- **Trend:** [link](https://www.hepi.ac.uk/2025/02/26/student-generative-ai-survey-2025/) → HEPI, uso de IA entre universitarios UK sube a 92%
+  - `screenshots/trends-educacion/macro-2-3-hepi-ai-students.png`
 - **Innovación:** [link](https://nerdynav.com/chatgpt-cheating-statistics/) → chart de uso de IA por tipo de tarea
   - `screenshots/trends-educacion/macro-2-3-nerdynav-student-usage-chart.png`
 
@@ -302,11 +302,11 @@ RD pide más tecnología en el aula formal [P46]. Pero la tecnología que más u
 ## 2.4 — El diploma de papel se mudó a la nube: 90% de empleadores prefiere candidato con microcredencial, y los badges verificables se volvieron moneda de empleabilidad.
 
 ### El fenómeno
-El título tardaba 4 años y vivía en una pared. La microcredencial tarda semanas y vive en LinkedIn. Más del 90% de empleadores prefiere a un candidato con microcredencial en el CV. Coursera lleva 15.4M+ inscripciones en certificados profesionales entry-level. El comportamiento observable: el profesional exhibe el badge de Google o Coursera en su perfil como prueba portátil y verificable de que sabe hacer algo — sin esperar a graduarse de nada.
+El título tardaba 4 años y vivía en una pared. La microcredencial tarda semanas y vive en LinkedIn. Más del 90% de empleadores prefiere a un candidato con microcredencial en el CV. Coursera lleva millones de inscripciones en certificados profesionales entry-level. El comportamiento observable: el profesional exhibe el badge de Google o Coursera en su perfil como prueba portátil y verificable de que sabe hacer algo — sin esperar a graduarse de nada.
 
 ### Data y señales
 - `[GLOBAL] [ESTUDIO]` Más del 90% de empleadores prefiere candidato con microcredencial en el CV. — *Coursera / Fortune · 2025*
-- `[GLOBAL] [INDUSTRIA]` 15.4M+ inscripciones en certificados profesionales entry-level de Coursera. — *Coursera Global Skills Report · 2025*
+- `[GLOBAL] [INDUSTRIA]` Millones de inscripciones en certificados profesionales entry-level de Coursera. — *Coursera Global Skills Report · 2025*
 - `[GLOBAL] [NOTICIA]` "How Digital Credentials Can Elevate Existing Programs" — adopción de credenciales verificables digitalmente. — *EdSurge · 2024*
 
 **Hashtags:** `#microcredentials · #digitalbadges · #googlecertificate · #coursera · #credencialesdigitales`
@@ -327,31 +327,31 @@ RD pone el acceso universitario como tema de orgullo [P45] — entrar a la unive
 
 ---
 
-## 2.5 — No solo el estudiante usa IA, el docente también: en RD 98% de la facultad universitaria conoce IA y el país lidera el uso de ChatGPT entre profesores encuestados.
+## 2.5 — Afuera el docente ya delega lo administrativo a la IA; en RD la facultad apenas la toca: más del 90% de los profesores dominicanos todavía no usa IA en su labor.
 
 ### El fenómeno
-La IA en el aula no es solo el alumno copiando. El docente sobrecargado delega lo administrativo — planes de clase, rúbricas, exámenes, retroalimentación — para enfocarse en enseñar. Y aquí RD aparece con fuerza: 98% de los docentes universitarios dominicanos conoce conceptos de IA, y el país lidera el uso de ChatGPT entre la facultad encuestada [INTEC-PUCMM-UASD]. Khanmigo, del lado de las herramientas docentes, se expandió de 45 a más de 380 distritos. El profesor también está prompteado.
+La IA en el aula no es solo el alumno copiando. Afuera el docente sobrecargado ya delega lo administrativo — planes de clase, rúbricas, exámenes, retroalimentación — para enfocarse en enseñar. Khanmigo, del lado de las herramientas docentes, se expandió de 45 a más de 380 distritos. Pero del lado dominicano la foto es otra: más del 90% de los docentes RD todavía no usa IA en su labor educativa. Mientras el docente global se promptea, la facultad dominicana apenas la está tocando. La brecha del capítulo no es de estudiantes — es de adopción docente.
 
 ### Data y señales
-- `[LOCAL · DOMINICAN PROOF] [NOTICIA]` 98% de docentes universitarios RD conoce conceptos de IA; RD lidera el uso de ChatGPT entre la facultad encuestada. — *HMTV / INTEC-PUCMM-UASD · 2025*
+- `[LOCAL] [ESTUDIO]` Más del 90% de los docentes dominicanos aún no usa IA en su labor educativa. — *EDUCA · El Nacional · 2025*
 - `[GLOBAL] [ESTUDIO]` Khanmigo se expandió de 45 a más de 380 distritos escolares con herramientas docentes AI. — *Khan Academy · 2025*
-- `[LOCAL · DOMINICAN PROOF] [ESTUDIO]` "Educación Superior en la Era de la IA: Entre la Innovación y la Ética" — paper dominicano sobre adopción docente. — *SciELO Dominican Republic · 2025*
+- `[LOCAL] [ESTUDIO]` "Educación Superior en la Era de la IA: Entre la Innovación y la Ética" — paper dominicano sobre adopción docente. — *SciELO Dominican Republic · 2025*
 
 **Hashtags:** `#teacherai · #aiforteachers · #docenteIA · #smartclassroom · #edtechRD`
 
 ### The contrast
-Este es el único punto donde el espejo y el otro lado casi se tocan. RD evalúa la tecnología como carencia del sistema [P46], pero la data dominicana muestra a la facultad ya usando IA más que en otros lados. La queja institucional y la práctica real del profesor van por carriles distintos. [Doble prueba RD: dato INTEC-PUCMM + paper SciELO DO.]
+Aquí el espejo y el dato dominicano apuntan en la misma dirección. RD evalúa la tecnología como carencia del sistema [P46], y la data RD lo confirma del lado del docente: más del 90% de la facultad todavía no usa IA. La queja institucional y la práctica del profesor van por el mismo carril — el del rezago. [Doble prueba RD: dato EDUCA + paper SciELO DO.]
 
 ### Pruebas
-- **TikTok:** [link](https://khanmigo.ai/) → "teacher hacks con ChatGPT", herramientas docentes AI
-  - `screenshots/trends-educacion/macro-2-5-hmtv-ai-profesor-rd-chrome.png`
-- **Trend:** [link](https://www.hmtv.com.do/index.php/noticias/noticias/42251-la-inteligencia-artificial-redefine-el-rol-del-profesor-universitario-en-republica-dominicana) → HMTV, la IA redefine al profesor universitario RD
-  - `screenshots/trends-educacion/macro-2-5-hmtv-ai-profesor-rd-chrome.png`
+- **TikTok:** [link](https://www.tiktok.com/tag/aiforteachers) → "teacher hacks con ChatGPT", herramientas docentes AI
+  - `screenshots/trends-educacion/macro-2-5-tiktok-aiforteachers.png`
+- **Trend:** [link](https://elnacional.com.do/mas-del-90-de-docentes-dominicanos-no-usa-ia/) → EDUCA, más del 90% de docentes RD no usa IA
+  - `screenshots/trends-educacion/macro-2-5-educa-docentes-ia-rd.png`
 - **Innovación:** [link](https://scielo.do/scielo.php?script=sci_arttext&pid=S2636-21632025003900007&lang=pt) → paper SciELO DO sobre adopción docente
   - `screenshots/trends-educacion/macro-2-5-scielo-ai-educacion-rd.png`
 
 ### 3 Needs
-`CAPACIDAD` · `VIGENCIA` · `INVISIBILIDAD`
+`REZAGO` · `CAPACIDAD` · `INVISIBILIDAD`
 
 ---
 
@@ -360,11 +360,11 @@ Este es el único punto donde el espejo y el otro lado casi se tocan. RD evalúa
 *"El feed se sentó en la mesa y nadie le ofreció silla."*
 
 ### El comportamiento (en Educación)
-El feed se volvió la primera aula. Antes de googlear, el estudiante busca en TikTok — 53% de Gen Z consulta TikTok, Reddit o YouTube antes que Google. El contenido educativo es la segunda categoría más vista en TikTok, 16.1% de las views. StudyTok, los "study with me" lives y el microlearning convirtieron el estudio en un espectáculo social, donde se aprende en comunidad algorítmica. El criterio de qué aprender, cómo estudiar y qué carrera escoger ya no lo dicta el orientador escolar. Lo dicta el feed.
+El feed se volvió la primera aula. Antes de googlear, el estudiante busca en TikTok — 53% de Gen Z consulta TikTok, Reddit o YouTube antes que Google. El contenido educativo es una de las categorías más vistas en TikTok. StudyTok, los "study with me" lives y el microlearning convirtieron el estudio en un espectáculo social, donde se aprende en comunidad algorítmica. El criterio de qué aprender, cómo estudiar y qué carrera escoger ya no lo dicta el orientador escolar. Lo dicta el feed.
 
 ### Triggers
 - `[GLOBAL] [ESTUDIO]` 53% de Gen Z busca en TikTok/Reddit/YouTube antes que Google. — *Resolve / Information Matters · 2026*
-- `[GLOBAL] [TIKTOK]` El contenido educativo es la 2da categoría más vista en TikTok (16.1% de views); las cuentas de educación superior logran 7.36% de engagement. — *TikTok / SmileTutor · 2025*
+- `[GLOBAL] [TIKTOK]` El contenido educativo es una de las categorías más vistas en TikTok; las cuentas de educación superior logran 7.36% de engagement. — *Rival IQ · 2025*
 - `[GLOBAL] [ESTUDIO]` Revisión sistemática 2025: los métodos asistidos por TikTok elevan motivación, participación y desempeño. — *Systematic Review / CTO College · 2026*
 
 ### The contrast
@@ -379,8 +379,8 @@ En 3-5 años el orientador vocacional dominicano va a competir con creadores de 
 ### Pruebas
 - **Prueba TikTok:** [link](https://www.tiktok.com/tag/studytok) → grid #studytok, estudio compartido y notas estéticas
   - `screenshots/trends-educacion/macro-3-0-tiktok-studytok-tag.png`
-- **Trend:** [link](https://smiletutor.sg/studytok-a-look-into-educational-tiktok-trends-their-impact-on-learning-and-how-students-can-use-them-effectively/) → SmileTutor, educativo 16.1% de views
-  - `screenshots/trends-educacion/macro-3-0-smiletutor-studytok.png`
+- **Trend:** [link](https://www.rivaliq.com/blog/social-media-industry-benchmark-report/) → Rival IQ, engagement de educación superior 7.36%
+  - `screenshots/trends-educacion/macro-3-0-rivaliq-education-benchmark.png`
 - **Innovación:** [link](https://www.accio.com/business/tiktok-educational-content-trends) → Accio, métricas de EduTok 2025
   - `screenshots/trends-educacion/macro-3-0-accio-edutok-stats.png`
 
@@ -389,11 +389,11 @@ En 3-5 años el orientador vocacional dominicano va a competir con creadores de 
 ## 3.1 — Estudiar se volvió contenido: "study with me" lives y notas estéticas convierten el estudio solitario en espectáculo social, con accountability de extraños en el feed.
 
 ### El fenómeno
-Estudiar era algo que hacías solo en tu cuarto. Ahora se transmite. Los "study with me" lives y las notas estéticas convirtieron la sesión de estudio en una experiencia social-algorítmica. El educativo es la 2da categoría más vista en TikTok [16.1% de views]. El comportamiento visible: el estudiante prende un live de su sesión, o estudia "junto" a un video de alguien más, y la disciplina ya no viene de adentro — viene de la mirada de extraños en el feed.
+Estudiar era algo que hacías solo en tu cuarto. Ahora se transmite. Los "study with me" lives y las notas estéticas convirtieron la sesión de estudio en una experiencia social-algorítmica. El contenido educativo es una de las categorías más vistas en TikTok. El comportamiento visible: el estudiante prende un live de su sesión, o estudia "junto" a un video de alguien más, y la disciplina ya no viene de adentro — viene de la mirada de extraños en el feed.
 
 ### Data y señales
 - `[GLOBAL] [TIKTOK]` Los "shut up and study" lives y #studytok crecen como subcultura de estudio en comunidad. — *SmileTutor / TikTok · 2025*
-- `[GLOBAL] [ESTUDIO]` El contenido educativo es la 2da categoría más vista (16.1% de views) en TikTok. — *SmileTutor · 2025*
+- `[GLOBAL] [TIKTOK]` El contenido educativo es una de las categorías más vistas en TikTok. — *SmileTutor · 2025*
 - `[GLOBAL] [NOTICIA]` "The rise of StudyTok: motivational or distraction?" — debate sobre el estudio performativo. — *Southeast Arrow · 2025*
 
 **Hashtags:** `#studytok · #studywithme · #studygram · #studymotivation · #estudiarconmigo`
@@ -473,12 +473,12 @@ El país piensa la educación en unidades de aula — horas de clase, calidad do
 ## 3.4 — La orientación vocacional migró al feed: creadores muestran "un día en mi trabajo" y salarios reales, y eso moldea qué carrera elige un adolescente más que cualquier orientador.
 
 ### El fenómeno
-El orientador escolar tenía un test y un folleto. El feed tiene "un día en mi vida como [profesión]" y salary reveals. El comportamiento observable: el adolescente descarta o elige una carrera basándose en lo que ve a un creador hacer y ganar, no en lo que le dice un consejero. 53% de Gen Z investiga en plataformas sociales antes de tomar decisiones, incluida la carrera. La vida real de una profesión — sin filtro institucional — pesa más que el brochure.
+El orientador escolar tenía un test y un folleto. El feed tiene "un día en mi vida como [profesión]" y salary reveals. El comportamiento observable: el adolescente descarta o elige una carrera basándose en lo que ve a un creador hacer y ganar, no en lo que le dice un consejero. 53% de Gen Z investiga en plataformas sociales antes de tomar decisiones. La vida real de una profesión — sin filtro institucional — pesa más que el brochure.
 
 ### Data y señales
 - `[GLOBAL] [TIKTOK]` #careertok y "day in my life as a [profesión]" son formatos masivos que influyen la decisión vocacional. — *TikTok Discover · 2025*
 - `[GLOBAL] [NOTICIA]` "Ultimate list of TikTok trends Gen Z" incluye el contenido de career/salary transparency. — *ContentGrip · 2026*
-- `[GLOBAL] [ESTUDIO]` 53% de Gen Z investiga en plataformas sociales antes de decisiones, incluida la carrera. — *Resolve · 2026*
+- `[GLOBAL] [ESTUDIO]` 53% de Gen Z investiga en plataformas sociales antes de tomar decisiones. — *Resolve · 2026*
 
 **Hashtags:** `#careertok · #dayinmylife · #salarytransparency · #careeradvice · #queestudiar`
 
@@ -504,8 +504,8 @@ RD mide el acceso universitario como logro [P45] — la pregunta es si puedes en
 La maestra solía ser la autoridad sobre cómo aprende el niño. Ahora compite con otra madre en el feed. MomTok recomienda apps educativas, métodos de crianza-aprendizaje y "guilt-free screen time", y la madre elige según lo que se vuelve viral. Apps como Kiddopia, SplashLearn y Khan Academy Kids se mueven por esa recomendación. Canales como Ms. Rachel se convirtieron en autoridad de aprendizaje temprano vía el feed. El comportamiento visible: la madre confía en otra madre del feed más que en el sistema.
 
 ### Data y señales
-- `[GLOBAL] [TIKTOK]` Apps como Kiddopia ("perfect for guilt-free screen time"), SplashLearn y Khan Academy Kids viralizadas por MomTok. — *TikTok Discover · 2025*
-- `[GLOBAL] [NOTICIA]` TikTok reforzó Family Pairing en 2025-26 para el control parental de screen-time. — *Boomerang · 2025*
+- `[GLOBAL] [TIKTOK]` Apps como Kiddopia ("perfect for guilt-free screen time"), SplashLearn y Khan Academy Kids circulan por recomendación en MomTok. — *TikTok Discover · 2025*
+- `[GLOBAL] [NOTICIA]` TikTok reforzó Family Pairing para el control parental de screen-time. — *TikTok · 2025*
 - `[GLOBAL] [INDUSTRIA]` Canales como Ms. Rachel se vuelven autoridad de aprendizaje temprano vía recomendación del feed. — *TikTok / YouTube · 2025*
 
 **Hashtags:** `#momtok · #toddlerlearning · #guiltfreescreentime · #learningapps · #crianzaconpantalla`
@@ -515,11 +515,11 @@ El país piensa la educación del niño como cosa de la escuela [P44, P46]. Pero
 
 ### Pruebas
 - **TikTok:** [link](https://www.tiktok.com/discover/best-learning-app-for-kids-2025) → "best learning apps for kids 2025", la recomendación viral
-  - `screenshots/trends-educacion/macro-3-5-boomerang-tiktok-parental.png`
+  - `screenshots/trends-educacion/macro-3-5-tiktok-learning-apps-kids.png`
 - **Trend:** [link](https://www.youtube.com/results?search_query=ms+rachel+toddler+learning+2025) → Ms. Rachel, autoridad de aprendizaje temprano
   - `screenshots/trends-educacion/macro-3-5-youtube-msrachel.png`
-- **Innovación:** [link](https://useboomerang.com/article/tiktok-parental-control/) → TikTok Family Pairing, control parental de screen-time
-  - `screenshots/trends-educacion/macro-3-5-boomerang-tiktok-parental.png`
+- **Innovación:** [link](https://www.tiktok.com/safety/en/guardians-guide/) → TikTok Family Pairing, control parental de screen-time
+  - `screenshots/trends-educacion/macro-3-5-tiktok-family-pairing.png`
 
 ### 3 Needs
 `VALIDACIÓN` · `CULPA` · `SOLEDAD`
@@ -528,15 +528,16 @@ El país piensa la educación del niño como cosa de la escuela [P44, P46]. Pero
 
 ## Cierre Trend Forecast
 
-Vistas en conjunto, las tres macros muestran un desfase de tiempos. La Inventología desmonta el guion del título único: afuera se contrata por habilidades y microcredenciales, mientras RD todavía mide la calidad del aula formal. Los Hernández están prompteados — el tutor AI, la app gamificada y la IA que hace la tarea entraron a la casa por el celular, no por el ministerio; y la data dominicana confirma que hasta la facultad universitaria ya está adentro. El Algoritmo del Hogar mudó el aula al feed, donde StudyTok, CareerTok y MomTok dictan qué se estudia, cómo y por qué. El espejo de Código Casa muestra a un país calibrando la versión vieja del juego, discutiendo infraestructura y acceso universitario, mientras del otro lado el aprendizaje ya migró a una infraestructura que el sistema formal ni nombra. La pregunta de marca cambió de lugar: no es cómo mejorar la escuela, es dónde aparecer en el momento en que el dominicano realmente aprende.
+Vistas en conjunto, las tres macros muestran un desfase de tiempos. La Inventología desmonta el guion del título único: afuera se contrata por habilidades y microcredenciales, mientras RD todavía mide la calidad del aula formal. Los Hernández están prompteados — el tutor AI, la app gamificada y la IA que hace la tarea entraron a la casa por el celular, no por el ministerio; pero del lado docente RD va detrás, con más del 90% de los profesores que aún no usa IA. El Algoritmo del Hogar mudó el aula al feed, donde StudyTok, CareerTok y MomTok dictan qué se estudia, cómo y por qué. El espejo de Código Casa muestra a un país calibrando la versión vieja del juego, discutiendo infraestructura y acceso universitario, mientras del otro lado el aprendizaje ya migró a una infraestructura que el sistema formal ni nombra. La pregunta de marca cambió de lugar: no es cómo mejorar la escuela, es dónde aparecer en el momento en que el dominicano realmente aprende.
 
 ---
 
 ## Notas para el montador
 
-- **Anclaje LOCAL RD** vive en MACRO 2 (micro 2.5 + bloque macro): HMTV/INTEC-PUCMM + paper SciELO DO. Es la única doble prueba dominicana del capítulo — destacarla como hero stat de esa macro (98% docentes RD conocen IA).
-- **Hero stats sugeridos por macro:** M1 → "53% eliminó el requisito de título (+30%)". M2 → "84% de secundaria usa IA para tareas / 98% docentes RD conocen IA". M3 → "53% de Gen Z busca en TikTok antes que Google".
+- **Anclaje LOCAL RD** vive en MACRO 2 (micro 2.5 + bloque macro): EDUCA (>90% de docentes RD no usa IA) + paper SciELO DO. Es la única doble prueba dominicana del capítulo — destacarla como hero stat de esa macro (más del 90% de los docentes RD todavía no usa IA). Ojo: el ancla cambió de signo tras la auditoría — RD va DETRÁS en adopción docente, no adelante.
+- **Hero stats sugeridos por macro:** M1 → "53% eliminó el requisito de título (subió desde 30%)". M2 → "84% de secundaria usa IA para tareas (College Board) / >90% de docentes RD no usa IA (EDUCA)". M3 → "53% de Gen Z busca en TikTok antes que Google".
 - **Puentes de espejo Código Casa** usados como contraste: P44/P46 (calidad ed. pública), P45 (acceso universitario), P47 (64.8% competitividad). No son fuente del trend — son el otro lado del espejo.
 - **Flag de freshness:** micro 1.4, dato Fiverr 18% Gen Z viene del archivo de macrofuerzas, marcado `[VERIFICAR ACTUALIZACIÓN]` — confirmar antes del deck final.
 - **Gap LOCAL:** MACRO 1 y MACRO 3 son 100% globales/LATAM por diseño. Si se quiere anclaje RD, falta cazar creadores dominicanos de StudyTok/CareerTok y data MINERD/MESCyT. Pendiente de decisión de Jeremy.
-- Cada prueba apunta a su PNG exacto del mapa de señales. Donde el mapa no capturó un screenshot único para una prueba (ej. innovación de 1.2, 1.4, 1.5), se reutilizó el screenshot de la señal más cercana del mismo micro — verificar en montaje.
+- **Re-scrape pendiente:** señales que cambiaron de fuente tras la auditoría necesitan re-captura de screenshot — 2.5 (EDUCA/El Nacional), 2.0 (Grand View), 2.3 (HEPI), 3.0 (Rival IQ), 1.4 (Computerworld/CNBC), 3.5 (TikTok directo). Los slugs de PNG se actualizaron acorde.
+- Cada prueba apunta a su PNG exacto del mapa de señales. Donde el mapa no capturó un screenshot único para una prueba, se reutilizó el screenshot de la señal más cercana del mismo micro — verificar en montaje.

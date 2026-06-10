@@ -1,0 +1,93 @@
+═══════════════════════════════════════════════════════════════════════════════
+AUDITORÍA DE DATA — TREND FORECAST EDUCACIÓN (Cap. 07)   ✅ VERIFICADA
+═══════════════════════════════════════════════════════════════════════════════
+Verificación web de los ~43 claims externos. Hoy: junio 2026.
+
+VEREDICTO GENERAL: la data NO es slop inventado en su mayoría — casi todas las
+cifras son REALES. PERO hay 2 problemas graves (1 fabricación total + 1 stat sin
+fuente) y un patrón sistemático de FUENTES MAL ATRIBUIDAS (la cifra es correcta
+pero citada a la fuente equivocada — blog SEO en vez de la fuente primaria).
+
+Leyenda: [OK] confirmada · [~] real pero imprecisa/mal atribuida · [?] no
+confirmable · [X] falsa/fabricada · [FECHA] fecha mal.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔴 LO MÁS GRAVE (corregir sí o sí antes del deck)
+═══════════════════════════════════════════════════════════════════════════════
+
+[X] 2.0d / 2.5 — "98% de docentes universitarios RD conoce IA y RD lidera el uso
+    de ChatGPT entre la facultad" (HMTV / INTEC-PUCMM-UASD)
+    → FABRICADO. La nota HMTV EXISTE pero NO contiene NINGUNA cifra — es un panel
+      cualitativo de expertos, sin encuesta, sin 98%, sin "RD lidera". Peor: la
+      evidencia RD real dice lo CONTRARIO → EDUCA reporta que >90% de los docentes
+      dominicanos NO usa IA en su labor.
+    → ESTE ERA EL ÚNICO ANCLA LOCAL RD DEL CAPÍTULO. Hay que reformular el micro
+      2.5 completo. La buena noticia: el dato EDUCA (>90% NO usa IA) es REAL,
+      verificable y hasta más interesante (RD va detrás = encaja con el espejo).
+      Y el paper SciELO DO sí existe (úsalo).
+
+[?] 2.3b — "44% de docentes detecta tarea sospechosa de IA semanal, <15% actúa"
+    (EdWeek) → NO ENCONTRADO en EdWeek tras varias búsquedas. Posible invención.
+    → ELIMINAR o reemplazar por dato verificable.
+
+[~] 3.0b / 3.1 — "Educativo = 2da categoría más vista en TikTok, 16.1% de views"
+    → STAT HUÉRFANA: circula entre blogs SEO (SmileTutor, etc.) sin fuente
+      primaria de TikTok. → quitar el "16.1%" o marcar; el claim cualitativo
+      (educativo es categoría grande) sí se sostiene.
+
+═══════════════════════════════════════════════════════════════════════════════
+🟡 FUENTES MAL ATRIBUIDAS (la cifra es REAL, hay que cambiar la fuente citada)
+═══════════════════════════════════════════════════════════════════════════════
+[~] 1.5c — Mercado tutoría AI US$3.55B → fuente real MORDOR INTELLIGENCE (no FMI)
+[~] 2.0a — 84% secundaria usa IA → fuente real COLLEGE BOARD (no Nerdynav)
+[~] 2.0b — IA educación US$5.88B→US$32.27B → fuente real GRAND VIEW RESEARCH (no Demandsage)
+[~] 2.0c — 66%→92% educación superior → fuente real HEPI 2025; ES UK UNDERGRAD, no global
+[~] 2.1b — Tutores AI US$3.55B→US$6.45B → fuente real MORDOR INTELLIGENCE (no FMI)
+[~] 1.0b — 71% inteligencia emocional → fuente real SHRM (quitar el "WEF")
+[~] 3.0c — 7.36% engagement educación superior → fuente real RIVAL IQ (no SmileTutor)
+[~] 1.4b — Google/IBM/Tesla quitan título → cambiar OneCodeSoft → Computerworld/CNBC
+
+═══════════════════════════════════════════════════════════════════════════════
+🟠 IMPRECISIONES (real, pero ajustar el número / la población / la fecha)
+═══════════════════════════════════════════════════════════════════════════════
+[OK→ajuste] 1.0a — "53% +30 pts vs 2024" → real es 30%→53% = +23 pts (subió desde 30%)
+[FECHA] 1.5a — Pobreza aprendizaje 70% / 225 días LATAM → es de 2022, NO 2024
+[~] 1.2a — "72% de managers se re-skillea" → real: 72% hace UPSKILLING (reskilling=51%)
+[~] 1.5b — "mayores caídas en 35 años" (NAEP) → precisar: mínimos históricos desde 1992
+[X-población] 2.3a — "89% tareas / 53% ensayos en secundaria" → ESOS % son de
+    UNIVERSITARIOS que ya usan IA (Nerdynav), NO secundaria. Separar poblaciones.
+[~] 2.1a — Khanmigo "68k→1.4M; 40k→700k" → limpiar: real 68k→700k en un ciclo;
+    Sal Khan citó 1.4M acumulado. El "40k→700k" no aparece.
+[~] 2.2a — Duolingo churn 47%→28% → NO está en el filing SEC (viene de StriveCloud,
+    blog). DAU 50.5M +36% sí está en SEC. → atribuir churn a StriveCloud o quitarlo.
+[?] 2.4b — "15.4M+ inscripciones entry-level Coursera" → no verificado el número exacto
+[~] 3.4a — 53% Resolve "incluida la carrera" → el dato Resolve no dice "carrera",
+    es extrapolación editorial. Quitar ese matiz.
+[?] 3.5a/3.5b — apps viralizadas por MomTok / TikTok Family Pairing → suavizar a
+    claim cualitativo o citar a TikTok directo (no a useboomerang.com).
+
+═══════════════════════════════════════════════════════════════════════════════
+🟢 SÓLIDAS (confirmadas, sin cambios)
+═══════════════════════════════════════════════════════════════════════════════
+[OK] 1.0c Fortune microcredenciales (Greg Hart, 28-dic-2025) · [OK] 1.1a 85% / 1 de 700
+(Harvard) · [OK] 1.2b ciberseguridad LATAM +129% (Coursera) · [OK] 1.2c 39% skills 2030
+(WEF) · [OK] 1.3a homeschool 4.9%/3x/36% (JHU) · [OK] 1.3b microschools 1-2M (RAND) ·
+[OK] 1.4a Fiverr 18% Gen Z (real, sospecha descartada) · [OK] 2.2b Duolingo revenue
+US$271.7M/11.5M pagos (SEC) · [OK] 2.4a >90% prefiere microcredencial (Coursera/Fortune) ·
+[OK] 2.5b paper SciELO DO existe · [OK] 2.5a Khanmigo 45→380 distritos · [OK] 3.0a/3.2a
+53% Gen Z>Google (Resolve) · [OK] 3.1b Southeast Arrow · [OK] 3.3a NYSSBA · [OK] 3.4b
+ContentGrip · [OK] 3.5c Ms. Rachel (cualitativo)
+
+═══════════════════════════════════════════════════════════════════════════════
+CONTEO FINAL
+═══════════════════════════════════════════════════════════════════════════════
+[OK] sólidas: ~17   ·   [~] real-pero-corregir: ~15   ·   [?] no confirmable: ~4
+[X] fabricado/falso: 2 (2.0d RD ★crítico★, 2.3a población)   ·   [FECHA]: 1 (1.5a)
+
+CERO URLs alucinadas (los artículos citados existen). El problema NO es invención
+de fuentes — es (1) UNA fabricación de cifra grave (el ancla RD), (2) una stat sin
+fuente (16.1%), y (3) muchas cifras reales colgadas de la fuente equivocada.
+
+PLAN: editar (reformular 2.5 con EDUCA real + reatribuir fuentes + quitar 2.3b y
+16.1%) → re-scrapear evidencia de lo que cambió → re-montar deck.
+═══════════════════════════════════════════════════════════════════════════════
